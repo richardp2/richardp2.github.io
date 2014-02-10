@@ -1,0 +1,16 @@
+---
+layout: home
+permalink: /
+comments: false
+---
+
+{% for post in site.posts limit: 10 %}
+          <article>
+            <header>
+              <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+              <small><time datetime='{{ post.date }}'>{{ post.date | date: "%d %b %Y" }}</time></small>
+            </header>
+            {{ post.excerpt }}
+          </article>
+          
+{% endfor %}
