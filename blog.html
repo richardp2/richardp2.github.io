@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: archive
 title: Test Blog
 permalink: /blog/
 ---
@@ -7,7 +7,7 @@ permalink: /blog/
 {% for post in paginator.posts %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
   <p class="author">
-    <span class="date">{{ post.date }}</span>
+    <span class="date">{{ post.date | date: "%B %d, %Y" }}</span>
   </p>
   <div class="content">
     {{ post.content }}
@@ -17,7 +17,11 @@ permalink: /blog/
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="/p{{ paginator.previous_page }}" class="previous">Previous</a>
+    {% if paginator.previous_page == 1 %}
+      <a href="/blog/" class="previous">Previous</a>
+    {% else %}
+      <a href="/p{{ paginator.previous_page }}" class="previous">Previous</a>
+    {% endif %}
   {% else %}
     <span class="previous">Previous</span>
   {% endif %}
