@@ -1,9 +1,9 @@
 name: Richard @ GitHub
 markdown: redcarpet
 pygments: true
-baseurl: /
+baseurl: richardp2.github.io
 
-permalink: none
+permalink: /blog/:categories/:title.html
 
 paginate: 10
 paginate_path: "blog/p:num"
