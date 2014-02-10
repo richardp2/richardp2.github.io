@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About Me
-permalink: /about
+permalink: /about/
 ---
 
 My name is Richard Perry. I have lived in Wales my whole life, excluding the 18 months following my birth and the 4 years whilst at Uni, I therefore identify myself as Welsh. I studied Quantity Surveying and Commercial Management at the University of the West of England in Bristol, and landed a job with [BAM Construction][bam] (<small>formerly HBG Construction</small>) half way through. I continued studying after Uni and gained professional status with the Royal Institute of Chartered Surveyors in 2009. In late 2011 I left BAM to work in the [family business][cp].
