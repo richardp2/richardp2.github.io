@@ -1,12 +1,18 @@
 name: Richard @ GitHub
 markdown: redcarpet
 pygments: true
-baseurl: richardp2.github.io
 
-permalink: /blog/:categories/:title.html
+permalink: /blog/:categories/:title/
 
 paginate: 10
 paginate_path: "blog/p:num"
 
 redcarpet:
-    extensions: [tables,autolink,smart]
+  extensions: [tables,autolink,smart,strikethrough,superscript]
+    
+    
+author:
+  name: Richard Perry
+  email: richard@perrymail.me.uk
+  github: richardp2
+  twitter: richard_p2
