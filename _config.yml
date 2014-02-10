@@ -2,3 +2,11 @@ name: Richard @ GitHub
 markdown: redcarpet
 pygments: true
 baseurl: /
+
+permalink: none
+
+paginate: 10
+paginate_path: "blog/p:num"
+
+redcarpet:
+    extensions: [tables,autolink,smart]

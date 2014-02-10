@@ -2,8 +2,16 @@
 
 {% include nav.html %}
 
-      <h1>{{ page.title }}</h1>
+        <h1>{{ page.title }}</h1>
+        
+        <section id='downloads' class='clearfix'>
+          <a href='https://github.com/richardp2' id='view-on-github' class='button'><span>View on GitHub</span></a>
+        </section><!-- #downloads .clearfix -->
 
-      {{ content }}
+        <hr>
+        
+        <section id='main_content'>
+          {{ content }}
+        </section><!-- #main_content -->
 
 {% include foot.html %}
