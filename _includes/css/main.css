@@ -185,7 +185,7 @@ td {
 
 /* Header */
 
-header {
+.header-container header {
     background-color: #171717;
     color: #FDFDFB;
     width:170px;
@@ -203,11 +203,11 @@ header {
     -webkit-font-smoothing: antialiased;
 }
 
-p.header {
+.header-container p.header {
     font-size: 16px;
 }
 
-h1.header {
+.header-container h1.header {
     font-size: 30px;
     font-weight: 300;
     line-height: 1.3em;
@@ -216,24 +216,24 @@ h1.header {
 }
 
 
-h1.header, a.header, a.name, header a{
+.header-container h1.header, a.header, a.name, header a{
     color: #fff;
 }
 
-a.header {
+.header-container a.header {
     text-decoration: underline;
 }
 
-a.name {
+.header-container a.name {
     white-space: nowrap;
 }
 
-header ul {
+.header-container header ul {
     list-style:none;
     padding:0;
 }
 
-header li {
+.header-container header li {
     list-style-type: none;
     width:132px;
     height:15px;
@@ -257,7 +257,7 @@ header li {
 
 }
 
-header li:hover {
+.header-container header li:hover {
     background: #C3001D;
     background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
@@ -267,7 +267,7 @@ header li:hover {
     background: linear-gradient(top, #C3001D 0%,#950119 100%);
 }
 
-a.buttons {
+.header-container a.buttons {
     -webkit-font-smoothing: antialiased;
     background: url(../images/arrow-down.png) no-repeat;
     font-weight: normal;
@@ -276,11 +276,11 @@ a.buttons {
     height: 30px;
 }
 
-a.github {
+.header-container a.github {
     background: url(../images/octocat-small.png) no-repeat 1px;
 }
 
-a.buttons:hover {
+.header-container a.buttons:hover {
     color: #fff;
     text-decoration: none;
 }
@@ -297,7 +297,7 @@ section {
 
 /* Footer */
 
-footer {
+.footer-container footer {
     width:170px;
     float:left;
     position:fixed;
