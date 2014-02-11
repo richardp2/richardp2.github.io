@@ -2,10 +2,10 @@ name: Richard @ GitHub
 markdown: rdiscount
 pygments: true
 
-permalink: /blog/:categories/:title/
+permalink: /:categories/:title/
 
 paginate: 10
-paginate_path: "blog/p:num"
+paginate_path: "page/:num"
 
     
     

@@ -1,17 +1,19 @@
 {% include head.html %}
-
-{% include nav.html %}
-
-        <section id='main_content'>
         
-          <h1>{{ page.title }}</h1>
+        <div class="main-container">
+            <div class="main wrapper clearfix">
           
-          {{ content }}
+                <article>
+                    {{ content }}
+              
+                    {% if page.comments %}
+                    <div id="disqus_thread"></div> 
+                    {% endif %}
+                </article>
           
-          {% if page.comments %}
-          <div id="disqus_thread"></div> 
-          {% endif %}
-          
-        </section><!-- #main_content -->
-
+                {% include sidebar.html %}
+                
+            </div><!-- main -->
+        </div><!-- main-container -->
+        
 {% include foot.html %}

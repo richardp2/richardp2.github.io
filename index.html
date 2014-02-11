@@ -1,16 +1,44 @@
 ---
-layout: home
+layout: archive
 permalink: /
 comments: false
 ---
 
-{% for post in site.posts limit: 10 %}
-          <article>
-            <header>
-              <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-              <small><time datetime='{{ post.date }}'>{{ post.date | date: "%d %b %Y" }}</time></small>
-            </header>
-            {{ post.excerpt }}
-          </article>
-          
-{% endfor %}
+                {% for post in paginator.posts %}
+                <article>
+                    <header>
+                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                        <time datetime='{{ post.date }}'>{{ post.date | date: "%d %b %Y" }}</time>
+                    </header>
+                    <section class="post-content">
+                        {{ post.excerpt }}
+                    </section>
+                    <footer>
+                    </footer>
+                </article>
+                {% endfor %}
+                
+                <!-- Pagination links -->
+                <div class="pagination pagination-centered">
+                    <ul>
+                        {% if paginator.next_page %}
+                        <li class="next"> 
+                            <a href="/page/{{paginator.next_page}}" title="Next Page" class="next" rel="next">&larr; Older Posts</a>
+                            </li>
+                        {% else %}
+                            <li class="disabled"><a href="#">NO MORE!!!</a></li>
+                      {% endif %}
+
+                      {% if paginator.previous_page %}
+                        <li class="prev">
+                                {% if paginator.previous_page == 1 %}
+                            <a href="/" title="Previous Page" class="prev">Newer Posts &rarr;</a>
+                        {% else %}
+                                    <a href="/page/{{paginator.previous_page}}" title="Previous Page" class="prev" rel="prev">Newer Posts &rarr;</a>
+                                {% endif %}
+                            </li>
+                        {% else %}
+                            <li class="disabled"><a href="#">Newer Posts &rarr;</a></li>
+                      {% endif %}
+                    </ul>
+                </div>

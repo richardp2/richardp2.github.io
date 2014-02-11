@@ -1,1 +1,4 @@
-console.log('This would be the main JS file.');
+---
+---
+{% include scripts/plugins.js %}
+{% include scripts/main.js %}
