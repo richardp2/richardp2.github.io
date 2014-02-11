@@ -8,7 +8,7 @@
     INTERMEDIATE: Menu
    ==================== */
 
-    nav a {
+    .header-container nav a {
         float: left;
         width: 27%;
         margin: 0 1.7%;
@@ -16,11 +16,11 @@
         margin-bottom: 0;
     }
 
-    nav li:first-child a {
+    .header-container nav li:first-child a {
         margin-left: 0;
     }
 
-    nav li:last-child a {
+    .header-container nav li:last-child a {
         margin-right: 0;
     }
 
@@ -28,7 +28,7 @@
     INTERMEDIATE: IE Fixes
    ======================== */
 
-    nav ul li {
+    .header-container nav ul li {
         display: inline;
     }
 
@@ -58,7 +58,7 @@
         float: left;
     }
 
-    nav {
+    .header-container nav {
         float: right;
         width: 38%;
     }
@@ -84,7 +84,9 @@
     Maximal Width
    =============== */
 
-    .wrapper {
+    .header-container .wrapper,
+    .main-container .wrapper,
+    .footer-container .wrapper {
         width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
     }
