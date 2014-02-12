@@ -49,6 +49,30 @@
            -moz-box-shadow: 0 5px 10px #aaa;
                 box-shadow: 0 5px 10px #aaa;
     }
+    
+    .column.full {
+        width: 100%;
+    }
+      
+    .column.two-thirds {
+        width: 65%;
+    }
+      
+    .column.half {
+        width: 47.5%;
+    }
+     
+    .column.one-third {
+        width: 30%;
+    }
+     
+    .column.one-quarter {
+        width: 21.25%;
+    }
+    
+    .column.three-quarters {
+        width: 63.75%;
+    }
 
 /* ============
     WIDE: Menu

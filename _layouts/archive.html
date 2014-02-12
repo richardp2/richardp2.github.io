@@ -1,13 +1,12 @@
 {% include head.html %}
-        
-        <div class="main-container">
-            <div class="main wrapper clearfix">
-            
-                {{ content }}
+
+                    <div itemscope itemtype="http://schema.org/Blog">
+                        {% if page.title != 'Home' %}
+                            <h2 itemProp="headline">{{ page.title }}</h2>
+                        {% endif %}
+                        
+                        {{ content }}
+                        
+                    </div>
                 
-                {% include sidebar.html %}
-                
-            </div><!-- main -->
-        </div><!-- main-container -->
-        
 {% include foot.html %}

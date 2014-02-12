@@ -1,19 +1,20 @@
 {% include head.html %}
-        
-        <div class="main-container">
-            <div class="main wrapper clearfix">
-          
-                <article>
-                    {{ content }}
-              
-                    {% if page.comments %}
-                    <div id="disqus_thread"></div> 
-                    {% endif %}
-                </article>
-          
-                {% include sidebar.html %}
-                
-            </div><!-- main -->
-        </div><!-- main-container -->
+            
+                    <article itemscope itemtype="http://schema.org/BlogPosting" class="post single">
+                        <header class="post-header">
+                            <h2 itemProp="headline">{{ page.title }}</h2>
+                            <time itemprop="datePublished" content="{{ post.date | date: '%F' }}" datetime='{{ post.date }}'>{{ post.date | date: "%d %b %Y" }}</time>
+                        </header><!-- .post-header -->
+                        
+                        <section class="post-content" itemProp="articleBody">
+                            {{ content }}
+                        </section><!-- .post-content -->
+                        
+                        <footer class="post-footer">              
+                            {% if page.comments %}
+                            <div id="disqus_thread"></div> 
+                            {% endif %}
+                        </footer><!-- .post-footer -->
+                    </article><!-- .post -->
         
 {% include foot.html %}

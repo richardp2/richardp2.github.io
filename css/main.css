@@ -2,6 +2,7 @@
 ---
 {% include css/normalize.min.css %}
 {% include css/h5bp.css %}
+{% include css/layout.css %}
 {% include css/main.css %}
 {% include css/icons.css %}
 {% include css/media.css %}
