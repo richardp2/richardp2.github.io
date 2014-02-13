@@ -22,10 +22,6 @@ prose:
   media: 'images'
   metadata:
     _posts:
-      - name: "category"
-        field:
-          element: "hidden"
-          value: "blog"
       - name: "layout"
         field:
           element: "hidden"
@@ -35,6 +31,12 @@ prose:
           element: "text"
           label: "Title"
           value: ""
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          value: ""
+          placeholder: "Richard Perry"
       - name: "category"
         field:
           element: "select"
@@ -51,6 +53,17 @@ prose:
               value: "languages"
             - name: "Reviews"
               value: "reviews"
+      - name: "comments"
+        field:
+          element: checkbox
+          label: "Comments"
+          value: "true"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          alterable: true
     _posts/static:
       - name: "layout"
         field:
