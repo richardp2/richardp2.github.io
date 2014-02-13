@@ -1,5 +1,5 @@
 name: Richard @ GitHub
-markdown: rdiscount
+markdown: kramdown
 pygments: true
 
 permalink: /:categories/:title/
@@ -7,10 +7,11 @@ permalink: /:categories/:title/
 paginate: 10
 paginate_path: "page/:num"
 
-    
-    
 author:
   name: Richard Perry
   email: richard@perrymail.me.uk
   github: richardp2
   twitter: richard_p2
+  
+images: /images
+thumbs: /images/thumbs

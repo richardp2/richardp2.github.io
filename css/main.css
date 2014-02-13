@@ -1,10 +1,9 @@
----
----
-{% include css/normalize.min.css %}
-{% include css/h5bp.css %}
-{% include css/layout.css %}
-{% include css/main.css %}
-{% include css/icons.css %}
-{% include css/media.css %}
-{% include css/print.css %}
-{% include css/pygment_trac.css %}
+@import url('css/normalize.min.css');
+@import url('css/normalize.min.css');
+@import url('css/h5bp.css');
+@import url('css/layout.css');
+@import url('css/custom.css');
+@import url('css/icons.css');
+@import url('css/media.css');
+@import url('css/print.css');
+@import url('css/pygment_trac.css');
