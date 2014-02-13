@@ -1,8 +1,12 @@
-@import url('normalize.min.css');
-@import url('h5bp.css');
-@import url('layout.css');
-@import url('custom.css');
-@import url('icons.css');
-@import url('media.css');
-@import url('print.css');
-@import url('pygment_trac.css');
+---
+title: Main Stylesheet file
+---
+{% include css/vendor/normalize.min.css %};
+{% include css/vendor/jquery.flexnav.min.js %}
+{% include css/vendor/h5bp.css %};
+{% include css/layout.css %};
+{% include css/main.css %};
+{% include css/icons.css %};
+{% include css/media.css %};
+{% include css/print.css %};
+{% include css/vendor/pygment_trac.css %};

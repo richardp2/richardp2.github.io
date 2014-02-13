@@ -1,1 +1,1 @@
-
+$(".flexnav").flexNav({ 'buttonSelector': '.btn-menu' });
