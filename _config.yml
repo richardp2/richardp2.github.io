@@ -1,7 +1,7 @@
 name: Richard @ GitHub
 markdown: kramdown
 pygments: true
-exclude: Vagrantfile
+exclude: [Vagrantfile]
 
 permalink: /:categories/:title/
 
