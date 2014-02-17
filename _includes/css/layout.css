@@ -2,11 +2,29 @@
    Layout styles
    ========================================================================== */
 
-#container {
+#container, #page-header, #content, #main-content, #secondary-content, #page-footer {
     width: 100%;
 }
+#container {
+    
+}
 
-.column {
-    float: left;
-    width: 100%;
+#page-header {
+    
+}
+
+#content {
+    
+}
+
+    #main-content {
+        
+    }
+    
+    #secondary-content {
+        
+    }
+    
+#page-footer {
+    
 }

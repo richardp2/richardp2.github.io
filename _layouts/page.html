@@ -1,0 +1,19 @@
+{% include head.html %}
+            
+                    <article itemscope itemtype="http://schema.org/Article" class="page">
+                        <header class="post-header">
+                            <h2 itemProp="headline">{{ page.title }}</h2>
+                        </header><!-- .post-header -->
+                        
+                        <section class="post-content" itemProp="articleBody">
+                            {{ content }}
+                        </section><!-- .post-content -->
+                        
+                        <footer class="post-footer">              
+                            {% if page.comments %}
+                            <div id="disqus_thread"></div> 
+                            {% endif %}
+                        </footer><!-- .post-footer -->
+                    </article><!-- .page -->
+        
+{% include foot.html %}
