@@ -1,8 +1,8 @@
                 <nav id="primary-navigation" role="navigation" >
                     <div class="btn-menu"></div>
                     <ul class="flexnav" data-breakpoint="768">
-                        {% for link in site.data.links %}
-                        <li><a href="{{ link.url }}" title="{{ link.title }}" {% if page.title == link.title %}class="current-page"{% endif %}>{{ link.title }}</a></li>
-                        {% endfor %}
+                        <li><a href="/" title="Home">Home</a></li>
+                        <li><a href="/about/" title="About Me">About Me</a></li>
                     </ul>
                 </nav><!-- #primary-navigation -->
+      
