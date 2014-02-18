@@ -13,12 +13,18 @@ series:
 tags:
 - Challenge
 - Challenges
+- Hànyǔ
 - Language
 - Languages
 - Learning
 - Mandarin
 - Progress
+- Pǔtōnghuà
 - soundcloud
+- Zhōngwén
+- 中文
+- 汉语
+- 葡萄糖
 ---
 
 So my 4 months are up and unfortunately, the last 2 months have been a bit useless for various reasons, so needless to say I haven't really managed to achieve my goal. Over the last month I have probably only spent about 10 hours learning Mandarin, and the bulk of that was probably reviewing characters on [Memrise](http://www.memrise.com). I have still not yet completed all 30 lessons from [Pimsleurs](http://www.pimsleur.com/Learn-Mandarin-Chinese) Mandarin 1 so that is still on my todo list.

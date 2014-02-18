@@ -13,12 +13,18 @@ series:
 tags:
 - Challenge
 - Challenges
+- Hànyǔ
 - Language
 - Languages
 - Learning
 - Mandarin
 - Progress
+- Pǔtōnghuà
 - soundcloud
+- Zhōngwén
+- 中文
+- 汉语
+- 葡萄糖
 ---
 
 We are now into the third month of my Mandarin Chinese language challenge, so here is an update to how month 2 has gone. Lets start by updating you on my targets from last month.

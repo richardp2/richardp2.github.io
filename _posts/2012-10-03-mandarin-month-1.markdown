@@ -13,11 +13,17 @@ series:
 tags:
 - Challenge
 - Challenges
+- Hànyǔ
 - Language
 - Languages
 - Learning
 - Mandarin
 - Progress
+- Pǔtōnghuà
+- Zhōngwén
+- 中文
+- 汉语
+- 葡萄糖
 ---
 
 It has now been a month since I started my Mandarin Chinese language challenge, so I think it's time for an update on how I'm doing. To be honest, it's not being going all that well. The first week went quite well, I was generally following my study plan (except for some evening sessions), but then it became unworkable. I guess I didn't really plan it well enough, so I have amended the plan in an attempt to make it easier to follow without reducing the commitment needed. Well, it still isn't really working. Here is a summary of the key points from this month.

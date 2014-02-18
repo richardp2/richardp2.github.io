@@ -16,6 +16,8 @@ tags:
 - fi3m
 - Languages
 - Mandarin
+- 中文
+- 普通话
 ---
 
 [caption id="attachment_262" align="alignleft" width="150"][![Chinese Street Sign](http://richard.perry-online.me.uk/files/2012/08/chinese_street_sign-150x150.jpg)](http://richard.perry-online.me.uk/files/2012/08/chinese_street_sign.jpg) Copyright © 2006 [Teas Etc - Tea Blog](http://blog.teasetc.com/)[/caption]
