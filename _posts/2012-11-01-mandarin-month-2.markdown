@@ -1,0 +1,168 @@
+---
+author: richard
+comments: true
+date: 2012-11-01 20:31:15+00:00
+layout: post
+slug: mandarin-month-2
+title: Mandarin Progress Month 2
+wordpress_id: 474
+categories:
+- Languages
+series:
+- Mandarin Language Challenge
+tags:
+- Challenge
+- Challenges
+- Language
+- Languages
+- Learning
+- Mandarin
+- Progress
+- soundcloud
+---
+
+We are now into the third month of my Mandarin Chinese language challenge, so here is an update to how month 2 has gone. Lets start by updating you on my targets from last month.
+
+
+### 1. Practice more than twice a week
+
+
+
+
+This time I think I just about managed to practice more than twice a week, although still not as much as I would have liked.
+
+
+
+
+
+### 2. Publish at least one journal entry to [Lang-8](http://lang-8.com/) per week
+
+
+
+
+The Lang-8 community are very helpful and I have been inundated with corrections when I have actually submitted an entry, but I did not manage to achieve the requisite on entry per week this month, maybe I will manage it next month. These are my entries for October for anyone that is interested.
+
+
+
+
+
+#### [Week 1 - 关于我 / About Me](http://lang-8.com/280403/journals/1710811/%25E5%2585%25B3%25E4%25BA%258E%25E6%2588%2591)
+
+
+
+
+我住在一个小城镇叫Pontypool。它是在威尔士南部。
+我住跟我的太太和儿子一起。我的儿子是八个月大。
+我是一个童军领袖。 我享受攀岩，皮划艇和步行。
+
+
+
+
+I live in a small town called Pontypool. It is in South Wales.
+I live with my wife and son. My son is eight months old.
+I am a Scout Leader. I enjoy climbing, kayaking and walking.
+
+
+
+
+
+#### [Week 3 - 家庭的一天 / Family Day Out](http://lang-8.com/280403/journals/1740662/%25E5%25AE%25B6%25E5%25BA%25AD%25E7%259A%2584%25E4%25B8%2580%25E5%25A4%25A9)
+
+
+
+
+昨天我的太太，我的儿子和我去看看在 Bristol 动物园的 恐龙。我们也看看企鹅，灰沼狸和猴。我们有一个非常愉快的一天，George 也有乐趣。我们吃晚饭在McDonald's。
+
+
+
+
+Yesterday my wife, my son and I went to Bristol Zoo to see the dinosaurs. We also saw the penguins, meerkats & monkeys. We had a very nice day and George had fun too. We had dinner at McDonald's.
+
+
+
+
+And I'm afraid that's it for this month!
+
+
+
+
+
+### 3. Publish at least two audio clips to [Soundcloud](http://soundcloud.com/)
+
+
+
+
+So I planned to record at least two audio clips to put up on Soundcloud during October, and it was very touch and go, but I just about managed it. The first clip was a basic introduction/about me discussion that was scripted (and corrected via [Lang-8](http://lang-8.com/)), although I didn't practice it so it was quite disjointed. Hopefully it wasn't too bad in terms of the Mandarin usage, but I haven't had any comments so maybe this platform isn't going to be the best way forward. I'll give it a bit more time before making that decision though.
+
+
+
+
+
+#### 关于我 About Me
+
+
+
+
+[soundcloud url="http://api.soundcloud.com/tracks/63535536" params="color=3452d1&auto_play=false&show_artwork=true" iframe="true" /]
+
+
+
+
+My second clip was a recitation of a lullaby sung by Jackie Chan in the Spy Next Door (quite a funny film as it happens). I thought it sounded very gentle so I am now learning it to sing to George. This is the level I am at with it at the moment (this was read from a script as I can't remember the words just yet :-)).
+
+
+
+
+
+#### Ba Ma De Hua
+
+
+
+
+[soundcloud url="http://api.soundcloud.com/tracks/65572317" params="color=3452d1&auto_play=false&show_artwork=true" iframe="false" /]
+
+
+
+
+So both clips this month are a little disjointed, slow and hard to listen to, but it's a start. I am aiming to do a lot more of this in future to improve the flow of my speaking. All in all I'm quite pleased so far.
+
+
+
+
+
+### 4. Learn at least 200 new characters using [Memrise](http://www.memrise.com/)
+
+
+
+
+ I tried really hard with this this month, but I missed a few days in the middle and have been trying to catch up every since. Still, I managed to get through nearly 150 new characters so I'm more than happy with that.
+
+
+
+
+
+### Conclusion
+
+
+As I suspected, it still wasn't a brilliant month for progress, but I think I'm definitely getting better so I am much happier than I was at the end of September. Instead of looking back at how I did this month, I am going to look forward to what I aim to do next month :-).
+
+
+#### Plans for November
+
+
+
+
+
+	
+  * Learn another 150 characters using [Memrise](http://www.memrise.com/);
+
+	
+  * Publish at least three audio clips to [Soundcloud](http://soundcloud.com/);
+
+	
+  * At least learn the words to [Ba Ma De Hua](http://soundcloud.com/richardpperry/ba-ma-de-hua) by heart;
+
+	
+  * Complete the remaining lessons of [Pimsleurs](http://www.pimsleur.com/Learn-Mandarin-Chinese) Mandarin 1.
+
+
