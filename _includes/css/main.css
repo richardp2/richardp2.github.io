@@ -20,7 +20,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin:36px 0 10px;
+    margin:16px 0 10px;
     text-transform: uppercase;
 }
 
@@ -188,6 +188,7 @@ td {
 
 #container, #page-header, #content, #main-content, #secondary-content, #page-footer {
     width: 100%;
+    float: left;
 }
 
 
