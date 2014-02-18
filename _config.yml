@@ -1,7 +1,7 @@
 name: Richard @ GitHub
 markdown: kramdown
 pygments: true
-exclude: ['Vagrantfile', '.vagrant']
+exclude: ['Vagrantfile', '.vagrant', 'changes', 'Gemfile', 'Gemfile.lock', 'params.json']
 
 permalink: /:categories/:title/
 
