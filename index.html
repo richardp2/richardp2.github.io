@@ -13,7 +13,7 @@ comments: false
                         </header>
                         
                         <section class="post-content" itemProp="articleBody">
-                            {{ post.excerpt }}
+                          {{ post.content | strip_html | truncatewords: 55 }}
                         </section>
                         
                         <footer class="post-footer">
