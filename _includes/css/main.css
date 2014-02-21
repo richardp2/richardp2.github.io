@@ -2,18 +2,12 @@
    Site Specific Styles
    ========================================================================== */
 
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 body {
     padding:0;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
-    color: #101010;
-    background-color: #FBFAF7;
+    color: #111111;
+    background-color: #F0F0F0;
     margin: 0;
     line-height: 1.8em;
     -webkit-font-smoothing: antialiased;
@@ -189,20 +183,48 @@ td {
 #container, #page-header, #content, #main-content, #secondary-content, #page-footer {
     width: 100%;
     float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#page-header, #main-content, #secondary-content, #page-footer {
+    padding: 1% 2.5%;
 }
 
 
 /* ==========================================================================
    Header Styles
    ========================================================================== */
+#page-header {
+    margin: 0;
+    text-align: center;
+}
+#page-header:after {
+    background: url(/images/header.jpg) center top repeat-x;
+    bottom: 0;
+    content: " ";
+    filter: alpha(opacity=40);
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:-1;
+}
+
+#page-header hgroup {
+    height: 189px;
+}
 
 #page-header .site-title {
     font-size: 28px;
+    padding-top: 55px;
     text-transform: none;
 }
 
 #page-header .site-description {
     font-size: 14px;
+    text-transform: none;
 }
 
 
@@ -211,13 +233,12 @@ td {
        ========================================================================== */
     
     #primary-navigation {
-        
+        margin: 6px auto;
+        text-align: center;
     }
-    
-    #primary-navigation .btn-menu {
-        content: " ";
-        height: 14px;
-        width: 14px;
+
+    #primary-navigation ul.main-menu {
+        display: none;
     }
 
 
@@ -321,7 +342,15 @@ td {
     *zoom: 1;
 }
 
-.right {
+.alignleft {
+    float: left;
+}
+
+.aligncentre {
+    margin: 0 auto;
+}
+
+.alignright {
     float: right;
 }
 

@@ -1,4 +1,6 @@
-name: Richard @ GitHub
+name: Richard Perry
+description: Just another blog about nothing
+
 markdown: kramdown
 pygments: true
 exclude: 

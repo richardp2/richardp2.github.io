@@ -8,33 +8,12 @@
     INTERMEDIATE: Menu
    ==================== */
 
-    .header-container nav a {
-        float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
-        margin-bottom: 0;
-    }
-
-    .header-container nav li:first-child a {
-        margin-left: 0;
-    }
-
-    .header-container nav li:last-child a {
-        margin-right: 0;
-    }
-
+    
 /* ========================
     INTERMEDIATE: IE Fixes
    ======================== */
 
-    .header-container nav ul li {
-        display: inline;
-    }
-
-    .oldie nav a {
-        margin: 0 0.7%;
-    }
+    
 }
 
 @media only screen and (min-width: 768px) {
@@ -59,9 +38,52 @@
         float: left;
     }
 
-    .header-container nav {
-        float: right;
-        width: 38%;
+    .slicknav_menu {
+        display: none;
+    }
+
+    #primary-navigation { 
+        clear:both; 
+        display:block; 
+        float:left;
+        width:100%; 
+    }
+    #primary-navigation a { 
+        display:inline-block; 
+        padding: 0 5px; 
+        width:85px; 
+    }
+    #primary-navigation li { 
+        display:inline; 
+        position:relative; 
+        padding:0;
+    }
+    #primary-navigation ul.main-menu { 
+        display:block;
+        list-style:none; 
+        margin:0; 
+        padding-left:0; 
+    }
+    #primary-navigation ul ul { 
+        display:none; 
+        float:left; 
+        margin:0; 
+        position:absolute; 
+        top:95%; 
+        left:-30%;
+        width:160px;
+        z-index:99999;
+    }
+    #primary-navigation ul ul ul { 
+        left: 100%; 
+        top: -6px; 
+    }
+    #primary-navigation ul ul a { 
+        background-color: white;
+        width: 148px;
+    }
+    #primary-navigation ul li:hover > ul { 
+        display:block; 
     }
 
 /* ============
@@ -86,6 +108,8 @@
    =============== */
 
     #container {
+        float: none;
+        margin: 0 auto;
         width: 1140px;
     }
 }
