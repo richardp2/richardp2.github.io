@@ -1,5 +1,21 @@
-- url: /
+- url: http://www.perry-online.me.uk/
   title: Home
 
-- url: /about
-  title: About Me
+- url: http://travel.perry-online.me.uk/
+  title: Travel
+  sub:
+  - url: http://travel.perry-online.me.uk/china09/
+    title: China 2009
+  - url: http://travel.perry-online.me.uk/archives/
+    title: Travel Archives
+    
+- url: /
+  title: Richard
+  sub:
+  - url: /about/
+    title: About Me
+  - url: /archive/
+    title: Blog Archives
+    
+- url: http://photos.perry-online.me.uk/
+  title: Photos
