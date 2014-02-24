@@ -21,8 +21,9 @@ tags:
 - Torfaen Academy of Gymnastics
 - Torfaen Freerunning Academy
 - Video
+permalink: /epic/backflip/
 ---
 
 Since mid March, I have been going to Torfaen Freerunning Academy at the Torfaen Academy of Gymnastics in New Inn. I've been quite interested in the concept of Parkour/Freerunning for a while so I thought it would be fun. Although I am quite a bit older than the vast majority of the people there, I have been welcomed and supported brilliantly since I joined. I have been working on vaults and flips from the start and on 26 April, I completed my first unsupported backflip :-D. So here's the video (granted this was taken the following week when I had cleaned it up a bit).
 
-https://www.youtube.com/watch?v=rbnrm2vj0rM&w=550&rel=0
+{% oembed https://www.youtube.com/watch?v=rbnrm2vj0rM&rel=0 width=640 height=360 %}

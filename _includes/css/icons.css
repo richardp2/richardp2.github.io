@@ -3,7 +3,8 @@
    ========================================================================== */
 
 [class^="icon-"],
-[class*=" icon-"] {
+[class*=" icon-"],
+time::before {
   display: inline-block;
   width: 14px;
   height: 14px;
@@ -15,7 +16,8 @@
   background-position: 14px 14px;
   background-repeat: no-repeat;
 }
-.icon-calendar {
+.icon-calendar,
+time::before {
   background-position: -192px -120px;
 }
 .icon-comment {

@@ -34,5 +34,4 @@ For those that are interested, here is the only audio clip I have uploaded in th
 
 #### Pimsleur Mandarin Chinese I - Units 1 & 2 Conversations
 
-
-[soundcloud url="http://api.soundcloud.com/tracks/67516736" params="color=3452d1&auto_play=false&show_artwork=true" iframe="true" /]
+{% soundcloud tracks 67516736 color=3452d1 %}

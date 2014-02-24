@@ -1,19 +1,12 @@
 {% include head.html %}
-            
-                    <article itemscope itemtype="http://schema.org/Article" class="page">
-                        <header class="post-header">
+
+                    <div itemscope itemtype="http://schema.org/Blog">
+                        {% if page.title != 'Home' %}
                             <h2 itemProp="headline">{{ page.title }}</h2>
-                        </header><!-- .post-header -->
+                        {% endif %}
                         
-                        <section class="post-content" itemProp="articleBody">
-                            {{ content }}
-                        </section><!-- .post-content -->
+                        {{ content }}
                         
-                        <footer class="post-footer">              
-                            {% if page.comments %}
-                            <div id="disqus_thread"></div> 
-                            {% endif %}
-                        </footer><!-- .post-footer -->
-                    </article><!-- .page -->
-        
+                    </div>
+                
 {% include foot.html %}

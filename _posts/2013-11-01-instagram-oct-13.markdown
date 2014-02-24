@@ -2,7 +2,7 @@
 author: richard
 comments: true
 date: 2013-11-01 20:21:02+00:00
-layout: post
+layout: gallery
 slug: instagram-oct-13
 title: Instagram Digest Oct 2013
 wordpress_id: 1078

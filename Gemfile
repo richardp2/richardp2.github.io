@@ -1,3 +1,5 @@
 source 'https://rubygems.org'
 gem 'github-pages'
-gem 'stringex'
+# gem 'stringex'
+gem 'titleize'
+gem 'jekyll-oembed', :require => 'jekyll_oembed'
