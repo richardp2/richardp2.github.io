@@ -118,8 +118,6 @@ img {
     margin: 0 auto;
     max-width: 650px;
     padding: 5px;
-    margin: 10px 0 32px 0;
-    border: 1px solid #ccc;
 }
 
 p img {
@@ -378,6 +376,7 @@ td {
 
 .alignleft {
     float: left;
+    margin: 2px 5px 4px -5px;
 }
 
 .aligncentre {
@@ -386,5 +385,6 @@ td {
 
 .alignright {
     float: right;
+    margin: 2px -5px 4px 5px;
 }
 

@@ -14,7 +14,7 @@ comments: false
                         </header>
                         
                         <section class="post-content" itemProp="articleBody">
-                          {{ post.content | strip_html | truncatewords: 55 }}
+                            {% include summary.html %}
                         </section>
                         
                         <footer class="post-footer">
