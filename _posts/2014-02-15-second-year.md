@@ -9,9 +9,6 @@ wordpress_id: 1164
 image: George-Rosies-Birthday-2014-9194.jpg
 categories:
 - George
-tags:
-- Birthday
-- George
 ---
 
 [![George & Rosie's Birthday][1]{: .alignleft}][img]George is now another year older so how has the second year gone? Well, it’s been very different to the first year! Having recovered from his illness over the new year, George got back on his feet and hasn’t really stopped since. Rosie has had to open the eyes in the back of her head to try to keep up with him. Unfortunately, just before his first birthday, we discovered George has nut allergy so that has been interesting, considering we used to cook everything in groundnut oil and peanut butter was our favourite breakfast addition. Nevermind, we have adapted quite well I think and George hasn’t had any problems this year so it’s all good :-).
