@@ -14,7 +14,19 @@
   sub:
   - url: /about/
     title: About Me
-  - url: /archive/
+  - url: /epic/
+    title: Epic Quest
+  - url: /general/
+    title: General
+  - url: /george/
+    title: George
+  - url: /languages/
+    title: Languages
+  - url: /photography/
+    title: Photography
+  - url: /reviews/
+    title: Reviews
+  - url: /archives/
     title: Blog Archives
     
 - url: http://photos.perry-online.me.uk/
