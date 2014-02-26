@@ -44,6 +44,14 @@ categories:
   - name: Reviews
     slug: reviews
 
+
+flickr:
+  enabled:         yes
+  cache_dir:       ./_cache/flickr
+  api_key:         4389a0eb79c41ca17e149830c22fc7c2
+  shared_secret:   ef41108edae962b0
+  auth_token:      72157641556484643-f2075a4f7bf83abe
+
 prose:
   rooturl: '_posts'
   siteurl: 'http://richardp2.github.io/'

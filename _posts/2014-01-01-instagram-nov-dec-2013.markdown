@@ -8,15 +8,6 @@ title: Instagram Digest Nov-Dec 2013
 wordpress_id: 1141
 categories:
 - Photography
-post_format:
-- Gallery
-oembed:
-- http://instagram.com/p/gtbEnAAnsI/
-- http://instagram.com/p/hnzsMTgnrR/
-- http://instagram.com/p/iGK9SqAnop/
-- http://instagram.com/p/ibQOeKAnhz/
+photoset: 72157641557312734
 ---
 
-{% for img in page.oembed %}
-{% oembed  {{ img }} %}
-{% endfor %}

@@ -6,11 +6,15 @@
                             <time itemprop="datePublished" content="{{ page.date | date: '%F' }}" datetime='{{ page.date }}'>{{ page.date | date: "%d %b %Y" }}</time>
                         </header><!-- .post-header -->
                         
-                        <section class="post-content" itemProp="articleBody">
+                        <section class="post-content gallery" itemProp="articleBody">
                             {{ content }}
-                        </section><!-- .post-content -->
+                            {% if page.photoset %}{% include flickr-gallery.html %}{% endif %}
+                        </section><!-- .post-content .gallery -->
                         
-                        <footer class="post-footer">              
+                        <footer class="post-footer">
+                            {% if page.photoset %}
+                            <a href="http://www.flickr.com/photos/richard-perry/sets/{{ page.photoset }}/" target="_blank" title="View on Flickr">View on Flickr</a>
+                            {% endif %}
                             {% if page.comments %}
                             <div id="disqus_thread"></div> 
                             {% endif %}
