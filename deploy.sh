@@ -1,7 +1,12 @@
 #!/bin/sh
-cd ~/workspace/richardp2.github.io/
+cd ~/workspace/source/
 git add -A
 git commit -aF changes
+git push origin source
+bundle exec jekyll build
+cd ~/workspace/master/
+git add -A
+git commit -aF ../source/changes/
 git push origin master
-jekyll build
-rsync -az --progress --delete _site/ perryon1@sftp.perry-online.me.uk:~/public_html/bGbDmSuXlg2MKV5PrIpJ/jekyll
+rsync -azh --progress --delete . perryon1@sftp.perry-online.me.uk:~/public_html/bGbDmSuXlg2MKV5PrIpJ/jekyll
+cd ~/workspace/source/
