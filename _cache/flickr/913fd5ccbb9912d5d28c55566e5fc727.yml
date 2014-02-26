@@ -1,0 +1,21 @@
+---
+- !ruby/object:Jekyll::FlickrPhoto
+  title: A well deserved gingerbread latte after a rather successful shopping trip
+  urlFullSize: http://farm6.staticflickr.com/5533/12791763393_2efba8f6c0_b.jpg
+  urlThumbnail: http://farm6.staticflickr.com/5533/12791763393_2efba8f6c0_q.jpg
+  thumbType: square
+- !ruby/object:Jekyll::FlickrPhoto
+  title: A poi display at the lantern parade on Jersey
+  urlFullSize: http://farm4.staticflickr.com/3669/12791765313_7f276feb78_b.jpg
+  urlThumbnail: http://farm4.staticflickr.com/3669/12791765313_7f276feb78_q.jpg
+  thumbType: square
+- !ruby/object:Jekyll::FlickrPhoto
+  title: George helping to decorate the Christmas tree
+  urlFullSize: http://farm4.staticflickr.com/3805/12791770153_0ced00926d_b.jpg
+  urlThumbnail: http://farm4.staticflickr.com/3805/12791770153_0ced00926d_q.jpg
+  thumbType: square
+- !ruby/object:Jekyll::FlickrPhoto
+  title: The ingredients list on mango & cinnamon tea, what’s missing??
+  urlFullSize: http://farm4.staticflickr.com/3704/12791772513_95fa781ab7_b.jpg
+  urlThumbnail: http://farm4.staticflickr.com/3704/12791772513_95fa781ab7_q.jpg
+  thumbType: square

@@ -198,7 +198,7 @@ td {
     text-align: center;
 }
 #page-header:after {
-    background: url(/images/header.jpg) center top repeat-x;
+    background: url(/assets/images/header.jpg) center top repeat-x;
     bottom: 0;
     content: " ";
     filter: alpha(opacity=40);

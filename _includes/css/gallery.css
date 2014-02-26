@@ -1,0 +1,24 @@
+/* ==========================================================================
+   Flickr Gallery Styles
+   ========================================================================== */
+
+.flickr {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.flickr li {
+    display: inline-block;
+}
+
+.flickr a:hover {
+    border: none;
+}
+
+.flickr.summary img {
+    margin: 0;
+    margin-right: -3px;
+    padding: 0;
+}
+    

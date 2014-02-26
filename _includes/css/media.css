@@ -70,8 +70,8 @@
         margin:0; 
         position:absolute; 
         top:95%; 
-        left:-30%;
-        width:160px;
+        left:-35%;
+        width:100%;
         z-index:99999;
     }
     #primary-navigation ul ul ul { 
@@ -80,7 +80,7 @@
     }
     #primary-navigation ul ul a { 
         background-color: white;
-        width: 148px;
+        width: 105px;
     }
     #primary-navigation ul li:hover > ul { 
         display:block; 

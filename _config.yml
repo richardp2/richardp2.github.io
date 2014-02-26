@@ -26,23 +26,10 @@ author:
   github: richardp2
   twitter: richard_p2
   
-images: /images
-thumbs: /images/thumbs
+images: /assets/images
+thumbs: /assets/images/thumbs
 
 category_dir: /
-categories:
-  - name: Epic Quest
-    slug: epic
-  - name: General
-    slug: general
-  - name: George
-    slug: george
-  - name: Language
-    slug: language
-  - name: Photography
-    slug: photography
-  - name: Reviews
-    slug: reviews
 
 
 flickr:
@@ -50,7 +37,9 @@ flickr:
   cache_dir:       ./_cache/flickr
   api_key:         4389a0eb79c41ca17e149830c22fc7c2
   shared_secret:   ef41108edae962b0
-  auth_token:      72157641556484643-f2075a4f7bf83abe
+  access_token:    72157641557984045-92a5dbebf3e01418
+  access_secret:   1625dbdd3cf26db6
+
 
 prose:
   rooturl: '_posts'

@@ -4,6 +4,7 @@ title: Main Stylesheet file
 {% include css/vendor/normalize.min.css %}
 {% include css/vendor/h5bp.css %}
 {% include css/main.css %}
+{% include css/gallery.css %}
 {% include css/icons.css %}
 {% include css/vendor/slicknav.css %}
 {% include css/media.css %}
