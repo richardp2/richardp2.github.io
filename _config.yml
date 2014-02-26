@@ -1,6 +1,7 @@
 name: Richard Perry
 description: Just another blog about nothing
 
+destination: ../master
 markdown: kramdown
 pygments: true
 exclude: 
