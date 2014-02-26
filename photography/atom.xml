@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: photography | ]]></title>
+  <link href="//photography/atom.xml" rel="self"/>
+  <link href="/"/>
+  <updated>2014-02-26T08:27:17+00:00</updated>
+  <id>/</id>
+  <author>
+    <name><![CDATA[{"name"=>"Richard Perry", "email"=>"richard@perrymail.me.uk", "github"=>"richardp2", "twitter"=>"richard_p2"}]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Instagram Digest Nov-Dec 2013]]></title>
+    <link href="/photography/instagram-nov-dec-2013/"/>
+    <updated>2014-01-01T14:15:44Z</updated>
+    <id>/photography/instagram-nov-dec-2013</id>
+    <content type="html"><![CDATA[<p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Instagram Digest Oct 2013]]></title>
+    <link href="/photography/instagram-oct-13/"/>
+    <updated>2013-11-01T20:21:02Z</updated>
+    <id>/photography/instagram-oct-13</id>
+    <content type="html"><![CDATA[<p>[gallery type=”rectangular” ids=”1110,1107,1079,1074,1071,1066,1063,1060,1056,1053,1049,1044,1041,1038”]</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Instagram Digest Jul-Sep 2013]]></title>
+    <link href="/photography/instagram-jul-sep-13/"/>
+    <updated>2013-10-01T15:05:26Z</updated>
+    <id>/photography/instagram-jul-sep-13</id>
+    <content type="html"><![CDATA[<p>[gallery type=”rectangular” ids=”1028,1025,1022,1017,1009,1006,1003,992,989,986,982,979”]</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Instagram Digest Jun 2013]]></title>
+    <link href="/photography/instagram-jun-13/"/>
+    <updated>2013-07-03T18:25:01Z</updated>
+    <id>/photography/instagram-jun-13</id>
+    <content type="html"><![CDATA[<p>[gallery type=”rectangular” ids=”961,958,955,952,949,946,933”]</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Instagram Digest May 2013]]></title>
+    <link href="/photography/instagram-may-13/"/>
+    <updated>2013-06-03T19:31:37Z</updated>
+    <id>/photography/instagram-may-13</id>
+    <content type="html"><![CDATA[<p>[gallery type=”rectangular” link=”post” ids=”864,867,923,918,915,912”]</p>
+]]></content>
+  </entry>
+  
+</feed>
