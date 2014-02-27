@@ -1,21 +1,15 @@
-                    <!-- Pagination links -->
-                    <div class="pagination pagination-centered">
-                        <ul>
-                            {% if paginator.next_page %}
-                            <li class="next"> 
-                                <a href="/page/{{paginator.next_page}}" title="Next Page" class="next" rel="next">&larr; Older Posts</a>
-                            </li>
-                            {% endif %}
-
-                            {% if paginator.previous_page %}
-                            <li class="prev">
-                                {% if paginator.previous_page == 1 %}
-                                <a href="/" title="Previous Page" class="prev">Newer Posts &rarr;</a>
-                                {% else %}
-                                <a href="/page/{{paginator.previous_page}}" title="Previous Page" class="prev" rel="prev">Newer Posts &rarr;</a>
-                                {% endif %}
-                            </li>
-                            {% endif %}
-                        </ul>
-                    </div>
+          <!-- Pagination links -->
+          <div class='pagination'>
+            {% if paginator.next_page %}
+            <a class='next' href="/page/{{paginator.next_page}}" title="Next Page" rel="next"><i class='fa fa-chevron-left'></i> older</a>
+            {% endif %}
+            
+            <a class='archives' href='/archives/'><i class='fa fa-chevron-down'></i> archives</a>
+            
+            {% if paginator.previous_page %}{% if paginator.previous_page == 1 %}
+            <a class='prev' href='/' title='Previous Page'>newer <i class='fa fa-chevron-right'></i></a>
+            {% else %}
+            <a class='prev' href='/page/{{paginator.previous_page}}' title='Previous Page' rel='prev'>newer <i class='fa fa-chevron-right'></i></a>
+            {% endif %}{% endif %}
+          </div>
                     

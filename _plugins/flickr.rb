@@ -71,11 +71,17 @@ module Jekyll
 
         if @class == 'summary' and photos.length > 6
             photos.first(6).each do |photo|
-            output += "<li><a title='#{photo['title']}' href=\"#{photo['urlOpened']}\"><img src='#{photo['urlThumb']}' alt='#{photo['title']}' /></a></li>\n"
+            output += "<li>\n"
+            output += "<a title='#{photo['title']}' href=\"#{photo['urlOpened']}\"><img src='#{photo['urlThumb']}' alt='#{photo['title']}' /></a>\n"
+            output += "<a title='View on Flickr' href='#{photo['urlPhoto']}' class='flickrlink'> </a>\n"
+            output += "</li>\n"
           end
         else
           photos.each do |photo|
-            output += "<li><a title='#{photo['title']}' href=\"#{photo['urlOpened']}\"><img src='#{photo['urlThumb']}' alt='#{photo['title']}' /></a></li>\n"
+            output += "<li>\n"
+            output += "<a title='#{photo['title']}' href=\"#{photo['urlOpened']}\"><img src='#{photo['urlThumb']}' alt='#{photo['title']}' /></a>\n"
+            output += "<a title='View on Flickr' href='#{photo['urlPhoto']}' class='flickrlink'> </a>\n"
+            output += "</li>\n"
           end
         end
 
@@ -115,13 +121,16 @@ module Jekyll
         urlEmbeded = String.new
         urlOpened  = String.new
         urlVideo   = String.new
+        urlPhoto   = String.new
 
         sizes = flickr.photos.getSizes(:photo_id => id)
+        info = flickr.photos.getInfo(:photo_id => id)
 
         urlThumb       = sizes.find {|s| s.label == @photoThumbnail }
         urlEmbeded     = sizes.find {|s| s.label == @photoEmbeded }
         urlOpened      = sizes.find {|s| s.label == @photoOpened }
         urlVideo       = sizes.find {|s| s.label == @video }
+        urlPhoto       = info.urls.find {|i| i.type == 'photopage' }
 
         photo = {
           'title' => title,
@@ -130,6 +139,7 @@ module Jekyll
           'urlOpened' => urlOpened ? urlOpened.source : '',
           'urlVideo' => urlVideo ? urlVideo.source : '',
           'urlFlickr' => urlVideo ? urlVideo.url : '',
+          'urlPhoto' => urlPhoto ? urlPhoto._content : '',
         }
 
         returnSet.push photo

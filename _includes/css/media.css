@@ -4,35 +4,27 @@
 
 @media only screen and (min-width: 480px) {
 
-/* ====================
-    INTERMEDIATE: Menu
-   ==================== */
-
-    
-/* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
 
     
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
 
-/* ====================
-    WIDE: CSS3 Effects
-   ==================== */
+    #page-header hgroup {
+        height: 195px;
+    }
+    
+    #page-header .site-title {
+        padding-top: 55px;
+    }
 
     #main-content {
-        width: 72.5%;
+        width: 65%;
     }
      
     #secondary-content {
-        width: 22.5%;
+        width: 30%;
     }
-
-/* ============
-    WIDE: Menu
-   ============ */
 
     .title {
         float: left;
@@ -46,6 +38,8 @@
         clear:both; 
         display:block; 
         float:left;
+        margin: 5px auto;
+        text-align: center;
         width:100%; 
     }
     #primary-navigation a { 
@@ -82,31 +76,27 @@
         background-color: white;
         width: 105px;
     }
-    #primary-navigation ul li:hover > ul { 
+    #primary-navigation ul li:hover > ul,
+    #primary-navigation hr,
+    #primary-navigation hr::after { 
         display:block; 
     }
 
-/* ============
-    WIDE: Main
-   ============ */
+}
 
-    .main article {
-        float: left;
-        width: 57%;
+@media only screen and (min-width: 800px) {
+    
+    #main-content {
+        width: 72.5%;
     }
-
-    .main aside {
-        float: right;
-        width: 28%;
+     
+    #secondary-content {
+        width: 22.5%;
     }
 }
 
 @media only screen and (min-width: 1140px) {
-
-/* ===============
-    Maximal Width
-   =============== */
-
+  
     #container {
         float: none;
         margin: 0 auto;

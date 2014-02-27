@@ -7,8 +7,10 @@
       </div><!-- #content -->
             
       <footer id="page-footer" itemscope itemtype="http://schema.org/WPFooter">
-        <small class='alignleft'>Copyright &copy; 2009 - {{ site.time | date: '%Y' }} {{ site.author.name }}</small>
-        <small class='alignright'>Powered by <a href='//jekyllrb.com/' title='Jekyll &bull; Simple, blog-aware, static sites'>Jekyll</a> &amp; Hosted at <a href='//github.com' title='GitHub'>GitHub</a></small>
+        <hr />
+        {% include partials/social.html %}
+        <small>Copyright &copy; 2009 - {{ site.time | date: '%Y' }} {{ site.author.name }}</small><br/>
+        <small>Powered by <a href='//jekyllrb.com/' title='Jekyll &bull; Simple, blog-aware, static sites'>Jekyll</a> &amp; Hosted at <a href='//github.com' title='GitHub'>GitHub</a></small>
       </footer><!-- #page-footer -->
     </div><!-- #container -->
         

@@ -1,20 +1,20 @@
 {% include head.html %}
             
-                    <article itemscope itemtype="http://schema.org/BlogPosting" class="post single format-gallery">
-                        <header class="post-header">
-                            <h2 itemProp="headline">{{ page.title }}</h2>
-                            <time itemprop="datePublished" content="{{ page.date | date: '%F' }}" datetime='{{ page.date }}'>{{ page.date | date: "%d %b %Y" }}</time>
-                        </header><!-- .post-header -->
-                        
-                        <section class="post-content" itemProp="articleBody">
-                            {{ content }}
-                        </section><!-- .post-content -->
-                        
-                        <footer class="post-footer">              
-                            {% if page.comments %}
-                            <div id="disqus_thread"></div> 
-                            {% endif %}
-                        </footer><!-- .post-footer -->
-                    </article><!-- .post -->
+          <article itemscope itemtype="http://schema.org/BlogPosting" class="post single format-image">
+            <header>
+              <h2 itemProp="headline">{{ page.title }}</h2>
+              <time itemprop="datePublished" content="{{ page.date | date: '%F' }}" datetime='{{ page.date }}'>{{ page.date | date: "%d %b %Y" }}</time>
+            </header>
+            
+            <section class="post-content" itemProp="articleBody">
+              {{ content }}
+            </section><!-- .post-content -->
+            
+            <footer>              
+              {% if page.comments %}
+              <div id="disqus_thread"></div> 
+              {% endif %}
+            </footer>
+          </article><!-- .post.single.format-image -->
         
 {% include foot.html %}

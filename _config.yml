@@ -23,8 +23,13 @@ paginate_path: "page/:num"
 author:
   name: Richard Perry
   email: richard@perrymail.me.uk
+  emailo: r&#105;char%64&#64;p%65%&#55;2r&#37;&#55;9mai&#108;&#46;&#109;e&#46;u&#107;
+  flickr: richard-perry
   github: richardp2
   twitter: richard_p2
+  facebook: richardpperry
+  linkedin: richard-perry-mrics
+  instagram: perryri
   
 images: /assets/images
 thumbs: /assets/images/thumbs

@@ -1,6 +1,6 @@
 {% case post.layout %}
     {% when 'gallery' %}
-        {% if post.photoset %}{% flickr_photoset {{post.photoset}} "summary" %}
+        {% if post.photoset %}{% flickr_photoset post.photoset "summary" %}
         This Gallery contains {{ post.images }} photos.{% endif %}
     {% when 'image' %}
         <img src='{{ site.thumbs }}/{{ post.slug }}/{{ post.image }}' title='{{ post.title }}' alt='{{ post.title }}' class='alignleft' />

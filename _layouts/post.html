@@ -1,21 +1,21 @@
 {% include head.html %}
             
-                    <article itemscope itemtype="http://schema.org/BlogPosting" class="post single">
-                        <header class="post-header">
-                            <h2 itemProp="headline">{{ page.title }}</h2>
-                            <time itemprop="datePublished" content="{{ page.date | date: '%F' }}" datetime='{{ page.date }}'>{{ page.date | date: "%d %b %Y" }}</time>
-                            <span id="meta">Written by {{ post.author }} in {{ page.categories | category_links }}</span>
-                        </header><!-- .post-header -->
-                        
-                        <section class="post-content" itemProp="articleBody">
-                            {{ content }}
-                        </section><!-- .post-content -->
-                        
-                        <footer class="post-footer">              
-                            {% if page.comments %}
-                            <div id="disqus_thread"></div> 
-                            {% endif %}
-                        </footer><!-- .post-footer -->
-                    </article><!-- .post -->
+          <article itemscope itemtype="http://schema.org/BlogPosting" class="post single">
+            <header>
+              <h2 itemProp="headline">{{ page.title }}</h2>
+              <time itemprop="datePublished" content="{{ page.date | date: '%F' }}" datetime='{{ page.date }}'>{{ page.date | date: "%d %b %Y" }}</time>
+              <span id="meta">Written by {{ post.author }} in {{ page.categories | category_links }}</span>
+            </header>
+            
+            <section class="post-content" itemProp="articleBody">
+              {{ content }}
+            </section><!-- .post-content -->
+            
+            <footer>              
+              {% if page.comments %}
+              <div id="disqus_thread"></div> 
+              {% endif %}
+            </footer>
+          </article><!-- .post.single -->
         
 {% include foot.html %}

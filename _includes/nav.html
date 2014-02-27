@@ -1,11 +1,12 @@
-                <nav id="primary-navigation" role="navigation" >
-                    <ul class="main-menu" >{% for link in site.data.links %}
-                        <li>
-                            <a href="{{ link.url }}" title="{{ link.title }}" {% if page.title == link.title %}class="current-page"{% endif %}>{{ link.title }}</a>{% if link.sub %}
-                            <ul>{% for sublink in link.sub %}
-                                <li>
-                                    <a href="{{ sublink.url }}" title="{{ sublink.title }}" {% if page.title == sublink.title %}class="current-page"{% endif %}>{{ sublink.title }}</a>
-                            {% endfor %}</ul>
-                        {% endif %}</li>
-                    {% endfor %}</ul>
-                </nav><!-- #primary-navigation -->
+        <nav id="primary-navigation" role="navigation" >
+          <ul class="main-menu" >{% for link in site.data.links %}
+            <li>
+              <a href="{{ link.url }}" title="{{ link.title }}" {% if page.title == link.title %}class="current-page"{% endif %}>{{ link.title }}</a>{% if link.sub %}
+              <ul>{% for sublink in link.sub %}
+                <li>
+                  <a href="{{ sublink.url }}" title="{{ sublink.title }}" {% if page.title == sublink.title %}class="current-page"{% endif %}>{{ sublink.title }}</a>
+                  {% endfor %}</ul>
+              {% endif %}</li>
+            {% endfor %}</ul>
+          <hr />
+        </nav><!-- #primary-navigation -->

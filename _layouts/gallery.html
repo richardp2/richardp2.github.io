@@ -1,24 +1,24 @@
 {% include head.html %}
+
+          <article itemscope itemtype="http://schema.org/BlogPosting" class="post single format-gallery">
+            <header>
+              <h2 itemProp="headline">{{ page.title }}</h2>
+              <time itemprop="datePublished" content="{{ page.date | date: '%F' }}" datetime='{{ page.date }}'>{{ page.date | date: "%d %b %Y" }}</time>
+            </header>
             
-                    <article itemscope itemtype="http://schema.org/BlogPosting" class="post single format-gallery">
-                        <header class="post-header">
-                            <h2 itemProp="headline">{{ page.title }}</h2>
-                            <time itemprop="datePublished" content="{{ page.date | date: '%F' }}" datetime='{{ page.date }}'>{{ page.date | date: "%d %b %Y" }}</time>
-                        </header><!-- .post-header -->
-                        
-                        <section class="post-content gallery" itemProp="articleBody">
-                            {{ content }}
-                            {% if page.photoset %}{% flickr_photoset {{page.photoset}} %}{% endif %}
-                        </section><!-- .post-content .gallery -->
-                        
-                        <footer class="post-footer">
-                            {% if page.photoset %}
-                            <a href="http://www.flickr.com/photos/richard-perry/sets/{{ page.photoset }}/" target="_blank" title="View on Flickr" class="invisible" >View on Flickr</a>
-                            {% endif %}
-                            {% if page.comments %}
-                            <div id="disqus_thread"></div> 
-                            {% endif %}
-                        </footer><!-- .post-footer -->
-                    </article><!-- .post -->
+            <section class="post-content gallery" itemProp="articleBody">
+              {{ content }}
+              {% if page.photoset %}{% flickr_photoset page.photoset %}{% endif %}
+            </section><!-- .post-content .gallery -->
+            
+            <footer>
+              {% if page.photoset %}
+              <a href="http://www.flickr.com/photos/richard-perry/sets/{{ page.photoset }}/" target="_blank" title="View on Flickr" class="invisible" >View on Flickr</a>
+              {% endif %}
+              {% if page.comments %}
+              <div id="disqus_thread"></div> 
+              {% endif %}
+            </footer>
+          </article><!-- .post.single.format-gallery -->
         
 {% include foot.html %}

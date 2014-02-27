@@ -1,12 +1,9 @@
 {% include head.html %}
 
-                    <div itemscope itemtype="http://schema.org/Blog">
-                        {% if page.title != 'Home' %}
-                            <h2 itemProp="headline">{{ page.title }}</h2>
-                        {% endif %}
-                        
-                        {{ content }}
-                        
-                    </div>
+          {% if page.title != 'Home' %}
+          <h2 itemProp="headline">{{ page.title }}</h2>
+          {% endif %}
+          
+          {{ content }}
                 
 {% include foot.html %}
