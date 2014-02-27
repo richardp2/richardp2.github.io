@@ -1,16 +1,17 @@
                 
-                </section><!-- #main-content -->
+        </section><!-- #main-content -->
                 
-                <section id="secondary-content"  itemscope itemtype="http://schema.org/WPSidebar" role="sidebar">
-                    {% include sidebar.html %}
-                </section><!-- #secondary-content -->
-            </div><!-- #content -->
+        <section id="secondary-content"  itemscope itemtype="http://schema.org/WPSidebar" role="sidebar">
+          {% include sidebar.html %}
+        </section><!-- #secondary-content -->
+      </div><!-- #content -->
             
-            <footer id="page-footer" itemscope itemtype="http://schema.org/WPFooter">
-                This is a placeholder footer that will get updated once I have finished playing.
-            </footer><!-- #page-footer -->
-        </div><!-- #container -->
+      <footer id="page-footer" itemscope itemtype="http://schema.org/WPFooter">
+        <small class='alignleft'>Copyright &copy; 2009 - {{ site.time | date: '%Y' }} {{ site.author.name }}</small>
+        <small class='alignright'>Powered by <a href='//jekyllrb.com/' title='Jekyll &bull; Simple, blog-aware, static sites'>Jekyll</a> &amp; Hosted at <a href='//github.com' title='GitHub'>GitHub</a></small>
+      </footer><!-- #page-footer -->
+    </div><!-- #container -->
         
-        {% include foot-scripts.html %}
-    </body>
+    {% include foot-scripts.html %}
+  </body>
 </html>
