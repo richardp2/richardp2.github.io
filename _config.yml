@@ -1,17 +1,15 @@
 name: Richard Perry
 description: Just another blog about nothing
 
-destination: ../master
 markdown: kramdown
 pygments: true
 exclude: 
-- 'Vagrantfile'
-- '.vagrant'
 - 'changes'
 - 'Gemfile'
 - 'Gemfile.lock'
 - 'params.json'
-- 'deploy.sh'
+- 'Rakefile'
+- 'README.md'
 
 encoding: utf-8
 

@@ -9,7 +9,7 @@ GITHUB_REPONAME = "richardp2/richardp2.github.io"
 
 
 desc "Build and preview the site"
-task :preview do
+task :preview => [:clean] do
   puts "## Building a preview of the site"
   pids = [
     spawn("jekyll serve -w")
@@ -27,6 +27,13 @@ task :preview do
 end
   
   
+desc 'Delete generated _site files'
+task :clean do
+  puts "## Cleaning up build folder (if it exists)"
+  status = system "rm -rf _site"
+end
+  
+  
 desc "Commit the source branch of the site"
 task :commit do
   puts "## Adding unstaged files"
@@ -38,7 +45,7 @@ task :commit do
 end
   
 desc "Push source file commits up to origin"
-task :push => :commit do
+task :push => [:commit] do
   puts "## Pushing commits to origin"
   status = system "git push origin source"
   puts status ? "Succeeded" : "Failed"
@@ -46,44 +53,46 @@ end
   
 
 desc "Generate blog files"
-task :generate do
+  task :generate => [:clean] do
   Jekyll::Site.new(Jekyll.configuration({
     "source"      => ".",
-    "destination" => "../master"
+    "destination" => "_site"
   })).process
 end
 
 
-desc "Generate and publish blog to gh-pages"
+desc "Generate and publish blog to master"
 task :publish => [:generate] do
   Dir.mktmpdir do |tmp|
-    cp_r "../master/.", tmp
-
+    cp_r "_site/.", tmp
+    
     pwd = Dir.pwd
     Dir.chdir tmp
-
+    
     system "git init"
     system "git add ."
     message = "Site updated at #{Time.now.utc}"
     system "git commit -m #{message.inspect}"
     system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
     system "git push origin master --force"
-
+    
     Dir.chdir pwd
   end
 end
 
 
 
+
 namespace :rsync do
   desc "--dry-run rsync"
-    task :dryrun do
+  task :dryrun do
       puts "\## Publishing Site (as a Dry Run)"
-      status = system('rsync ../master/ -avhe ssh --exclude ".*" --dry-run --delete perryon1@sftp.perry-online.me.uk:~/public_html/bGbDmSuXlg2MKV5PrIpJ/jekyll')
+      status = system('rsync ./_site/ -avhe ssh --exclude ".*" --dry-run --delete perryon1@sftp.perry-online.me.uk:~/public_html/bGbDmSuXlg2MKV5PrIpJ/jekyll')
       puts status ? "Success" : "Failed"
     end
   desc "rsync"
     task :live do
-      system('rsync _site/ -avhe ssh --exclude ".*" --delete perryon1@sftp.perry-online.me.uk:~/public_html/bGbDmSuXlg2MKV5PrIpJ/jekyll')
+      system('rsync ./_site/ -avhe ssh --exclude ".*" --delete perryon1@sftp.perry-online.me.uk:~/public_html/bGbDmSuXlg2MKV5PrIpJ/jekyll')
+      Rake::Task["clean"].invoke
     end
 end
