@@ -210,10 +210,11 @@ module Jekyll
       description   = info['description']
       size          = "_#{@size}" if @size
       src           = "http://farm#{farm}.static.flickr.com/#{server}/#{id}_#{secret}#{size}.jpg"
+      full          = "http://farm#{farm}.static.flickr.com/#{server}/#{id}_#{secret}_b.jpg"
       page_url      = info['urls'][0]["_content"]
    
-      img_tag       = "<img src='#{src}' title='#{title}'/>"
-      link_tag      = "<a href='#{page_url}'>#{img_tag}</a>"
+      img_tag       = "<img src='#{src}' alt='#{title}' />"
+      link_tag      = "<a title='#{title}' href='#{full}'>#{img_tag}</a><a title='View on Flickr' href='#{page_url}' class='flickrlink'> </a>"
    
     end
   end
