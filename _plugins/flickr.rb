@@ -180,19 +180,26 @@ Liquid::Template.register_tag('flickr_photoset', Jekyll::FlickrPhotosetTag)
 # Author: Daniel Reszka
 # Source: https://gist.github.com/danielres/3156265/
 
-require 'flickraw'
+#require 'flickraw'
 module Jekyll
 
   class FlickrImageTag < Liquid::Tag
  
     def initialize(tag_name, markup, tokens)
        super
-       @markup = markup
-       @id   = markup.split(' ')[0]
-       @size = markup.split(' ')[1]
+       params = Shellwords.shellwords markup
+      
+       @id      = params[0]
+       @classes = params[1] || "alignleft"
+       @size    = params[2] || "q"
     end
    
     def render(context)
+      
+      # hack to convert a variable into an actual flickr set id
+      if @id =~ /([\w]+\.[\w]+)/i
+        @id = Liquid::Template.parse('{{ '+@id+' }}').render context
+      end
    
       flickrConfig = context.registers[:site].config["flickr"]
       FlickRaw.api_key        = flickrConfig['api_key']
@@ -209,12 +216,13 @@ module Jekyll
       title         = info['title']
       description   = info['description']
       size          = "_#{@size}" if @size
+      classes       = "#{@classes}" if @classes
       src           = "http://farm#{farm}.static.flickr.com/#{server}/#{id}_#{secret}#{size}.jpg"
       full          = "http://farm#{farm}.static.flickr.com/#{server}/#{id}_#{secret}_b.jpg"
       page_url      = info['urls'][0]["_content"]
    
       img_tag       = "<img src='#{src}' alt='#{title}' />"
-      link_tag      = "<a title='#{title}' href='#{full}'>#{img_tag}</a><a title='View on Flickr' href='#{page_url}' class='flickrlink'> </a>"
+      link_tag      = "<ul class='flickr image #{classes}'><li><a title='#{title}' href='#{full}'>#{img_tag}</a><a title='View on Flickr' href='#{page_url}' class='flickrlink'> </a></li></ul>"
    
     end
   end

@@ -8,5 +8,6 @@
         {% oembed https://www.youtube.com/watch?v={{post.video}}&rel=0 width=640 height=360 %}
     {% else %}
         {% if post.image %}<img src='{{ site.thumbs }}/{{ post.slug }}/{{ post.image }}' title='{{ post.title }}' alt='{{ post.title }}' class='alignleft' />{% endif %}
+        {% if post.flickimg %}{% flickr_image post.flickimg %}{% endif %}
         {{ post.content | strip_html | truncatewords: 115 | markdownify }}
 {% endcase %}
