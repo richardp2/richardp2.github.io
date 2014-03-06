@@ -4,7 +4,8 @@
             <header>
               <h2 itemProp="headline">{{ page.title }}</h2>
               <time itemprop="datePublished" content="{{ page.date | date: '%F' }}" datetime='{{ page.date }}'>{{ page.date | date: "%d %b %Y" }}</time>
-              <span id="meta">Written by {{ post.author }} in {{ page.categories | category_links }}</span>
+              {% assign post = page %}
+              {% include partials/meta.html %}
             </header>
             
             <section class="post-content" itemProp="articleBody">
