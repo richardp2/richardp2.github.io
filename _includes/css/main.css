@@ -77,11 +77,7 @@ td {padding: 10px;background: #ccc;}
 #secondary-content,
 #page-footer {width: 100%;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;
     box-sizing: border-box;}
-<<<<<<< HEAD
 #content{max-width:60em;margin:0 auto;}
-=======
-#content{max-width:1140px;}
->>>>>>> f9367081d46ac35f6bed5df2173bc189adf58067
 #main-content article, #secondary-content aside {padding: 0.5em 1em;}
 
 

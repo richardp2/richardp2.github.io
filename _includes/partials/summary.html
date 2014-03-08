@@ -1,11 +1,7 @@
             <header class='post-header'>
 {% case post.layout %}
     {% when 'gallery' %}
-<<<<<<< HEAD
               <h2 itemprop='headline'><a href='{{ post.url }}' itemprop='url'><i class='fa fa-picture-o'></i> {{ post.title }}</a></h2>
-=======
-              <h2 itemprop='headline'><a href='{{ post.url }}' itemprop='url'><i class='fa fa-picture-o'> </i>{{ post.title }}</a></h2>
->>>>>>> f9367081d46ac35f6bed5df2173bc189adf58067
               {% include partials/meta.html %}
             </header>
             
@@ -16,11 +12,7 @@
             
             <footer class='post-footer'>
     {% when 'image' %}
-<<<<<<< HEAD
               <h2 itemprop='headline'><a href='{{ post.url }}' itemprop='url'><i class='fa fa-picture-o'></i> {{ post.title }}</a></h2>
-=======
-              <h2 itemprop='headline'><a href='{{ post.url }}' itemprop='url'><i class='fa fa-picture-o'> </i>{{ post.title }}</a></h2>
->>>>>>> f9367081d46ac35f6bed5df2173bc189adf58067
             </header>
             
             <section class='post-summary' itemProp='articleBody'>
@@ -34,11 +26,7 @@
                 <i class='fa fa-clock-o'></i><time itemprop='datePublished' content='{{ post.date | date: '%F' }}' datetime='{{ post.date }}'> {{ post.date | date: "%d %b %Y" }}</time>
               </span>
     {% when 'video' %}
-<<<<<<< HEAD
               <h2 itemprop='headline'><a href='{{ post.url }}' itemprop='url'><i class='fa fa-film'></i> {{ post.title }}</a></h2>
-=======
-              <h2 itemprop='headline'><a href='{{ post.url }}' itemprop='url'><i class='fa fa-film'> </i>{{ post.title }}</a></h2>
->>>>>>> f9367081d46ac35f6bed5df2173bc189adf58067
               {% include partials/meta.html %}
             </header>
             
@@ -48,11 +36,7 @@
             
             <footer class='post-footer'>
     {% when 'link' %}
-<<<<<<< HEAD
               <h2><a href='{{ post.link }}' itemprop='url'><i class='fa fa-link'></i> {{ post.title }}</a></h2>
-=======
-              <h2><a href='{{ post.link }}' itemprop='url'><i class='fa fa-link'> </i>{{ post.title }}</a></h2>
->>>>>>> f9367081d46ac35f6bed5df2173bc189adf58067
             </header>
 
             <section class='post-summary' itemProp='articleBody'>
