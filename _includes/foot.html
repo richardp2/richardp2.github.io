@@ -1,4 +1,4 @@
-                
+{% capture copyright %}Copyright &copy; 2009 - {{ site.time | date: '%Y' }} {{ site.author.name }}{% endcapture %}             
         </section><!-- #main-content -->
                 
         <section id="secondary-content"  itemscope itemtype="http://schema.org/WPSidebar" role="sidebar">
@@ -9,11 +9,11 @@
       <footer id="page-footer" itemscope itemtype="http://schema.org/WPFooter">
         <hr />
         {% include partials/social.html %}
-        <small>Copyright &copy; 2009 - {{ site.time | date: '%Y' }} {{ site.author.name }}</small><br/>
-        <small>Powered by <a href='//jekyllrb.com/' title='Jekyll &bull; Simple, blog-aware, static sites'>Jekyll</a> &amp; Hosted at <a href='//github.com' title='GitHub'>GitHub</a></small>
+        <small class='copyright'>{{ copyright }}</small> &nbsp; &nbsp; | &nbsp; &nbsp; 
+        <small class='site-meta'>Powered by <a href='//jekyllrb.com/' title='Jekyll &bull; Simple, blog-aware, static sites'>Jekyll</a> &amp; Hosted at <a href='//github.com' title='GitHub'>GitHub</a></small>
       </footer><!-- #page-footer -->
     </div><!-- #container -->
         
-    {% include foot-scripts.html %}
+    {% include partials/foot-scripts.html %}
   </body>
 </html>
