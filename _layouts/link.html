@@ -1,6 +1,6 @@
 {% include head.html %}
             
-          <article itemscope itemtype="http://schema.org/BlogPosting" class="post single format-image">
+          <article itemscope itemtype="http://schema.org/BlogPosting" class="post single format-link">
             <header>
               <h2 itemProp="headline">{{ page.title }}</h2>
               <time itemprop="datePublished" content="{{ page.date | date: '%F' }}" datetime='{{ page.date }}'>{{ page.date | date: "%d %b %Y" }}</time>
@@ -9,8 +9,7 @@
             </header>
             
             <section class="post-content" itemProp="articleBody">
-              {% if post.image %}<img src='{{ post.image }}' title='{{ post.title }}' alt='{{ post.title }}' class='aligncentre' />{% endif %}
-              {% if post.flickimg %}{% flickr_image post.flickimg aligncentre m %}{% endif %}
+              {% if post.link %}<a href='{{ post.link }}' title='{{ post.title }}' class='link' />{{ post.title }}</a>{% endif %}
               {{ content }}
             </section><!-- .post-content -->
             
