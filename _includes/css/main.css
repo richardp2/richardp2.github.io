@@ -77,7 +77,11 @@ td {padding: 10px;background: #ccc;}
 #secondary-content,
 #page-footer {width: 100%;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;
     box-sizing: border-box;}
+<<<<<<< HEAD
 #content{max-width:60em;margin:0 auto;}
+=======
+#content{max-width:1140px;}
+>>>>>>> f9367081d46ac35f6bed5df2173bc189adf58067
 #main-content article, #secondary-content aside {padding: 0.5em 1em;}
 
 
@@ -122,7 +126,10 @@ td {padding: 10px;background: #ccc;}
 #page-footer .social {padding:10px 0;}
 #page-footer .social a {filter:alpha(opacity=30);opacity: 0.3;}
 #page-footer .social a:hover {filter:alpha(opacity=100);opacity: 1;}
+<<<<<<< HEAD
 #page-footer .social .feed {color:#ff8728;}
+=======
+>>>>>>> f9367081d46ac35f6bed5df2173bc189adf58067
 
 
 
