@@ -6,7 +6,6 @@ layout: post
 slug: windows-8-consumer-preview
 title: Windows 8 Consumer Preview
 wordpress_id: 101
-image: start_screen.jpg
 flickimg: 12970188325
 categories:
 - Reviews
@@ -22,15 +21,10 @@ As you would expect with a new release of Windows, the installation process is o
 very simple.
 	
   1. Insert the CD into the drive and boot the computer
-	
-  2. Select your language, time & currency, and your keyboard layout
-	
+  2. Select your language, time & currency, and your keyboard layout	
   3. Click Install Now
-
   4. Enter your product code and agree to the Terms & Conditions
-
   5. Select install type (Upgrade or Custom/Clean install)
-
   6. Choose where to install
 
 Once Windows has completed the installation steps, you are then guided through the initial 
