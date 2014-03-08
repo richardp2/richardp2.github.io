@@ -2,105 +2,45 @@
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 30em) {
 
 
     
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 40em) {
 
-    #page-header hgroup {
-        height: 195px;
-    }
-    
-    #page-header .site-title {
-        padding-top: 55px;
-    }
+    .slicknav_menu {display: none;}
 
-    #main-content {
-        width: 65%;
-    }
+    #page-header hgroup {height: 195px;}
+    #page-header .site-title {padding-top: 55px;}
+
+    #main-content {float:left;width:64%;}
      
-    #secondary-content {
-        width: 30%;
-    }
+    #secondary-content {float:right;width:34%;}
 
-    .title {
-        float: left;
-    }
-
-    .slicknav_menu {
-        display: none;
-    }
-
-    #primary-navigation { 
-        clear:both; 
-        display:block; 
-        float:left;
-        margin: 5px auto;
-        text-align: center;
-        width:100%; 
-    }
-    #primary-navigation a { 
-        display:inline-block; 
-        padding: 0 5px; 
-        width:85px; 
-    }
-    #primary-navigation li { 
-        display:inline; 
-        position:relative; 
-        padding:0;
-    }
-    #primary-navigation ul.main-menu { 
-        display:block;
-        list-style:none; 
-        margin:0; 
-        padding-left:0; 
-    }
-    #primary-navigation ul ul { 
-        display:none; 
-        float:left; 
-        margin:0; 
-        position:absolute; 
-        top:95%; 
-        left:-35%;
-        width:100%;
-        z-index:99999;
-    }
-    #primary-navigation ul ul ul { 
-        left: 100%; 
-        top: -6px; 
-    }
-    #primary-navigation ul ul a { 
-        background-color: white;
-        width: 105px;
-    }
+    #primary-navigation {clear:both;display:block;margin:0.3125em auto;text-align: center;width:100%;}
+    #primary-navigation a {display:inline-block;padding:0 0.3125em;width:5.3em;}
+    #primary-navigation li {display:inline;position:relative;padding:0;}
+    #primary-navigation ul.main-menu {display:block;list-style:none;margin:0;padding-left:0;}
+    #primary-navigation ul ul {display:none;float:left;margin:0;position:absolute;top:95%;left:-35%;
+        width:100%;z-index:99999;}
+    #primary-navigation ul ul ul {left: 100%;top: -6px;}
+    #primary-navigation ul ul a {background-color: white;width: 105px;}
     #primary-navigation ul li:hover > ul,
     #primary-navigation hr,
-    #primary-navigation hr::after { 
-        display:block; 
-    }
+    #primary-navigation hr::after {display:block;}
 
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 50em) {
     
-    #main-content {
-        width: 72.5%;
-    }
+    #main-content {width: 74%;}
      
-    #secondary-content {
-        width: 22.5%;
-    }
+    #secondary-content {width:24%;}
 }
 
 @media only screen and (min-width: 1140px) {
-  
-    #container {
-        float: none;
-        margin: 0 auto;
-        width: 1140px;
-    }
+
 }
 
