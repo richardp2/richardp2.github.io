@@ -21,12 +21,12 @@
                 {{ post.content }}
             </section>
             
-            <footer>
+            <header>
               <h2 itemprop='headline'><a href='{{ post.url }}' itemprop='url'><i class='fa fa-picture-o'></i> {{ post.title }}</a></h2>
               <span class='meta'>
                 <i class='fa fa-clock-o'></i><time itemprop='datePublished' content='{{ post.date | date: '%F' }}' datetime='{{ post.date }}'> {{ post.date | date: "%d %b %Y" }}</time>
               </span>
-            </footer>
+            </header>
     {% when 'video' %}
             <header>     
               <h2 itemprop='headline'><a href='{{ post.url }}' itemprop='url'><i class='fa fa-film'></i> {{ post.title }}</a></h2>
