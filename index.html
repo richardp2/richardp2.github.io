@@ -8,10 +8,6 @@ comments: false
         {% for post in paginator.posts %}
           <article itemscope itemtype='http://schema.org/BlogPosting' class='post summary{% if post.layout != 'post' %} format-{{ post.layout }}{% endif %}'>
               {% include partials/summary.html %}
-            
-            <footer>
-              <a class='read-more' href='{{ post.url }}' itemprop='url'>read more <i class='fa fa-chevron-right'></i></a>
-            </footer>
           </article>
 
           <hr />
