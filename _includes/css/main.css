@@ -107,9 +107,10 @@ td {padding: 10px;background: #ccc;}
 #main-content .post footer a.read-more:hover{background-color:#21759b;color:white;}
 
 #main-content .post.summary.format-image img {-webkit-border-radius:4px;-moz-border-radius:4px;
-  border-radius:4px;max-width:500px;max-height:500px;}
+  border-radius:4px;display:block;max-width:500px;max-height:500px;}
 #main-content .post.summary.format-link header {background:#dedede;border:1px solid #aeaeae;
-  -webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
+  -webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;margin-bottom:0.7em;
+  text-align:center;}
 
 
 
