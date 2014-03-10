@@ -3,5 +3,5 @@
                 &nbsp; | &nbsp;
                 <i class='fa fa-user'></i> <span itemprop='author'><a href='/author/{{ post.author | downcase | replace: ' ', '-' }}/' title='{{ post.author }}'>{{ post.author }}</a></span> 
                 &nbsp; | &nbsp; 
-                <i class='fa fa-folder-open'></i> <span itemprop='keywords'>{% include partials/category_links.html %}</span>
+                <i class='fa fa-folder-open'></i> <span itemprop='keywords'>{{ post.categories | category_links }}</span>
               </span>

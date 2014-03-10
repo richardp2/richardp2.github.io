@@ -9,6 +9,7 @@ wordpress_id: 666
 flickimg: 
 categories:
 - Epic Quest
+permalink: /epic/my-epic-quest/
 series:
 - My Epic Quest
 ---
