@@ -55,9 +55,9 @@
             </header>
             
             <section class='post-summary' itemProp='articleBody'>
-                {% if post.image %}<img src='{{ site.thumbs }}/{{ post.slug }}/{{ post.image }}' title='{{ post.title }}' alt='{{ post.title }}' class='alignleft' />{% endif %}
+                {% if post.image %}<img src='{{ post.image }}' title='{{ post.title }}' alt='{{ post.title }}' class='alignleft' />{% endif %}
                 {% if post.flickimg %}{% flickr_image post.flickimg %}{% endif %}
-                {{ post.content | strip_html | truncatewords: 115 | markdownify }}
+                {{ post.content | strip_html | truncatewords: 110 }}
             </section>
             
             <footer>
