@@ -106,6 +106,9 @@ td {padding: 10px;background: #ccc;}
 #main-content .post footer a.read-more{color:black;font-weight:600;padding:6px;}
 #main-content .post footer a.read-more:hover{background-color:#21759b;color:white;}
 
+#main-content .post .oembed.video {margin: 0 auto;text-align:center;}
+
+#main-content .post.summary img {max-width:150px;}
 #main-content .post.summary.format-image img {-webkit-border-radius:4px;-moz-border-radius:4px;
   border-radius:4px;display:block;max-width:500px;max-height:500px;}
 #main-content .post.summary.format-link header {background:#dedede;border:1px solid #aeaeae;

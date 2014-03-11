@@ -72,14 +72,14 @@ module Jekyll
         if @class == 'summary' and photos.length > 6
             photos.first(6).each do |photo|
             output += "<li>\n"
-            output += "<a title='#{photo['title']}' href=\"#{photo['urlOpened']}\"><img src='#{photo['urlThumb']}' alt='#{photo['title']}' /></a>\n"
+            output += "<a title=\"#{photo['title']}\" href=\"#{photo['urlOpened']}\"><img src='#{photo['urlThumb']}' alt=\"#{photo['title']}\" /></a>\n"
             output += "<a title='View on Flickr' href='#{photo['urlPhoto']}' class='flickrlink'> </a>\n"
             output += "</li>\n"
           end
         else
           photos.each do |photo|
             output += "<li>\n"
-            output += "<a title='#{photo['title']}' href=\"#{photo['urlOpened']}\"><img src='#{photo['urlThumb']}' alt='#{photo['title']}' /></a>\n"
+            output += "<a title=\"#{photo['title']}\" href=\"#{photo['urlOpened']}\"><img src='#{photo['urlThumb']}' alt=\"#{photo['title']}\" /></a>\n"
             output += "<a title='View on Flickr' href='#{photo['urlPhoto']}' class='flickrlink'> </a>\n"
             output += "</li>\n"
           end
@@ -221,8 +221,8 @@ module Jekyll
       full          = "http://farm#{farm}.static.flickr.com/#{server}/#{id}_#{secret}_b.jpg"
       page_url      = info['urls'][0]["_content"]
    
-      img_tag       = "<img src='#{src}' alt='#{title}' />"
-      link_tag      = "<ul class='flickr image #{classes}'><li><a title='#{title}' href='#{full}'>#{img_tag}</a><a title='View on Flickr' href='#{page_url}' class='flickrlink'> </a></li></ul>"
+      img_tag       = "<img src='#{src}' alt=\"#{title}\" />"
+      link_tag      = "<ul class='flickr image #{classes}'><li><a title=\"#{title}\" href='#{full}'>#{img_tag}</a><a title='View on Flickr' href='#{page_url}' class='flickrlink'> </a></li></ul>"
    
     end
   end

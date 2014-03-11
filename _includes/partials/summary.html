@@ -1,4 +1,6 @@
 {% capture read_more %}<a class='read-more' href='{{ post.url }}' itemprop='url'>read more <i class='fa fa-chevron-right'></i></a>{% endcapture %}
+{% capture thumb %}{% if post.image %}<img src='{{ post.image }}' title='{{ post.title }}' alt='{{ post.title }}' class='alignleft' />{% endif %}{% if post.flickimg %}{% flickr_image post.flickimg %}{% endif %}{% endcapture %}
+                
 {% case post.layout %}
     {% when 'gallery' %} 
             <header>             
@@ -17,29 +19,24 @@
     {% when 'image' %}
             <header>
               {% if post.image %}<img src='{{ post.image }}' title='{{ post.title }}' alt='{{ post.title }}' class='aligncentre' />{% endif %}
-                {% if post.flickimg %}{% flickr_image post.flickimg aligncentre m %}{% endif %}
+                {% if post.flickimg %}{% flickr_image post.flickimg aligncentre d %}{% endif %}
               <h2 itemprop='headline'><a href='{{ post.url }}' itemprop='url'><i class='fa fa-picture-o'></i> {{ post.title }}</a></h2>
-              <span class='meta'>
-                <i class='fa fa-clock-o'></i><time itemprop='datePublished' content='{{ post.date | date: '%F' }}' datetime='{{ post.date }}'> {{ post.date | date: "%d %b %Y" }}</time>
-              </span>
+              {% include partials/meta.html %}
             </header>
 
             <section class='post-summary' itemProp='articleBody'>
               {{ post.content }}
             </section>            
     {% when 'video' %}
-            <header>     
+            <header>
+              {% oembed https://www.youtube.com/watch?v={{post.video}}&rel=0 width=560 height=315 %}
               <h2 itemprop='headline'><a href='{{ post.url }}' itemprop='url'><i class='fa fa-film'></i> {{ post.title }}</a></h2>
               {% include partials/meta.html %}
             </header>
             
             <section class='post-summary' itemProp='articleBody'>
-                {% oembed https://www.youtube.com/watch?v={{post.video}}&rel=0 width=640 height=360 %}
+              {{ post.content }}
             </section>
-            
-            <footer>
-              {{ read_more }}
-            </footer>
     {% when 'link' %}
             <header>     
               <h2><a href='{{ post.link }}' itemprop='url'><i class='fa fa-link'></i> {{ post.title }}</a></h2>
@@ -55,9 +52,8 @@
             </header>
             
             <section class='post-summary' itemProp='articleBody'>
-                {% if post.image %}<img src='{{ post.image }}' title='{{ post.title }}' alt='{{ post.title }}' class='alignleft' />{% endif %}
-                {% if post.flickimg %}{% flickr_image post.flickimg %}{% endif %}
-                {{ post.content | markdownify | strip_html | truncatewords: 110 }}
+              {{ thumb }}
+              {{ post.content | markdownify | strip_html | truncatewords: 100 }}
             </section>
             
             <footer>

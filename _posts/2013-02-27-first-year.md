@@ -11,8 +11,28 @@ categories:
 - George
 ---
 
-{% flickr_image 13062944643 %}George is now a year old so I thought it might be time for a bit of reflection on how the first year has gone :-). For Rosie & I it has been a bit of a rollercoaster ride, but I think we've been very lucky. George has generally been good as gold since the day he was born. Don't get me wrong, he cries, screams and tests the boundaries just like any other kid, but I think we may have had things a little easier than most.  Most of the time he seems to be contented and happy, but he is definitely learning the art of crying for attention! We'll have to keep that one in check I think. George also seems to be developing physically very fast. Granted he is short (but who does that surprise with Rosie & I for parents!!) but he went from being a generally stationary baby to walking in no time at all! It's brilliant to see the progression and I am really enjoying the fact he is so mobile most of the time, although sometimes it would be nice if he would stay put for longer than 1 second! Here is a list of the milestones he has reached in his first 12 months.
-
+<ul class="flickr image alignleft">
+  <li>
+    <a title="George's first birthday" href="http://farm3.static.flickr.com/2784/13062944643_8afbc3fa95_b.jpg">
+      <img src="http://farm3.static.flickr.com/2784/13062944643_8afbc3fa95_q.jpg" alt="George's first birthday">
+    </a>
+    <a title="View on Flickr" href="http://www.flickr.com/photos/richard-perry/13062944643/" class="flickrlink"> </a>
+  </li>
+</ul>
+George is now a year old so I thought it might be
+time for a bit of reflection on how the first year has gone :-). For Rosie & I
+it has been a bit of a rollercoaster ride, but I think we've been very lucky.
+George has generally been good as gold since the day he was born. Don't get me
+wrong, he cries, screams and tests the boundaries just like any other kid, but
+I think we may have had things a little easier than most.  Most of the time he
+seems to be contented and happy, but he is definitely learning the art of crying
+for attention! We'll have to keep that one in check I think. George also seems to
+be developing physically very fast. Granted he is short (but who does that
+surprise with Rosie & I for parents!!) but he went from being a generally
+stationary baby to walking in no time at all! It's brilliant to see the
+progression and I am really enjoying the fact he is so mobile most of the time,
+although sometimes it would be nice if he would stay put for longer than 1
+second! Here is a list of the milestones he has reached in his first 12 months.
 
 ### Milestones
 	
@@ -29,4 +49,9 @@ categories:
   * 29 September 2012 - First stood unaided
   * 23 December 2012 - First walked alone
 
-We are still really enjoying being parents, even with the occasional sleepless night, public temper tantrum etc. I am extremely glad I made the decision to move to my [new job]({% post_url 2011-11-25-a-new-start %}) because it has meant I have been able to spend a lot more time with George than I would have done otherwise. It's been a great year and I'm thoroughly looking forward to what this year will bring :-D.
+We are still really enjoying being parents, even with the occasional sleepless
+night, public temper tantrum etc. I am extremely glad I made the decision to move
+to my [new job]({% post_url 2011-11-25-a-new-start %}) because it has meant I
+have been able to spend a lot more time with George than I would have done
+otherwise. It's been a great year and I'm thoroughly looking forward to what this
+year will bring :-D.
