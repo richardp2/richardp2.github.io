@@ -174,30 +174,38 @@ module Jekyll
 
 
   # Jekyll hook - the generate method is called by jekyll, and generates all of the category pages.
-  class GenerateCategories < Generator
-    safe true
-    priority :low
+#  class GenerateCategories < Generator
+#    safe true
+#    priority :low
 
-    CATEGORY_DIR = 'categories'
+#    CATEGORY_DIR = 'categories'
 
-    def generate(site)
-      site.write_category_indexes
-    end
+  #  def generate(site)
+  #    site.write_category_indexes
+  #  end
 
     # Processes the given dir and removes leading and trailing slashes. Falls
     # back on the default if no dir is provided.
-    def self.category_dir(base_dir, category)
-      base_dir = (base_dir || CATEGORY_DIR).gsub(/^\/*(.*)\/*$/, '\1')
-      category = category.split
-      category = category[0].gsub(/_|\P{Word}/, '-').gsub(/-{2,}/, '-').downcase
-      File.join(base_dir, category)
-    end
+ #   def self.category_dir(base_dir, category)
+ #     base_dir = (base_dir || CATEGORY_DIR).gsub(/^\/*(.*)\/*$/, '\1')
+ #     category = category.split
+ #     category = category[0].gsub(/_|\P{Word}/, '-').gsub(/-{2,}/, '-').downcase
+ #     File.join(base_dir, category)
+ #   end
 
-  end
+ # end
 
 
   # Adds some extra filters used during the category creation process.
   module Filters
+    
+    
+    def category_dir(base_dir, category)
+      base_dir = base_dir.gsub(/^\/*(.*)\/*$/, '\1')
+      category = category.split
+      category = category[0].gsub(/_|\P{Word}/, '-').gsub(/-{2,}/, '-').downcase
+      File.join(base_dir, category)
+    end
 
     # Outputs a list of categories as comma-separated <a> links. This is used
     # to output the category list for each post on a category page.
@@ -210,7 +218,7 @@ module Jekyll
       @categorydir = ''
       categories = categories.map do |category|
         base_dir = File.join(base_dir, @categorydir) unless @categorydir == ''
-        @categorydir = GenerateCategories.category_dir(base_dir, category)
+        @categorydir = self.category_dir(base_dir, category)
         # Make sure the category directory begins with a slash.
         @categorydir = "/#{@categorydir}" unless @categorydir =~ /^\//
           "<a class='category' href='#{@categorydir}/'>#{category.titlecase}</a>"
