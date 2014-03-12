@@ -22,7 +22,6 @@ paginate_path: "page/:num"
 author:
   name: Richard Perry
   email: richard@perrymail.me.uk
-  emailo: r&#105;char%64&#64;p%65%&#55;2r&#37;&#55;9mai&#108;&#46;&#109;e&#46;u&#107;
   flickr: richard-perry
   github: richardp2
   twitter: richard_p2
@@ -34,7 +33,6 @@ images: /assets/images
 thumbs: /assets/images/thumbs
 
 category_dir: /
-
 
 flickr:
   enabled:         yes
@@ -48,52 +46,82 @@ flickr:
 prose:
   rooturl: '_posts'
   siteurl: 'http://richardp2.github.io/'
-  media: 'images'
+  media: 'assets/images'
   metadata:
     _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-      - name: "author"
-        field:
-          element: "text"
-          label: "Author"
-          value: ""
-          placeholder: "Richard Perry"
-      - name: "category"
+      - name: "blog"
         field:
           element: "select"
-          label: "Category"
-          placeholder: "Choose Category"
+          label: "Blog"
           options:
-            - name: "General"
-              value: "general"
-            - name: "Photography"
-              value: "photography"
-            - name: "George"
-              value: "george"
-            - name: "Languages"
-              value: "languages"
-            - name: "Reviews"
-              value: "reviews"
+            - name: "Richard Perry"
+              value: "richard"
+            - name: "Rosie & Jim's Travel Blog"
+              value: "travel"
+            - name: "Rosie & Jim's Photo Gallery"
+              value: "photo"
       - name: "comments"
         field:
           element: checkbox
           label: "Comments"
           value: "true"
-      - name: "tags"
+      - name: "date"
+        field:
+          element: hidden
+          value: "2014-01-01 14:15:44+00:00"
+      - name: "layout"
+        field:
+          element: "select"
+          label: "Layout"
+          options:
+            - name: "Post"
+              value: "post"
+            - name: "Image"
+              value: "image"
+            - name: "Gallery"
+              value: "gallery"
+            - name: "Link"
+              value: "link"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "category"
         field:
           element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          alterable: true
-    _posts/static:
+          label: "Category"
+          placeholder: "Choose Category"
+          options:
+            - name: "General"
+              value: "General"
+            - name: "Photography"
+              value: "Photography"
+            - name: "Instagram"
+              value: "Instagram"
+            - name: "George"
+              value: "George"
+            - name: "Languages"
+              value: "Languages"
+            - name: "Mandarin"
+              value: "Mandarin"
+            - name: "Reviews"
+              value: "Reviews"
+      - name: "flickimg"
+        field:
+          element: "text"
+          label: "Flickr Thumbnail"
+          value: ""
+      - name: "photoset"
+        field:
+          element: "text"
+          label: "Flickr Photoset"
+          value: ""
+      - name: "images"
+        field:
+          element: "number"
+          label: "Number of images in Flickr Photoset"
+    _pages:
       - name: "layout"
         field:
           element: "hidden"
