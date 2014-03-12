@@ -3,7 +3,6 @@
           <article itemscope itemtype="http://schema.org/BlogPosting" class="post single format-image">
             <header>
               <h2 itemProp="headline">{{ page.title }}</h2>
-              <time itemprop="datePublished" content="{{ page.date | date: '%F' }}" datetime='{{ page.date }}'>{{ page.date | date: "%d %b %Y" }}</time>
               {% assign post = page %}
               {% include partials/meta.html %}
             </header>

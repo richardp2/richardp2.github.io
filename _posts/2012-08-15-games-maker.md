@@ -1,14 +1,13 @@
 ---
-author: Richard Perry
+blog: richard
 comments: true
 date: 2012-08-15 21:34:59+00:00
 layout: post
-slug: games-maker
 title: Life as a Games Maker
 wordpress_id: 188
-flickimg: 12971655604
 categories:
 - General
+flickimg: 12971655604
 ---
 
 Over the last two weeks or so, you may have been aware of a small sporting event taking place mainly

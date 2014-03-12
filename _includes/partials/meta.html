@@ -1,7 +1,8 @@
+{% if post.author %}{% assign author = post.author %}{% else %}{% assign author = site.author.name %}{% endif %}
               <span class='meta'>
                 <i class='fa fa-clock-o'></i><time itemprop='datePublished' content='{{ post.date | date: '%F' }}' datetime='{{ post.date }}'> {{ post.date | date: "%d %b %Y" }}</time>
                 &nbsp; | &nbsp;
-                <i class='fa fa-user'></i> <span itemprop='author'><a href='/author/{{ post.author | downcase | replace: ' ', '-' }}/' title='{{ post.author }}'>{{ post.author }}</a></span> 
+                <i class='fa fa-user'></i> <span itemprop='author'><a href='/author/{{ author | downcase | replace: ' ', '-' }}/' title='{{ author }}'>{{ author }}</a></span> 
                 &nbsp; | &nbsp; 
                 <i class='fa fa-folder-open'></i> <span itemprop='keywords'>{{ post.categories | category_links }}</span>
               </span>
