@@ -235,6 +235,6 @@ td {padding: 10px;background: #ccc;}
 }
 
 .alignleft {float: left;margin: 2px 5px 4px -5px;}
-.aligncentre {margin: 0 auto;text-align:center;}
+.aligncentre {margin-left:auto;margin-right:auto;text-align:center;}
 .alignright {float: right;margin: 2px -5px 4px 5px;}
 
