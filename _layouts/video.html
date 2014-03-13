@@ -3,7 +3,7 @@
           <article itemscope itemtype="http://schema.org/BlogPosting" class="post single format-video">
             <header>
               <h2 itemProp="headline">{{ page.title }}</h2>
-              {% include partials/meta.html %}
+              {% assign post = page %}{% include partials/meta.html %}
             </header>
             
             <section class="post-content" itemProp="articleBody">
