@@ -7,9 +7,11 @@ title: George's Second Year
 wordpress_id: 1164
 categories:
 - George
+flickimg: 13122752375
 ---
 
-[![George & Rosie's Birthday][1]{: .alignleft}][img]George is now another year older so how has the second year gone?
+{% flickr_image 13122752375 %}
+George is now another year older so how has the second year gone?
 Well, it’s been very different to the first year! Having recovered from his illness over the new year, George got back
 on his feet and hasn’t really stopped since. Rosie has had to open the eyes in the back of her head to try to keep up
 with him. Unfortunately, just before his first birthday, we discovered George has nut allergy so that has been
@@ -41,7 +43,3 @@ Here is a list of the key events in his second year.
 
 Now, we’re looking forward to another great year discovering who our little man is.
 
-
-[img]: {{ site.images }}/{{ page.slug }}/George-Rosies-Birthday-2014-9194.jpg
-
-[1]: {{ site.thumbs }}/{{ page.slug }}/George-Rosies-Birthday-2014-9194.jpg

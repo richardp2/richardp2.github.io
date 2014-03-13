@@ -2,25 +2,13 @@
    Flickr Gallery Styles
    ========================================================================== */
 
-.flickr {list-style:none;margin:0;padding:0;}
+.flickr {list-style:none;margin:0 auto;padding:0;text-align:center;}
 .flickr li {display:inline-block;position:relative;}
 .flickr a:hover {border:none;}
-.flickr.summary li img {margin:0;margin-right:-3px;padding:0;}
-.flickr li .flickrlink {
-  display:none;
-  width:32px;
-  height:16px;
-  background:transparent url(/assets/images/flickr.png) no-repeat left top;
-  position:absolute;
-  right:5px;
-  bottom:8px;
-  opacity:.5;
-  -webkit-transition:opacity 0.2s ease-in-out;
-  -moz-transition:opacity 0.2s ease-in-out;
-  -o-transition:opacity 0.2s ease-in-out;
-  -ms-transition:opacity 0.2s ease-in-out;
-  transition:opacity 0.2s ease-in-out
-}
+.flickr li .flickrlink {display:none;width:32px;height:16px;background:transparent url(/assets/images/flickr.png) no-repeat left top;
+  position:absolute;right:5px;bottom:8px;opacity:.5;-webkit-transition:opacity 0.2s ease-in-out;
+  -moz-transition:opacity 0.2s ease-in-out;-o-transition:opacity 0.2s ease-in-out;-ms-transition:opacity 0.2s ease-in-out;
+  transition:opacity 0.2s ease-in-out;}
 .flickr li .flickrlink:hover{opacity:1}
 .flickr li:hover .flickrlink{display:block}
     
