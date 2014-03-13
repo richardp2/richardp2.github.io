@@ -75,7 +75,7 @@ td {padding: 10px;background: #ccc;}
 #content,
 #main-content,
 #secondary-content,
-#page-footer {width: 100%;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;
+#page-footer {width: 100%;-moz-box-sizing:border-box;-webkit-box-sizing: border-box;
     box-sizing: border-box;}
 #content{max-width:70em;margin:0 auto;}
 #main-content article, #secondary-content aside {padding: 0.5em 1em;}
@@ -122,6 +122,11 @@ td {padding: 10px;background: #ccc;}
 #main-content .pagination a:hover{background-color:#21759b;color:white;}
 #main-content .pagination .next{position:absolute;left:0;}
 #main-content .pagination .prev{position:absolute;right:0;}
+
+
+
+#secondary-content aside {text-align:center;}
+#secondary-content aside h3 a {color:#111111;}
 
 
 

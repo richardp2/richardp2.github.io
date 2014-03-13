@@ -15,9 +15,11 @@
     #page-header hgroup {height: 195px;}
     #page-header .site-title {padding-top: 55px;}
 
-    #main-content {float:left;width:64%;}
+    #main-content {float:left;margin-right:-12.5em;}
+    #main-content article,
+    #main-content hr {margin-right:12.5em;}
      
-    #secondary-content {float:right;width:34%;}
+    #secondary-content {float:right;width:12.5em;}
 
     #primary-navigation {clear:both;display:block;margin:0.3125em auto;text-align: center;width:100%;}
     #primary-navigation a {display:inline-block;padding:0 0.3125em;width:5.3em;}
@@ -35,12 +37,19 @@
 
 @media only screen and (min-width: 50em) {
     
-    #main-content {width: 74%;}
+    #main-content {margin-right:-15em;}
+    #main-content article,
+    #main-content hr {margin-right:15em;}
      
-    #secondary-content {width:24%;}
+    #secondary-content {width:15em;}
 }
 
-@media only screen and (min-width: 1140px) {
-
+@media only screen and (min-width: 60em) {
+    
+    #main-content {margin-right:-17.5em;}
+    #main-content article,
+    #main-content hr {margin-right:17.5em;}
+     
+    #secondary-content {width:17.5em;}
 }
 
