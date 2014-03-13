@@ -1,0 +1,8 @@
+<div class='social'>{% for social in site.data.social %}{% assign author = site.data.authors[page.author] %}
+  {% if author[social.name] %}<span class="fa-stack fa-lg">
+    <a href='{{social.link}}{{author[social.name]}}' title='{{social.title}}'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa {{social.fa-icon}} fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>{% endif %}{% endfor %}
+</div>

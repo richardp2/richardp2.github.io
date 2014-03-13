@@ -1,15 +1,13 @@
 ---
-author: Richard Perry
+blog: richard
 comments: true
 date: 2011-11-25 18:00:16+00:00
 layout: post
-slug: a-new-start
 title: A New Start
 wordpress_id: 33
-ismage: IMG_6529.jpg
-flickimg: 12968076123
 categories:
 - General
+flickimg: 12968076123
 ---
 
 Today marks the end of a rather significant chapter in my life, and the start of a brand new one. 

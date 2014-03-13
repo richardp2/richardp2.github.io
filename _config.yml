@@ -1,5 +1,8 @@
 name: Richard Perry
 description: Just another blog about nothing
+author: richard
+url: http://richard.perry-online.me.uk
+email: richard@perry-online.me.uk
 
 markdown: kramdown
 pygments: true
@@ -18,16 +21,6 @@ relative_permalinks: false
 
 paginate: 10
 paginate_path: "page/:num"
-
-author:
-  name: Richard Perry
-  email: richard@perrymail.me.uk
-  flickr: richard-perry
-  github: richardp2
-  twitter: richard_p2
-  facebook: richardpperry
-  linkedin: richard-perry-mrics
-  instagram: perryri
   
 images: /assets/images
 thumbs: /assets/images/thumbs

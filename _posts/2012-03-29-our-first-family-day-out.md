@@ -1,14 +1,13 @@
 ---
-author: Richard Perry
+blog: richard
 comments: true
 date: 2012-03-29 20:08:02+00:00
 layout: post
-slug: our-first-family-day-out
 title: Our First Family Day Out
 wordpress_id: 120
-flickimg: 12970367155
 categories:
 - George
+flickimg: 12970367155
 ---
 
 {% flickr_image 12970501673 alignright %}Over the weekend we decided it was about time we

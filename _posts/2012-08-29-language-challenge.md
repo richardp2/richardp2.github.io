@@ -1,9 +1,8 @@
 ---
-author: Richard Perry
+blog: richard
 comments: true
 date: 2012-08-29 19:42:55+00:00
 layout: post
-slug: language-challenge
 title: My Language Challenge
 wordpress_id: 69
 image: http://www.teasetc.com/blog/beth/uploaded_images/P1000497-757313.JPG

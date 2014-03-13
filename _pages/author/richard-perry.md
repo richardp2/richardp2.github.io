@@ -1,5 +1,5 @@
 ---
-author: Richard Perry
+author: richard
 comments: false
 layout: page
 title: "Author: Richard Perry"
@@ -13,7 +13,7 @@ photography, technology, science, languages & the outdoors :-). If you're really
 interested, you can find out more about me [here](/about/). You can find me via these
 links:
 
-{% include partials/rich-social.html %}
+{% include partials/full-social.html %}
 
 
 And here is a list of all my posts:

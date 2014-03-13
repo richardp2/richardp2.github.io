@@ -1,14 +1,13 @@
 ---
-author: Richard Perry
+blog: richard
 comments: true
 date: 2012-03-12 18:47:07+00:00
 layout: post
-slug: windows-8-consumer-preview
 title: Windows 8 Consumer Preview
 wordpress_id: 101
-flickimg: 12970188325
 categories:
 - Reviews
+flickimg: 12970188325
 ---
 
 At the end of last month Microsoft released their Consumer Preview for Windows 8 and, as 

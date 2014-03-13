@@ -1,15 +1,13 @@
 ---
-author: Richard Perry
+blog: richard
 comments: true
 date: 2012-02-12 10:44:24+00:00
 layout: post
-slug: a-new-addition
 title: A New Addition
 wordpress_id: 82
-limage: 20120208_172839.jpg
-flickimg: 12970108443
 categories:
 - George
+flickimg: 12970108443
 ---
 
 The day we have been waiting for for the last 9 months finally arrived on Monday 

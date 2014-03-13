@@ -1,9 +1,8 @@
 ---
-author: Richard Perry
+blog: richard
 comments: true
 date: 2013-02-27 21:29:52+00:00
 layout: post
-slug: first-year
 title: George's First Year
 wordpress_id: 671
 flickimg: 13062944643

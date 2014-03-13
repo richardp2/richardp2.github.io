@@ -1,0 +1,40 @@
+- 
+  name: facebook
+  link: "//www.facebook.com/"
+  title: "Facebook"
+  fa-icon: fa-facebook
+- 
+  name: twitter
+  link: "//twitter.com/"
+  title: "Twitter"
+  fa-icon: fa-twitter
+- 
+  name: linkedin
+  link: "//uk.linkedin.com/in/"
+  title: "LinkedIn"
+  fa-icon: fa-linkedin
+- 
+  name: flickr
+  link: "//flickr.com/photos/"
+  title: "Flickr"
+  fa-icon: fa-flickr
+- 
+  name: instagram
+  link: "//instagram.com/"
+  title: "Instagram"
+  fa-icon: fa-instagram
+- 
+  name: github
+  link: "//github.com/"
+  title: "GitHub"
+  fa-icon: fa-github-alt
+- 
+  name: web
+  link: ""
+  title: "Website"
+  fa-icon: fa-link
+- 
+  name: email
+  link: "mai&#108;to&#58;"
+  title: "Email Me"
+  fa-icon: fa-envelope

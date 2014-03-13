@@ -1,9 +1,8 @@
 ---
-author: Richard Perry
+blog: richard
 comments: true
 date: 2012-06-02 22:47:03+00:00
 layout: post
-slug: george-goes-swimming
 title: George Goes Swimming
 wordpress_id: 148
 flickimg: 12971442384

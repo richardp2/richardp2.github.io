@@ -1,9 +1,8 @@
 ---
-author: Richard Perry
+blog: richard
 comments: true
 date: 2012-04-01 11:55:38+00:00
 layout: post
-slug: georges-first-hike
 title: George's First Hike
 wordpress_id: 137
 flickimg: 12970614735
