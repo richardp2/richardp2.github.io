@@ -3,6 +3,7 @@ title: Main Stylesheet file
 ---
 {% include css/vendor/normalize.min.css %}
 {% include css/vendor/h5bp.css %}
+{% include css/vendor/colorbox.css %}
 {% include css/main.css %}
 {% include css/gallery.css %}
 {% include css/vendor/slicknav.css %}

@@ -45,7 +45,7 @@ task :commit do
 end
   
 desc "Push source file commits up to origin"
-task :push => [:commit] do
+task :push do
   puts "## Pushing commits to origin"
   status = system "git push origin source"
   puts status ? "Succeeded" : "Failed"
@@ -79,6 +79,12 @@ task :publish => [:generate] do
     Dir.chdir pwd
   end
 end
+  
+  desc "Deploy the source and master to GitHub"
+  task :deploy => [:commit, :push, :publish] do
+    puts "\nSite Published and Deployed to GitHub"
+    puts "\nHave a nice day :-)"
+  end
 
 
 
