@@ -4,29 +4,45 @@
 - url: http://travel.perry-online.me.uk/
   title: Travel
   sub:
-  - url: http://travel.perry-online.me.uk/china09/
+  - url: trips/cornwall12/
+    title: Cornwall 2012
+  - url: trips/vietnam11/
+    title: Vietnam 2011
+  - url: trips/iceland10-11/
+    title: Iceland 2010-11
+  - url: trips/cornwall12/
+    title: Cornwall 2012
+  - url: trips/honeymoon/
+    title: Morocco 2010
+  - url: trips/china09/
     title: China 2009
-  - url: http://travel.perry-online.me.uk/archives/
+  - url: trips/threenations09/
+    title: Three Nations 2009
+  - url: trips/switzerland08/
+    title: Switzerland 2008
+  - url: trips/serbia06/
+    title: Serbia 2006
+  - url: archives/
     title: Travel Archives
     
-- url: /
+- url: http://richard.perry-online.me.uk/
   title: Richard
   sub:
-  - url: /about/
+  - url: about/
     title: About Me
-  - url: /epic/
+  - url: epic/
     title: Epic Quest
-  - url: /general/
+  - url: general/
     title: General
-  - url: /george/
+  - url: george/
     title: George
-  - url: /languages/
+  - url: languages/
     title: Languages
-  - url: /photography/
+  - url: photography/
     title: Photography
-  - url: /reviews/
+  - url: reviews/
     title: Reviews
-  - url: /archives/
+  - url: archives/
     title: Blog Archives
     
 - url: http://photos.perry-online.me.uk/
