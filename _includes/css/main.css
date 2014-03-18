@@ -20,10 +20,10 @@ a small {font-size: 12px;}
 em {font-style: italic;}
 strong {font-weight:600;}
 
-ul {list-style: inside;padding-left: 25px;}
-ol {list-style: decimal inside;padding-left: 20px;}
+ul {list-style: disc;padding-left: 40px;}
+ol {list-style: decimal;padding-left: 40px;}
 
-blockquote {background-color:#cddde4;border-left:4px solid #21759b;margin-left:20px;padding:15px;
+blockquote {background-color:#cddde4;border-left:4px solid #21759b;margin-left:25px;padding:15px;
     font-style: italic;}
 
 dl, dt, dd, dl p {font-color: #444;}
@@ -99,14 +99,19 @@ td {padding: 10px;background: #ccc;}
 #main-content .post header {padding-bottom:10px;}
 #main-content .post header h2 {margin-bottom:0;padding-bottom:0;}
 #main-content .post header h2 a {color:#101010;}
-#main-content .post .meta {padding-bottom:5px;}
-#main-content .post .meta span,
-#main-content .post .meta time {font-size:smaller;}
+#main-content .post article a {border-bottom:1px solid #cecece;}
 #main-content .post footer{text-align:right;}
 #main-content .post footer a.read-more{color:black;font-weight:600;padding:6px;}
 #main-content .post footer a.read-more:hover{background-color:#21759b;color:white;}
 
+
+#main-content .post .meta {padding-bottom:5px;}
+#main-content .post .meta span,
+#main-content .post .meta time {font-size:smaller;}
+#main-content .post .footnotes {font-size:0.8em;}
+
 #main-content .post .oembed.video {margin: 0 auto;text-align:center;}
+
 
 #main-content .post.summary img {max-width:150px;}
 #main-content .post.summary.format-image img {-webkit-border-radius:4px;-moz-border-radius:4px;

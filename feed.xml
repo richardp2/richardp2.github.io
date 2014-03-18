@@ -2,33 +2,27 @@
 layout: none
 ---
 <?xml version="1.0" encoding="utf-8"?>{% assign author = site.data.authors[site.author] %}
-<feed xmlns="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
-  <title>{{ site.name }} | Atom Feed</title>
-  <subtitle>{{ site.description }}</subtitle>
-  <link type="application/atom+xml" href="{{ site.url }}/feed.xml" rel="self"/>
-  <link type="text/html" href="{{ site.url }}" rel="alternate" />
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{ site.url }}/</id>
-  <author>
-    <name>{{ author.name | strip_html }}</name>
-    {% if site.email %}<email>{{ site.email }}</email>{% endif %}
-  </author>
-  <rights>Copyright (c) 2009-{{ site.time | date: '%Y' }} {{ author.name }}</rights>
-
-    {% for post in site.posts limit: 20 %}
-    {% if post.author %}{% assign author = site.data.authors[post.author] %}{% else %}{% assign author = site.data.authors[site.author] %}{% endif %}
-      <entry>
-        <title>{{ post.title }}</title>
-        <link href="{{ site.url }}/{{ post.url }}" />
-        <updated>{{ post.date | date_to_xmlschema }}</updated>
-        <author>
-          <name>{{author.name}}</name>
-          <email>{{author.email}}</email>
-        </author>
-        <id>{{ site.url }}/{{ post.url }}</id>
-        <summary type="html"><![CDATA[{{ post.content | markdownify | strip_html | truncatewords: 125 }}]]></summary>
-      </entry>
-    {% endfor %}
-
-</feed>
+  <channel>
+    <title>{{ site.name }} | RSS Feed</title>
+    <link>{{ site.url }}/feed/</link>
+    <atom:link href="{{ site.url }}/feed/" rel="self" type="application/rss+xml" />
+    <description>{{ site.description }}</description>
+    <copyright>Copyright (c) 2009-{{ site.time | date: '%Y' }} {{ author.name }}</copyright>
+    <language>en-gb</language>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+      {% for post in site.posts limit: 15 %}
+      {% if post.author %}{% assign author = site.data.authors[post.author] %}{% else %}{% assign author = site.data.authors[site.author] %}{% endif %}
+        <item>
+          <title>{{ post.title }}</title>
+          <link>{{ site.url }}{{ post.url }}</link>
+          <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+          <author>{{author.email}} ({{author.name}})</author>
+          <guid>{{ site.url }}{{ post.url }}</guid>
+          <description>{{ post.content | xml_escape }}</description>
+        </item>
+      {% endfor %}
+  </channel>
+</rss>
