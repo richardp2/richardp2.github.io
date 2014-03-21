@@ -112,14 +112,12 @@ td {padding: 10px;background: #ccc;}
 
 #main-content .post .oembed.video {margin: 0 auto;text-align:center;}
 
-
 #main-content .post.summary img {max-width:150px;}
 #main-content .post.summary.format-image img {-webkit-border-radius:4px;-moz-border-radius:4px;
   border-radius:4px;display:block;max-width:500px;max-height:500px;}
 #main-content .post.summary.format-link header {background:#dedede;border:1px solid #aeaeae;
   -webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;margin-bottom:0.7em;
   text-align:center;}
-
 
 
 #main-content .pagination{padding:20px 0;position:relative;text-align:center;}
@@ -132,6 +130,7 @@ td {padding: 10px;background: #ccc;}
 
 #secondary-content aside {text-align:center;}
 #secondary-content aside h3 a {color:#111111;}
+#secondary-content aside.authors img {max-width:110px;}
 
 
 

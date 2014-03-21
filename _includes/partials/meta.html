@@ -1,4 +1,4 @@
-{% if post.author %}{% assign author = site.data.authors[post.author] %}{% else %}{% assign author = site.data.authors[site.author] %}{% endif %}
+{% capture author %}{% if post.author %}{{ site.data.authors[post.author] }}{% else %}{{ site.data.authors[site.author] }}{% endif %}{% endcapture %}
               <span class='meta'>
                 <i class='fa fa-clock-o'></i><time itemprop='datePublished' content='{{ post.date | date: '%F' }}' datetime='{{ post.date }}'> {{ post.date | date: "%d %b %Y" }}</time>
                 &nbsp; | &nbsp;
