@@ -13,7 +13,7 @@ h1 {font-size: 30px;}
 h2 {font-size: 24px;}
 h3 {font-size: 18px;}
 
-a {color:#21759b;text-decoration:none;}
+a {border-bottom:1px solid #cecece;color:#21759b;text-decoration:none;}
 a:hover {border-bottom: 1px solid red;}
 a small {font-size: 12px;}
 
