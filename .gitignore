@@ -1,6 +1,7 @@
 changes
-_site/
 Gemfile.lock
+_site/
+_drafts/
 
 # Windows image file caches
 Thumbs.db
