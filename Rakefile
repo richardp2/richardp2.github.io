@@ -6,6 +6,7 @@ require "jekyll"
 
 # Change your GitHub reponame
 GITHUB_REPONAME = "richardp2/richardp2.github.io"
+BITBUCKET_REPO = "richardp2/personal-website"
 
 
 desc "Build and preview the site"
@@ -40,25 +41,24 @@ end
   
   
 desc "Commit the source branch of the site"
-task :commit => [:build] do
+task :commit do
   puts "## Adding unstaged files"
-  status = system "git add -A > /dev/null"
-  puts status ? "Succeeded" : "Failed"
+  system "git add -A > /dev/null"
   puts "\n## Committing changes with commit message from file 'changes'"
-  status = system "git commit -aF changes"
-  puts status ? "Succeeded" : "Failed"
+  system "git commit -aF changes"
 end
   
 desc "Push source file commits up to origin"
 task :push do
+  puts "## Check there is nothing to pull from origin"
+  system "git pull"
   puts "## Pushing commits to origin"
-  status = system "git push origin source"
-  puts status ? "Succeeded" : "Failed"
+  system "git push origin source"
 end
   
 
 desc "Generate blog files"
-  task :generate => [:clean] do
+task :generate => [:clean] do
   Jekyll::Site.new(Jekyll.configuration({
     "source"      => ".",
     "destination" => "_site"
@@ -66,8 +66,10 @@ desc "Generate blog files"
 end
 
 
-desc "Generate and publish blog to master"
-task :publish => [:generate] do
+desc "Generate and deploy blog to master"
+task :deploy, [:message] => [:build, :commit, :push, :generate] do |t, args|
+  args.with_defaults(:message => "Site updated at #{Time.now.utc}")
+  
   Dir.mktmpdir do |tmp|
     cp_r "_site/.", tmp
     
@@ -76,19 +78,14 @@ task :publish => [:generate] do
     
     system "git init"
     system "git add ."
-    message = "Site updated at #{Time.now.utc}"
-    system "git commit -m #{message.inspect}"
+    system "git commit -m #{args[:message].inspect}"
     system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
+    system "git remote set-url --add origin git@bitbucket.org:#{BITBUCKET_REPO}.git"
     system "git push origin master --force"
     
     Dir.chdir pwd
   end
-end
   
-desc "Deploy the source and master to GitHub"
-task :deploy => [:commit, :push, :publish] do
   puts "\nSite Published and Deployed to GitHub"
   puts "\nHave a nice day :-)"
 end
-
-

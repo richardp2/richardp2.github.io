@@ -10,7 +10,9 @@ exclude:
 - 'changes'
 - 'Gemfile'
 - 'Gemfile.lock'
-- 'params.json'
+- 'Gruntfile.js'
+- 'node_modules'
+- 'package.json'
 - 'Rakefile'
 - 'README.md'
 
