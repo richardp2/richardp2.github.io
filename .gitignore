@@ -6,6 +6,8 @@ _drafts
 _drafts/
 node_modules
 node_modules/
+_cache
+_cache/
 
 # Windows image file caches
 Thumbs.db

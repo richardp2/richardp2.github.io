@@ -89,3 +89,28 @@ task :deploy, [:message] => [:build, :commit, :push, :generate] do |t, args|
   puts "\nSite Published and Deployed to GitHub"
   puts "\nHave a nice day :-)"
 end
+
+  
+  
+  
+desc "Publish draft posts and update the date field"  
+task :publish, [:file] do |t, args|
+  require "time"
+
+  if args[:file]
+    file = "_drafts/#{args[:file]}"
+    text = File.read(file)
+    time = Time.now.iso8601.gsub!('T', ' ')
+    text.gsub!(/^date.*$/, "date: #{time}")
+    today = Time.now.strftime("%Y-%m-%d")
+    post_name = file.split("/").last
+    dest = "_posts/#{today}-#{post_name}"
+    File.open(dest, 'w') {|f| f.write(text) }
+    puts "Published file #{post_name}"
+  else
+    puts "Incorrect usage of the :publish task"
+    puts "\n\tUsage:"
+    puts "\trake publish[draft-post.md]"
+    puts "\nPlease try again"
+  end
+end
