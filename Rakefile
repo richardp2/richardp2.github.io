@@ -9,7 +9,7 @@ GITHUB_REPONAME = "richardp2/richardp2.github.io"
 
 
 desc "Build and preview the site"
-task :preview => [:clean] do
+task :preview => [:build, :clean] do
   puts "## Building a preview of the site"
   pids = [
     spawn("jekyll serve -w")
@@ -25,17 +25,22 @@ task :preview => [:clean] do
     sleep 1
   end
 end
-  
+
+desc 'Concatenate & minify the css & js files for the site'
+task :build do
+  puts "## Concatenating & minifying/uglifying css & js files"
+  system "grunt"
+end
   
 desc 'Delete generated _site files'
 task :clean do
   puts "## Cleaning up build folder (if it exists)"
-  status = system "rm -rf _site"
+  system "rm -rf _site"
 end
   
   
 desc "Commit the source branch of the site"
-task :commit do
+task :commit => [:build] do
   puts "## Adding unstaged files"
   status = system "git add -A > /dev/null"
   puts status ? "Succeeded" : "Failed"
@@ -80,25 +85,10 @@ task :publish => [:generate] do
   end
 end
   
-  desc "Deploy the source and master to GitHub"
-  task :deploy => [:commit, :push, :publish] do
-    puts "\nSite Published and Deployed to GitHub"
-    puts "\nHave a nice day :-)"
-  end
-
-
-
-
-namespace :rsync do
-  desc "--dry-run rsync"
-  task :dryrun do
-      puts "\## Publishing Site (as a Dry Run)"
-      status = system('rsync ./_site/ -avhe ssh --exclude ".*" --dry-run --delete perryon1@sftp.perry-online.me.uk:~/public_html/bGbDmSuXlg2MKV5PrIpJ/jekyll')
-      puts status ? "Success" : "Failed"
-    end
-  desc "rsync"
-    task :live do
-      system('rsync ./_site/ -avhe ssh --exclude ".*" --delete perryon1@sftp.perry-online.me.uk:~/public_html/bGbDmSuXlg2MKV5PrIpJ/jekyll')
-      Rake::Task["clean"].invoke
-    end
+desc "Deploy the source and master to GitHub"
+task :deploy => [:commit, :push, :publish] do
+  puts "\nSite Published and Deployed to GitHub"
+  puts "\nHave a nice day :-)"
 end
+
+

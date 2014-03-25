@@ -13,7 +13,7 @@ h1 {font-size: 30px;}
 h2 {font-size: 24px;}
 h3 {font-size: 18px;}
 
-a {border-bottom:1px solid #cecece;color:#21759b;text-decoration:none;}
+a {color:#21759b;text-decoration:none;}
 a:hover {border-bottom: 1px solid red;}
 a small {font-size: 12px;}
 
@@ -99,8 +99,7 @@ td {padding: 10px;background: #ccc;}
 #main-content .post header {padding-bottom:10px;}
 #main-content .post header h2 {margin-bottom:0;padding-bottom:0;}
 #main-content .post header h2 a {color:#101010;}
-#main-content .post article a {border-bottom:1px solid #cecece;}
-#main-content .post footer{text-align:right;}
+#main-content .post footer {text-align:right;}
 #main-content .post footer a.read-more{color:black;font-weight:600;padding:6px;}
 #main-content .post footer a.read-more:hover{background-color:#21759b;color:white;}
 
@@ -108,6 +107,7 @@ td {padding: 10px;background: #ccc;}
 #main-content .post .meta {padding-bottom:5px;}
 #main-content .post .meta span,
 #main-content .post .meta time {font-size:smaller;}
+#main-content .post .post-content a {border-bottom:1px solid #cecece;}
 #main-content .post .footnotes {font-size:0.8em;}
 
 #main-content .post .oembed.video {margin: 0 auto;text-align:center;}
