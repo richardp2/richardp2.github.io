@@ -5,6 +5,8 @@ url: http://richard.perry-online.me.uk
 email: richard@perry-online.me.uk
 
 markdown: kramdown
+kramdown:
+  use_coderay: true
 pygments: true
 exclude: 
 - 'changes'

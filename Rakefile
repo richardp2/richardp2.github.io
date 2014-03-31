@@ -92,7 +92,8 @@ end
 
   
   
-  
+# The following task was adapted from one written by Shane Burkhart  
+# Source: http://www.shaneburkhart.me/2013/12/07/rake-task-to-publish-drafts-in-jekyll.html   
 desc "Publish draft posts and update the date field"  
 task :publish, [:file] do |t, args|
   require "time"
@@ -107,6 +108,8 @@ task :publish, [:file] do |t, args|
     dest = "_posts/#{today}-#{post_name}"
     File.open(dest, 'w') {|f| f.write(text) }
     puts "Published file #{post_name}"
+    File.delete(file)
+    puts "Deleted draft file #{post_name}"
   else
     puts "Incorrect usage of the :publish task"
     puts "\n\tUsage:"
