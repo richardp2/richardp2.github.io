@@ -46,6 +46,7 @@ hr::after {background-color: #f7f6f4;
 
 figure {border: 1px solid #aeaeae;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;
   margin:20px auto;max-width:350px;padding:10px;text-align:center;}
+figcaption {font-size:0.8em;}
 
 
 /* Images */
@@ -118,6 +119,14 @@ td {padding: 10px;background: #ccc;}
 #main-content .post.summary.format-link header {background:#dedede;border:1px solid #aeaeae;
   -webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;margin-bottom:0.7em;
   text-align:center;}
+
+#main-content .post .series_list {background-color:#cddde4;border-left:0.25em solid #21759b;
+  margin-left:1em;padding:0.625em;width:90%;}
+#main-content .post .series_list h4 {margin-top:0.3125em;}
+#main-content .post .series_list ol {margin-bottom:0.3125em;}
+#main-content .post .series_list img {display:block;max-width: 9em;}
+#main-content .post .series_list figure {border:0;margin:0;padding:0;}
+
 
 
 #main-content .pagination{padding:20px 0;position:relative;text-align:center;}
@@ -244,6 +253,6 @@ td {padding: 10px;background: #ccc;}
 }
 
 .alignleft {float: left;margin: 2px 5px 4px -5px;}
-.aligncentre {margin-left:auto;margin-right:auto;text-align:center;}
+.aligncentre {display:block;margin-left:auto;margin-right:auto;text-align:center;}
 .alignright {float: right;margin: 2px -5px 4px 5px;}
 

@@ -21,10 +21,22 @@ module Jekyll
     def render(context)
       site = context.registers[:site]
       page_data = context.environments.first["page"]
+      series = site.data['series']
       series_name = page_data['series']
+      series_image = ""
+            
       if !series_name
         puts "Unable to find series name for page: #{page.title}"
         return "<!-- Error with series tag -->"
+      end
+      
+      series.each do |s|
+        if s['name'] == series_name[0]
+          series_image = "<img src='#{s['image']}' title='#{series_name[0]}' alt='#{series_name[0]}'>\n" if s['image']
+          if s['copyright']
+            series_image = "<figure>\n#{series_image}\n<figcaption>#{s['copyright']}</figcaption>\n</figure>"
+          end
+        end
       end
 
       all_entries = []
@@ -36,19 +48,20 @@ module Jekyll
 
       all_entries.sort_by { |p| p.date.to_f }
 
-      text = "<div class='series_list'>"
-      list = "<ol>"
+      text = "<div class='series_list'>\n"
+      text += "#{series_image}"
+      list = "<ol>\n"
       all_entries.each_with_index do |post, idx|
         list += "<li>"
         if post.data['title'] == page_data['title']
           list += "#{post.data['title']}"
-          text += "<h4>#{post.data['series'][0]}</h4>"
+        text += "<h4>#{post.data['series'][0]}</h4>"
         else
           list += "<a href='#{post.url}'>#{post.data['title']}</a>"
         end
-        list += "</li>"
+        list += "</li>\n"
       end
-      text += list += "</ol></div>"
+      text += list += "</ol>\n</div>\n"
       
     end
   end

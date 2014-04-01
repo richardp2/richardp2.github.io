@@ -1,6 +1,7 @@
 changes
 Gemfile.lock
 _includes/css/grunt.css
+_includes/scripts/grunt.js
 _site
 _site/
 _drafts

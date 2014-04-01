@@ -40,6 +40,8 @@
     #main-content {margin-right:-15em;}
     #main-content article,
     #main-content hr {margin-right:15em;}
+
+    #main-content .post .series_list {float:right;width:15em;}
      
     #secondary-content {width:15em;}
 }
@@ -49,6 +51,8 @@
     #main-content {margin-right:-17.5em;}
     #main-content article,
     #main-content hr {margin-right:17.5em;}
+
+    #main-content .post .series_list {width:20em;}
      
     #secondary-content {width:17.5em;}
 }
