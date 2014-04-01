@@ -8,7 +8,7 @@
             </header>
             
             <section class="post-content" itemProp="articleBody">
-              {{ content }}
+              {% if page.series %}{% series_list %}{% endif %}{{ content }}
             </section><!-- .post-content -->
             
             <footer>              

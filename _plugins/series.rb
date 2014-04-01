@@ -36,19 +36,19 @@ module Jekyll
 
       all_entries.sort_by { |p| p.date.to_f }
 
-      text = "<div class='seriesNote'>"
-      list = "<ul>"
+      text = "<div class='series_list'>"
+      list = "<ol>"
       all_entries.each_with_index do |post, idx|
-        list += "<li><strong>Part #{idx+1}</strong> - "
+        list += "<li>"
         if post.data['title'] == page_data['title']
-          list += "This Article"
-          text += "<p>This article is <strong>Part #{idx+1}</strong> in a <strong>#{all_entries.size}-Part</strong> Series.</p>"
+          list += "#{post.data['title']}"
+          text += "<h4>#{post.data['series'][0]}</h4>"
         else
           list += "<a href='#{post.url}'>#{post.data['title']}</a>"
         end
         list += "</li>"
       end
-      text += list += "</ul></div>"
+      text += list += "</ol></div>"
       
     end
   end
