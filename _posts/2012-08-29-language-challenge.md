@@ -13,11 +13,6 @@ series:
 - Mandarin Language Challenge
 ---
 
-<figure class='alignleft'>
-  <img src="http://www.teasetc.com/blog/beth/uploaded_images/P1000497-757313.JPG" title="Mandarin Progress Month 4" alt="Mandarin Progress Month 4" class="alignleft" style="width: 150px;" /> 
-  <figcaption>Copyright &copy; 2006 <a href="http://blog.teasetc.com/" title="Teas Etc - Tea Blog">Teas Etc - Tea Blog</a></figcaption>
-</figure>
-
 Since early 2009 I have been learning Mandarin Chinese off and on. This may seem an odd language to choose so let me explain. In 2007 a good friend of ours told us about a Scouting trip he was organising to Russia, Mongolia & China (further details available [here][3n]. This seemed like a good idea at the time, and, to cut a long story short, Rosie & I decided to stay on in China for a further 5 weeks. The time we spent in China was absolutely amazing and I gained a real appreciation for the country, the culture and the language and I wanted to learn more.  I decided to learn the language to better understand the culture. Since then, it seems that my language learning has taken a bit of a back seat, with endless excuses rationalising why, so I have resolved to set up a language challenge to try to encourage me to get on with it!
 
 The inspiration for this challenge came from Benny at [Fluent in 3 Months][fi3m]. At the start of this year he set out on his lofty goal of becoming fluent in Mandarin in 3 months. Although fluency wasn't necessarily achieved in this time, he appears very comfortable conversing in Mandarin and this really has helped to spur me on. It was Benny who suggested that people should try their own [3 month challenge][3m] over the summer, and although I'm a little late to the party (and adding a month) I am going to go for it :-). The challenge will run from 01 September 2012 until 31 December 2012 and the goals for this challenge are to be able to:
