@@ -13,7 +13,7 @@ desc "Build and preview the site"
 task :preview => [:build, :clean] do
   puts "## Building a preview of the site"
   pids = [
-    spawn("jekyll serve -w")
+    spawn("jekyll serve -w --drafts")
   ]
   
   trap "INT" do

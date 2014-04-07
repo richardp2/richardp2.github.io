@@ -17,6 +17,7 @@ exclude:
 - 'package.json'
 - 'Rakefile'
 - 'README.md'
+gems: ["emoji_for_jekyll"]
 
 encoding: utf-8
 
