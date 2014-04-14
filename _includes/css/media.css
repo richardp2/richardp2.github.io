@@ -24,11 +24,11 @@
     #primary-navigation {clear:both;display:block;margin:0.3125em auto;text-align: center;width:100%;}
     #primary-navigation a {display:inline-block;padding:0 0.3125em;width:5.3em;}
     #primary-navigation li {display:inline;position:relative;padding:0;}
-    #primary-navigation ul.main-menu {display:block;list-style:none;margin:0;padding-left:0;}
-    #primary-navigation ul ul {display:none;float:left;margin:0;position:absolute;top:95%;left:-35%;
+    #primary-navigation ul.main-menu {display:block;height:1.625em;list-style:none;margin:0;padding-left:0;}
+    #primary-navigation ul ul {display:none;float:left;margin:0;position:absolute;top:100%;left:-90%;
         width:100%;z-index:99999;}
-    #primary-navigation ul ul ul {left: 100%;top: -6px;}
-    #primary-navigation ul ul a {background-color: white;width: 105px;}
+    #primary-navigation ul ul ul {left:100%;top:-0.375em;}
+    #primary-navigation ul ul a {background-color:white;height:1.625em;width:11em;}
     #primary-navigation ul li:hover > ul,
     #primary-navigation hr,
     #primary-navigation hr::after {display:block;}
