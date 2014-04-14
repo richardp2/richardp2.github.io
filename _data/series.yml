@@ -1,12 +1,56 @@
 - name: "Mandarin Language Challenge"
-  description: ""
+  description: "Since early 2009 I have been learning Mandarin Chinese off and on. This may seem an odd
+    language to choose so let me explain. In 2007 a good friend of ours told us about a Scouting trip he
+    was organising to Russia, Mongolia & China (further details available
+    [here](http://travel.perry-online.me.uk/trips/china-2009/). This seemed like a good idea at the time,
+    and, to cut a long story short, Rosie & I decided to stay on in China for a further 5 weeks. The time
+    we spent in China was absolutely amazing and I gained a real appreciation for the country, the culture
+    and the language and I wanted to learn more.  I decided to learn the language to better understand the
+    culture. Since then, it seems that my language learning has taken a bit of a back seat, with endless
+    excuses rationalising why, so I have resolved to set up a language challenge to try to encourage me to
+    get on with it!"
   image: "http://www.teasetc.com/blog/beth/uploaded_images/P1000497-757313.JPG"
   copyright: "Copyright &copy; 2006 <a href='http://blog.teasetc.com/' title='Teas Etc - Tea Blog'>Teas Etc - Tea Blog</a>"
+  permalink: /series/mandarin/
+  start: "2012-08-29 19:42:55+00:00"
 
 - name: "My Epic Quest"
-  description: ""
+  description: "I recently read an article on [Nerd Fitness](http://www.nerdfitness.com/blog/epic-quest/)
+    where Steve Kamb had set out his goals for 'levelling up' his life. He used the metaphor of Role
+    Playing Games to make the concept manageable and put together a list of challenges or quests that
+    could be completed to advance from one level to the next. He then decided that each quest would be
+    worth 20% experience towards the next level, there would also be Master Quests that equated to 100%
+    experience, and this became his 'Epic Quest of Awesome'. I thought this was a pretty good idea, so
+    using the same concept, I have come up with my own Epic Quest. It's no different to a bucket list
+    that many people have, but it just sounds cooler :wink:"
+  permalink: /series/epic/
+  start: "2013-03-10 16:49:58+00:00"
   
 - name: "Migrating to Jekyll"
-  description: ""
+  description: "At the back end of last year, I started migrating my various coding projects
+    from [SVN](//subversion.apache.org/ 'Apache Subversion') repositories stored on 
+    [Google Code](//code.google.com/ 'Google Code') to [Git](//git-scm.com/ 'Git') repositories.
+    Through a little bit of research, I decided to use two different sites for different reasons,
+    [GitHub](//github.com/ 'GitHub') for public repositories, and 
+    [Bitbucket](//bitbucket.org/ 'Bitbucket - Free source code hosting for Git and Mercurial by Bitbucket')
+    for backup and work (private) repositories. Finding GitHub also introduced me to something else
+    that I found quite interesting, [GitHub Pages](//pages.github.com/ 'GitHub Pages') is a hosting
+    service provided by GitHub that allows you to publish websites from your repository. Not only
+    that, but it works with something called
+    [Jekyll](//jekyllrb.com/ 'Jekyll &bull; Simple, blog-aware, static sites'), a simple, blog-aware,
+    static site generator. This intrigued me and so I looked into it and this series details my
+    reasoning and process for Migrating from WordPress to Jekyll"
   image: "/assets/images/jekyll.png"
+  permalink: /series/jekyll/
+  start: "2014-03-18 19:30:00+00:00"
+  end: "2014-04-14 21:00:00+00:00"
   
+- name: "Travel Memories"
+  description: "After sorting through some of our old photos, a lot of great memories were brought up
+    from the various holidays/travels that Rosie & I have had since we met. This is a series of posts
+    looking back on those holidays and travels. It doesn't include everything (for various reasons),
+    but it does capture the memories from most of our holidays through the medium of imagery. Each post
+    includes a gallery of some of the most memorable pictures from each holiday, along with a short
+    write-up of the best bits. Hope you like it :smile:"
+  permalink: /series/travel-memories/
+  start: "2014-04-16 21:00:00+00:00"

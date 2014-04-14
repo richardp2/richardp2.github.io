@@ -8,8 +8,8 @@
             </header>
             
             <section class="post-content gallery" itemProp="articleBody">
-              {% if page.photoset %}{% flickr_photoset page.photoset %}{% endif %}
               {% if page.series %}{% series_list %}{% endif %}{{ content }}
+              {% if page.photoset %}{% flickr_photoset page.photoset %}{% endif %}
             </section><!-- .post-content .gallery -->
             
             <footer>

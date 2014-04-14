@@ -101,6 +101,7 @@ td {padding: 10px;background: #ccc;}
 #main-content .post header h2 {margin-bottom:0;padding-bottom:0;}
 #main-content .post header h2 a {color:#101010;}
 #main-content .post footer {text-align:right;}
+#main-content .series.post footer {text-align:left;}
 #main-content .post footer a.read-more{color:black;font-weight:600;padding:6px;}
 #main-content .post footer a.read-more:hover{background-color:#21759b;color:white;}
 

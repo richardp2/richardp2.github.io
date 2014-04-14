@@ -6,7 +6,7 @@ layout: post
 title: Converting the Posts
 image: /assets/images/jekyll.png
 categories:
-- General
+- Technology
 - Jekyll
 series: 
 - Migrating to Jekyll

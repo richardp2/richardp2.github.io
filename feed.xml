@@ -21,7 +21,7 @@ layout: none
           <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
           <author>{{author.email}} ({{author.name}})</author>
           <guid>{{ site.url }}{{ post.url }}</guid>
-          <description>{{ post.content | xml_escape }}</description>
+          <description>{% include partials/feed_content.html %}</description>
         </item>
       {% endfor %}
   </channel>

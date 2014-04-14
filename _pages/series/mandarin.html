@@ -1,0 +1,19 @@
+---
+blog: richard
+comments: false
+layout: default
+title: "Series: Mandarin Language Challenge"
+permalink: /series/mandarin/
+series:
+- Mandarin Language Challenge 
+---
+
+        {% for post in site.posts reversed %}
+          {% if post.series == page.series %}
+          <article itemscope itemtype='http://schema.org/BlogPosting' class='post summary{% if post.layout != 'post' %} format-{{ post.layout }}{% endif %}'>
+              {% include partials/summary.html %}
+          </article>
+
+          <hr />
+          {% endif %}
+        {% endfor %}

@@ -7,8 +7,10 @@ title: My Epic Quest
 wordpress_id: 666
 flickimg: 
 categories:
+- General
+- Challenges
 - Epic Quest
-permalink: /epic/my-epic-quest/
+permalink: /general/challenges/epic/my-epic-quest/
 series:
 - My Epic Quest
 ---
