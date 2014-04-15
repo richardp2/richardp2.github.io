@@ -28,7 +28,7 @@
     #primary-navigation ul ul {display:none;float:left;margin:0;position:absolute;top:100%;left:-90%;
         width:100%;z-index:99999;}
     #primary-navigation ul ul ul {left:100%;top:-0.375em;}
-    #primary-navigation ul ul a {background-color:white;height:1.625em;width:11em;}
+    #primary-navigation ul ul a {background-color:white;width:11em;}
     #primary-navigation ul li:hover > ul,
     #primary-navigation hr,
     #primary-navigation hr::after {display:block;}

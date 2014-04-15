@@ -12,7 +12,7 @@ module.exports = function(grunt) {
           '_includes/css/vendor/slicknav.css',
           '_includes/css/media.css',
           '_includes/css/print.css',
-          '_includes/css/vendor/pygment_trac.css',
+          '_includes/css/vendor/pygment_solarized.css',
         ],
         dest: '_includes/css/grunt.css'
       },
