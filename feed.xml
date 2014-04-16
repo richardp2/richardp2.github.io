@@ -5,10 +5,10 @@ layout: none
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
   <channel>
-    <title>{{ site.name }} | RSS Feed</title>
+    <title>{{ site.name | xml_escape }} | RSS Feed</title>
     <link>{{ site.url }}/feed/</link>
     <atom:link href="{{ site.url }}/feed/" rel="self" type="application/rss+xml" />
-    <description>{{ site.description }}</description>
+    <description>{{ site.description | xml_escape }}</description>
     <copyright>Copyright (c) 2009-{{ site.time | date: '%Y' }} {{ author.name }}</copyright>
     <language>en-gb</language>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
@@ -16,7 +16,7 @@ layout: none
       {% for post in site.posts limit: 15 %}
       {% if post.author %}{% assign author = site.data.authors[post.author] %}{% else %}{% assign author = site.data.authors[site.author] %}{% endif %}
         <item>
-          <title>{{ post.title }}</title>
+          <title>{{ post.title | xml_escape }}</title>
           <link>{{ site.url }}{{ post.url }}</link>
           <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
           <author>{{author.email}} ({{author.name}})</author>
