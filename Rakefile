@@ -71,17 +71,16 @@ task :deploy, [:message] => [:build, :commit, :push, :generate] do |t, args|
   args.with_defaults(:message => "Site updated at #{Time.now.utc}")
   
   Dir.mktmpdir do |tmp|
+    system "git clone git@github.com:#{GITHUB_REPONAME}.git -b master #{tmp}"
     cp_r "_site/.", tmp
     
     pwd = Dir.pwd
     Dir.chdir tmp
     
-    system "git init"
-    system "git add ."
+    system "git add -A"
     system "git commit -m #{args[:message].inspect}"
-    system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
     system "git remote set-url --add origin git@bitbucket.org:#{BITBUCKET_REPO}.git"
-    system "git push origin master --force"
+    system "git push origin master"
     
     Dir.chdir pwd
   end
@@ -89,7 +88,7 @@ task :deploy, [:message] => [:build, :commit, :push, :generate] do |t, args|
   puts "\nSite Published and Deployed to GitHub"
   puts "\nHave a nice day :-)"
 end
-
+  
   
   
 # The following task was adapted from one written by Shane Burkhart  
