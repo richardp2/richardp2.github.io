@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html xmlns:fb='http://ogp.me/ns/fb#' xmlns:og='http://ogp.me/ns#' lang='en-GB'>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    <title>Tweaking Jekyll to Suit My Needs | Richard Perry</title>
+    <meta name='description' content="This is going to be my last post on my Migration from WordPress to Jekyll (I promise ). This week I am going to share with you some of the changes I’ve made, and plugins I’ve adapted to get everything...">
+    <meta name='author' content="Richard Perry">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'>
+    <link rel='stylesheet' href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
+    <link rel='stylesheet' href='http://richard.perry-online.me.uk/assets/css/main.min.css'>
+    <link rel='alternate' href='http://richard.perry-online.me.uk/feed.xml' type='application/rss+xml' title='Richard Perry'>
+    <link rel='author' href="https://plus.google.com/+RichardPerry1">
+    <link rel='canonical' href="http://richard.perry-online.me.uk/technology/jekyll/tweaking/">
+    
+    <script src='http://richard.perry-online.me.uk/assets/scripts/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
+        
+    <meta property='og:type' content='article'>
+    <meta property='og:title' content="Tweaking Jekyll to Suit My Needs | Richard Perry">
+    <meta property='og:description' content="This is going to be my last post on my Migration from WordPress to Jekyll (I promise ). This week I am going to share with you some of the changes I’ve made, and plugins I’ve adapted to get everything...">
+    <meta property='og:url' content="http://richard.perry-online.me.uk/technology/jekyll/tweaking/">
+    <meta property='og:site_name' content="Richard Perry">
+    
+    <meta name='twitter:title' content="Tweaking Jekyll to Suit My Needs | Richard Perry">
+    <meta name='twitter:description' content="This is going to be my last post on my Migration from WordPress to Jekyll (I promise ). This week I am going to share with you some of the changes I’ve made, and plugins I’ve adapted to get everything...">
+    <meta name='twitter:url' content="http://richard.perry-online.me.uk/technology/jekyll/tweaking/">
+    <meta name='twitter:creator' content="richard_p2">
+  </head>
+
+  <body>
+    <div id='container'>
+      <header id='page-header' role='banner' itemscope itemtype='http://schema.org/WPHeader'>
+        <hgroup>
+          <h1 class='site-title'>Richard Perry</h1>
+          <h2 class='site-description'>Just another blog about nothing</h2>
+        </hgroup>
+                <nav id="primary-navigation" role="navigation" >
+          <ul class="main-menu" >
+            <li>
+              <a href="http://www.perry-online.me.uk/" title="Home" >Home</a></li>
+            
+            <li>
+              <a href="http://travel.perry-online.me.uk/" title="Travel" >Travel</a>
+              <ul>
+                <li>
+                  <a href="http://travel.perry-online.me.uk/trips/cornwall12/" title="Cornwall 2012" >Cornwall 2012</a>
+                  
+                <li>
+                  <a href="http://travel.perry-online.me.uk/trips/vietnam11/" title="Vietnam 2011" >Vietnam 2011</a>
+                  
+                <li>
+                  <a href="http://travel.perry-online.me.uk/trips/iceland10-11/" title="Iceland 2010-11" >Iceland 2010-11</a>
+                  
+                <li>
+                  <a href="http://travel.perry-online.me.uk/trips/cornwall12/" title="Cornwall 2012" >Cornwall 2012</a>
+                  
+                <li>
+                  <a href="http://travel.perry-online.me.uk/trips/honeymoon/" title="Morocco 2010" >Morocco 2010</a>
+                  
+                <li>
+                  <a href="http://travel.perry-online.me.uk/trips/china09/" title="China 2009" >China 2009</a>
+                  
+                <li>
+                  <a href="http://travel.perry-online.me.uk/trips/threenations09/" title="Three Nations 2009" >Three Nations 2009</a>
+                  
+                <li>
+                  <a href="http://travel.perry-online.me.uk/trips/switzerland08/" title="Switzerland 2008" >Switzerland 2008</a>
+                  
+                <li>
+                  <a href="http://travel.perry-online.me.uk/trips/serbia06/" title="Serbia 2006" >Serbia 2006</a>
+                  
+                <li>
+                  <a href="http://travel.perry-online.me.uk/archives/" title="Travel Archives" >Travel Archives</a>
+                  </ul>
+              </li>
+            
+            <li>
+              <a href="http://richard.perry-online.me.uk/" title="Richard" >Richard</a>
+              <ul>
+                <li>
+                  <a href="http://richard.perry-online.me.uk/about/" title="About Me" >About Me</a>
+                  
+                <li>
+                  <a href="http://richard.perry-online.me.uk/general/" title="General" >General</a>
+                  
+                <li>
+                  <a href="http://richard.perry-online.me.uk/george/" title="George" >George</a>
+                  
+                <li>
+                  <a href="http://richard.perry-online.me.uk/languages/" title="Languages" >Languages</a>
+                  
+                <li>
+                  <a href="http://richard.perry-online.me.uk/outdoors/" title="Active/Outdoors" >Active/Outdoors</a>
+                  
+                <li>
+                  <a href="http://richard.perry-online.me.uk/photography/" title="Photography" >Photography</a>
+                  
+                <li>
+                  <a href="http://richard.perry-online.me.uk/reviews/" title="Reviews" >Reviews</a>
+                  
+                <li>
+                  <a href="http://richard.perry-online.me.uk/technology/" title="Technology" >Technology</a>
+                  
+                <li>
+                  <a href="http://richard.perry-online.me.uk/series/" title="Post Series" >Post Series</a>
+                  
+                <li>
+                  <a href="http://richard.perry-online.me.uk/archives/" title="Blog Archives" >Blog Archives</a>
+                  </ul>
+              </li>
+            
+            <li>
+              <a href="http://photos.perry-online.me.uk/" title="Photos" >Photos</a></li>
+            </ul>
+          <hr />
+        </nav><!-- #primary-navigation -->
+      </header><!-- #page-header -->
+      
+      <div id='content'>
+        
+        <section id='main-content' role='main' itemscope itemtype='http://schema.org/Blog'>
+                
+            
+          <article itemscope itemtype="http://schema.org/BlogPosting" class="post single">
+            <header>
+              <h2 itemProp="headline">Tweaking Jekyll to Suit My Needs</h2>
+              
+              
+              <span class='meta'>
+                <i class='fa fa-clock-o'></i><time itemprop='datePublished' content='2014-04-15' datetime='2014-04-15 07:36:28 UTC'> 15 Apr 2014</time>
+                &nbsp; | &nbsp;
+                <i class='fa fa-user'></i> <span itemprop='author'><a href='/author/richard-perry/' title='Richard Perry'>Richard Perry</a></span> 
+                &nbsp; | &nbsp; 
+                <i class='fa fa-folder-open'></i> <span itemprop='keywords'><a class='category' href='/technology/'>Technology</a>, <a class='category' href='/technology/jekyll/'>Jekyll</a></span>
+              </span>
+            </header>
+            
+            <section class="post-content" itemProp="articleBody">
+              <div class='series_list'>
+<img src='/assets/images/jekyll.png' title='Migrating to Jekyll' alt='Migrating to Jekyll'>
+<h4>Migrating to Jekyll</h4><ol>
+<li><a href='/technology/jekyll/jekyll/'>Moving from WordPress to Jekyll</a></li>
+<li><a href='/technology/jekyll/planning/'>Planning the Migration</a></li>
+<li><a href='/technology/jekyll/converting/'>Converting the Posts</a></li>
+<li>Tweaking Jekyll to Suit My Needs</li>
+</ol>
+</div>
+<p>This is going to be my last post on my Migration from <a href="//wordpress.org/" title="WordPress &#8250; Blog Tool, Publishing Platform, and CMS">WordPress</a> to <a href="//jekyllrb.com/" title="Jekyll &bull; Simple, blog-aware, static sites">Jekyll</a> 
+(<em>I promise <img class="emoji" title="blush" alt="blush" src="https://github.global.ssl.fastly.net/images/icons/emoji/blush.png" height="20" width="20" align="absmiddle" /></em>). This week I am going to share with you some of the changes I’ve made, and
+plugins I’ve adapted to get everything running the way it was (<small>ish</small>) in WordPress.
+I’ve had to make a few changes to the site to suit the new system as well, but nothing major.</p>
+
+<h3 id="tags">Tags</h3>
+
+<p>You may have noticed (<small>but probably not really, that’s kind of the point</small>) that there
+are no longer any tags listed at the bottom of each post. Tags are a standard part of WordPress that
+I embraced for no other reason than ‘they were there’. Their purpose was to allow navigation between
+posts of similar topics that were not necessarily in the same category. To be honest, I don’t write
+all that many posts, and I don’t have thousands of people rading my blog so I decided they were
+completely unnecessary and ditched them in the migration.</p>
+
+<h3 id="categories">Categories</h3>
+
+<p>I have also made a few changes to the categories. This is partially due to the way Jekyll handles
+categories, and partially due to me wanting to rationlise it a bit. In Jekyll, posts cannot be linked
+to multiple categories in the same way as WordPress. If there are multiple categories listed, they
+become subcategories of each other. For this reason, I had to adjust some of them so that they
+worked properly. For example, if an Instagram picture post included George, I filed it in both the
+Photography category and the George category. In Jekyll, this results in the post being included in
+the Photography/George (<small>or George/Photography depending on the order</small>) category, not
+two separate ones.</p>
+
+<p>Jekyll does not generate category pages for you, so I looked at a few options for achieving this.
+Firstly, I made use of a standard plugin for generating the pages. I then made a few modifications
+to the plugin to get a result I preferred, and finally I adopted part of the plugin for generating
+the category list displayed at the top of each post and ditched the rest in favour of coding my own
+category pages. The plugin I am now using looks a little bit like this:</p>
+
+<div class="highlight"><pre><code class="ruby"><span class="c1"># Category Links Filter</span>
+<span class="c1">#</span>
+<span class="c1"># The original plugin was created by Dave Perrett and is available here:</span>
+<span class="c1"># http://recursive-design.com/projects/jekyll-plugins/</span>
+<span class="c1">#</span>
+<span class="c1"># The modifications include:</span>
+<span class="c1">#   - Removing category page generation classes completely</span>
+<span class="c1">#   - Modified the category_dir function to only use the first word in</span>
+<span class="c1">#     multiword categories and to link them together to create the path</span>
+<span class="c1">#   - Modified the category_links function to use titlecase for the </span>
+<span class="c1">#     displayed category names</span>
+
+<span class="k">module</span> <span class="nn">Jekyll</span>
+  <span class="k">module</span> <span class="nn">Filters</span>
+
+    <span class="k">def</span> <span class="nf">category_dir</span><span class="p">(</span><span class="n">base_dir</span><span class="p">,</span> <span class="n">category</span><span class="p">)</span>
+      <span class="n">base_dir</span> <span class="o">=</span> <span class="n">base_dir</span><span class="o">.</span><span class="n">gsub</span><span class="p">(</span><span class="sr">/^\/*(.*)\/*$/</span><span class="p">,</span> <span class="s1">&#39;\1&#39;</span><span class="p">)</span>
+      <span class="n">category</span> <span class="o">=</span> <span class="n">category</span><span class="o">.</span><span class="n">split</span>
+      <span class="n">category</span> <span class="o">=</span> <span class="n">category</span><span class="o">[</span><span class="mi">0</span><span class="o">].</span><span class="n">gsub</span><span class="p">(</span><span class="sr">/_|\P{Word}/</span><span class="p">,</span> <span class="s1">&#39;-&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">gsub</span><span class="p">(</span><span class="sr">/-{2,}/</span><span class="p">,</span> <span class="s1">&#39;-&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">downcase</span>
+      <span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">base_dir</span><span class="p">,</span> <span class="n">category</span><span class="p">)</span>
+    <span class="k">end</span> 
+
+    <span class="k">def</span> <span class="nf">category_links</span><span class="p">(</span><span class="n">categories</span><span class="p">)</span>
+      <span class="n">base_dir</span> <span class="o">=</span> <span class="vi">@context</span><span class="o">.</span><span class="n">registers</span><span class="o">[</span><span class="ss">:site</span><span class="o">].</span><span class="n">config</span><span class="o">[</span><span class="s1">&#39;category_dir&#39;</span><span class="o">]</span>
+      <span class="vi">@categorydir</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+      <span class="n">categories</span> <span class="o">=</span> <span class="n">categories</span><span class="o">.</span><span class="n">map</span> <span class="k">do</span> <span class="o">|</span><span class="n">category</span><span class="o">|</span>
+        <span class="n">base_dir</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">base_dir</span><span class="p">,</span> <span class="vi">@categorydir</span><span class="p">)</span> <span class="k">unless</span> <span class="vi">@categorydir</span> <span class="o">==</span> <span class="s1">&#39;&#39;</span>
+        <span class="vi">@categorydir</span> <span class="o">=</span> <span class="nb">self</span><span class="o">.</span><span class="n">category_dir</span><span class="p">(</span><span class="n">base_dir</span><span class="p">,</span> <span class="n">category</span><span class="p">)</span>
+        <span class="c1"># Make sure the category directory begins with a slash.</span>
+        <span class="vi">@categorydir</span> <span class="o">=</span> <span class="s2">&quot;/</span><span class="si">#{</span><span class="vi">@categorydir</span><span class="si">}</span><span class="s2">&quot;</span> <span class="k">unless</span> <span class="vi">@categorydir</span> <span class="o">=~</span> <span class="sr">/^\//</span>
+          <span class="s2">&quot;&lt;a class=&#39;category&#39; href=&#39;</span><span class="si">#{</span><span class="vi">@categorydir</span><span class="si">}</span><span class="s2">/&#39;&gt;</span><span class="si">#{</span><span class="n">category</span><span class="o">.</span><span class="n">titlecase</span><span class="si">}</span><span class="s2">&lt;/a&gt;&quot;</span>
+      <span class="k">end</span>
+
+      <span class="vi">@categorydir</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+
+      <span class="k">case</span> <span class="n">categories</span><span class="o">.</span><span class="n">length</span>
+        <span class="k">when</span> <span class="mi">0</span>
+          <span class="s2">&quot;&quot;</span>
+        <span class="k">when</span> <span class="mi">1</span>
+          <span class="n">categories</span><span class="o">[</span><span class="mi">0</span><span class="o">].</span><span class="n">to_s</span>
+        <span class="k">else</span>
+          <span class="n">categories</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">&#39;, &#39;</span><span class="p">)</span>
+      <span class="k">end</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div>
+
+<h3 id="pages">Pages</h3>
+
+<p>The way pages are organised in Jekyll is a little too messy for my liking so I have adopted a simple
+plugin that will keep pages organised in the same way as posts. They sit in a folder called ‘_pages’
+rather than in the root of the repository. This keeps the root folder tidier <img class="emoji" title="smile" alt="smile" src="https://github.global.ssl.fastly.net/images/icons/emoji/smile.png" height="20" width="20" align="absmiddle" />. The plugin was
+written by Ben Baker-Smith and is available from <a href="//github.com/bbakersmith/jekyll-pages-directory" title="Jekyll Pages Plugin">here</a></p>
+
+<h3 id="draft-post-publishing">Draft Post Publishing</h3>
+
+<p>Also in Jekyll, drafts are kept separate in a ‘_drafts’ folder, but there is no real way to handle 
+them when they are ready to publish other than to move the file to the ‘_posts’ folder and rename it
+prior to deploying the update. This is not a difficult task, but they is a better way. <a href="//rake.rubyforge.org/" title="Rake -- Ruby Make">Rake</a> 
+is a build program that is used by a lot of web programmers to automate simple, but time consuming
+tasks. This seemed to me to be the perfect solution, but my distinct lack of skills in <a href="//ruby-lang.org/" title="Ruby Programming Language">Ruby</a> 
+meant I had to start with <a href="//google.co.uk/" title="Google">Google</a>. This led me to a script by <a href="//www.shaneburkhart.me/" title="Shane Burkhart">Shane Burkhart</a> that was
+almost exactly what I wanted. With a few minor tweaks I ended up with this:</p>
+
+<div class="highlight"><pre><code class="ruby"><span class="c1"># The following task was adapted from one written by Shane Burkhart  </span>
+<span class="c1"># Source: http://www.shaneburkhart.me/2013/12/07/rake-task-to-publish-drafts-in-jekyll.html  </span>
+
+<span class="n">desc</span> <span class="s2">&quot;Publish draft posts and update the date field&quot;</span>  
+<span class="n">task</span> <span class="ss">:publish</span><span class="p">,</span> <span class="o">[</span><span class="ss">:file</span><span class="o">]</span> <span class="k">do</span> <span class="o">|</span><span class="n">t</span><span class="p">,</span> <span class="n">args</span><span class="o">|</span>
+  <span class="nb">require</span> <span class="s2">&quot;time&quot;</span>
+
+  <span class="k">if</span> <span class="n">args</span><span class="o">[</span><span class="ss">:file</span><span class="o">]</span>
+    <span class="n">file</span> <span class="o">=</span> <span class="s2">&quot;_drafts/</span><span class="si">#{</span><span class="n">args</span><span class="o">[</span><span class="ss">:file</span><span class="o">]</span><span class="si">}</span><span class="s2">&quot;</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
+    <span class="n">time</span> <span class="o">=</span> <span class="no">Time</span><span class="o">.</span><span class="n">now</span><span class="o">.</span><span class="n">iso8601</span><span class="o">.</span><span class="n">gsub!</span><span class="p">(</span><span class="s1">&#39;T&#39;</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="p">)</span>
+    <span class="n">text</span><span class="o">.</span><span class="n">gsub!</span><span class="p">(</span><span class="sr">/^date.*$/</span><span class="p">,</span> <span class="s2">&quot;date: </span><span class="si">#{</span><span class="n">time</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="n">today</span> <span class="o">=</span> <span class="no">Time</span><span class="o">.</span><span class="n">now</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s2">&quot;%Y-%m-%d&quot;</span><span class="p">)</span>
+    <span class="n">post_name</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">last</span>
+    <span class="n">dest</span> <span class="o">=</span> <span class="s2">&quot;_posts/</span><span class="si">#{</span><span class="n">today</span><span class="si">}</span><span class="s2">-</span><span class="si">#{</span><span class="n">post_name</span><span class="si">}</span><span class="s2">&quot;</span>
+    <span class="no">File</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">dest</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="p">{</span><span class="o">|</span><span class="n">f</span><span class="o">|</span> <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">text</span><span class="p">)</span> <span class="p">}</span>
+    <span class="nb">puts</span> <span class="s2">&quot;Published file </span><span class="si">#{</span><span class="n">post_name</span><span class="si">}</span><span class="s2">&quot;</span>
+    <span class="no">File</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
+    <span class="nb">puts</span> <span class="s2">&quot;Deleted draft file </span><span class="si">#{</span><span class="n">post_name</span><span class="si">}</span><span class="s2">&quot;</span>
+  <span class="k">else</span>
+    <span class="nb">puts</span> <span class="s2">&quot;Incorrect usage of the :publish task&quot;</span>
+    <span class="nb">puts</span> <span class="s2">&quot;</span><span class="se">\n\t</span><span class="s2">Usage:&quot;</span>
+    <span class="nb">puts</span> <span class="s2">&quot;</span><span class="se">\t</span><span class="s2">rake publish[draft-post.md]&quot;</span>
+    <span class="nb">puts</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Please try again&quot;</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div>
+
+<p>This also led me to automating a load of different tasks to generally make my life easier. If you’re
+interested, you can view my full ‘Rakefile’ <a href="//github.com/richardp2/richardp2.github.io/blob/source/Rakefile" title="My Rakefile Source">here</a>
+.</p>
+
+<h3 id="series">Series</h3>
+
+<p>My final tweak for the site was to reintroduce Post Series like I had on WordPress. The idea of a
+series is that posts about the same topic (like this one) include a list of all the related posts at
+the beginning of the post so that anyone reading it can refer back if they are interested. This is
+again not a standard function of Jekyll, but with a bit of research I found a great plugin written
+by <a href="//realjenius.com/" title="Real Jenius">R.J. Lorimer</a> that was just what I needed. (As usual) I made a few modifications and this
+is the result:</p>
+
+<div class="highlight"><pre><code class="ruby"><span class="c1"># Series List Tag</span>
+<span class="c1">#</span>
+<span class="c1"># The original plugin was created by R.J. Lorimer and is available here:</span>
+<span class="c1"># https://github.com/realjenius/site-samples/blob/master/2012-11-04-jekyll-series-list-2/series_tag.rb</span>
+<span class="c1">#</span>
+<span class="c1"># The modifications include:</span>
+<span class="c1">#   - Using a data file (series.yml) to add more detail to the series</span>
+<span class="c1">#   - Modified the output of the tag to look the way I wanted it to</span>
+
+<span class="k">module</span> <span class="nn">Jekyll</span>
+  
+  <span class="k">class</span> <span class="nc">SeriesTag</span> <span class="o">&lt;</span> <span class="no">Liquid</span><span class="o">::</span><span class="no">Tag</span>
+    <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">tag_name</span><span class="p">,</span> <span class="n">params</span><span class="p">,</span> <span class="n">tokens</span><span class="p">)</span>
+      <span class="k">super</span>
+    <span class="k">end</span>
+
+    <span class="k">def</span> <span class="nf">render</span><span class="p">(</span><span class="n">context</span><span class="p">)</span>
+      <span class="n">site</span> <span class="o">=</span> <span class="n">context</span><span class="o">.</span><span class="n">registers</span><span class="o">[</span><span class="ss">:site</span><span class="o">]</span>
+      <span class="n">page_data</span> <span class="o">=</span> <span class="n">context</span><span class="o">.</span><span class="n">environments</span><span class="o">.</span><span class="n">first</span><span class="o">[</span><span class="s2">&quot;page&quot;</span><span class="o">]</span>
+      <span class="n">series</span> <span class="o">=</span> <span class="n">site</span><span class="o">.</span><span class="n">data</span><span class="o">[</span><span class="s1">&#39;series&#39;</span><span class="o">]</span>
+      <span class="n">series_name</span> <span class="o">=</span> <span class="n">page_data</span><span class="o">[</span><span class="s1">&#39;series&#39;</span><span class="o">]</span>
+      <span class="n">series_image</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+            
+      <span class="k">if</span> <span class="o">!</span><span class="n">series_name</span>
+        <span class="nb">puts</span> <span class="s2">&quot;Unable to find series name for page: </span><span class="si">#{</span><span class="n">page</span><span class="o">.</span><span class="n">title</span><span class="si">}</span><span class="s2">&quot;</span>
+        <span class="k">return</span> <span class="s2">&quot;&lt;!-- Error with series tag --&gt;&quot;</span>
+      <span class="k">end</span>
+      
+      <span class="n">series</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">s</span><span class="o">|</span>
+        <span class="k">if</span> <span class="n">s</span><span class="o">[</span><span class="s1">&#39;name&#39;</span><span class="o">]</span> <span class="o">==</span> <span class="n">series_name</span><span class="o">[</span><span class="mi">0</span><span class="o">]</span>
+          <span class="n">series_image</span> <span class="o">=</span> <span class="s2">&quot;&lt;img src=&#39;</span><span class="si">#{</span><span class="n">s</span><span class="o">[</span><span class="s1">&#39;image&#39;</span><span class="o">]</span><span class="si">}</span><span class="s2">&#39; title=&#39;</span><span class="si">#{</span><span class="n">series_name</span><span class="o">[</span><span class="mi">0</span><span class="o">]</span><span class="si">}</span><span class="s2">&#39; alt=&#39;</span><span class="si">#{</span><span class="n">series_name</span><span class="o">[</span><span class="mi">0</span><span class="o">]</span><span class="si">}</span><span class="s2">&#39;&gt;</span><span class="se">\n</span><span class="s2">&quot;</span> <span class="k">if</span> <span class="n">s</span><span class="o">[</span><span class="s1">&#39;image&#39;</span><span class="o">]</span>
+          <span class="k">if</span> <span class="n">s</span><span class="o">[</span><span class="s1">&#39;copyright&#39;</span><span class="o">]</span>
+            <span class="n">series_image</span> <span class="o">=</span> <span class="s2">&quot;&lt;figure&gt;</span><span class="se">\n</span><span class="si">#{</span><span class="n">series_image</span><span class="si">}</span><span class="se">\n</span><span class="s2">&lt;figcaption&gt;</span><span class="si">#{</span><span class="n">s</span><span class="o">[</span><span class="s1">&#39;copyright&#39;</span><span class="o">]</span><span class="si">}</span><span class="s2">&lt;/figcaption&gt;</span><span class="se">\n</span><span class="s2">&lt;/figure&gt;&quot;</span>
+          <span class="k">end</span>
+        <span class="k">end</span>
+      <span class="k">end</span>
+
+      <span class="n">all_entries</span> <span class="o">=</span> <span class="o">[]</span>
+      <span class="n">site</span><span class="o">.</span><span class="n">posts</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="nb">p</span><span class="o">|</span>
+        <span class="k">if</span> <span class="nb">p</span><span class="o">.</span><span class="n">data</span><span class="o">[</span><span class="s1">&#39;series&#39;</span><span class="o">]</span> <span class="o">==</span> <span class="n">series_name</span>
+          <span class="n">all_entries</span> <span class="o">&lt;&lt;</span> <span class="nb">p</span>
+        <span class="k">end</span>
+      <span class="k">end</span>
+
+      <span class="n">all_entries</span><span class="o">.</span><span class="n">sort_by</span> <span class="p">{</span> <span class="o">|</span><span class="nb">p</span><span class="o">|</span> <span class="nb">p</span><span class="o">.</span><span class="n">date</span><span class="o">.</span><span class="n">to_f</span> <span class="p">}</span>
+
+      <span class="n">text</span> <span class="o">=</span> <span class="s2">&quot;&lt;div class=&#39;series_list&#39;&gt;</span><span class="se">\n</span><span class="s2">&quot;</span>
+      <span class="n">text</span> <span class="o">+=</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">series_image</span><span class="si">}</span><span class="s2">&quot;</span>
+      <span class="n">list</span> <span class="o">=</span> <span class="s2">&quot;&lt;ol&gt;</span><span class="se">\n</span><span class="s2">&quot;</span>
+      <span class="n">all_entries</span><span class="o">.</span><span class="n">each_with_index</span> <span class="k">do</span> <span class="o">|</span><span class="n">post</span><span class="p">,</span> <span class="n">idx</span><span class="o">|</span>
+        <span class="n">list</span> <span class="o">+=</span> <span class="s2">&quot;&lt;li&gt;&quot;</span>
+        <span class="k">if</span> <span class="n">post</span><span class="o">.</span><span class="n">data</span><span class="o">[</span><span class="s1">&#39;title&#39;</span><span class="o">]</span> <span class="o">==</span> <span class="n">page_data</span><span class="o">[</span><span class="s1">&#39;title&#39;</span><span class="o">]</span>
+          <span class="n">list</span> <span class="o">+=</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">post</span><span class="o">.</span><span class="n">data</span><span class="o">[</span><span class="s1">&#39;title&#39;</span><span class="o">]</span><span class="si">}</span><span class="s2">&quot;</span>
+        <span class="n">text</span> <span class="o">+=</span> <span class="s2">&quot;&lt;h4&gt;</span><span class="si">#{</span><span class="n">post</span><span class="o">.</span><span class="n">data</span><span class="o">[</span><span class="s1">&#39;series&#39;</span><span class="o">][</span><span class="mi">0</span><span class="o">]</span><span class="si">}</span><span class="s2">&lt;/h4&gt;&quot;</span>
+        <span class="k">else</span>
+          <span class="n">list</span> <span class="o">+=</span> <span class="s2">&quot;&lt;a href=&#39;</span><span class="si">#{</span><span class="n">post</span><span class="o">.</span><span class="n">url</span><span class="si">}</span><span class="s2">&#39;&gt;</span><span class="si">#{</span><span class="n">post</span><span class="o">.</span><span class="n">data</span><span class="o">[</span><span class="s1">&#39;title&#39;</span><span class="o">]</span><span class="si">}</span><span class="s2">&lt;/a&gt;&quot;</span>
+        <span class="k">end</span>
+        <span class="n">list</span> <span class="o">+=</span> <span class="s2">&quot;&lt;/li&gt;</span><span class="se">\n</span><span class="s2">&quot;</span>
+      <span class="k">end</span>
+      <span class="n">text</span> <span class="o">+=</span> <span class="n">list</span> <span class="o">+=</span> <span class="s2">&quot;&lt;/ol&gt;</span><span class="se">\n</span><span class="s2">&lt;/div&gt;</span><span class="se">\n</span><span class="s2">&quot;</span>
+      
+    <span class="k">end</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="no">Liquid</span><span class="o">::</span><span class="no">Template</span><span class="o">.</span><span class="n">register_tag</span><span class="p">(</span><span class="s1">&#39;series_list&#39;</span><span class="p">,</span> <span class="no">Jekyll</span><span class="o">::</span><span class="no">SeriesTag</span><span class="p">)</span>
+</code></pre></div>
+
+<p>I combined this with a custom template for the series pages and now article series work better than
+they did before <img class="emoji" title="smile" alt="smile" src="https://github.global.ssl.fastly.net/images/icons/emoji/smile.png" height="20" width="20" align="absmiddle" />. </p>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>Over the last couple of weeks, and previously the last couple of months, I’ve documented the process
+I’ve gone through to migrate my blog from WordPress to Jekyll. Hopefully some of it has been
+interesting to some people, but really I’ve written it as a reference for myself. </p>
+
+<p>I have very much enjoyed learning about Jekyll and how it works, as well as bits of a new
+programming language, but mostly I’ve enjoyed tinkering with something that already works fine. I
+feel that I am definitely a bit of a tinkerer, but there’s no harm in it really, is there? <img class="emoji" title="wink" alt="wink" src="https://github.global.ssl.fastly.net/images/icons/emoji/wink.png" height="20" width="20" align="absmiddle" /></p>
+
+
+            </section><!-- .post-content -->
+            
+            <footer>              
+              
+              <div id="disqus_thread"></div> 
+              
+            </footer>
+          </article><!-- .post.single -->
+        
+             
+        </section><!-- #main-content -->
+                
+        <section id="secondary-content"  itemscope itemtype="http://schema.org/WPSidebar" role="sidebar">
+          
+
+<aside>
+  <h3><a href="/about/" title="About Me">About Me</a></h3>
+  <img src="https://secure.gravatar.com/avatar/de76254e22ce8ef47fd59a5fcc6e5ef6?s=150" title="Richard Perry" alt="Richard Perry" />
+  <p>I'm a Quantity Surveyor in South Wales with a passion for photography, technology, science, languages & the outdoors :-)</p>
+  <div class='social aligncentre'>
+  <span class="fa-stack">
+    <a href='//www.facebook.com/richardpperry' title='Facebook'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='//twitter.com/richard_p2' title='Twitter'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='//uk.linkedin.com/in/rpperry' title='LinkedIn'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='//flickr.com/photos/richard-perry' title='Flickr'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
+    </a>
+  </span><br />
+  <span class="fa-stack">
+    <a href='//instagram.com/perryri' title='Instagram'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='//github.com/richardp2' title='GitHub'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='//richard.perry-online.me.uk/' title='Website'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-link fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='mai&#108;to&#58;richard@perrymail.me.uk' title='Email Me'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+    </a>
+  </span><br />
+</div>
+
+</aside>
+
+<hr />
+
+
+<aside>
+  <h3>My Tweets</h3>
+  <a class="twitter-timeline" href="https://twitter.com/richard_p2" data-widget-id="250856108174999552">Tweets by @richard_p2</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</aside>                
+
+        </section><!-- #secondary-content -->
+      </div><!-- #content -->
+            
+      <footer id="page-footer" itemscope itemtype="http://schema.org/WPFooter">
+        <hr />
+        
+        <div class='social'>
+          <span class="fa-stack fa-2x">
+            <a href='//www.facebook.com/richardpperry' title='Facebook'>
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+          <span class="fa-stack fa-2x">
+            <a href='//twitter.com/richard_p2' title='Twitter'>
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+          <span class="fa-stack fa-2x">
+            <a href='//github.com/richardp2' title='GitHub'>
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+          <span class="fa-stack fa-2x">
+            <a href='mai&#108;to&#58;richard@perrymail.me.uk' title='Email'>
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+          <span class="fa-stack fa-2x">
+            <a href='/feed.xml' title='RSS Feed'>
+              <i class="fa fa-circle fa-stack-2x feed"></i>
+              <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+        </div>
+        <small class='copyright'>Copyright &copy; 2009 - 2014 </small> &nbsp; &nbsp; | &nbsp; &nbsp; 
+        <small class='site-meta'>Powered by <a href='//jekyllrb.com/' title='Jekyll &bull; Simple, blog-aware, static sites'>Jekyll</a> &amp; Hosted at <a href='//github.com' title='GitHub'>GitHub</a></small>
+      </footer><!-- #page-footer -->
+    </div><!-- #container -->
+        
+            
+
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'richardperry'; // required: replace example with your forum shortname
+            var disqus_identifier = "/technology/jekyll/tweaking/";
+            var disqus_url = "http://richard.perry-online.me.uk/technology/jekyll/tweaking/";
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; 
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+    
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="http://richard.perry-online.me.uk/assets/scripts/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+        <script src="http://richard.perry-online.me.uk/assets/scripts/main.min.js"></script>
+  </body>
+</html>
