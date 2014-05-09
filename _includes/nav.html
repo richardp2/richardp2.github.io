@@ -4,9 +4,15 @@
               <a href="{{ link.url }}" title="{{ link.title }}" {% if page.title == link.title %}class="current-page"{% endif %}>{{ link.title }}</a>{% if link.sub %}
               <ul>{% for sublink in link.sub %}
                 <li>
-                  <a href="{{ link.url }}{{ sublink.url }}" title="{{ sublink.title }}" {% if page.title == sublink.title %}class="current-page"{% endif %}>{{ sublink.title }}</a>
+                  <a href="{{ link.url }}{{ sublink.url }}" title="{{ sublink.title }}" {% if page.title == sublink.title %}class="current-page"{% endif %}>{{ sublink.title }}</a>{% if sublink.sub %}
+                  <ul>{% for 2sublink in sublink.sub %}
+                    <li>
+                      <a href="{{ link.url }}{{ sublink.url }}{{ 2sublink.url }}" title="{{ 2sublink.title }}" {% if page.title == 2sublink.title %}class="current-page"{% endif %}>{{ 2sublink.title }}</a>
+                    </li>
                   {% endfor %}</ul>
-              {% endif %}</li>
-            {% endfor %}</ul>
+                {% endif %}</li>
+              {% endfor %}</ul>
+            {% endif %}</li>
+          {% endfor %}</ul>
           <hr />
         </nav><!-- #primary-navigation -->

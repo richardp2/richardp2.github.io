@@ -3,14 +3,14 @@ Gemfile.lock
 _includes/css/grunt.css
 _includes/scripts/grunt.js
 _site
-_site/
 _drafts
-_drafts/
 node_modules
-node_modules/
 _cache
-_cache/
 _gist_cache
+_site/
+_drafts/
+node_modules/
+_cache/
 _gist_cache/
 
 # Windows image file caches

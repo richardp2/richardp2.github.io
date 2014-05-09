@@ -1,5 +1,4 @@
-{% for authors in site.author %}
-{% assign author = site.data.authors[authors] %}
+{% for i in site.authors %}{% assign author = site.data.authors[i] %}
 <aside>
   <h3><a href="/about/" title="About Me">About Me</a></h3>
   <img src="https://secure.gravatar.com/avatar/{{author.gravatar}}?s=150" title="{{author.name}}" alt="{{author.name}}" />

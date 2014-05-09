@@ -33,7 +33,7 @@ Scouting has been a big part of my life, giving me some amazing experiences and 
   * In 2007 I joined the Faith & Beliefs team at the 21st World Scout Jamboree teaching Scouts from all over the World about Buddhism, and learning much from all of them;
   * In 2009 I participated in the Three Nations Expedition to <del>Russia</del>, China and Mongolia, following this, Rosie and I toured around China for a further 5 weeks.
 
-#### [Travelling][travel]
+#### [Travelling][tra]
 
 I was bitten by the travelling bug in 2001, and ever since then I have wanted to travel the
 world. Unfortunately this was not really a viable option until I got a proper job. So I only
