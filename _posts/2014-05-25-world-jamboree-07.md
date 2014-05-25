@@ -24,7 +24,7 @@ travel, but it does hold some great memories and we did meet and interact with p
 the world :smile:.
 
 The Jamboree itself was just under 2 weeks long, but we arrived a couple of days before to help get
-everything set up. It was during these first couple of days when the Thai Scouts give to the Scout
+everything set up. It was during these first couple of days when the Thai Scouts gift to the Scout
 Association arrived. It was a huge Buddha statue that would be the centrepiece of our tent for the
 duration of the Jamboree, and would then find it's new home in the Sala at [Gilwell Park][gp]. We
 set up two different types of Buddhist shrines (Thai/Theravada and Vajrayana) in our new home and
