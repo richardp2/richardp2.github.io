@@ -116,3 +116,65 @@ task :publish, [:file] do |t, args|
     puts "\nPlease try again"
   end
 end
+
+
+desc "Publish draft posts and update the date field"  
+task :publish2, [:file] do |t, args|
+  require "time"
+  require 'yaml'
+  
+  if args[:file]
+    file = "_drafts/#{args[:file]}"
+    text = File.read(file)
+    time = Time.now.iso8601.gsub!('T', ' ')
+    text.gsub!(/^date.*$/, "date: #{time}")
+    today = Time.now.strftime("%Y-%m-%d")
+    post_name = file.split("/").last
+    dest = "_posts/#{today}-#{post_name}"
+    File.open(dest, 'w') {|f| f.write(text) }
+    puts "Published file #{post_name}"
+    dest = "_global/#{today}-#{post_name}"
+    data = YAML::load_file file
+    if data['permalink']
+      permalink = data['permalink']
+    else
+      permalink = ''
+      data['categories'].each do |category|
+        permalink += "#{category.downcase!}/"
+      end
+      permalink += args[:file].slice!(11..-4)
+    end
+    File.open(dest, 'w') {|f| 
+      f.write("---") 
+      f.write("\n")
+      f.write("blog: richard")
+      f.write("\n")
+      f.write("date: #{data['date']}")
+      f.write("\n")
+      f.write("title: #{data['title']}")
+      f.write("\n")
+      f.write("permalink: #{data['permalink']}")
+      f.write("\n")
+      f.write("---") 
+    }
+    File.delete(file)
+    puts "Deleted draft file #{post_name}"
+  else
+    puts "Incorrect usage of the :publish task"
+    puts "\n\tUsage:"
+    puts "\trake publish[draft-post.md]"
+    puts "\nPlease try again"
+  end
+end
+
+
+task :testing, [:file] do |t, args|
+  
+  if args[:file]
+    file = "_posts/#{args[:file]}"
+    data = YAML::load_file( file )
+
+    
+    puts "The title is: #{permalink}"
+  end
+end
