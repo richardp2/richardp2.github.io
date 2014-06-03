@@ -1,10 +1,9 @@
 {% include head.html %}
-            
           <article itemscope itemtype="http://schema.org/BlogPosting" class="post single format-image">
             <header>
+              {% include partials/post-nav.html %}
               <h2 itemProp="headline">{{ page.title }}</h2>
-              {% assign post = page %}
-              {% include partials/meta.html %}
+              {% assign post = page %}{% include partials/meta.html %}
             </header>
             
             <section class="post-content" itemProp="articleBody">
@@ -13,11 +12,9 @@
               {% if page.series %}{% series_list %}{% endif %}{{ content }}
             </section><!-- .post-content -->
             
-            <footer>              
-              {% if page.comments %}
-              <div id="disqus_thread"></div> 
-              {% endif %}
+            <footer>
+              {% include partials/post-nav.html %}
+              {% if page.comments %}<div id="disqus_thread"></div>{% endif %}
             </footer>
           </article><!-- .post.single.format-image -->
-        
 {% include foot.html %}

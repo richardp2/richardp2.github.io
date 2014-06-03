@@ -1,10 +1,9 @@
 {% include head.html %}
-
           <article itemscope itemtype="http://schema.org/BlogPosting" class="post single format-gallery">
             <header>
+              {% include partials/post-nav.html %}
               <h2 itemProp="headline">{{ page.title }}</h2>
-              {% assign post = page %}
-              {% include partials/meta.html %}
+              {% assign post = page %}{% include partials/meta.html %}
             </header>
             
             <section class="post-content gallery" itemProp="articleBody">
@@ -13,13 +12,9 @@
             </section><!-- .post-content .gallery -->
             
             <footer>
-              {% if page.photoset %}
-              <a href="http://www.flickr.com/photos/richard-perry/sets/{{ page.photoset }}/" target="_blank" title="View on Flickr" class="invisible" >View on Flickr</a>
-              {% endif %}
-              {% if page.comments %}
-              <div id="disqus_thread"></div> 
-              {% endif %}
+              {% if page.photoset %}<a href="http://www.flickr.com/photos/richard-perry/sets/{{ page.photoset }}/" target="_blank" title="View on Flickr" class="invisible" >View on Flickr</a>{% endif %}
+              {% include partials/post-nav.html %}
+              {% if page.comments %}<div id="disqus_thread"></div>{% endif %}
             </footer>
-          </article><!-- .post.single.format-gallery -->
-        
+          </article><!-- .post.single.format-gallery -->        
 {% include foot.html %}

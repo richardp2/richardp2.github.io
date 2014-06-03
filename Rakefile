@@ -133,17 +133,22 @@ task :publish2, [:file] do |t, args|
     dest = "_posts/#{today}-#{post_name}"
     File.open(dest, 'w') {|f| f.write(text) }
     puts "Published file #{post_name}"
-    dest = "_global/#{today}-#{post_name}"
+    dest = "../perry-online/_posts/#{today}-#{post_name}"
     data = YAML::load_file file
     if data['permalink']
       permalink = data['permalink']
     else
-      permalink = ''
+      permalink = '/'
       data['categories'].each do |category|
         permalink += "#{category.downcase!}/"
       end
-      permalink += args[:file].slice!(11..-4)
+      permalink += "#{args[:file].slice!(11..-4)}/"
     end
+      if data['author']
+        author = data['author']
+      else
+        author = 'richard'
+      end
     File.open(dest, 'w') {|f| 
       f.write("---") 
       f.write("\n")
@@ -151,9 +156,11 @@ task :publish2, [:file] do |t, args|
       f.write("\n")
       f.write("date: #{data['date']}")
       f.write("\n")
-      f.write("title: #{data['title']}")
+      f.write("title: \"#{data['title']}\"")
       f.write("\n")
-      f.write("permalink: #{data['permalink']}")
+      f.write("author: #{author}")
+      f.write("\n")
+      f.write("permalink: #{permalink}")
       f.write("\n")
       f.write("---") 
     }
@@ -167,14 +174,45 @@ task :publish2, [:file] do |t, args|
   end
 end
 
+task :global do 
+  Dir.foreach("_posts/") do |item|
+    next if item == '.' or item == '..'
+    if item
+      file = "_posts/#{item}"
+      data = YAML::load_file( file )
+      dest = "../perry-online/_posts/#{item}"
+      if data['permalink']
+        permalink = data['permalink']
+      else
+        permalink = '/'
+        data['categories'].each do |category|
+          permalink += "#{category.downcase!}/"
+        end
+        permalink += item.slice!(11..-4)
+        permalink += "/"
+      end
+      if data['author']
+        author = data['author']
+      else
+        author = 'richard'
+      end
+      File.open(dest, 'w') {|f| 
+        f.write("---") 
+        f.write("\n")
+        f.write("blog: richard")
+        f.write("\n")
+        f.write("date: #{data['date']}")
+        f.write("\n")
+        f.write("title: \"#{data['title']}\"")
+        f.write("\n")
+        f.write("author: #{author}")
+        f.write("\n")
+        f.write("permalink: #{permalink}")
+        f.write("\n")
+        f.write("---") 
+      }
 
-task :testing, [:file] do |t, args|
-  
-  if args[:file]
-    file = "_posts/#{args[:file]}"
-    data = YAML::load_file( file )
-
-    
-    puts "The title is: #{permalink}"
+      puts "Post: #{data['title']} generated"
+    end  
   end
 end

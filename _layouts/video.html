@@ -1,7 +1,7 @@
 {% include head.html %}
-            
           <article itemscope itemtype="http://schema.org/BlogPosting" class="post single format-video">
             <header>
+              {% include partials/post-nav.html %}
               <h2 itemProp="headline">{{ page.title }}</h2>
               {% assign post = page %}{% include partials/meta.html %}
             </header>
@@ -11,11 +11,9 @@
               {% if page.series %}{% series_list %}{% endif %}{{ content }}
             </section><!-- .post-content -->
             
-            <footer>              
-              {% if page.comments %}
-              <div id="disqus_thread"></div> 
-              {% endif %}
+            <footer>
+              {% include partials/post-nav.html %}
+              {% if page.comments %}<div id="disqus_thread"></div>{% endif %}
             </footer>
           </article><!-- .post.single.format-video -->
-        
 {% include foot.html %}

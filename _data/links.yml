@@ -1,27 +1,32 @@
 - url: http://www.perry-online.me.uk/
   title: Home
+  sub:
+  - url: about/
+    title: About Us
+  - url: author/richard-perry/
+    title: Richard Perry
+  - url: author/rosie-perry/
+    title: Rosie Perry
+  - url: author/rosie-jim/
+    title: Rosie & Jim
+  - url: archives/
+    title: Global Archives
 
 - url: http://travel.perry-online.me.uk/
   title: Travel
   sub:
-  - url: trips/cornwall12/
+  - url: cornwall-2012/
     title: Cornwall 2012
-  - url: trips/vietnam11/
+  - url: vietnam-2011/
     title: Vietnam 2011
-  - url: trips/iceland10-11/
-    title: Iceland 2010-11
-  - url: trips/cornwall12/
-    title: Cornwall 2012
-  - url: trips/honeymoon/
-    title: Morocco 2010
-  - url: trips/china09/
+  - url: new-year-2010-11/
+    title: New Year 2010-11
+  - url: honeymoon-2010/
+    title: Honeymoon 2010
+  - url: china-2009/
     title: China 2009
-  - url: trips/threenations09/
+  - url: china-2009/three-nations/
     title: Three Nations 2009
-  - url: trips/switzerland08/
-    title: Switzerland 2008
-  - url: trips/serbia06/
-    title: Serbia 2006
   - url: archives/
     title: Travel Archives
     
@@ -51,3 +56,19 @@
     
 - url: http://photos.perry-online.me.uk/
   title: Photos
+  sub:
+  - url: george/
+    title: George
+  - url: events/
+    title: Events
+  - url: travel/
+    title: Travel
+  - url: other/
+    title: Other
+    sub:
+    - url: days-out/
+      title: Days Out
+  - url: wedding/
+    title: Our Wedding
+  - url: archives/
+    title: Photo Archives
