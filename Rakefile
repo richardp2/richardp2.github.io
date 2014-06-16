@@ -72,6 +72,7 @@ task :deploy, [:message] => [:build, :commit, :push, :generate] do |t, args|
   
   Dir.mktmpdir do |tmp|
     system "git clone git@github.com:#{GITHUB_REPONAME}.git -b master #{tmp}"
+    rm_rf "#{tmp}/*"
     cp_r "_site/.", tmp
     
     pwd = Dir.pwd
@@ -84,6 +85,13 @@ task :deploy, [:message] => [:build, :commit, :push, :generate] do |t, args|
     
     Dir.chdir pwd
   end
+  
+  cwd = Dir.pwd
+  Dir.chdir "~/workspace/perry-online/"
+  
+  system "rake deploy[#{args[:message].inspect}]"
+  
+  Dir.chdir cwd
   
   puts "\nSite Published and Deployed to GitHub"
   puts "\nHave a nice day :-)"
