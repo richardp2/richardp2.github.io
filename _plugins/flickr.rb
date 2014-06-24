@@ -67,25 +67,32 @@ module Jekyll
           output = "<p style=\"text-align: center;\"><img class=\"th\" src=\"#{photos[0]['urlEmbeded']}\" title=\"#{photos[0]['title']}\" longdesc=\"#{photos[0]['title']}\" alt=\"#{photos[0]['title']}\" /></p>\n"
         end
       else
-        output = "<ul class='flickr #{@class}'>\n"
+        output = "<div class='flickr #{@class}'>\n"
 
-        if @class == 'summary' and photos.length > 6
-          photos.first(6).each do |photo|
-            output += "<li>\n"
+        if @class == 'summary' and photos.length > 8
+          photos.first(8).each do |photo|
+            output += "<span>\n"
             output += "<a title=\"#{photo['title']}\" href=\"#{photo['urlOpened']}\" class=\"image\"><img src='#{photo['urlThumb']}' alt=\"#{photo['title']}\" /></a>\n"
             output += "<a title='View on Flickr' href='#{photo['urlPhoto']}' class='flickrlink'> </a>\n"
-            output += "</li>\n"
+            output += "</span>\n"
+          end
+        elsif @class == 'thumb'
+          photos.sample(1).each do |photo|
+            output += "<span>\n"
+            output += "<a title=\"#{photo['title']}\" href=\"#{photo['urlOpened']}\" class=\"image\"><img src='#{photo['urlThumb']}' alt=\"#{photo['title']}\" /></a>\n"
+            output += "<a title='View on Flickr' href='#{photo['urlPhoto']}' class='flickrlink'> </a>\n"
+            output += "</span>\n"
           end
         else
           photos.each do |photo|
-            output += "<li>\n"
+            output += "<span>\n"
             output += "<a title=\"#{photo['title']}\" href=\"#{photo['urlOpened']}\" class=\"image\"><img src='#{photo['urlThumb']}' alt=\"#{photo['title']}\" /></a>\n"
             output += "<a title='View on Flickr' href='#{photo['urlPhoto']}' class='flickrlink'> </a>\n"
-            output += "</li>\n"
+            output += "</span>\n"
           end
         end
 
-        output += "</ul>\n"
+output += "</div>\n"
       end
 
       # return content
@@ -222,13 +229,16 @@ module Jekyll
       page_url      = info['urls'][0]["_content"]
    
       img_tag       = "<img src='#{src}' alt=\"#{title}\" />"
-      link_tag      = "<ul class='flickr image #{classes}'>"
-      link_tag     += "<li>"
-      link_tag     += "<a title=\"#{title}\" href='#{full}' class=\"image\">#{img_tag}</a>"
-      link_tag     += "<a title='View on Flickr' href='#{page_url}' class='flickrlink'> </a>"
-      link_tag     += "</li>"
-      link_tag     += "</ul>"
-   
+      if @classes == 'thumb'
+        link_tag    = img_tag
+      else
+        link_tag      = "<div class='flickr image #{classes}'>"
+        link_tag     += "<span>"
+        link_tag     += "<a title=\"#{title}\" href='#{full}' class=\"image\">#{img_tag}</a>"
+        link_tag     += "<a title='View on Flickr' href='#{page_url}' class='flickrlink'> </a>"
+        link_tag     += "</span>"
+        link_tag     += "</div>"
+      end    
     end
   end
 end
