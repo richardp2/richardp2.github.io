@@ -99,28 +99,6 @@ task :deploy, [:message] => [:commit, :push, :build] do |t, args|
     Dir.chdir pwd
   end
   
-  puts "## Try to deploy the main site"
-  cwd = Dir.pwd
-  
-  # Change to the main site directory
-  Dir.chdir "/home/action/workspace/perry-online/"
-  
-  # Add a note to the 'changes' file for a commit message
-  File.open("changes", 'w') {|f| 
-    f.write("#{args[:message].inspect}")
-  }
-  
-  # Try to run rake deploy on the main site (not sure if this will work)
-  system "rake -f /home/action/workspace/perry-online/Rakefile deploy[#{args[:message].inspect}]"
-  
-  # Clear the contents of the 'changes' file ready for next time
-  File.open("changes", 'w') {|f| 
-    f.write("")
-  }
-  
-  # Change back to the main working directory
-  Dir.chdir cwd
-  
   puts "\nSite Published and Deployed to GitHub"
   puts "\nHave a nice day :-)"
 end
