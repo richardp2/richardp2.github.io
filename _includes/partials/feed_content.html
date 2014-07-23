@@ -1,4 +1,3 @@
-{% capture feed_content %}
 {% case post.layout %}
   {% when 'gallery' %} 
     {{ post.content }}
@@ -13,5 +12,3 @@
   {% else %}
     {{ post.content }}
 {% endcase %}
-{% endcapture %}
-{{ feed_content | xml_escape }}
