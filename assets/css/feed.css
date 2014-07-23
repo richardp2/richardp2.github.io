@@ -1,0 +1,142 @@
+* {margin:0;padding:0;}
+body {
+  display: block;
+  font-family:'Open Sans',sans-serif;
+  font-size:0.875em;
+  color:#111111;
+  background-color:#F0F0F0;
+  line-height: 1.8em;
+  -webkit-font-smoothing: antialiased;
+  padding: 1.5em 3em;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight:600;
+}
+h1, h2, h3 {
+  display: block;
+}
+h1 {
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 1.143em;
+}
+h3 {
+  font-size: 1.071em;
+}
+
+a {
+  color:#21759b;
+  text-decoration:none;
+}
+a:hover {
+  border-bottom: 1px solid red;
+}
+a small {
+  font-size: 0.857em;
+}
+
+figure {
+  border: 1px solid #aeaeae;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px;
+  margin:20px auto;
+  max-width:350px;
+  padding:10px;
+  text-align:center;
+}
+figcaption {
+  font-size:0.8em;
+}
+
+sup {
+  font-size:0.6em;
+  font-weight:bold;
+  vertical-align:super;
+}
+sup a.footnote {
+  border-bottom:1px solid #dd0000 !important;
+  color:#dd0000;
+}
+
+/* Images */
+img {
+  position: relative;
+  margin: 0 auto;
+  max-width: 650px;
+  padding: 5px;
+}
+p img, img.emoji {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  text-align: center;
+  border: none;
+}
+
+p, ul, ol, table, dl {
+  margin: 0 0 1.571em;
+}
+ul {
+  list-style: disc;
+  padding-left: 2.857em;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.alignleft {
+  float: left;
+  margin: 2px 5px 4px -5px;
+}
+.aligncentre {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+.alignright {
+  float: right;
+  margin: 2px -5px 4px 5px;
+}
+
+#container {
+  background-color:white;
+  border: 1px solid #a0a0a0;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 1em 2em;
+  width: 100%;
+}
+header, footer, article {
+  padding: 1em 0;
+  margin: 1em 0;
+}
+header, article {
+  border-bottom: 1px solid #a0a0a0;
+}
+header h1 a {
+  color: black;
+}
+#content article {
+  display:block;
+  text-align: left;
+}
+footer {
+  text-align: center;
+}
