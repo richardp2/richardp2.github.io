@@ -1,4 +1,4 @@
-<!DOCTYPE html>{% capture title %}{% if page.title == "Home" %} {{ site.name }} | {{ site.description }}{% else %}{{ page.title }} | {{ site.name }}{% endif %}{% endcapture %}{% capture description %}{% if page.title == 'Home' %}{{ site.description }}{% else %}{{ page.content | markdownify | strip_html | truncatewords: 40 }}{% endif %}{% endcapture %}{% if page.author %}{% assign auth = site.data.authors[page.author] %}{% else %}{% assign auth = site.data.authors[site.author] %}{% endif %}
+<!DOCTYPE html>{% capture title %}{% if page.title == "Home" %} {{ site.name }} | {{ site.description }}{% else %}{{ page.title }} | {{ site.name }}{% endif %}{% endcapture %}{% capture description %}{% if page.title == 'Home' %}{{ site.description }}{% else %}{{ page.content | markdownify | strip_html | truncatewords: 40 }}{% endif %}{% endcapture %}{% if page.author %}{% assign auth = site.data.authors[page.author] %}{% else %}{% assign auth = site.data.authors[site.owner] %}{% endif %}
 <html xmlns:fb='http://ogp.me/ns/fb#' xmlns:og='http://ogp.me/ns#' lang='en-GB'>
   <head>
     <meta charset='utf-8'>
@@ -23,10 +23,12 @@
     <meta property='og:url' content="{{site.url}}{{page.url}}">
     <meta property='og:site_name' content="{{site.name}}">
     
+    <meta name='twitter:card' content="summary">
     <meta name='twitter:title' content="{{title}}">
     <meta name='twitter:description' content="{{description}}">
     <meta name='twitter:url' content="{{site.url}}{{page.url}}">
     <meta name='twitter:creator' content="{{auth.twitter}}">
+    <meta name='twitter:site:id' content="{{auth.twitter}}">
   </head>
 
   <body>
