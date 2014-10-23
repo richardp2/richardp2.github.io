@@ -16,19 +16,21 @@
     <link rel='canonical' href="{{site.url}}{{page.url}}">
     
     <script src='{{site.url}}/assets/scripts/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
-        
+    
+    <!-- Facebook Open Graph Tags -->
     <meta property='og:type' content='article'>
     <meta property='og:title' content="{{title}}">
     <meta property='og:description' content="{{description}}">
     <meta property='og:url' content="{{site.url}}{{page.url}}">
     <meta property='og:site_name' content="{{site.name}}">
     
+    <!-- Twitter Card Tags -->
     <meta name='twitter:card' content="summary">
     <meta name='twitter:title' content="{{title}}">
     <meta name='twitter:description' content="{{description}}">
     <meta name='twitter:url' content="{{site.url}}{{page.url}}">
-    <meta name='twitter:creator' content="{{auth.twitter}}">
-    <meta name='twitter:site:id' content="{{auth.twitter}}">
+    <meta name='twitter:creator' content="@{{auth.twitter}}">
+    <meta name='twitter:site' content="@{{site.data.authors[site.owner].twitter}}">
   </head>
 
   <body>
