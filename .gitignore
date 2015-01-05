@@ -7,11 +7,13 @@ _drafts
 node_modules
 _cache
 _gist_cache
+.sass-cache
 _site/
 _drafts/
 node_modules/
 _cache/
 _gist_cache/
+.sass-cache/
 
 # Windows image file caches
 Thumbs.db

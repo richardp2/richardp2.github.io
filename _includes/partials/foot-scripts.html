@@ -1,23 +1,26 @@
-        {% if page.comments %}
+
+{% if page.comments %}
 {% capture identifier %}{% if page.wordpress_id %}{{ page.wordpress_id }}{% else %}{{ page.url }}{% endif %}{% endcapture %}
-        <script type="text/javascript">
-            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            var disqus_shortname = 'richardperry'; // required: replace example with your forum shortname
-            var disqus_identifier = "{{ identifier }}";
-            var disqus_url = "http://richard.perry-online.me.uk{{ page.url }}";
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+  var disqus_shortname = 'richardperry'; // required: replace example with your forum shortname
+  var disqus_identifier = "{{ identifier }}";
+  var disqus_url = "http://richard.perry-online.me.uk{{ page.url }}";
 
-            /* * * DON'T EDIT BELOW THIS LINE * * */
-            (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; 
-                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-        {% endif %}
-    
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="{{site.url}}/assets/scripts/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; 
+    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+{% endif %}
 
-        <script src="{{site.url}}/assets/scripts/main.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<!-- <script>window.jQuery || document.write('<script src="/assets/scripts/vendor/jquery-1.10.1.min.js"><\/script>')</script> -->
+
+<script src="/assets/scripts/vendor/jquery.slicknav.min.js"></script>
+<script src="/assets/scripts/vendor/jquery.colorbox.min.js"></script>
+<script src="/assets/scripts/main.min.js"></script>

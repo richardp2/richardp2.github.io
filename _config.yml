@@ -1,3 +1,4 @@
+# Site details
 name: Richard Perry
 description: Just another blog about nothing
 owner: richard
@@ -5,10 +6,11 @@ authors: richard
 url: http://richard.perry-online.me.uk
 email: richard@perry-online.me.uk
 
-markdown: kramdown
-kramdown:
-  use_coderay: true
-pygments: true
+# Where things are
+images: /assets/images
+thumbs: /assets/images/thumbs
+
+# Handling Reading
 exclude: 
 - 'changes'
 - 'Gemfile'
@@ -18,20 +20,12 @@ exclude:
 - 'package.json'
 - 'Rakefile'
 - 'README.md'
-gems: ["emoji_for_jekyll"]
 
-encoding: utf-8
+# Plugins
+gems:
+- jekyll-mentions
+- jemoji
 
-permalink: /:categories/:title/
-relative_permalinks: false
-
-paginate: 10
-paginate_path: "page/:num"
-  
-images: /assets/images
-thumbs: /assets/images/thumbs
-
-category_dir: /
 
 flickr:
   enabled:         yes
@@ -41,97 +35,26 @@ flickr:
   access_token:    72157641557984045-92a5dbebf3e01418
   access_secret:   1625dbdd3cf26db6
 
+# Backwards-compatibility
+relative_permalinks: false
 
-prose:
-  rooturl: '_posts'
-  siteurl: 'http://richardp2.github.io/'
-  media: 'assets/images'
-  metadata:
-    _posts:
-      - name: "blog"
-        field:
-          element: "select"
-          label: "Blog"
-          options:
-            - name: "Richard Perry"
-              value: "richard"
-            - name: "Rosie & Jim's Travel Blog"
-              value: "travel"
-            - name: "Rosie & Jim's Photo Gallery"
-              value: "photo"
-      - name: "comments"
-        field:
-          element: checkbox
-          label: "Comments"
-          value: "true"
-      - name: "date"
-        field:
-          element: hidden
-          value: "2014-01-01 14:15:44+00:00"
-      - name: "layout"
-        field:
-          element: "select"
-          label: "Layout"
-          options:
-            - name: "Post"
-              value: "post"
-            - name: "Image"
-              value: "image"
-            - name: "Gallery"
-              value: "gallery"
-            - name: "Link"
-              value: "link"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-      - name: "category"
-        field:
-          element: "multiselect"
-          label: "Category"
-          placeholder: "Choose Category"
-          options:
-            - name: "General"
-              value: "General"
-            - name: "Photography"
-              value: "Photography"
-            - name: "Instagram"
-              value: "Instagram"
-            - name: "George"
-              value: "George"
-            - name: "Languages"
-              value: "Languages"
-            - name: "Mandarin"
-              value: "Mandarin"
-            - name: "Reviews"
-              value: "Reviews"
-      - name: "flickimg"
-        field:
-          element: "text"
-          label: "Flickr Thumbnail"
-          value: ""
-      - name: "photoset"
-        field:
-          element: "text"
-          label: "Flickr Photoset"
-          value: ""
-      - name: "images"
-        field:
-          element: "number"
-          label: "Number of images in Flickr Photoset"
-    _pages:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Permalink"
-          value: ""
+# Outputting
+permalink: /:categories/:title/
+paginate: 10
+paginate_path: "page/:num"
+
+# Markdown Processors
+kramdown:
+  use_coderay: true
+
+sass:
+  style: compressed
+
+# Category Config
+category_names:
+  epic quest: 
+    name: Epic Quest
+    link: epic
+  
+
+

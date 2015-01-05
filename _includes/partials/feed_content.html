@@ -7,7 +7,7 @@
     {% if post.flickimg %}{% flickr_image post.flickimg aligncentre d %}{% endif %}
     {{ post.content }}
   {% when 'video' %}
-    {% oembed https://www.youtube.com/watch?v={{post.video}}&rel=0 width=560 height=315 %}
+    <iframe width="560" height="315" src="//www.youtube.com/embed/{{post.video}}?rel=0" frameborder="0" allowfullscreen></iframe>
     {{ post.content }}   
   {% else %}
     {{ post.content }}

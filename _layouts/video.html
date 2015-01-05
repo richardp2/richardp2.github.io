@@ -7,8 +7,8 @@
             </header>
             
             <section class="post-content" itemProp="articleBody">
-              {% oembed https://www.youtube.com/watch?v={{page.video}}&rel=0 width=560 height=315 %}
-              {% if page.series %}{% series_list %}{% endif %}{{ content }}
+              <iframe width="560" height="315" src="//www.youtube.com/embed/{{page.video}}?rel=0" frameborder="0" allowfullscreen></iframe>
+              {% if page.series %}{% include series.html %}{% endif %}{{ content }}
             </section><!-- .post-content -->
             
             <footer>
