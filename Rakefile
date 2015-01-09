@@ -10,10 +10,10 @@ BITBUCKET_REPO = "richardp2/personal-website"
 
 
 desc "Build and preview the site"
-task :preview => [:grunt, :clean] do
+task :preview => [:clean] do
   puts "## Building a preview of the site"
   pids = [
-    spawn("jekyll serve -w --drafts")
+    spawn("bundle exec jekyll serve --drafts")
   ]
   
   trap "INT" do
@@ -25,12 +25,6 @@ task :preview => [:grunt, :clean] do
   loop do
     sleep 1
   end
-end
-
-desc 'Runs grunt'
-task :grunt do
-  puts "## Concatenating & minifying/uglifying css & js files"
-  system "grunt"
 end
   
 desc 'Delete generated _site files'
@@ -58,7 +52,7 @@ end
   
 
 desc "Build the site ready for deployment"
-task :build => [:grunt, :clean] do
+task :build => [:clean] do
   puts "## Generate the Jekyll site files"
   Jekyll::Site.new(Jekyll.configuration({
     "source"      => ".",
