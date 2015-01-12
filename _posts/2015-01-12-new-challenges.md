@@ -2,7 +2,6 @@
 comments: true
 layout: post
 title: New Challenges
-image: /assets/thumbs/
 categories:
 - General
 - Challenges
