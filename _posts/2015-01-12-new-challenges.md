@@ -1,6 +1,5 @@
 ---
 comments: true
-date: 
 layout: post
 title: New Challenges
 image: /assets/thumbs/
