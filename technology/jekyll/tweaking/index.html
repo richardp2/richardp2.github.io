@@ -10,12 +10,12 @@
     
     <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'>
     <link rel='stylesheet' href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
-    <link rel='stylesheet' href='http://richard.perry-online.me.uk/assets/css/main.min.css'>
+    <link rel='stylesheet' href='/assets/css/styles.css'>
     <link rel='alternate' href='http://richard.perry-online.me.uk/feed.xml' type='application/rss+xml' title='Richard Perry'>
     <link rel='author' href="https://plus.google.com/+RichardPerry1">
     <link rel='canonical' href="http://richard.perry-online.me.uk/technology/jekyll/tweaking/">
     
-    <script src='http://richard.perry-online.me.uk/assets/scripts/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
+    <script src='/assets/scripts/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
     
     <!-- Facebook Open Graph Tags -->
     <meta property='og:type' content='article'>
@@ -173,22 +173,24 @@
                 &nbsp; | &nbsp;
                 <i class='fa fa-user'></i> <span itemprop='author'><a href='//www.perry-online.me.uk/author/richard-perry/' title='Richard Perry'>Richard Perry</a></span> 
                 &nbsp; | &nbsp; 
-                <i class='fa fa-folder-open'></i> <span itemprop='keywords'><a class='category' href='/technology/'>Technology</a>, <a class='category' href='/technology/jekyll/'>Jekyll</a></span>
+                <i class='fa fa-folder-open'></i> <span itemprop='keywords'><a href='/technology/' class='pure-button pure-button-xsmall  '>Technology</a>, <a href='/technology/jekyll/' class='pure-button pure-button-xsmall  '>Jekyll</a></span>
               </span>
             </header>
             
             <section class="post-content" itemProp="articleBody">
-              <div class='series_list'>
-<img src='/assets/images/jekyll.png' title='Migrating to Jekyll' alt='Migrating to Jekyll'>
-<h4>Migrating to Jekyll</h4><ol>
-<li><a href='/technology/jekyll/jekyll/'>Moving from WordPress to Jekyll</a></li>
-<li><a href='/technology/jekyll/planning/'>Planning the Migration</a></li>
-<li><a href='/technology/jekyll/converting/'>Converting the Posts</a></li>
-<li>Tweaking Jekyll to Suit My Needs</li>
-</ol>
+                
+<div class="series_list">
+	<h4>Migrating to Jekyll</h4>
+	<ol>  
+		<li><a href="/technology/jekyll/jekyll/">Moving from WordPress to Jekyll</a></li>  
+		<li><a href="/technology/jekyll/planning/">Planning the Migration</a></li>  
+		<li><a href="/technology/jekyll/converting/">Converting the Posts</a></li>  
+		<li>Tweaking Jekyll to Suit My Needs</li>  
+	</ol>
 </div>
+
 <p>This is going to be my last post on my Migration from <a href="//wordpress.org/" title="WordPress &#8250; Blog Tool, Publishing Platform, and CMS">WordPress</a> to <a href="//jekyllrb.com/" title="Jekyll &bull; Simple, blog-aware, static sites">Jekyll</a> 
-(<em>I promise <img class="emoji" title="blush" alt="blush" src="https://github.global.ssl.fastly.net/images/icons/emoji/blush.png" height="20" width="20" align="absmiddle" /></em>). This week I am going to share with you some of the changes I’ve made, and
+(<em>I promise <img class="emoji" title=":blush:" alt=":blush:" src="https://assets.github.com/images/icons/emoji/unicode/1f60a.png" height="20" width="20" align="absmiddle" /></em>). This week I am going to share with you some of the changes I’ve made, and
 plugins I’ve adapted to get everything running the way it was (<small>ish</small>) in WordPress.
 I’ve had to make a few changes to the site to suit the new system as well, but nothing major.</p>
 
@@ -218,7 +220,7 @@ to the plugin to get a result I preferred, and finally I adopted part of the plu
 the category list displayed at the top of each post and ditched the rest in favour of coding my own
 category pages. The plugin I am now using looks a little bit like this:</p>
 
-<div class="highlight"><pre><code class="ruby"><span class="c1"># Category Links Filter</span>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1"># Category Links Filter</span>
 <span class="c1">#</span>
 <span class="c1"># The original plugin was created by Dave Perrett and is available here:</span>
 <span class="c1"># http://recursive-design.com/projects/jekyll-plugins/</span>
@@ -242,35 +244,34 @@ category pages. The plugin I am now using looks a little bit like this:</p>
 
     <span class="k">def</span> <span class="nf">category_links</span><span class="p">(</span><span class="n">categories</span><span class="p">)</span>
       <span class="n">base_dir</span> <span class="o">=</span> <span class="vi">@context</span><span class="o">.</span><span class="n">registers</span><span class="o">[</span><span class="ss">:site</span><span class="o">].</span><span class="n">config</span><span class="o">[</span><span class="s1">&#39;category_dir&#39;</span><span class="o">]</span>
-      <span class="vi">@categorydir</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
-      <span class="n">categories</span> <span class="o">=</span> <span class="n">categories</span><span class="o">.</span><span class="n">map</span> <span class="k">do</span> <span class="o">|</span><span class="n">category</span><span class="o">|</span>
-        <span class="n">base_dir</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">base_dir</span><span class="p">,</span> <span class="vi">@categorydir</span><span class="p">)</span> <span class="k">unless</span> <span class="vi">@categorydir</span> <span class="o">==</span> <span class="s1">&#39;&#39;</span>
-        <span class="vi">@categorydir</span> <span class="o">=</span> <span class="nb">self</span><span class="o">.</span><span class="n">category_dir</span><span class="p">(</span><span class="n">base_dir</span><span class="p">,</span> <span class="n">category</span><span class="p">)</span>
-        <span class="c1"># Make sure the category directory begins with a slash.</span>
-        <span class="vi">@categorydir</span> <span class="o">=</span> <span class="s2">&quot;/</span><span class="si">#{</span><span class="vi">@categorydir</span><span class="si">}</span><span class="s2">&quot;</span> <span class="k">unless</span> <span class="vi">@categorydir</span> <span class="o">=~</span> <span class="sr">/^\//</span>
-          <span class="s2">&quot;&lt;a class=&#39;category&#39; href=&#39;</span><span class="si">#{</span><span class="vi">@categorydir</span><span class="si">}</span><span class="s2">/&#39;&gt;</span><span class="si">#{</span><span class="n">category</span><span class="o">.</span><span class="n">titlecase</span><span class="si">}</span><span class="s2">&lt;/a&gt;&quot;</span>
+      <span class="o">&lt;</span><span class="n">a</span> <span class="n">href</span><span class="o">=</span><span class="s1">&#39;https://github.com/categorydir&#39;</span> <span class="n">class</span><span class="o">=</span><span class="s1">&#39;user-mention&#39;</span><span class="o">&gt;</span><span class="vi">@categorydir</span><span class="o">&lt;</span><span class="sr">/a&gt; = &#39;&#39;</span>
+<span class="sr">      categories = categories.map do |category|</span>
+<span class="sr">        base_dir = File.join(base_dir, &lt;a href=&#39;https:/</span><span class="o">/</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">categorydir</span><span class="s1">&#39; class=&#39;</span><span class="n">user</span><span class="o">-</span><span class="n">mention</span><span class="s1">&#39;&gt;@categorydir&lt;/a&gt;) unless &lt;a href=&#39;</span><span class="ss">https</span><span class="p">:</span><span class="sr">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">categorydir</span><span class="s1">&#39; class=&#39;</span><span class="n">user</span><span class="o">-</span><span class="n">mention</span><span class="s1">&#39;&gt;@categorydir&lt;/a&gt; == &#39;&#39;</span>
+<span class="s1">        &lt;a href=&#39;</span><span class="ss">https</span><span class="p">:</span><span class="sr">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">categorydir</span><span class="s1">&#39; class=&#39;</span><span class="n">user</span><span class="o">-</span><span class="n">mention</span><span class="s1">&#39;&gt;@categorydir&lt;/a&gt; = self.category_dir(base_dir, category)</span>
+<span class="s1">        # Make sure the category directory begins with a slash.</span>
+<span class="s1">        &lt;a href=&#39;</span><span class="ss">https</span><span class="p">:</span><span class="sr">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">categorydir</span><span class="s1">&#39; class=&#39;</span><span class="n">user</span><span class="o">-</span><span class="n">mention</span><span class="s1">&#39;&gt;@categorydir&lt;/a&gt; = &quot;/#{&lt;a href=&#39;</span><span class="ss">https</span><span class="p">:</span><span class="sr">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">categorydir</span><span class="s1">&#39; class=&#39;</span><span class="n">user</span><span class="o">-</span><span class="n">mention</span><span class="s1">&#39;&gt;@categorydir&lt;/a&gt;}&quot; unless &lt;a href=&#39;</span><span class="ss">https</span><span class="p">:</span><span class="sr">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">categorydir</span><span class="s1">&#39; class=&#39;</span><span class="n">user</span><span class="o">-</span><span class="n">mention</span><span class="s1">&#39;&gt;@categorydir&lt;/a&gt; =~ /^\//</span>
+<span class="s1">          &quot;&lt;a class=&#39;</span><span class="n">category</span><span class="s1">&#39; href=&#39;</span><span class="c1">#{&lt;a href=&#39;https://github.com/categorydir&#39; class=&#39;user-mention&#39;&gt;@categorydir&lt;/a&gt;}/&#39;&gt;#{category.titlecase}&lt;/a&gt;&quot;</span>
       <span class="k">end</span>
 
-      <span class="vi">@categorydir</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+      <span class="o">&lt;</span><span class="n">a</span> <span class="n">href</span><span class="o">=</span><span class="s1">&#39;https://github.com/categorydir&#39;</span> <span class="n">class</span><span class="o">=</span><span class="s1">&#39;user-mention&#39;</span><span class="o">&gt;</span><span class="vi">@categorydir</span><span class="o">&lt;</span><span class="sr">/a&gt; = &#39;&#39;</span>
 
-      <span class="k">case</span> <span class="n">categories</span><span class="o">.</span><span class="n">length</span>
-        <span class="k">when</span> <span class="mi">0</span>
-          <span class="s2">&quot;&quot;</span>
-        <span class="k">when</span> <span class="mi">1</span>
-          <span class="n">categories</span><span class="o">[</span><span class="mi">0</span><span class="o">].</span><span class="n">to_s</span>
-        <span class="k">else</span>
-          <span class="n">categories</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">&#39;, &#39;</span><span class="p">)</span>
-      <span class="k">end</span>
-    <span class="k">end</span>
-  <span class="k">end</span>
-<span class="k">end</span>
-</code></pre></div>
+<span class="sr">      case categories.length</span>
+<span class="sr">        when 0</span>
+<span class="sr">          &quot;&quot;</span>
+<span class="sr">        when 1</span>
+<span class="sr">          categories[0].to_s</span>
+<span class="sr">        else</span>
+<span class="sr">          categories.join(&#39;, &#39;)</span>
+<span class="sr">      end</span>
+<span class="sr">    end</span>
+<span class="sr">  end</span>
+<span class="sr">end</span></code></pre></div>
 
 <h3 id="pages">Pages</h3>
 
 <p>The way pages are organised in Jekyll is a little too messy for my liking so I have adopted a simple
 plugin that will keep pages organised in the same way as posts. They sit in a folder called ‘_pages’
-rather than in the root of the repository. This keeps the root folder tidier <img class="emoji" title="smile" alt="smile" src="https://github.global.ssl.fastly.net/images/icons/emoji/smile.png" height="20" width="20" align="absmiddle" />. The plugin was
+rather than in the root of the repository. This keeps the root folder tidier <img class="emoji" title=":smile:" alt=":smile:" src="https://assets.github.com/images/icons/emoji/unicode/1f604.png" height="20" width="20" align="absmiddle" />. The plugin was
 written by Ben Baker-Smith and is available from <a href="//github.com/bbakersmith/jekyll-pages-directory" title="Jekyll Pages Plugin">here</a></p>
 
 <h3 id="draft-post-publishing">Draft Post Publishing</h3>
@@ -283,7 +284,7 @@ tasks. This seemed to me to be the perfect solution, but my distinct lack of ski
 meant I had to start with <a href="//google.co.uk/" title="Google">Google</a>. This led me to a script by <a href="//www.shaneburkhart.me/" title="Shane Burkhart">Shane Burkhart</a> that was
 almost exactly what I wanted. With a few minor tweaks I ended up with this:</p>
 
-<div class="highlight"><pre><code class="ruby"><span class="c1"># The following task was adapted from one written by Shane Burkhart  </span>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1"># The following task was adapted from one written by Shane Burkhart  </span>
 <span class="c1"># Source: http://www.shaneburkhart.me/2013/12/07/rake-task-to-publish-drafts-in-jekyll.html  </span>
 
 <span class="n">desc</span> <span class="s2">&quot;Publish draft posts and update the date field&quot;</span>  
@@ -308,8 +309,7 @@ almost exactly what I wanted. With a few minor tweaks I ended up with this:</p>
     <span class="nb">puts</span> <span class="s2">&quot;</span><span class="se">\t</span><span class="s2">rake publish[draft-post.md]&quot;</span>
     <span class="nb">puts</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Please try again&quot;</span>
   <span class="k">end</span>
-<span class="k">end</span>
-</code></pre></div>
+<span class="k">end</span></code></pre></div>
 
 <p>This also led me to automating a load of different tasks to generally make my life easier. If you’re
 interested, you can view my full ‘Rakefile’ <a href="//github.com/richardp2/richardp2.github.io/blob/source/Rakefile" title="My Rakefile Source">here</a>
@@ -324,7 +324,7 @@ again not a standard function of Jekyll, but with a bit of research I found a gr
 by <a href="//realjenius.com/" title="Real Jenius">R.J. Lorimer</a> that was just what I needed. (As usual) I made a few modifications and this
 is the result:</p>
 
-<div class="highlight"><pre><code class="ruby"><span class="c1"># Series List Tag</span>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1"># Series List Tag</span>
 <span class="c1">#</span>
 <span class="c1"># The original plugin was created by R.J. Lorimer and is available here:</span>
 <span class="c1"># https://github.com/realjenius/site-samples/blob/master/2012-11-04-jekyll-series-list-2/series_tag.rb</span>
@@ -389,11 +389,10 @@ is the result:</p>
   <span class="k">end</span>
 <span class="k">end</span>
 
-<span class="no">Liquid</span><span class="o">::</span><span class="no">Template</span><span class="o">.</span><span class="n">register_tag</span><span class="p">(</span><span class="s1">&#39;series_list&#39;</span><span class="p">,</span> <span class="no">Jekyll</span><span class="o">::</span><span class="no">SeriesTag</span><span class="p">)</span>
-</code></pre></div>
+<span class="no">Liquid</span><span class="o">::</span><span class="no">Template</span><span class="o">.</span><span class="n">register_tag</span><span class="p">(</span><span class="s1">&#39;series_list&#39;</span><span class="p">,</span> <span class="no">Jekyll</span><span class="o">::</span><span class="no">SeriesTag</span><span class="p">)</span></code></pre></div>
 
 <p>I combined this with a custom template for the series pages and now article series work better than
-they did before <img class="emoji" title="smile" alt="smile" src="https://github.global.ssl.fastly.net/images/icons/emoji/smile.png" height="20" width="20" align="absmiddle" />. </p>
+they did before <img class="emoji" title=":smile:" alt=":smile:" src="https://assets.github.com/images/icons/emoji/unicode/1f604.png" height="20" width="20" align="absmiddle" />. </p>
 
 <h3 id="conclusion">Conclusion</h3>
 
@@ -403,7 +402,7 @@ interesting to some people, but really I’ve written it as a reference for myse
 
 <p>I have very much enjoyed learning about Jekyll and how it works, as well as bits of a new
 programming language, but mostly I’ve enjoyed tinkering with something that already works fine. I
-feel that I am definitely a bit of a tinkerer, but there’s no harm in it really, is there? <img class="emoji" title="wink" alt="wink" src="https://github.global.ssl.fastly.net/images/icons/emoji/wink.png" height="20" width="20" align="absmiddle" /></p>
+feel that I am definitely a bit of a tinkerer, but there’s no harm in it really, is there? <img class="emoji" title=":wink:" alt=":wink:" src="https://assets.github.com/images/icons/emoji/unicode/1f609.png" height="20" width="20" align="absmiddle" /></p>
 
 
             </section><!-- .post-content -->
@@ -525,33 +524,37 @@ feel that I am definitely a bit of a tinkerer, but there’s no harm in it reall
             </a>
           </span>
         </div>
-        <small class='copyright'>Copyright &copy; 2009 - 2014 Richard Perry</small> &nbsp; &nbsp; | &nbsp; &nbsp; 
+        <small class='copyright'>Copyright &copy; 2009 - 2015 Richard Perry</small> &nbsp; &nbsp; | &nbsp; &nbsp; 
         <small class='site-meta'>Powered by <a href='//jekyllrb.com/' title='Jekyll &bull; Simple, blog-aware, static sites'>Jekyll</a> &amp; Hosted at <a href='//github.com' title='GitHub'>GitHub</a></small>
       </footer><!-- #page-footer -->
     </div><!-- #container -->
         
-            
-
-        <script type="text/javascript">
-            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            var disqus_shortname = 'richardperry'; // required: replace example with your forum shortname
-            var disqus_identifier = "/technology/jekyll/tweaking/";
-            var disqus_url = "http://richard.perry-online.me.uk/technology/jekyll/tweaking/";
-
-            /* * * DON'T EDIT BELOW THIS LINE * * */
-            (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; 
-                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-        
     
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="http://richard.perry-online.me.uk/assets/scripts/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
-        <script src="http://richard.perry-online.me.uk/assets/scripts/main.min.js"></script>
+
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+  var disqus_shortname = 'richardperry'; // required: replace example with your forum shortname
+  var disqus_identifier = "/technology/jekyll/tweaking/";
+  var disqus_url = "http://richard.perry-online.me.uk/technology/jekyll/tweaking/";
+
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; 
+    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<!-- <script>window.jQuery || document.write('<script src="/assets/scripts/vendor/jquery-1.10.1.min.js"><\/script>')</script> -->
+
+<script src="/assets/scripts/vendor/jquery.slicknav.min.js"></script>
+<script src="/assets/scripts/vendor/jquery.colorbox.min.js"></script>
+<script src="/assets/scripts/main.min.js"></script>
+
   </body>
 </html>

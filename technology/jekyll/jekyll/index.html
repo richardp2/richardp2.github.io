@@ -10,12 +10,12 @@
     
     <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'>
     <link rel='stylesheet' href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
-    <link rel='stylesheet' href='http://richard.perry-online.me.uk/assets/css/main.min.css'>
+    <link rel='stylesheet' href='/assets/css/styles.css'>
     <link rel='alternate' href='http://richard.perry-online.me.uk/feed.xml' type='application/rss+xml' title='Richard Perry'>
     <link rel='author' href="https://plus.google.com/+RichardPerry1">
     <link rel='canonical' href="http://richard.perry-online.me.uk/technology/jekyll/jekyll/">
     
-    <script src='http://richard.perry-online.me.uk/assets/scripts/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
+    <script src='/assets/scripts/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
     
     <!-- Facebook Open Graph Tags -->
     <meta property='og:type' content='article'>
@@ -173,20 +173,22 @@
                 &nbsp; | &nbsp;
                 <i class='fa fa-user'></i> <span itemprop='author'><a href='//www.perry-online.me.uk/author/richard-perry/' title='Richard Perry'>Richard Perry</a></span> 
                 &nbsp; | &nbsp; 
-                <i class='fa fa-folder-open'></i> <span itemprop='keywords'><a class='category' href='/technology/'>Technology</a>, <a class='category' href='/technology/jekyll/'>Jekyll</a></span>
+                <i class='fa fa-folder-open'></i> <span itemprop='keywords'><a href='/technology/' class='pure-button pure-button-xsmall  '>Technology</a>, <a href='/technology/jekyll/' class='pure-button pure-button-xsmall  '>Jekyll</a></span>
               </span>
             </header>
             
             <section class="post-content" itemProp="articleBody">
-              <div class='series_list'>
-<img src='/assets/images/jekyll.png' title='Migrating to Jekyll' alt='Migrating to Jekyll'>
-<h4>Migrating to Jekyll</h4><ol>
-<li>Moving from WordPress to Jekyll</li>
-<li><a href='/technology/jekyll/planning/'>Planning the Migration</a></li>
-<li><a href='/technology/jekyll/converting/'>Converting the Posts</a></li>
-<li><a href='/technology/jekyll/tweaking/'>Tweaking Jekyll to Suit My Needs</a></li>
-</ol>
+                
+<div class="series_list">
+	<h4>Migrating to Jekyll</h4>
+	<ol>  
+		<li>Moving from WordPress to Jekyll</li>  
+		<li><a href="/technology/jekyll/planning/">Planning the Migration</a></li>  
+		<li><a href="/technology/jekyll/converting/">Converting the Posts</a></li>  
+		<li><a href="/technology/jekyll/tweaking/">Tweaking Jekyll to Suit My Needs</a></li>  
+	</ol>
 </div>
+
 <p>At the back end of last year, I started migrating my various coding projects
 from <a href="//subversion.apache.org/" title="Apache Subversion"><abbr title="Subversion">SVN</abbr></a> repositories stored on <a href="//code.google.com/" title="Google Code">Google Code</a> to <a href="//git-scm.com/" title="Git">Git</a> repositories stored
 in multiple locations<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>. I found two different places for hosting my new Git
@@ -367,33 +369,37 @@ purely out of curiosity and my inability to leave things well alone :-). <a href
             </a>
           </span>
         </div>
-        <small class='copyright'>Copyright &copy; 2009 - 2014 Richard Perry</small> &nbsp; &nbsp; | &nbsp; &nbsp; 
+        <small class='copyright'>Copyright &copy; 2009 - 2015 Richard Perry</small> &nbsp; &nbsp; | &nbsp; &nbsp; 
         <small class='site-meta'>Powered by <a href='//jekyllrb.com/' title='Jekyll &bull; Simple, blog-aware, static sites'>Jekyll</a> &amp; Hosted at <a href='//github.com' title='GitHub'>GitHub</a></small>
       </footer><!-- #page-footer -->
     </div><!-- #container -->
         
-            
-
-        <script type="text/javascript">
-            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            var disqus_shortname = 'richardperry'; // required: replace example with your forum shortname
-            var disqus_identifier = "/technology/jekyll/jekyll/";
-            var disqus_url = "http://richard.perry-online.me.uk/technology/jekyll/jekyll/";
-
-            /* * * DON'T EDIT BELOW THIS LINE * * */
-            (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; 
-                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-        
     
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="http://richard.perry-online.me.uk/assets/scripts/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
-        <script src="http://richard.perry-online.me.uk/assets/scripts/main.min.js"></script>
+
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+  var disqus_shortname = 'richardperry'; // required: replace example with your forum shortname
+  var disqus_identifier = "/technology/jekyll/jekyll/";
+  var disqus_url = "http://richard.perry-online.me.uk/technology/jekyll/jekyll/";
+
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; 
+    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<!-- <script>window.jQuery || document.write('<script src="/assets/scripts/vendor/jquery-1.10.1.min.js"><\/script>')</script> -->
+
+<script src="/assets/scripts/vendor/jquery.slicknav.min.js"></script>
+<script src="/assets/scripts/vendor/jquery.colorbox.min.js"></script>
+<script src="/assets/scripts/main.min.js"></script>
+
   </body>
 </html>
