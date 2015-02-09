@@ -40,7 +40,7 @@ I left just before I was kicked out with the promise that I would be back as ear
 would allow, in the morning, ready to take the two of them home.
 
 [thm1]: {{ site.thumbs }}/a-new-addition/MeAndMySon.jpg 
-[thm1]: {{ site.thumbs }}/a-new-addition/RosieAndGeorge.jpg 
+[thm2]: {{ site.thumbs }}/a-new-addition/RosieAndGeorge.jpg 
 
 [img1]: https://www.flickr.com/photos/richard-perry/12969955615
 [img2]: https://www.flickr.com/photos/richard-perry/12970096333
