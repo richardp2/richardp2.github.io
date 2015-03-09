@@ -18,8 +18,8 @@ Arms with a view to taking a walk up to Pen-y-Fan. Obviously we were well aware 
 difficulties of taking a 7½ week old baby up a mountain, so we dragged along a good friend of
 ours, Stewart Cunningham ([Diary of a Scout Leader]). We arrived at the Storey Arms car park at
 about lunch time, I strapped George to my chest and off we went. It was a much cooler day than
-it has been so thankfully we didn't have to fight with the heat or the sun, just the walking :-).
-
+it has been so thankfully we didn't have to fight with the heat or the sun, just the walking
+:smiley:.
 
 [![Family Photo on the Mountain][thm2]][img2]{: .alignright }
 About half way up the route to Corn Du we noticed that
@@ -37,8 +37,8 @@ making visibility severely limited.
 By the time George was ready to go on, the weather had definitely
 taken a turn for the worse so unfortunately we took the decision to turn back and skip Pen-y-Fan
 for today. It was a bit disappointing having to turn around when we were so close, but on the other
-hand we got to the top of Corn Du with a 7½ week old baby in March!!! :-) I think George had a good
-day even if he was asleep for most of it.
+hand we got to the top of Corn Du with a 7½ week old baby in March!!! :smiley: I think George had a
+good day even if he was asleep for most of it.
 
 <iframe src="http://maps.google.co.uk/maps/ms?msid=215094904436363903208.0004bc9c9ff4aa5f54060&amp;msa=0&amp;ie=UTF8&amp;t=h&amp;ll=51.877445,-3.441124&amp;spn=0.037091,0.090122&amp;z=13&amp;output=embed" height="350" width="525" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="clear:left;"></iframe><br />
 <small>View <a style="color: #0000ff; text-align: left;" href="http://maps.google.co.uk/maps/ms?msid=215094904436363903208.0004bc9c9ff4aa5f54060&amp;msa=0&amp;ie=UTF8&amp;t=h&amp;ll=51.877445,-3.441124&amp;spn=0.037091,0.090122&amp;z=13&amp;source=embed">George&#8217;s First Hike</a> in a larger map</small>
