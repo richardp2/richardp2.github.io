@@ -33,6 +33,7 @@
     {% when 'gallery' %} 
             <section class='post-summary' itemProp='articleBody'>
                 {% if post.photoset %}{% flickr_photoset post.photoset "summary" %}
+                {% if post.excerpt %}{{ post.excerpt }}
                 This Gallery contains {{ post.images }} photos.{% endif %}
             </section>
             
