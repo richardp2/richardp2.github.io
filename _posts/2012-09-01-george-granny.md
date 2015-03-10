@@ -1,13 +1,17 @@
 ---
-blog: richard
 comments: true
 date: 2012-09-01 13:19:00+00:00
 layout: image
 title: George with his granny
 wordpress_id: 275
-flickimg: 13057941225
+image: http://farm4.static.flickr.com/3080/13057941225_7b3d027d28_d.jpg
+flickrimg: 13057941225
 categories:
 - Photography
 - Instagram
 ---
 
+[![George with his granny][thm]][img]
+
+[thm]: //farm4.static.flickr.com/3080/13057941225_7b3d027d28_d.jpg
+[img]: //www.flickr.com/photos/richard-perry/13057941225/
