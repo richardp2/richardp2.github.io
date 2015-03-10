@@ -8,7 +8,7 @@ wordpress_id: 120
 categories:
 - George
 flickrimg: 14180552401
-image: /assets/thumbs/our-first-family-day-out/us-at-gloucester-cathedral.jpg
+image: /assets/images/thumbs/our-first-family-day-out/us-at-gloucester-cathedral.jpg
 ---
 
 [![Puzzlewood Trees][thm1]][img1]{: .alignright }

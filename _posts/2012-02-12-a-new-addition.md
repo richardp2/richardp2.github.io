@@ -8,7 +8,7 @@ wordpress_id: 82
 categories:
 - George
 flickrimg: 12970108443
-image: /assets/thumbs/a-new-addition/ANewAddition.jpg
+image: /assets/images/thumbs/a-new-addition/ANewAddition.jpg
 ---
 
 The day we have been waiting for for the last 9 months finally arrived on Monday night... the

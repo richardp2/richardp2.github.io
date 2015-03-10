@@ -7,7 +7,7 @@ title: A New Start
 wordpress_id: 33
 categories:
 - General
-image: /assets/thumbs/a-new-start/StapleHillFront.jpg
+image: /assets/images/thumbs/a-new-start/StapleHillFront.jpg
 ---
 
 Today marks the end of a rather significant chapter in my life, and the start of a brand new one. 

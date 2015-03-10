@@ -8,7 +8,7 @@ wordpress_id: 101
 categories:
 - Reviews
 flickrimg: 12970188325
-image: /assets/thumbs/windows8/start-screen.jpg
+image: /assets/images/thumbs/windows8/start-screen.jpg
 ---
 
 At the end of last month Microsoft released their Consumer Preview for Windows 8 and, as usual, I
