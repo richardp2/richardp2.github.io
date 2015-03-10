@@ -1,11 +1,9 @@
 ---
-blog: richard
 comments: true
 date: 2013-03-10 16:49:58+00:00
 layout: post
 title: My Epic Quest
 wordpress_id: 666
-flickimg: 
 categories:
 - General
 - Challenges

@@ -1,5 +1,4 @@
 ---
-blog: richard
 comments: true
 date: 2013-08-24 07:03:56+00:00
 layout: image
