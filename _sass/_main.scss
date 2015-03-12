@@ -111,6 +111,9 @@ iframe { display: block; margin: 0 auto; }
 #main-content .post footer a.read-more{color:black;font-weight:600;padding:6px;}
 #main-content .post footer a.read-more:hover{background-color:#21759b;color:white;}
 
+#main-content .post.summary.format-image,
+#main-content .post.summary.format-gallery,
+#main-content .post.summary.format-video { text-align: center; }
 
 #main-content .post .meta {padding-bottom:5px;}
 #main-content .post .meta span,
