@@ -44,10 +44,6 @@ excerpt: >
   <a title="View on Flickr" href="https://www.flickr.com/photos/richard-perry/13805487013/" class="flickrlink"> </a>
   </span>
   </div>
-  <p>Over the next few months I’m going to do a series of posts looking back on the holidays and
-  travelling Rosie & I have done since we met. It won’t include everything, but each week I will post
-  a gallery of the memories from a single holiday with a little bit of text describing my/our best
-  memories from that holiday. I hope you enjoy it.</p>
 ---
 
 Over the next few months I'm going to do a series of posts looking back on the holidays and

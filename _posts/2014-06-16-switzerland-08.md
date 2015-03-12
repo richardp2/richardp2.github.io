@@ -44,13 +44,6 @@ excerpt: >
   <a title="View on Flickr" href="https://www.flickr.com/photos/richard-perry/14109150030/" class="flickrlink"> </a>
   </span>
   </div>
-  <p>In 2008 we decided that we should try to have a non-scouting holiday for just the two of us. Well,
-  we half managed it. We chose to go to Switzerland for a week, without the Explorer's and not
-  as part of a Network event, but we stayed at Kandersteg International Scout Centre :-).
-  The main reason for this is the extortionate prices of hotels in Switzerland. Ok, they're not
-  extortionate, but we couldn't really afford them so we chose the cheaper option. It cost us a total
-  of £9 per person per night to stay at Kandersteg in bunkhouse accommodation. We even got our own
-  room because it was out of season ;-).
 ---
 
 In 2008 we decided that we should try to have a non-scouting holiday for just the two of us. Well,

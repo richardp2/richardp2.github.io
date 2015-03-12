@@ -44,10 +44,6 @@ excerpt: >
   <a title="View on Flickr" href="https://www.flickr.com/photos/richard-perry/14345470488/" class="flickrlink"> </a>
   </span>
   </div>
-  <p>2009 was a fantastic year for many reasons. Both Rosie and I completed our professional training, 
-  with me receiving my RICS Chartership and Rosie completing here NEBOSH Construction Safety
-  Certificate. This was quite an important milestone in both our lives, so we decided to celebrate in
-  the only way that we know how...we went travelling :-). </p>
 ---
 
 2009 was a fantastic year for many reasons. Both Rosie and I completed our professional training, 

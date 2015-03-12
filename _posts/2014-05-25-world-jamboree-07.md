@@ -44,8 +44,6 @@ excerpt: >
   <a title="View on Flickr" href="https://www.flickr.com/photos/richard-perry/13946120427/" class="flickrlink"> </a>
   </span>
   </div>
-  <p>Ok so I'm only on the third post in this series and I'm already getting behind, but I will try
-  to be better, honest ;-).</p>
 ---
 
 Ok so I'm only on the third post in this series and I'm already getting behind, but I will try to be
