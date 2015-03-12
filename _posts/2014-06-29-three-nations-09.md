@@ -347,7 +347,7 @@ information about the Three Nations Expedition, we kept a blog [here][3n].
 <a title="View on Flickr" href="https://www.flickr.com/photos/richard-perry/14531144082/" class="flickrlink"> </a>
 </span>
 <span>
-<a title="" can="" i="" have="" some="" materials="" and="" time="" with="" a="" sewing="" machine="" :-)""="" href="https://farm3.staticflickr.com/2897/14509036546_4998df1446_b.jpg" class="image cboxElement" rel="gallery0"><img src="https://farm3.staticflickr.com/2897/14509036546_4998df1446_q.jpg" alt="" can="" i="" have="" some="" materials="" and="" time="" with="" a="" sewing="" machine="" :-)""=""></a>
+<a title="'Can I have some materials and time with a sewing machine :-)'" href="https://farm3.staticflickr.com/2897/14509036546_4998df1446_b.jpg" class="image cboxElement" rel="gallery0"><img src="https://farm3.staticflickr.com/2897/14509036546_4998df1446_q.jpg" alt="'Can I have some materials and time with a sewing machine :-)'"></a>
 <a title="View on Flickr" href="https://www.flickr.com/photos/richard-perry/14509036546/" class="flickrlink"> </a>
 </span>
 <span>
