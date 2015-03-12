@@ -5,7 +5,6 @@ layout: post
 title: An Awesome Birthday Weekend
 wordpress_id: 335
 image: http://farm3.static.flickr.com/2571/13058255765_853c002a5a_q.jpg
-flickrimg: 13058255765
 categories:
 - General
 ---

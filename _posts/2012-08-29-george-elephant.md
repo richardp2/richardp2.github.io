@@ -5,7 +5,6 @@ layout: image
 title: George playing with his elephant
 wordpress_id: 254
 image: http://farm4.static.flickr.com/3716/13057594415_cebd07df2c_d.jpg
-flickrimg: 13057594415
 categories:
 - Photography
 - Instagram

@@ -1,14 +1,12 @@
 ---
-blog: richard
 comments: true
 date: 2012-03-29 20:08:02+00:00
 layout: post
 title: Our First Family Day Out
 wordpress_id: 120
+image: /assets/images/thumbs/our-first-family-day-out/us-at-gloucester-cathedral.jpg
 categories:
 - George
-flickrimg: 14180552401
-image: /assets/images/thumbs/our-first-family-day-out/us-at-gloucester-cathedral.jpg
 ---
 
 [![Puzzlewood Trees][thm1]][img1]{: .alignright }

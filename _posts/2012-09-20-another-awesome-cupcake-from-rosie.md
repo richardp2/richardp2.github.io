@@ -5,7 +5,6 @@ layout: image
 title: Another Awesome Cupcake from Rosie
 wordpress_id: 354
 image: http://farm8.static.flickr.com/7439/13058074533_d94b909a3e_d.jpg
-flickrimg: 13058074533
 categories:
 - Photography
 - Instagram

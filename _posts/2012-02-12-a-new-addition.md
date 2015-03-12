@@ -1,14 +1,12 @@
 ---
-blog: richard
 comments: true
 date: 2012-02-12 10:44:24+00:00
 layout: post
 title: A New Addition
 wordpress_id: 82
+image: /assets/images/thumbs/a-new-addition/ANewAddition.jpg
 categories:
 - George
-flickrimg: 12970108443
-image: /assets/images/thumbs/a-new-addition/ANewAddition.jpg
 ---
 
 The day we have been waiting for for the last 9 months finally arrived on Monday night... the

@@ -8,11 +8,9 @@
             
             <section class="post-content gallery" itemProp="articleBody">
               {% if page.series %}{% include series.html %}{% endif %}{{ content }}
-              {% if page.photoset %}{% flickr_photoset page.photoset %}{% endif %}
             </section><!-- .post-content .gallery -->
             
             <footer>
-              {% if page.photoset %}<a href="http://www.flickr.com/photos/richard-perry/sets/{{ page.photoset }}/" target="_blank" title="View on Flickr" class="invisible" >View on Flickr</a>{% endif %}
               {% include partials/post-nav.html %}
               {% if page.comments %}<div id="disqus_thread"></div>{% endif %}
             </footer>

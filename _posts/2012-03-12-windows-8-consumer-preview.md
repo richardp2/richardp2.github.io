@@ -1,14 +1,12 @@
 ---
-blog: richard
 comments: true
 date: 2012-03-12 18:47:07+00:00
 layout: post
 title: Windows 8 Consumer Preview
 wordpress_id: 101
+image: /assets/images/thumbs/windows8/start-screen.jpg
 categories:
 - Reviews
-flickrimg: 12970188325
-image: /assets/images/thumbs/windows8/start-screen.jpg
 ---
 
 At the end of last month Microsoft released their Consumer Preview for Windows 8 and, as usual, I

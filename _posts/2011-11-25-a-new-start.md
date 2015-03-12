@@ -1,13 +1,12 @@
 ---
-blog: richard
 comments: true
 date: 2011-11-25 18:00:16+00:00
 layout: post
 title: A New Start
 wordpress_id: 33
+image: /assets/images/thumbs/a-new-start/StapleHillFront.jpg
 categories:
 - General
-image: /assets/images/thumbs/a-new-start/StapleHillFront.jpg
 ---
 
 Today marks the end of a rather significant chapter in my life, and the start of a brand new one. 
@@ -40,7 +39,7 @@ job was an absolute nightmare commercially giving me endless experience with all
 problems leading to me successfully completing my RICS APC and receiving my Chartership in 2009.
 
 [![Staple Hill front entrance - 4 days to handover][thm3]][img3]{: .alignright }
-[![Staple Hill rear terracing - 4 days to handover][thm4]][img4]{: .alignright }
+[![Staple Hill rear terracing - 4 days to handover][thm4]][img4]{: .alignright style="clear:right" }
 I landed a job of my very own at the end of 2009. I was going to be the lead surveyor on Staple Hill
 Primary School in Bristol. At first I was a little nervous, maybe even scared, but then I became
 excited. This would be the first job where I would be able to prove myself. It was a great feeling,

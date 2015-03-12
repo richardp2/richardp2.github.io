@@ -5,7 +5,6 @@ layout: post
 title: George's First Year
 wordpress_id: 671
 image: http://farm3.static.flickr.com/2784/13062944643_8afbc3fa95_q.jpg
-flickrimg: 13062944643
 categories:
 - George
 ---

@@ -6,7 +6,6 @@ layout: image
 title: Rosie & George Playing on the Bed
 wordpress_id: 248
 image: http://farm3.static.flickr.com/2853/13057594635_5d701f893b_d.jpg
-flickrimg: 13057594635
 categories:
 - Photography
 - Instagram

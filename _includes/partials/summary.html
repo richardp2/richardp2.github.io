@@ -1,5 +1,5 @@
 {% capture read_more %}<a class='read-more' href='{{ post.url }}' itemprop='url'>read more <i class='fa fa-chevron-right'></i></a>{% endcapture %}
-{% capture thumb %}{% if post.image %}<img src='{{ post.image }}' title='{{ post.title }}' alt='{{ post.title }}' class='alignleft' />{% endif %}{% if post.flickimg %}{% flickr_image post.flickimg %}{% endif %}{% endcapture %}
+{% capture thumb %}{% if post.image %}<img src='{{ post.image }}' title='{{ post.title }}' alt='{{ post.title }}' class='alignleft' />{% endif %}{% endcapture %}
 {% case post.layout %}
     {% when 'gallery' %} 
             <header>             
@@ -9,7 +9,6 @@
     {% when 'image' %}
             <header>
               {% if post.image %}<img src='{{ post.image }}' title='{{ post.title }}' alt='{{ post.title }}' />{% endif %}
-                {% if post.flickimg %}{% flickr_image post.flickimg aligncentre d %}{% endif %}
               <h2 itemprop='headline'><a href='{{ post.url }}' itemprop='url'><i class='fa fa-picture-o'></i> {{ post.title }}</a></h2>
               {% include partials/meta.html %}
             </header>           
@@ -32,8 +31,7 @@
 {% case post.layout %}
     {% when 'gallery' %} 
             <section class='post-summary' itemProp='articleBody'>
-                {% if post.photoset %}{% flickr_photoset post.photoset "summary" %}{% endif %}
-                {% if post.excerpt %}{{ post.excerpt }}{% endif %}
+                {{ post.excerpt }}
                 This Gallery contains {{ post.images }} photos.
             </section>
             

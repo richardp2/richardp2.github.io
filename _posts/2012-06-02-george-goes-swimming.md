@@ -6,7 +6,6 @@ layout: post
 title: George Goes Swimming
 wordpress_id: 148
 image: http://farm3.static.flickr.com/2184/12971442384_26d9300d31_q.jpg
-flickrimg: 12971442384
 categories:
 - George
 ---

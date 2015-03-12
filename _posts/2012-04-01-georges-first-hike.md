@@ -6,7 +6,6 @@ layout: post
 title: George's First Hike
 wordpress_id: 137
 image: http://farm8.static.flickr.com/7313/12970614735_a49ee98762_q.jpg
-flickrimg: 12970614735
 categories:
 - George
 ---

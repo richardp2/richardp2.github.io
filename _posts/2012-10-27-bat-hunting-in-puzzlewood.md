@@ -5,7 +5,6 @@ layout: image
 title: Bat Hunting in Puzzlewood
 wordpress_id: 464
 image: http://farm4.static.flickr.com/3009/13058811394_450679c33b_d.jpg
-flickrimg: 13058811394
 categories:
 - Photography
 - Instagram

@@ -5,7 +5,6 @@ layout: image
 title: George playing with balloons from the baby shower last December!
 wordpress_id: 272
 image: http://farm4.static.flickr.com/3537/13058073963_d5ea948997_d.jpg
-flickrimg: 13058073963
 categories:
 - Photography
 - Instagram

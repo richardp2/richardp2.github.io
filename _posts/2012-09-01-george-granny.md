@@ -5,7 +5,6 @@ layout: image
 title: George with his granny
 wordpress_id: 275
 image: http://farm4.static.flickr.com/3080/13057941225_7b3d027d28_d.jpg
-flickrimg: 13057941225
 categories:
 - Photography
 - Instagram
