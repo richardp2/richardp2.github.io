@@ -13,12 +13,10 @@ thumbs:              /assets/images/thumbs
 # Handling Reading
 exclude: 
 - 'changes'
+- 'CNAME'
 - 'Gemfile'
 - 'Gemfile.lock'
-- 'Gruntfile.js'
-- 'node_modules'
-- 'package.json'
-- 'Rakefile'
+- 'LICENSE.md'
 - 'README.md'
 
 # Plugins
