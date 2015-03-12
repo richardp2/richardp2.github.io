@@ -15,7 +15,7 @@ Over the last two weeks or so, you may have been aware of a small sporting event
 in London known as the Olympic Games. Well I volunteered to work at the Games and was fortunate enough
 to be accepted as one of the 70,000 Games Makers who would be a huge part of making the Games happen.
 
-[![Blackheath Rugby Club on a Misty Morning[thm1]][img1]{: .alignright }
+[![Blackheath Rugby Club on a Misty Morning][thm1]][img1]{: .alignright }
 My Games began on Monday 30 July so I was able to watch the 
 opening ceremony from the comfort of my own sofa  :smiley:. I left for London on the afternoon of 29 July
 to make my new home at [Blackheath Rugby Club][brc] courtesy of [Camping Ninja][cn]. Check In was
