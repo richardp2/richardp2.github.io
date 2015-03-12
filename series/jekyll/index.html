@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html xmlns:fb='http://ogp.me/ns/fb#' xmlns:og='http://ogp.me/ns#' lang='en-GB'>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    <title>Series: Migrating to Jekyll | Richard Perry</title>
+    <meta name='description' content="{% for post in site.posts reversed %} {% if post.series == page.series %} &lt;article itemscope itemtype='http://schema.org/BlogPosting' class='post summary{% if post.layout != 'post' %} format-{{ post.layout }}{% endif %}'&gt; {% include partials/summary.html %} &lt;/article&gt; &lt;hr /&gt; {% endif %} {% endfor...">
+    <meta name='author' content="Richard Perry">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'>
+    <link rel='stylesheet' href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
+    <link rel='stylesheet' href='/assets/css/styles.css'>
+    <link rel='alternate' href='http://richard.perry-online.me.uk/feed.xml' type='application/rss+xml' title='Richard Perry'>
+    <link rel='author' href="https://plus.google.com/+RichardPerry1">
+    <link rel='canonical' href="http://richard.perry-online.me.uk/series/jekyll/">
+    
+    <script src='/assets/scripts/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
+    
+    <!-- Facebook Open Graph Tags -->
+    <meta property='og:type' content='article'>
+    <meta property='og:title' content="Series: Migrating to Jekyll | Richard Perry">
+    <meta property='og:description' content="{% for post in site.posts reversed %} {% if post.series == page.series %} &lt;article itemscope itemtype='http://schema.org/BlogPosting' class='post summary{% if post.layout != 'post' %} format-{{ post.layout }}{% endif %}'&gt; {% include partials/summary.html %} &lt;/article&gt; &lt;hr /&gt; {% endif %} {% endfor...">
+    <meta property='og:url' content="http://richard.perry-online.me.uk/series/jekyll/">
+    <meta property='og:site_name' content="Richard Perry">
+    
+    <!-- Twitter Card Tags -->
+    <meta name='twitter:card' content="summary">
+    <meta name='twitter:title' content="Series: Migrating to Jekyll | Richard Perry">
+    <meta name='twitter:description' content="{% for post in site.posts reversed %} {% if post.series == page.series %} &lt;article itemscope itemtype='http://schema.org/BlogPosting' class='post summary{% if post.layout != 'post' %} format-{{ post.layout }}{% endif %}'&gt; {% include partials/summary.html %} &lt;/article&gt; &lt;hr /&gt; {% endif %} {% endfor...">
+    <meta name='twitter:url' content="http://richard.perry-online.me.uk/series/jekyll/">
+    <meta name='twitter:creator' content="@richard_p2">
+    <meta name='twitter:site' content="@richard_p2">
+  </head>
+
+  <body>
+    <div id='container'>
+      <header id='page-header' role='banner' itemscope itemtype='http://schema.org/WPHeader'>
+        <hgroup>
+          <h1 class='site-title'>Richard Perry</h1>
+          <h2 class='site-description'>Just another blog about nothing</h2>
+        </hgroup>
+                <nav id="primary-navigation" role="navigation" >
+          <ul class="main-menu" >
+            <li>
+              <a href="http://www.perry-online.me.uk/" title="Home" >Home</a>
+              <ul>
+                <li>
+                  <a href="http://www.perry-online.me.uk/about/" title="About Us" >About Us</a></li>
+              
+                <li>
+                  <a href="http://www.perry-online.me.uk/author/richard-perry/" title="Richard Perry" >Richard Perry</a></li>
+              
+                <li>
+                  <a href="http://www.perry-online.me.uk/author/rosie-perry/" title="Rosie Perry" >Rosie Perry</a></li>
+              
+                <li>
+                  <a href="http://www.perry-online.me.uk/author/rosie-jim/" title="Rosie & Jim" >Rosie & Jim</a></li>
+              
+                <li>
+                  <a href="http://www.perry-online.me.uk/archives/" title="Global Archives" >Global Archives</a></li>
+              </ul>
+            </li>
+          
+            <li>
+              <a href="http://travel.perry-online.me.uk/" title="Travel" >Travel</a>
+              <ul>
+                <li>
+                  <a href="http://travel.perry-online.me.uk/cornwall-2012/" title="Cornwall 2012" >Cornwall 2012</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/vietnam-2011/" title="Vietnam 2011" >Vietnam 2011</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/new-year-2010-11/" title="New Year 2010-11" >New Year 2010-11</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/honeymoon-2010/" title="Honeymoon 2010" >Honeymoon 2010</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/china-2009/" title="China 2009" >China 2009</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/china-2009/three-nations/" title="Three Nations 2009" >Three Nations 2009</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/archives/" title="Travel Archives" >Travel Archives</a></li>
+              </ul>
+            </li>
+          
+            <li>
+              <a href="http://richard.perry-online.me.uk/" title="Richard" >Richard</a>
+              <ul>
+                <li>
+                  <a href="http://richard.perry-online.me.uk/about/" title="About Me" >About Me</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/general/" title="General" >General</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/george/" title="George" >George</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/languages/" title="Languages" >Languages</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/outdoors/" title="Active/Outdoors" >Active/Outdoors</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/photography/" title="Photography" >Photography</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/reviews/" title="Reviews" >Reviews</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/technology/" title="Technology" >Technology</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/series/" title="Post Series" >Post Series</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/archives/" title="Blog Archives" >Blog Archives</a></li>
+              </ul>
+            </li>
+          
+            <li>
+              <a href="http://photos.perry-online.me.uk/" title="Photos" >Photos</a>
+              <ul>
+                <li>
+                  <a href="http://photos.perry-online.me.uk/george/" title="George" >George</a></li>
+              
+                <li>
+                  <a href="http://photos.perry-online.me.uk/events/" title="Events" >Events</a></li>
+              
+                <li>
+                  <a href="http://photos.perry-online.me.uk/travel/" title="Travel" >Travel</a></li>
+              
+                <li>
+                  <a href="http://photos.perry-online.me.uk/other/" title="Other" >Other</a>
+                  <ul>
+                    <li>
+                      <a href="http://photos.perry-online.me.uk/other/days-out/" title="Days Out" >Days Out</a>
+                    </li>
+                  </ul>
+                </li>
+              
+                <li>
+                  <a href="http://photos.perry-online.me.uk/wedding/" title="Our Wedding" >Our Wedding</a></li>
+              
+                <li>
+                  <a href="http://photos.perry-online.me.uk/archives/" title="Photo Archives" >Photo Archives</a></li>
+              </ul>
+            </li>
+          </ul>
+          <hr />
+        </nav><!-- #primary-navigation -->
+      </header><!-- #page-header -->
+      
+      <div id='content'>
+        
+        <section id='main-content' role='main' itemscope itemtype='http://schema.org/Blog'>
+                
+
+          
+          <h2 itemProp="headline">Series: Migrating to Jekyll</h2>
+          
+          
+                  
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <article itemscope itemtype='http://schema.org/BlogPosting' class='post summary'>
+              
+
+
+            <header>     
+              <h2 itemprop='headline'><a href='/technology/jekyll/jekyll/' itemprop='url'>Moving from WordPress to Jekyll</a></h2>
+              
+              <span class='meta'>
+                <i class='fa fa-clock-o'></i><time itemprop='datePublished' content='2014-03-18' datetime='2014-03-18 19:30:00 +0000'> 18 Mar 2014</time>
+                &nbsp; | &nbsp;
+                <i class='fa fa-user'></i> <span itemprop='author'><a href='//www.perry-online.me.uk/author/richard-perry/' title='Richard Perry'>Richard Perry</a></span> 
+                &nbsp; | &nbsp; 
+                <i class='fa fa-folder-open'></i> <span itemprop='keywords'><a href='/technology/' class='pure-button pure-button-xsmall  '>Technology</a>, <a href='/technology/jekyll/' class='pure-button pure-button-xsmall  '>Jekyll</a></span>
+              </span>
+            </header>
+
+
+            <section class='post-summary' itemProp='articleBody'>
+              <img src='/assets/images/jekyll.png' title='Moving from WordPress to Jekyll' alt='Moving from WordPress to Jekyll' class='alignleft' />
+              At the back end of last year, I started migrating my various coding projects from SVN repositories stored on Google Code to Git repositories stored in multiple locations1. I found two different places for hosting my new Git repositories based on my specific needs. Firstly, the code for work needed to be kept private, but the rest of my code didn’t really matter. There is a lot of choice out there, but I wasn’t looking to part with any cash. Through a little bit of research, I came across the following options that appealed to me: Bitbucket - which allows for unlimited public &amp; private repositories, but a limited number of collaborators (5 user maximum); GitHub - which allows for unlimited public repositories only, and...
+            </section>
+            
+            <footer>
+              <a class='read-more' href='/technology/jekyll/jekyll/' itemprop='url'>read more <i class='fa fa-chevron-right'></i></a>
+            </footer>
+    
+          </article>
+
+          <hr />
+          
+        
+          
+        
+          
+          <article itemscope itemtype='http://schema.org/BlogPosting' class='post summary'>
+              
+
+
+            <header>     
+              <h2 itemprop='headline'><a href='/technology/jekyll/planning/' itemprop='url'>Planning the Migration</a></h2>
+              
+              <span class='meta'>
+                <i class='fa fa-clock-o'></i><time itemprop='datePublished' content='2014-03-31' datetime='2014-03-31 18:08:56 +0000'> 31 Mar 2014</time>
+                &nbsp; | &nbsp;
+                <i class='fa fa-user'></i> <span itemprop='author'><a href='//www.perry-online.me.uk/author/richard-perry/' title='Richard Perry'>Richard Perry</a></span> 
+                &nbsp; | &nbsp; 
+                <i class='fa fa-folder-open'></i> <span itemprop='keywords'><a href='/technology/' class='pure-button pure-button-xsmall  '>Technology</a>, <a href='/technology/jekyll/' class='pure-button pure-button-xsmall  '>Jekyll</a></span>
+              </span>
+            </header>
+
+
+            <section class='post-summary' itemProp='articleBody'>
+              <img src='/assets/images/jekyll.png' title='Planning the Migration' alt='Planning the Migration' class='alignleft' />
+              As mentioned in my previous post, I recently decided it would be a good idea to move my blog away from WordPress and onto GitHub Pages making use of Jekyll, the static site generator to simplify my site. I chose to do this for two simple reasons: My blog is very simple so doesn’t need the power of WordPress; I can’t resist tinkering with things. Realistically, the latter was the biggest driver in my decision. I came across this new idea that seemed interesting and decided to give it a go :-). Where to Start First of all, I had to look at what was needed to setup a Jekyll site. There are so many tutorials out there that this bit was easy. So I...
+            </section>
+            
+            <footer>
+              <a class='read-more' href='/technology/jekyll/planning/' itemprop='url'>read more <i class='fa fa-chevron-right'></i></a>
+            </footer>
+    
+          </article>
+
+          <hr />
+          
+        
+          
+        
+          
+          <article itemscope itemtype='http://schema.org/BlogPosting' class='post summary'>
+              
+
+
+            <header>     
+              <h2 itemprop='headline'><a href='/technology/jekyll/converting/' itemprop='url'>Converting the Posts</a></h2>
+              
+              <span class='meta'>
+                <i class='fa fa-clock-o'></i><time itemprop='datePublished' content='2014-04-07' datetime='2014-04-07 19:32:31 +0000'> 07 Apr 2014</time>
+                &nbsp; | &nbsp;
+                <i class='fa fa-user'></i> <span itemprop='author'><a href='//www.perry-online.me.uk/author/richard-perry/' title='Richard Perry'>Richard Perry</a></span> 
+                &nbsp; | &nbsp; 
+                <i class='fa fa-folder-open'></i> <span itemprop='keywords'><a href='/technology/' class='pure-button pure-button-xsmall  '>Technology</a>, <a href='/technology/jekyll/' class='pure-button pure-button-xsmall  '>Jekyll</a></span>
+              </span>
+            </header>
+
+
+            <section class='post-summary' itemProp='articleBody'>
+              <img src='/assets/images/jekyll.png' title='Converting the Posts' alt='Converting the Posts' class='alignleft' />
+              The next step in the migration to Jekyll was to export my existing blog posts from WordPress and then convert them into Markdown format so they can be used in the new blog. There are a number of different options for doing this, including Jekyll’s own migration option Jekyll Import Bearing in mind the purpose of the move was purely academic there was no need to rush this step so I tried a number of different options to see which one worked best for me. In the end, I used a little Python script written by Thomas Frössman called Exitwp. The Jekyll script was ok, but it pulled some random data from the WP SEO plugin that I was using, and didn’t properly convert the...
+            </section>
+            
+            <footer>
+              <a class='read-more' href='/technology/jekyll/converting/' itemprop='url'>read more <i class='fa fa-chevron-right'></i></a>
+            </footer>
+    
+          </article>
+
+          <hr />
+          
+        
+          
+          <article itemscope itemtype='http://schema.org/BlogPosting' class='post summary'>
+              
+
+
+            <header>     
+              <h2 itemprop='headline'><a href='/technology/jekyll/tweaking/' itemprop='url'>Tweaking Jekyll to Suit My Needs</a></h2>
+              
+              <span class='meta'>
+                <i class='fa fa-clock-o'></i><time itemprop='datePublished' content='2014-04-15' datetime='2014-04-15 07:36:28 +0000'> 15 Apr 2014</time>
+                &nbsp; | &nbsp;
+                <i class='fa fa-user'></i> <span itemprop='author'><a href='//www.perry-online.me.uk/author/richard-perry/' title='Richard Perry'>Richard Perry</a></span> 
+                &nbsp; | &nbsp; 
+                <i class='fa fa-folder-open'></i> <span itemprop='keywords'><a href='/technology/' class='pure-button pure-button-xsmall  '>Technology</a>, <a href='/technology/jekyll/' class='pure-button pure-button-xsmall  '>Jekyll</a></span>
+              </span>
+            </header>
+
+
+            <section class='post-summary' itemProp='articleBody'>
+              <img src='/assets/images/jekyll.png' title='Tweaking Jekyll to Suit My Needs' alt='Tweaking Jekyll to Suit My Needs' class='alignleft' />
+              This is going to be my last post on my Migration from WordPress to Jekyll (I promise ). This week I am going to share with you some of the changes I’ve made, and plugins I’ve adapted to get everything running the way it was (ish) in WordPress. I’ve had to make a few changes to the site to suit the new system as well, but nothing major. Tags You may have noticed (but probably not really, that’s kind of the point) that there are no longer any tags listed at the bottom of each post. Tags are a standard part of WordPress that I embraced for no other reason than ‘they were there’. Their purpose was to allow navigation between posts of similar topics...
+            </section>
+            
+            <footer>
+              <a class='read-more' href='/technology/jekyll/tweaking/' itemprop='url'>read more <i class='fa fa-chevron-right'></i></a>
+            </footer>
+    
+          </article>
+
+          <hr />
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+                
+
+        </section><!-- #main-content -->
+                
+        <section id="secondary-content"  itemscope itemtype="http://schema.org/WPSidebar" role="sidebar">
+          
+<aside>
+  <h3><a href="/about/" title="About Me">About Me</a></h3>
+  <img src="https://secure.gravatar.com/avatar/de76254e22ce8ef47fd59a5fcc6e5ef6?s=150" title="Richard Perry" alt="Richard Perry" />
+  <p>I'm a Quantity Surveyor in South Wales with a passion for photography, technology, science, languages & the outdoors :-)</p>
+  <div class='social aligncentre'>
+  <span class="fa-stack">
+    <a href='//www.facebook.com/richardpperry' title='Facebook'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='//twitter.com/richard_p2' title='Twitter'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='//uk.linkedin.com/in/rpperry' title='LinkedIn'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='//flickr.com/photos/richard-perry' title='Flickr'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
+    </a>
+  </span><br />
+  <span class="fa-stack">
+    <a href='//instagram.com/perryri' title='Instagram'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='//github.com/richardp2' title='GitHub'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='//richard.perry-online.me.uk/' title='Website'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-link fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='mai&#108;to&#58;richard@perrymail.me.uk' title='Email Me'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+    </a>
+  </span><br />
+</div>
+
+</aside>
+
+<hr />
+
+
+<aside>
+  <h3>My Tweets</h3>
+  <a class="twitter-timeline" href="https://twitter.com/richard_p2" data-widget-id="250856108174999552">Tweets by @richard_p2</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</aside>                
+
+        </section><!-- #secondary-content -->
+      </div><!-- #content -->
+            
+      <footer id="page-footer" itemscope itemtype="http://schema.org/WPFooter">
+        <hr />
+        
+        <div class='social'>
+          <span class="fa-stack fa-2x">
+            <a href='//www.facebook.com/richardpperry' title='Facebook'>
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+          <span class="fa-stack fa-2x">
+            <a href='//twitter.com/richard_p2' title='Twitter'>
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+          <span class="fa-stack fa-2x">
+            <a href='//github.com/richardp2' title='GitHub'>
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+          <span class="fa-stack fa-2x">
+            <a href='mai&#108;to&#58;richard@perrymail.me.uk' title='Email'>
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+          <span class="fa-stack fa-2x">
+            <a href='/feed.xml' title='RSS Feed'>
+              <i class="fa fa-circle fa-stack-2x feed"></i>
+              <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+        </div>
+        <small class='copyright'>Copyright &copy; 2009 - 2015 Richard Perry</small> &nbsp; &nbsp; | &nbsp; &nbsp; 
+        <small class='site-meta'>Powered by <a href='//jekyllrb.com/' title='Jekyll &bull; Simple, blog-aware, static sites'>Jekyll</a> &amp; Hosted at <a href='//github.com' title='GitHub'>GitHub</a></small>
+      </footer><!-- #page-footer -->
+    </div><!-- #container -->
+        
+    
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<!-- <script>window.jQuery || document.write('<script src="/assets/scripts/vendor/jquery-1.10.1.min.js"><\/script>')</script> -->
+
+<script src="/assets/scripts/vendor/jquery.slicknav.min.js"></script>
+<script src="/assets/scripts/vendor/jquery.colorbox.min.js"></script>
+<script src="/assets/scripts/main.min.js"></script>
+
+  </body>
+</html>

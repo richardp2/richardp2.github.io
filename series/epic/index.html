@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html xmlns:fb='http://ogp.me/ns/fb#' xmlns:og='http://ogp.me/ns#' lang='en-GB'>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    <title>My Epic Quest Series | Richard Perry</title>
+    <meta name='description' content="{% for post in site.posts reversed %} {% if post.series == page.series %} &lt;article itemscope itemtype='http://schema.org/BlogPosting' class='post summary{% if post.layout != 'post' %} format-{{ post.layout }}{% endif %}'&gt; {% include partials/summary.html %} &lt;/article&gt; &lt;hr /&gt; {% endif %} {% endfor...">
+    <meta name='author' content="Richard Perry">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'>
+    <link rel='stylesheet' href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
+    <link rel='stylesheet' href='/assets/css/styles.css'>
+    <link rel='alternate' href='http://richard.perry-online.me.uk/feed.xml' type='application/rss+xml' title='Richard Perry'>
+    <link rel='author' href="https://plus.google.com/+RichardPerry1">
+    <link rel='canonical' href="http://richard.perry-online.me.uk/series/epic/">
+    
+    <script src='/assets/scripts/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
+    
+    <!-- Facebook Open Graph Tags -->
+    <meta property='og:type' content='article'>
+    <meta property='og:title' content="My Epic Quest Series | Richard Perry">
+    <meta property='og:description' content="{% for post in site.posts reversed %} {% if post.series == page.series %} &lt;article itemscope itemtype='http://schema.org/BlogPosting' class='post summary{% if post.layout != 'post' %} format-{{ post.layout }}{% endif %}'&gt; {% include partials/summary.html %} &lt;/article&gt; &lt;hr /&gt; {% endif %} {% endfor...">
+    <meta property='og:url' content="http://richard.perry-online.me.uk/series/epic/">
+    <meta property='og:site_name' content="Richard Perry">
+    
+    <!-- Twitter Card Tags -->
+    <meta name='twitter:card' content="summary">
+    <meta name='twitter:title' content="My Epic Quest Series | Richard Perry">
+    <meta name='twitter:description' content="{% for post in site.posts reversed %} {% if post.series == page.series %} &lt;article itemscope itemtype='http://schema.org/BlogPosting' class='post summary{% if post.layout != 'post' %} format-{{ post.layout }}{% endif %}'&gt; {% include partials/summary.html %} &lt;/article&gt; &lt;hr /&gt; {% endif %} {% endfor...">
+    <meta name='twitter:url' content="http://richard.perry-online.me.uk/series/epic/">
+    <meta name='twitter:creator' content="@richard_p2">
+    <meta name='twitter:site' content="@richard_p2">
+  </head>
+
+  <body>
+    <div id='container'>
+      <header id='page-header' role='banner' itemscope itemtype='http://schema.org/WPHeader'>
+        <hgroup>
+          <h1 class='site-title'>Richard Perry</h1>
+          <h2 class='site-description'>Just another blog about nothing</h2>
+        </hgroup>
+                <nav id="primary-navigation" role="navigation" >
+          <ul class="main-menu" >
+            <li>
+              <a href="http://www.perry-online.me.uk/" title="Home" >Home</a>
+              <ul>
+                <li>
+                  <a href="http://www.perry-online.me.uk/about/" title="About Us" >About Us</a></li>
+              
+                <li>
+                  <a href="http://www.perry-online.me.uk/author/richard-perry/" title="Richard Perry" >Richard Perry</a></li>
+              
+                <li>
+                  <a href="http://www.perry-online.me.uk/author/rosie-perry/" title="Rosie Perry" >Rosie Perry</a></li>
+              
+                <li>
+                  <a href="http://www.perry-online.me.uk/author/rosie-jim/" title="Rosie & Jim" >Rosie & Jim</a></li>
+              
+                <li>
+                  <a href="http://www.perry-online.me.uk/archives/" title="Global Archives" >Global Archives</a></li>
+              </ul>
+            </li>
+          
+            <li>
+              <a href="http://travel.perry-online.me.uk/" title="Travel" >Travel</a>
+              <ul>
+                <li>
+                  <a href="http://travel.perry-online.me.uk/cornwall-2012/" title="Cornwall 2012" >Cornwall 2012</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/vietnam-2011/" title="Vietnam 2011" >Vietnam 2011</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/new-year-2010-11/" title="New Year 2010-11" >New Year 2010-11</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/honeymoon-2010/" title="Honeymoon 2010" >Honeymoon 2010</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/china-2009/" title="China 2009" >China 2009</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/china-2009/three-nations/" title="Three Nations 2009" >Three Nations 2009</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/archives/" title="Travel Archives" >Travel Archives</a></li>
+              </ul>
+            </li>
+          
+            <li>
+              <a href="http://richard.perry-online.me.uk/" title="Richard" >Richard</a>
+              <ul>
+                <li>
+                  <a href="http://richard.perry-online.me.uk/about/" title="About Me" >About Me</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/general/" title="General" >General</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/george/" title="George" >George</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/languages/" title="Languages" >Languages</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/outdoors/" title="Active/Outdoors" >Active/Outdoors</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/photography/" title="Photography" >Photography</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/reviews/" title="Reviews" >Reviews</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/technology/" title="Technology" >Technology</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/series/" title="Post Series" >Post Series</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/archives/" title="Blog Archives" >Blog Archives</a></li>
+              </ul>
+            </li>
+          
+            <li>
+              <a href="http://photos.perry-online.me.uk/" title="Photos" >Photos</a>
+              <ul>
+                <li>
+                  <a href="http://photos.perry-online.me.uk/george/" title="George" >George</a></li>
+              
+                <li>
+                  <a href="http://photos.perry-online.me.uk/events/" title="Events" >Events</a></li>
+              
+                <li>
+                  <a href="http://photos.perry-online.me.uk/travel/" title="Travel" >Travel</a></li>
+              
+                <li>
+                  <a href="http://photos.perry-online.me.uk/other/" title="Other" >Other</a>
+                  <ul>
+                    <li>
+                      <a href="http://photos.perry-online.me.uk/other/days-out/" title="Days Out" >Days Out</a>
+                    </li>
+                  </ul>
+                </li>
+              
+                <li>
+                  <a href="http://photos.perry-online.me.uk/wedding/" title="Our Wedding" >Our Wedding</a></li>
+              
+                <li>
+                  <a href="http://photos.perry-online.me.uk/archives/" title="Photo Archives" >Photo Archives</a></li>
+              </ul>
+            </li>
+          </ul>
+          <hr />
+        </nav><!-- #primary-navigation -->
+      </header><!-- #page-header -->
+      
+      <div id='content'>
+        
+        <section id='main-content' role='main' itemscope itemtype='http://schema.org/Blog'>
+                
+
+          
+          <h2 itemProp="headline">My Epic Quest Series</h2>
+          
+          
+                  
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <article itemscope itemtype='http://schema.org/BlogPosting' class='post summary'>
+              
+
+
+            <header>     
+              <h2 itemprop='headline'><a href='/general/challenges/epic/my-epic-quest/' itemprop='url'>My Epic Quest</a></h2>
+              
+              <span class='meta'>
+                <i class='fa fa-clock-o'></i><time itemprop='datePublished' content='2013-03-10' datetime='2013-03-10 16:49:58 +0000'> 10 Mar 2013</time>
+                &nbsp; | &nbsp;
+                <i class='fa fa-user'></i> <span itemprop='author'><a href='//www.perry-online.me.uk/author/richard-perry/' title='Richard Perry'>Richard Perry</a></span> 
+                &nbsp; | &nbsp; 
+                <i class='fa fa-folder-open'></i> <span itemprop='keywords'><a href='/general/' class='pure-button pure-button-xsmall  '>General</a>, <a href='/general/challenges/' class='pure-button pure-button-xsmall  '>Challenges</a>, <a href='/general/challenges/epic/' class='pure-button pure-button-xsmall  '>Epic Quest</a></span>
+              </span>
+            </header>
+
+
+            <section class='post-summary' itemProp='articleBody'>
+              
+              (This post has been inspired by Steve Kamb at Nerd Fitness) I recently read an article on Nerd Fitness where Steve Kamb had set out his goals for “levelling up” his life. He used the metaphor of Role Playing Games to make the concept manageable and put together a list of challenges or quests that could be completed to advance from one level to the next. He then decided that each quest would be worth 20% experience towards the next level, there would also be Master Quests that equated to 100% experience, and this became his ‘Epic Quest of Awesome’. I thought this was a pretty good idea, so using the same concept, I have come up with my own Epic Quest. It’s no different...
+            </section>
+            
+            <footer>
+              <a class='read-more' href='/general/challenges/epic/my-epic-quest/' itemprop='url'>read more <i class='fa fa-chevron-right'></i></a>
+            </footer>
+    
+          </article>
+
+          <hr />
+          
+        
+          
+        
+          
+        
+          
+          <article itemscope itemtype='http://schema.org/BlogPosting' class='post summary format-video'>
+              
+
+
+            <header>
+              <iframe width="560" height="315" src="//www.youtube.com/embed/rbnrm2vj0rM?rel=0" frameborder="0" allowfullscreen></iframe>
+              <h2 itemprop='headline'><a href='/general/challenges/epic/active/backflip/' itemprop='url'><i class='fa fa-film'></i> Active Quest: Backflip</a></h2>
+              
+              <span class='meta'>
+                <i class='fa fa-clock-o'></i><time itemprop='datePublished' content='2013-05-19' datetime='2013-05-19 17:54:39 +0000'> 19 May 2013</time>
+                &nbsp; | &nbsp;
+                <i class='fa fa-user'></i> <span itemprop='author'><a href='//www.perry-online.me.uk/author/richard-perry/' title='Richard Perry'>Richard Perry</a></span> 
+                &nbsp; | &nbsp; 
+                <i class='fa fa-folder-open'></i> <span itemprop='keywords'><a href='/general/' class='pure-button pure-button-xsmall  '>General</a>, <a href='/general/challenges/' class='pure-button pure-button-xsmall  '>Challenges</a>, <a href='/general/challenges/epic/' class='pure-button pure-button-xsmall  '>Epic Quest</a>, <a href='/general/challenges/epic/active/' class='pure-button pure-button-xsmall  '>Active</a></span>
+              </span>
+            </header>
+    
+
+            <section class='post-summary' itemProp='articleBody'>
+              <p>Since mid March, I have been going to Torfaen Freerunning Academy at the Torfaen Academy of Gymnastics in New Inn. I’ve
+been quite interested in the concept of Parkour/Freerunning for a while so I thought it would be fun. Although I am quite
+a bit older than the vast majority of the people there, I have been welcomed and supported brilliantly since I joined. I
+have been working on vaults and flips from the start and on 26 April, I completed my first unsupported backflip <img class="emoji" title=":smiley:" alt=":smiley:" src="https://assets.github.com/images/icons/emoji/unicode/1f603.png" height="20" width="20" align="absmiddle" />.
+So here’s the video (granted this was taken the following week when I had cleaned it up a bit).</p>
+
+            </section>
+
+          </article>
+
+          <hr />
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <article itemscope itemtype='http://schema.org/BlogPosting' class='post summary'>
+              
+
+
+            <header>     
+              <h2 itemprop='headline'><a href='/general/30/' itemprop='url'>30 Times Around the Sun</a></h2>
+              
+              <span class='meta'>
+                <i class='fa fa-clock-o'></i><time itemprop='datePublished' content='2014-10-10' datetime='2014-10-10 21:50:40 +0000'> 10 Oct 2014</time>
+                &nbsp; | &nbsp;
+                <i class='fa fa-user'></i> <span itemprop='author'><a href='//www.perry-online.me.uk/author/richard-perry/' title='Richard Perry'>Richard Perry</a></span> 
+                &nbsp; | &nbsp; 
+                <i class='fa fa-folder-open'></i> <span itemprop='keywords'><a href='/general/' class='pure-button pure-button-xsmall  '>General</a></span>
+              </span>
+            </header>
+
+
+            <section class='post-summary' itemProp='articleBody'>
+              <div class='flickr image alignleft'><span><a title="Sherwood-2030" href='http://farm4.static.flickr.com/3892/15118559800_e18447808a_b.jpg' class="image"><img src='http://farm4.static.flickr.com/3892/15118559800_e18447808a_q.jpg' alt="Sherwood-2030" /></a><a title='View on Flickr' href='https://www.flickr.com/photos/richard-perry/15118559800/' class='flickrlink'> </a></span></div>
+              So recently (ok a month ago, but who’s counting), I completed my thirtieth rotation around the sun and I thought I should write something to recognise the occasion. However, life got in the way and it’s now a couple of weeks down the line and I’m only just sitting down to write. It seems like a fairly appropriate time to write up an update on my Epic Quest, so here it is… Completed Quests Travel Climb the Eiffel Tower in Paris, France - 05/04/2013 (there is a blog post coming…honest) Visit the Louvre in France - 06/04/2013 Visit Notre Dame Cathedral in France - 05/04/2013 Active Do 10 one-arm push ups with each arm (May 2014) Learn how to do a frontflip &amp; a backflip...
+            </section>
+            
+            <footer>
+              <a class='read-more' href='/general/30/' itemprop='url'>read more <i class='fa fa-chevron-right'></i></a>
+            </footer>
+    
+          </article>
+
+          <hr />
+          
+        
+          
+        
+          
+        
+          
+        
+                
+
+        </section><!-- #main-content -->
+                
+        <section id="secondary-content"  itemscope itemtype="http://schema.org/WPSidebar" role="sidebar">
+          
+<aside>
+  <h3><a href="/about/" title="About Me">About Me</a></h3>
+  <img src="https://secure.gravatar.com/avatar/de76254e22ce8ef47fd59a5fcc6e5ef6?s=150" title="Richard Perry" alt="Richard Perry" />
+  <p>I'm a Quantity Surveyor in South Wales with a passion for photography, technology, science, languages & the outdoors :-)</p>
+  <div class='social aligncentre'>
+  <span class="fa-stack">
+    <a href='//www.facebook.com/richardpperry' title='Facebook'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='//twitter.com/richard_p2' title='Twitter'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='//uk.linkedin.com/in/rpperry' title='LinkedIn'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='//flickr.com/photos/richard-perry' title='Flickr'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
+    </a>
+  </span><br />
+  <span class="fa-stack">
+    <a href='//instagram.com/perryri' title='Instagram'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='//github.com/richardp2' title='GitHub'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='//richard.perry-online.me.uk/' title='Website'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-link fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='mai&#108;to&#58;richard@perrymail.me.uk' title='Email Me'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+    </a>
+  </span><br />
+</div>
+
+</aside>
+
+<hr />
+
+
+<aside>
+  <h3>My Tweets</h3>
+  <a class="twitter-timeline" href="https://twitter.com/richard_p2" data-widget-id="250856108174999552">Tweets by @richard_p2</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</aside>                
+
+        </section><!-- #secondary-content -->
+      </div><!-- #content -->
+            
+      <footer id="page-footer" itemscope itemtype="http://schema.org/WPFooter">
+        <hr />
+        
+        <div class='social'>
+          <span class="fa-stack fa-2x">
+            <a href='//www.facebook.com/richardpperry' title='Facebook'>
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+          <span class="fa-stack fa-2x">
+            <a href='//twitter.com/richard_p2' title='Twitter'>
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+          <span class="fa-stack fa-2x">
+            <a href='//github.com/richardp2' title='GitHub'>
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+          <span class="fa-stack fa-2x">
+            <a href='mai&#108;to&#58;richard@perrymail.me.uk' title='Email'>
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+          <span class="fa-stack fa-2x">
+            <a href='/feed.xml' title='RSS Feed'>
+              <i class="fa fa-circle fa-stack-2x feed"></i>
+              <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+        </div>
+        <small class='copyright'>Copyright &copy; 2009 - 2015 Richard Perry</small> &nbsp; &nbsp; | &nbsp; &nbsp; 
+        <small class='site-meta'>Powered by <a href='//jekyllrb.com/' title='Jekyll &bull; Simple, blog-aware, static sites'>Jekyll</a> &amp; Hosted at <a href='//github.com' title='GitHub'>GitHub</a></small>
+      </footer><!-- #page-footer -->
+    </div><!-- #container -->
+        
+    
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<!-- <script>window.jQuery || document.write('<script src="/assets/scripts/vendor/jquery-1.10.1.min.js"><\/script>')</script> -->
+
+<script src="/assets/scripts/vendor/jquery.slicknav.min.js"></script>
+<script src="/assets/scripts/vendor/jquery.colorbox.min.js"></script>
+<script src="/assets/scripts/main.min.js"></script>
+
+  </body>
+</html>

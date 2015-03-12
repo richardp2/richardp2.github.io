@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html xmlns:fb='http://ogp.me/ns/fb#' xmlns:og='http://ogp.me/ns#' lang='en-GB'>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    <title>Series' | Richard Perry</title>
+    <meta name='description' content="{% for series in site.data.series sort_by:start %} &lt;article class="series post summary"&gt; &lt;header&gt; &lt;h2&gt;{{ series.name }}&lt;/h2&gt; &lt;/header&gt; &lt;section class='series_details'&gt; {% if series.image %}{% endif %} {% if series.description %}&lt;p&gt;{{ series.description | markdownify }}&lt;/p&gt;{% endif %} &lt;/section&gt; &lt;footer&gt; {{ series.start | date_to_long_string...">
+    <meta name='author' content="Richard Perry">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'>
+    <link rel='stylesheet' href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
+    <link rel='stylesheet' href='/assets/css/styles.css'>
+    <link rel='alternate' href='http://richard.perry-online.me.uk/feed.xml' type='application/rss+xml' title='Richard Perry'>
+    <link rel='author' href="https://plus.google.com/+RichardPerry1">
+    <link rel='canonical' href="http://richard.perry-online.me.uk/series/">
+    
+    <script src='/assets/scripts/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
+    
+    <!-- Facebook Open Graph Tags -->
+    <meta property='og:type' content='article'>
+    <meta property='og:title' content="Series' | Richard Perry">
+    <meta property='og:description' content="{% for series in site.data.series sort_by:start %} &lt;article class="series post summary"&gt; &lt;header&gt; &lt;h2&gt;{{ series.name }}&lt;/h2&gt; &lt;/header&gt; &lt;section class='series_details'&gt; {% if series.image %}{% endif %} {% if series.description %}&lt;p&gt;{{ series.description | markdownify }}&lt;/p&gt;{% endif %} &lt;/section&gt; &lt;footer&gt; {{ series.start | date_to_long_string...">
+    <meta property='og:url' content="http://richard.perry-online.me.uk/series/">
+    <meta property='og:site_name' content="Richard Perry">
+    
+    <!-- Twitter Card Tags -->
+    <meta name='twitter:card' content="summary">
+    <meta name='twitter:title' content="Series' | Richard Perry">
+    <meta name='twitter:description' content="{% for series in site.data.series sort_by:start %} &lt;article class="series post summary"&gt; &lt;header&gt; &lt;h2&gt;{{ series.name }}&lt;/h2&gt; &lt;/header&gt; &lt;section class='series_details'&gt; {% if series.image %}{% endif %} {% if series.description %}&lt;p&gt;{{ series.description | markdownify }}&lt;/p&gt;{% endif %} &lt;/section&gt; &lt;footer&gt; {{ series.start | date_to_long_string...">
+    <meta name='twitter:url' content="http://richard.perry-online.me.uk/series/">
+    <meta name='twitter:creator' content="@richard_p2">
+    <meta name='twitter:site' content="@richard_p2">
+  </head>
+
+  <body>
+    <div id='container'>
+      <header id='page-header' role='banner' itemscope itemtype='http://schema.org/WPHeader'>
+        <hgroup>
+          <h1 class='site-title'>Richard Perry</h1>
+          <h2 class='site-description'>Just another blog about nothing</h2>
+        </hgroup>
+                <nav id="primary-navigation" role="navigation" >
+          <ul class="main-menu" >
+            <li>
+              <a href="http://www.perry-online.me.uk/" title="Home" >Home</a>
+              <ul>
+                <li>
+                  <a href="http://www.perry-online.me.uk/about/" title="About Us" >About Us</a></li>
+              
+                <li>
+                  <a href="http://www.perry-online.me.uk/author/richard-perry/" title="Richard Perry" >Richard Perry</a></li>
+              
+                <li>
+                  <a href="http://www.perry-online.me.uk/author/rosie-perry/" title="Rosie Perry" >Rosie Perry</a></li>
+              
+                <li>
+                  <a href="http://www.perry-online.me.uk/author/rosie-jim/" title="Rosie & Jim" >Rosie & Jim</a></li>
+              
+                <li>
+                  <a href="http://www.perry-online.me.uk/archives/" title="Global Archives" >Global Archives</a></li>
+              </ul>
+            </li>
+          
+            <li>
+              <a href="http://travel.perry-online.me.uk/" title="Travel" >Travel</a>
+              <ul>
+                <li>
+                  <a href="http://travel.perry-online.me.uk/cornwall-2012/" title="Cornwall 2012" >Cornwall 2012</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/vietnam-2011/" title="Vietnam 2011" >Vietnam 2011</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/new-year-2010-11/" title="New Year 2010-11" >New Year 2010-11</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/honeymoon-2010/" title="Honeymoon 2010" >Honeymoon 2010</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/china-2009/" title="China 2009" >China 2009</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/china-2009/three-nations/" title="Three Nations 2009" >Three Nations 2009</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/archives/" title="Travel Archives" >Travel Archives</a></li>
+              </ul>
+            </li>
+          
+            <li>
+              <a href="http://richard.perry-online.me.uk/" title="Richard" >Richard</a>
+              <ul>
+                <li>
+                  <a href="http://richard.perry-online.me.uk/about/" title="About Me" >About Me</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/general/" title="General" >General</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/george/" title="George" >George</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/languages/" title="Languages" >Languages</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/outdoors/" title="Active/Outdoors" >Active/Outdoors</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/photography/" title="Photography" >Photography</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/reviews/" title="Reviews" >Reviews</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/technology/" title="Technology" >Technology</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/series/" title="Post Series" >Post Series</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/archives/" title="Blog Archives" >Blog Archives</a></li>
+              </ul>
+            </li>
+          
+            <li>
+              <a href="http://photos.perry-online.me.uk/" title="Photos" >Photos</a>
+              <ul>
+                <li>
+                  <a href="http://photos.perry-online.me.uk/george/" title="George" >George</a></li>
+              
+                <li>
+                  <a href="http://photos.perry-online.me.uk/events/" title="Events" >Events</a></li>
+              
+                <li>
+                  <a href="http://photos.perry-online.me.uk/travel/" title="Travel" >Travel</a></li>
+              
+                <li>
+                  <a href="http://photos.perry-online.me.uk/other/" title="Other" >Other</a>
+                  <ul>
+                    <li>
+                      <a href="http://photos.perry-online.me.uk/other/days-out/" title="Days Out" >Days Out</a>
+                    </li>
+                  </ul>
+                </li>
+              
+                <li>
+                  <a href="http://photos.perry-online.me.uk/wedding/" title="Our Wedding" >Our Wedding</a></li>
+              
+                <li>
+                  <a href="http://photos.perry-online.me.uk/archives/" title="Photo Archives" >Photo Archives</a></li>
+              </ul>
+            </li>
+          </ul>
+          <hr />
+        </nav><!-- #primary-navigation -->
+      </header><!-- #page-header -->
+      
+      <div id='content'>
+        
+        <section id='main-content' role='main' itemscope itemtype='http://schema.org/Blog'>
+                
+
+          
+          <h2 itemProp="headline">Series'</h2>
+          
+          
+          
+      <article class="series post summary">
+        <header>
+          <h2><a href="/series/mandarin/" title="Mandarin Language Challenge">Mandarin Language Challenge</a></h2>
+        </header>
+        <section class='series_details'>
+          <img src="http://www.teasetc.com/blog/beth/uploaded_images/P1000497-757313.JPG" alt="Mandarin Language Challenge" class="alignleft">
+          <p><p>Since early 2009 I have been learning Mandarin Chinese off and on. This may seem an odd language to choose so let me explain. In 2007 a good friend of ours told us about a Scouting trip he was organising to Russia, Mongolia &amp; China (further details available <a href="http://travel.perry-online.me.uk/trips/china-2009/">here</a>. This seemed like a good idea at the time, and, to cut a long story short, Rosie &amp; I decided to stay on in China for a further 5 weeks. The time we spent in China was absolutely amazing and I gained a real appreciation for the country, the culture and the language and I wanted to learn more.  I decided to learn the language to better understand the culture. Since then, it seems that my language learning has taken a bit of a back seat, with endless excuses rationalising why, so I have resolved to set up a language challenge to try to encourage me to get on with it!</p>
+</p>
+        </section>
+        <footer>
+          <i class='fa fa-clock-o'></i> <time content='2012-08-29T19:42:55+00:00' datetime='2012-08-29 19:42:55+00:00'>29 August 2012</time> 
+          - present
+        </footer>
+      </article>
+
+      <hr>
+
+      <article class="series post summary">
+        <header>
+          <h2><a href="/series/epic/" title="My Epic Quest">My Epic Quest</a></h2>
+        </header>
+        <section class='series_details'>
+          
+          <p><p>I recently read an article on <a href="http://www.nerdfitness.com/blog/epic-quest/">Nerd Fitness</a> where Steve Kamb had set out his goals for ‘levelling up’ his life. He used the metaphor of Role Playing Games to make the concept manageable and put together a list of challenges or quests that could be completed to advance from one level to the next. He then decided that each quest would be worth 20% experience towards the next level, there would also be Master Quests that equated to 100% experience, and this became his ‘Epic Quest of Awesome’. I thought this was a pretty good idea, so using the same concept, I have come up with my own Epic Quest. It’s no different to a bucket list that many people have, but it just sounds cooler :wink:</p>
+</p>
+        </section>
+        <footer>
+          <i class='fa fa-clock-o'></i> <time content='2013-03-10T16:49:58+00:00' datetime='2013-03-10 16:49:58+00:00'>10 March 2013</time> 
+          - present
+        </footer>
+      </article>
+
+      <hr>
+
+      <article class="series post summary">
+        <header>
+          <h2><a href="/series/jekyll/" title="Migrating to Jekyll">Migrating to Jekyll</a></h2>
+        </header>
+        <section class='series_details'>
+          <img src="/assets/images/jekyll.png" alt="Migrating to Jekyll" class="alignleft">
+          <p><p>At the back end of last year, I started migrating my various coding projects from <a href="//subversion.apache.org/" title="Apache Subversion">SVN</a> repositories stored on <a href="//code.google.com/" title="Google Code">Google Code</a> to <a href="//git-scm.com/" title="Git">Git</a> repositories. Through a little bit of research, I decided to use two different sites for different reasons, <a href="//github.com/" title="GitHub">GitHub</a> for public repositories, and <a href="//bitbucket.org/" title="Bitbucket - Free source code hosting for Git and Mercurial by Bitbucket">Bitbucket</a> for backup and work (private) repositories. Finding GitHub also introduced me to something else that I found quite interesting, <a href="//pages.github.com/" title="GitHub Pages">GitHub Pages</a> is a hosting service provided by GitHub that allows you to publish websites from your repository. Not only that, but it works with something called <a href="//jekyllrb.com/" title="Jekyll &bull; Simple, blog-aware, static sites">Jekyll</a>, a simple, blog-aware, static site generator. This intrigued me and so I looked into it and this series details my reasoning and process for Migrating from WordPress to Jekyll</p>
+</p>
+        </section>
+        <footer>
+          <i class='fa fa-clock-o'></i> <time content='2014-03-18T19:30:00+00:00' datetime='2014-03-18 19:30:00+00:00'>18 March 2014</time> 
+          - <time content='2014-04-14T21:00:00+00:00' datetime='2014-04-14 21:00:00+00:00'>14 April 2014</time>
+        </footer>
+      </article>
+
+      <hr>
+
+      <article class="series post summary">
+        <header>
+          <h2><a href="/series/travel-memories/" title="Travel Memories">Travel Memories</a></h2>
+        </header>
+        <section class='series_details'>
+          
+          <p><p>After sorting through some of our old photos, a lot of great memories were brought up from the various holidays/travels that Rosie &amp; I have had since we met. This is a series of posts looking back on those holidays and travels. It doesn’t include everything (for various reasons), but it does capture the memories from most of our holidays through the medium of imagery. Each post includes a gallery of some of the most memorable pictures from each holiday, along with a short write-up of the best bits. Hope you like it :smile:</p>
+</p>
+        </section>
+        <footer>
+          <i class='fa fa-clock-o'></i> <time content='2014-04-16T21:00:00+00:00' datetime='2014-04-16 21:00:00+00:00'>16 April 2014</time> 
+          - present
+        </footer>
+      </article>
+
+      <hr>
+
+                
+
+        </section><!-- #main-content -->
+                
+        <section id="secondary-content"  itemscope itemtype="http://schema.org/WPSidebar" role="sidebar">
+          
+<aside>
+  <h3><a href="/about/" title="About Me">About Me</a></h3>
+  <img src="https://secure.gravatar.com/avatar/de76254e22ce8ef47fd59a5fcc6e5ef6?s=150" title="Richard Perry" alt="Richard Perry" />
+  <p>I'm a Quantity Surveyor in South Wales with a passion for photography, technology, science, languages & the outdoors :-)</p>
+  <div class='social aligncentre'>
+  <span class="fa-stack">
+    <a href='//www.facebook.com/richardpperry' title='Facebook'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='//twitter.com/richard_p2' title='Twitter'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='//uk.linkedin.com/in/rpperry' title='LinkedIn'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='//flickr.com/photos/richard-perry' title='Flickr'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
+    </a>
+  </span><br />
+  <span class="fa-stack">
+    <a href='//instagram.com/perryri' title='Instagram'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='//github.com/richardp2' title='GitHub'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='//richard.perry-online.me.uk/' title='Website'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-link fa-stack-1x fa-inverse"></i>
+    </a>
+  </span>
+  <span class="fa-stack">
+    <a href='mai&#108;to&#58;richard@perrymail.me.uk' title='Email Me'>
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+    </a>
+  </span><br />
+</div>
+
+</aside>
+
+<hr />
+
+
+<aside>
+  <h3>My Tweets</h3>
+  <a class="twitter-timeline" href="https://twitter.com/richard_p2" data-widget-id="250856108174999552">Tweets by @richard_p2</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</aside>                
+
+        </section><!-- #secondary-content -->
+      </div><!-- #content -->
+            
+      <footer id="page-footer" itemscope itemtype="http://schema.org/WPFooter">
+        <hr />
+        
+        <div class='social'>
+          <span class="fa-stack fa-2x">
+            <a href='//www.facebook.com/richardpperry' title='Facebook'>
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+          <span class="fa-stack fa-2x">
+            <a href='//twitter.com/richard_p2' title='Twitter'>
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+          <span class="fa-stack fa-2x">
+            <a href='//github.com/richardp2' title='GitHub'>
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+          <span class="fa-stack fa-2x">
+            <a href='mai&#108;to&#58;richard@perrymail.me.uk' title='Email'>
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+          <span class="fa-stack fa-2x">
+            <a href='/feed.xml' title='RSS Feed'>
+              <i class="fa fa-circle fa-stack-2x feed"></i>
+              <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+        </div>
+        <small class='copyright'>Copyright &copy; 2009 - 2015 Richard Perry</small> &nbsp; &nbsp; | &nbsp; &nbsp; 
+        <small class='site-meta'>Powered by <a href='//jekyllrb.com/' title='Jekyll &bull; Simple, blog-aware, static sites'>Jekyll</a> &amp; Hosted at <a href='//github.com' title='GitHub'>GitHub</a></small>
+      </footer><!-- #page-footer -->
+    </div><!-- #container -->
+        
+    
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<!-- <script>window.jQuery || document.write('<script src="/assets/scripts/vendor/jquery-1.10.1.min.js"><\/script>')</script> -->
+
+<script src="/assets/scripts/vendor/jquery.slicknav.min.js"></script>
+<script src="/assets/scripts/vendor/jquery.colorbox.min.js"></script>
+<script src="/assets/scripts/main.min.js"></script>
+
+  </body>
+</html>
