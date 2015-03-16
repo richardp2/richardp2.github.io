@@ -43,7 +43,7 @@
     {% when 'post' %}
             <section class='post-summary' itemProp='articleBody'>
               {{ thumb }}
-              {{ post.content | markdownify | strip_html | truncatewords: 125 }}
+              {% if post.summary %}{{ post.summary }}{% else %}{{ post.content | markdownify | strip_html | truncatewords: 125 }}{% endif %}
             </section>
             
             <footer>
@@ -51,6 +51,6 @@
             </footer>
     {% else %}
             <section class='post-summary' itemProp='articleBody'>
-              {{ post.content }}
+              {% if post.summary %}{{ post.summary }}{% else %}{{ post.content }}{% endif %}
             </section>
 {% endcase %}
