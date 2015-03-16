@@ -12,34 +12,37 @@ thumbs:              /assets/images/thumbs
 
 # Handling Reading
 exclude: 
-- 'changes'
-- 'CNAME'
-- 'Gemfile'
-- 'Gemfile.lock'
-- 'LICENSE.md'
-- 'README.md'
+  - 'changes'
+  - 'CNAME'
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'LICENSE.md'
+  - 'README.md'
 
 # Plugins
 gems:
-- jekyll-mentions
-- jemoji
-
-
-flickr:
-  enabled:           yes
-  cache_dir:         ./_cache/flickr
-  api_key:           4389a0eb79c41ca17e149830c22fc7c2
-  shared_secret:     ef41108edae962b0
-  access_token:      72157641557984045-92a5dbebf3e01418
-  access_secret:     1625dbdd3cf26db6
-
-# Backwards-compatibility
-relative_permalinks: false
+  - jekyll-mentions
+  - jemoji
 
 # Outputting
 permalink:           /:categories/:title/
 paginate:            10
 paginate_path:       "page/:num"
+timezone:            Europe/London
+defaults:
+  -
+    scope:
+      path:          ""
+      type:          "posts"
+    values:
+      layout:        "post"
+      comments:      true
+  -
+    scope:
+      path:          "pages"
+    values:
+      layout:        "page"
+      comments:      false
 
 # Markdown Processors
 kramdown:
