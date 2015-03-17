@@ -1,6 +1,6 @@
 <!DOCTYPE html>{% capture title %}{% if page.title == "Home" %} {{ site.name }} | {{ site.description }}{% else %}{{ page.title }} | {{ site.name }}{% endif %}{% endcapture %}{% capture description %}{% if page.title == 'Home' %}{{ site.description }}{% else %}{{ page.content | markdownify | strip_html | truncatewords: 40 }}{% endif %}{% endcapture %}{% if page.author %}{% assign auth = site.data.authors[page.author] %}{% else %}{% assign auth = site.data.authors[site.owner] %}{% endif %}
 <html xmlns:fb='http://ogp.me/ns/fb#' xmlns:og='http://ogp.me/ns#' lang='en-GB'>
-  <head>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
     <meta http-equiv='X-Clacks-Overhead' content='GNU Terry Pratchett'>
@@ -19,11 +19,14 @@
     <script src='/assets/scripts/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
     
     <!-- Facebook Open Graph Tags -->
+    <meta property='fb:admins' content="{{site.comments.facebook.id}}">
+    <meta property='fb:app_id' content="{{site.comments.facebook.appid}}">
     <meta property='og:type' content='article'>
     <meta property='og:title' content="{{title}}">
     <meta property='og:description' content="{{description}}">
     <meta property='og:url' content="{{site.url}}{{page.url}}">
     <meta property='og:site_name' content="{{site.name}}">
+    <script src='http://connect.facebook.net/en_US/all.js#xfbml=1'></script>
     
     <!-- Twitter Card Tags -->
     <meta name='twitter:card' content="summary">
@@ -37,12 +40,12 @@
   <body>
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId={{ site.comments.facebook.appid }}";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId={{ site.comments.facebook.appid }}&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <div id='container'>
       <header id='page-header' role='banner' itemscope itemtype='http://schema.org/WPHeader'>
         <hgroup>

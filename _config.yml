@@ -62,9 +62,10 @@ comments:
   disqus:
     shortname: richardperry
   facebook :
+    id: 286603693
     appid : 181763705182339
     num_posts: 10
-    width: 580
+    width: 100%
     colorscheme: light
 
 
