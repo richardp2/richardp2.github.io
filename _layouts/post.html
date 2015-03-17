@@ -12,7 +12,8 @@
             
             <footer>
               {% include partials/post-nav.html %}
-              {% if page.comments %}<div id="disqus_thread"></div>{% endif %}
+              {% if page.comments %}<div id="disqus_thread"></div>
+              <div class="fb-comments" data-href="http://richard.perry-online.me.uk{{ page.url }}" data-num-posts="{{ site.comments.facebook.num_posts }}" data-width="{{ site.comments.facebook.width }}" data-colorscheme="{{ site.comments.facebook.colorscheme }}"></div>{% endif %}
             </footer>
           </article><!-- .post.single -->
 {% include foot.html %}
