@@ -57,5 +57,14 @@ category_names:
     name:            Epic Quest
     link:            epic
   
+# Comments
+comments:
+  disqus:
+    shortname: richardperry
+  facebook :
+    appid : 181763705182339
+    num_posts: 10
+    width: 580
+    colorscheme: light
 
 
