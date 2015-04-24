@@ -1,4 +1,5 @@
 ---
+layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>{% assign author = site.data.authors[site.owner] %}
 <?xml-stylesheet type="text/xsl" href="/assets/xsl/feed.xsl" media="screen"?>
