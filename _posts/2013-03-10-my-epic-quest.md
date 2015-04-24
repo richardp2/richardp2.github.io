@@ -1,7 +1,4 @@
 ---
-comments: true
-date: 2013-03-10 16:49:58+00:00
-layout: post
 title: My Epic Quest
 wordpress_id: 666
 categories:
@@ -13,16 +10,16 @@ series:
 - My Epic Quest
 ---
 
-(_This post has been inspired by Steve Kamb at [Nerd Fitness](http://www.nerdfitness.com/blog/epic-quest/)_)
+(_This post has been inspired by Steve Kamb at [Nerd Fitness][1]_)
 
-I recently read an article on [Nerd Fitness](http://www.nerdfitness.com/blog/epic-quest/) where
-Steve Kamb had set out his goals for "levelling up" his life. He used the metaphor of Role Playing
-Games to make the concept manageable and put together a list of challenges or quests that could be
-completed to advance from one level to the next. He then decided that each quest would be worth 20%
-experience towards the next level, there would also be Master Quests that equated to 100% experience,
-and this became his 'Epic Quest of Awesome'. I thought this was a pretty good idea, so using the
-same concept, I have come up with my own Epic Quest. It's no different to a bucket list that many
-people have, but it just sounds cooler :wink:.
+I recently read an article on [Nerd Fitness][1] where Steve Kamb had set out his goals for
+"levelling up" his life. He used the metaphor of Role Playing Games to make the concept manageable
+and put together a list of challenges or quests that could be completed to advance from one level to
+the next. He then decided that each quest would be worth 20% experience towards the next level,
+there would also be Master Quests that equated to 100% experience, and this became his 'Epic Quest
+of Awesome'. I thought this was a pretty good idea, so using the same concept, I have come up with
+my own Epic Quest. It's no different to a bucket list that many people have, but it just sounds
+cooler :wink:.
 
 I've been very lucky over the last few years so I've already done a lot of the things I would have
 added to this list. So here it is. Let me know what you think.
@@ -43,7 +40,7 @@ added to this list. So here it is. Let me know what you think.
   * Visit the Leaning Tower of Pisa, Italy
   * Visit the Parthenon in Greece
   * Visit the Blue Domed Church of Santorini, Greece
-  * Visit the Cathedral of Saint Sava, Serbia once it is finished (I saw it in 2006, but the interior was unfinished)
+  * Visit the Cathedral of Saint Sava, Serbia once it is finished (We saw it in 2006, but the interior was unfinished)
   * Visit St. Basil’s Cathedral in Moscow, Russia
   * Ride the Trans-Siberian Railroad across Russia
   * Visit Everest Base Camp
@@ -55,7 +52,7 @@ added to this list. So here it is. Let me know what you think.
   * Visit Varanasi in India during a holy festival & stand in the Ganges
   * Visit Angkor Wat in Cambodia
   * See the cherry blossoms in Japan
-  * Swim in the infinity pool, Singapore
+  * Swim in the Marina Bay Sands rooftop infinity pool, Singapore
   * Visit the Pyramids at Giza
   * Visit the Blue Mosque in Istanbul, Turkey
   * Visit Madagascar
@@ -84,19 +81,19 @@ added to this list. So here it is. Let me know what you think.
       6. Australasia/Oceania
       7. Antarctica
   * Visit all the Disney Parks across the world (2/6)
-      1. <del>Hong Kong Disneyland</del> ([09/09/2009][hk])
+      1. <del>Hong Kong Disneyland</del> ([09/09/2009][3])
       2. <del>Disneyland Paris</del> (01/04/2013)
       3. Disneyland, California
       4. Walt Disney World, Florida
       5. Tokyo Disney
-      6. Shanghai Disney (_not open yet_)
+      6. Shanghai Disney (_opening 15/12/2015_)
       
 
 ### Active Quests
 
   * Bungee jump
   * Skydive
-  * Run a marathon
+  * <del>Run a marathon</del> ([19/04/2015][5])
   * Swim in the Atlantic and Pacific in the same day
   * Dive with sharks
   * Climb Ben Nevis in Scotland
@@ -112,14 +109,14 @@ added to this list. So here it is. Let me know what you think.
   * Snowboard at Ski Dubai in Dubai
   * Study Kung Fu in Shaolin, China
   * Study Aikido in Japan
-  * Do 10 handstand push ups freestanding (I can now do three :-D)
+  * Do 10 handstand push ups freestanding (I can now do five :grinning:)
   * <del>Do 10 one-arm push ups with each arm</del> (May 2014)
   * Do 10 one-arm pull ups with each arm
   * Do a muscle up
   * Do 5 muscle ups
   * Hold a planche for 10 seconds
   * Hold a front lever for 20 seconds
-  * <del>Learn how to do a frontflip &amp; a backflip</del> (Backflip [26/04/2013][bk], Frontflip 10/01/2014)
+  * <del>Learn how to do a frontflip &amp; a backflip</del> (Backflip [26/04/2013][4], Frontflip 10/01/2014)
 
 ### Jason Bourne/James Bond Quests
 
@@ -127,7 +124,7 @@ added to this list. So here it is. Let me know what you think.
   * Become conversational in a third language
   * Learn to say basic phrases in 50 languages (4/50)
     * 1. Welsh, 2. French, 3. German, 4. Mandarin
-  * Create and keep a WTSHTF bag ready ([Google the phrase](https://www.google.co.uk/search?q=wtshtf+bag&aq=f&oq=wtshtf+bag&aqs=chrome.0.57j61j0l3j62.6779&sourceid=chrome&ie=UTF-8))
+  * Create and keep a WTSHTF bag ready ([Google the phrase][2])
   * Learn how to become a proficient locksmith
 
 ### Learning/Teaching Quests
@@ -159,6 +156,8 @@ These are all worth 100% experience or more due to their complexity or difficult
   * Live like James Bond in Monaco
   * Climb Mt. Everest
 
-
-[hk]: http://travel.perry-online.me.uk/china/hong-kong/china-2009/disneyland/ "Disneyland!!!! :-) :-)"
-[bk]: {% post_url 2013-05-19-backflip %} "Active Quest: Backflip"
+[1]: //www.nerdfitness.com/blog/epic-quest/
+[2]: //www.google.co.uk/search?q=wtshtf+bag&aq=f&oq=wtshtf+bag&aqs=chrome.0.57j61j0l3j62.6779&sourceid=chrome&ie=UTF-8
+[3]: //travel.perry-online.me.uk/china/hong-kong/china-2009/disneyland/ "Disneyland!!!! :-) :-)"
+[4]: {% post_url 2013-05-19-backflip %} "Active Quest: Backflip"
+[5]: {% post_url 2015-04-24-gmm %} "Greater Manchester Marathon 2015"
