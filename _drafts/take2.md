@@ -21,11 +21,11 @@ for this challenge, I am going to be sitting either the HSK 3 or HSK 4 exam as c
 September as I can. I will be looking at which level to go for towards the end of May once I have a
 better idea of the level that I think I can actually achieve.
 
-The HSK (or Hànyǔ Shuǐpíng Kǎoshì/汉语水平考试) is China's only standardised test
-of Chinese Language Proficiency for non-native speakers and as such, I think it is a good target.
-The following table describes the current structure of the HSK system including the amount of
-vocabulary needed for each level and a description of what each level represents. For more details,
-please visit the official [Hanban website][2].
+The HSK (or Hànyǔ Shuǐpíng Kǎoshì/汉语水平考试) is China's only standardised test of Chinese Language
+Proficiency for non-native speakers and as such, I think it is a good target. The following table
+describes the current structure of the HSK system including the amount of vocabulary needed for each
+level and a description of what each level represents. For more details, please visit the official
+[Hanban website][2].
 
 <table class="wikitable">
   <tr>
@@ -101,5 +101,5 @@ pronunciation work and getting back into a routine with the learning materials I
 the week, I will be publishing a video to show how things have gone. The idea will be to write a
 very basic script in English, and try to translate it off the top of my head. Wish me luck :smile:.
 
-[1]: {% post_url 2015-04-20-gmm %} "Greater Manchester Marathon - Completed!"
+[1]: {% post_url 2015-04-24-gmm %} "Greater Manchester Marathon - Completed!"
 [2]: //english.hanban.org/node_8002.htm "Chinese Tests_HSK"

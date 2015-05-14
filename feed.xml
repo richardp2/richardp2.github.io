@@ -18,7 +18,7 @@ layout: null
           <title>{{ post.title | xml_escape }}</title>
           <link>{{ site.url }}{{ post.url }}</link>
           <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-          <author>{{ author.name | xml_escape }} ({{author.email}})</author>
+          <author>{{ author.name | xml_escape }} &lt;{{author.email}}&gt;</author>
           <guid>{{ site.url }}{{ post.url }}</guid>
           <description><![CDATA[{% include partials/feed_content.html %}]]></description>
         </item>{% endfor %}

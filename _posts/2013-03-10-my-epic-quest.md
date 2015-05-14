@@ -24,15 +24,23 @@ cooler :wink:.
 I've been very lucky over the last few years so I've already done a lot of the things I would have
 added to this list. So here it is. Let me know what you think.
 
+## Progress
+
+Currently: Level 1 ([quests completed](#completed-quests-by-level))<br>
+<small>20% towards level 2</small><br>
+<progress max="100" value="20"></progress>
+
+## Quests
+
 ### Travel Quests
-	
+  
   * Visit the main Harry Potter filming locations (11/34)
-  * Visit Loch Ness in Scotland	
-  * Visit Giants Causeway in Northern Ireland	
-  * <del>Climb the Eiffel Tower in Paris, France</del> (05/04/2013)	
+  * Visit Loch Ness in Scotland 
+  * Visit Giants Causeway in Northern Ireland 
+  * <del>Climb the Eiffel Tower in Paris, France</del>  
   * Visit Mont St. Michel in France
-  * <del>Visit the Louvre in France</del> (06/04/2013)
-  * <del>Visit Notre Dame Cathedral in France</del> (05/04/2013)
+  * <del>Visit the Louvre in France</del>
+  * <del>Visit Notre Dame Cathedral in France</del>
   * Attend Oktoberfest in Germany
   * Visit Neuschwanstein Castle in Bavaria
   * Visit the Vatican
@@ -93,7 +101,7 @@ added to this list. So here it is. Let me know what you think.
 
   * Bungee jump
   * Skydive
-  * <del>Run a marathon</del> ([19/04/2015][5])
+  * <del>Run a marathon</del>
   * Swim in the Atlantic and Pacific in the same day
   * Dive with sharks
   * Climb Ben Nevis in Scotland
@@ -110,13 +118,14 @@ added to this list. So here it is. Let me know what you think.
   * Study Kung Fu in Shaolin, China
   * Study Aikido in Japan
   * Do 10 handstand push ups freestanding (I can now do five :grinning:)
-  * <del>Do 10 one-arm push ups with each arm</del> (May 2014)
+  * <del>Do 10 one-arm push ups with each arm</del>
   * Do 10 one-arm pull ups with each arm
   * Do a muscle up
   * Do 5 muscle ups
+  * Do 10 muscle ups
   * Hold a planche for 10 seconds
   * Hold a front lever for 20 seconds
-  * <del>Learn how to do a frontflip &amp; a backflip</del> (Backflip [26/04/2013][4], Frontflip 10/01/2014)
+  * <del>Learn how to do a frontflip &amp; a backflip</del>
 
 ### Jason Bourne/James Bond Quests
 
@@ -155,6 +164,25 @@ These are all worth 100% experience or more due to their complexity or difficult
   * Get in the Guinness Book of World Records for something
   * Live like James Bond in Monaco
   * Climb Mt. Everest
+  
+<p>&nbsp;</p>
+  
+## Completed Quests by Level
+
+<!--
+### Level 2
+
+  * Run a marathon ([19/04/2015][5])
+  * Do a muscle up
+-->
+
+### Level 1
+
+  * Climb the Eiffel Tower in Paris, France (05/04/2013)  
+  * Visit Notre Dame Cathedral in France (05/04/2013)
+  * Visit the Louvre in France (06/04/2013)
+  * Learn how to do a frontflip &amp; a backflip (Backflip [26/04/2013][4], Frontflip 10/01/2014)
+  * Do 10 one-arm push ups with each arm (May 2014)
 
 [1]: //www.nerdfitness.com/blog/epic-quest/
 [2]: //www.google.co.uk/search?q=wtshtf+bag&aq=f&oq=wtshtf+bag&aqs=chrome.0.57j61j0l3j62.6779&sourceid=chrome&ie=UTF-8
