@@ -27,8 +27,8 @@ added to this list. So here it is. Let me know what you think.
 ## Progress
 
 Currently: Level 1 ([quests completed](#completed-quests-by-level))<br>
-<small>20% towards level 2</small><br>
-<progress max="100" value="20"></progress>
+<small>60% towards level 2</small><br>
+<progress max="100" value="60"></progress>
 
 ## Quests
 
@@ -102,6 +102,11 @@ Currently: Level 1 ([quests completed](#completed-quests-by-level))<br>
   * Bungee jump
   * Skydive
   * <del>Run a marathon</del>
+  * <del>Run a sub 20 5k</del>
+  * Run a sub 18 5k
+  * Run a sub 40 10k
+  * Run a sub 90 half marathon
+  * Run a sub 3 hour marathon
   * Swim in the Atlantic and Pacific in the same day
   * Dive with sharks
   * Climb Ben Nevis in Scotland
@@ -120,10 +125,12 @@ Currently: Level 1 ([quests completed](#completed-quests-by-level))<br>
   * Do 10 handstand push ups freestanding (I can now do five :grinning:)
   * <del>Do 10 one-arm push ups with each arm</del>
   * Do 10 one-arm pull ups with each arm
-  * Do a muscle up
+  * <del>Do a muscle up</del>
   * Do 5 muscle ups
   * Do 10 muscle ups
+  * Hold a planche for 5 seconds
   * Hold a planche for 10 seconds
+  * Hold a front lever for 10 seconds
   * Hold a front lever for 20 seconds
   * <del>Learn how to do a frontflip &amp; a backflip</del>
 
@@ -174,6 +181,7 @@ These are all worth 100% experience or more due to their complexity or difficult
 
   * Run a marathon ([19/04/2015][5])
   * Do a muscle up
+  * Run a sub 20 5k (23/05/2015)
 -->
 
 ### Level 1

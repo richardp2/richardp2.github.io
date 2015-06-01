@@ -18,7 +18,7 @@ it's time for another challenge to try to kickstart my learning again.
 This time, I am looking at a much more concrete end goal with some mini goals in between. I will be
 keeping track of my progress and reporting back as regularly as I feel able. As additional motivation
 for this challenge, I am going to be sitting either the HSK 3 or HSK 4 exam as close to the end of
-September as I can. I will be looking at which level to go for towards the end of May once I have a
+September as I can. I will be looking at which level to go for towards the end of June once I have a
 better idea of the level that I think I can actually achieve.
 
 The HSK (or Hànyǔ Shuǐpíng Kǎoshì/汉语水平考试) is China's only standardised test of Chinese Language
