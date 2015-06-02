@@ -96,10 +96,21 @@ level and a description of what each level represents. For more details, please 
   </tr>
 </table>
 
+There is some [dispute][3] about the levels of the HSK when compared to the [CEFR][4] (or Common
+European Framework of Reference for Languages) levels meaning that HSK 3/4 is, realistically, still
+not quite intermediate level. I think this would make it a fairly sensible target for me. Now I've
+just got to get off my backside and put the effort in :wink:.
+
 For the next week, I will be looking at getting my basic phrases and vocabulary back, doing some
-pronunciation work and getting back into a routine with the learning materials I have. At the end of
-the week, I will be publishing a video to show how things have gone. The idea will be to write a
-very basic script in English, and try to translate it off the top of my head. Wish me luck :smile:.
+pronunciation work and getting back into a routine with the learning materials I have. The aim is 
+to publish a video to show how things have gone at the end of the week/beginning of next week. The
+idea will be to write a very basic script in English, and try to translate it off the top of my
+head. Wish me luck :smile:.
 
 [1]: {% post_url 2015-04-24-gmm %} "Greater Manchester Marathon - Completed!"
 [2]: //english.hanban.org/node_8002.htm "Chinese Tests_HSK"
+[3]: //en.wikipedia.org/wiki/Hanyu_Shuiping_Kaoshi#Estimates_of_equivalent_CEFR_levels "Estimates of equivalent CEFR levels"
+[4]: //www.coe.int/lang-CEFR "Common European Framework of Reference for Languages"
+
+*[CEFR]: Common European Framework of Reference for Languages
+*[HSK]: Hànyǔ Shuǐpíng Kǎoshì/汉语水平考试
