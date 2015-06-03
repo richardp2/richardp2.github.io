@@ -1,4 +1,4 @@
-<!DOCTYPE html>{% capture title %}{% if page.title == "Home" %} {{ site.name }} | {{ site.description }}{% else %}{{ page.title }} | {{ site.name }}{% endif %}{% endcapture %}{% capture description %}{% if page.title == 'Home' %}{{ site.description }}{% else %}{{ page.content | markdownify | strip_html | truncatewords: 40 }}{% endif %}{% endcapture %}{% if page.author %}{% assign auth = site.data.authors[page.author] %}{% else %}{% assign auth = site.data.authors[site.owner] %}{% endif %}
+<!DOCTYPE html>{% capture title %}{% if page.title == "Home" %} {{ site.name }} | {{ site.description }}{% else %}{{ page.title }} | {{ site.name }}{% endif %}{% endcapture %}{% capture description %}{% if page.title == 'Home' %}{{ site.description }}{% else %}{{ page.content | markdownify | strip_html | truncatewords: 40 }}{% endif %}{% endcapture %}{% if page.author %}{% assign auth = site.data.authors[page.author] %}{% else %}{% assign auth = site.data.authors[site.owner] %}{% endif %}{% capture image %}{% if page.image %}{% if page.image contains 'http' %}{{page.image}}{% else %}{{site.url}}{{page.image}}{% endif %}{% endif %}{% endcapture %}
 <html xmlns:fb='http://ogp.me/ns/fb#' xmlns:og='http://ogp.me/ns#' lang='en-GB'>
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
     <meta charset='utf-8'>
@@ -27,6 +27,7 @@
     <meta property='og:url' content="{{site.url}}{{page.url}}">
     <meta property='og:site_name' content="{{site.name}}">
     <script src='http://connect.facebook.net/en_US/all.js#xfbml=1'></script>
+    {% if page.image %}<meta property='og:image' content="{{image}}">{% endif %}
     
     <!-- Twitter Card Tags -->
     <meta name='twitter:card' content="summary">
@@ -35,6 +36,7 @@
     <meta name='twitter:url' content="{{site.url}}{{page.url}}">
     <meta name='twitter:creator' content="@{{auth.twitter}}">
     <meta name='twitter:site' content="@{{site.data.authors[site.owner].twitter}}">
+    {% if page.image %}<meta name='twitter:image' content="{{image}}">{% endif %}
   </head>
 
   <body>
