@@ -9,29 +9,14 @@
     <meta name='author' content="{{auth.name}}">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     
-    <!--<link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'>-->
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
-    <link rel='stylesheet' href='/assets/css/styles.css'>
+    <!--<link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'>
+    <link rel='stylesheet' href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
+    <link rel='stylesheet' href='/assets/css/styles.css'>-->
     <link rel='alternate' href='{{site.url}}/feed.xml' type='application/rss+xml' title='{{ site.name }}'>
     <link rel='author' href="https://plus.google.com/{{auth.google}}">
     <link rel='canonical' href="{{site.url}}{{page.url}}">
     
     <script defer src='/assets/scripts/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
-    <script defer type='text/javascript'>
-       WebFontConfig = {
-         google: { families: [ 'Open+Sans:400italic,600italic,400,600:latin,latin-ext' ] }
-       };
-       (function() {
-         var wf = document.createElement('script');
-         wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-           '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-         wf.type = 'text/javascript';
-         wf.async = 'true';
-         var s = document.getElementsByTagName('script')[0];
-         s.parentNode.insertBefore(wf, s);
-       })(); 
-    </script>
-    
     <!-- Facebook Open Graph Tags -->
     <meta property='fb:admins' content="{{site.comments.facebook.id}}">
     <meta property='fb:app_id' content="{{site.comments.facebook.appid}}">
@@ -53,13 +38,7 @@
 
   <body>
     <div id="fb-root"></div>
-    <script defer>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId={{ site.comments.facebook.appid }}&version=v2.0";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+    <script defer>!function(e,t,n){var o,c=e.getElementsByTagName(t)[0];e.getElementById(n)||(o=e.createElement(t),o.id=n,o.src="//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId={{ site.comments.facebook.appid }}&version=v2.0",c.parentNode.insertBefore(o,c))}(document,"script","facebook-jssdk");</script>
     <div id='container'>
       <header id='page-header' role='banner' itemscope itemtype='http://schema.org/WPHeader'>
         <hgroup>

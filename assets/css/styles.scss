@@ -1,6 +1,9 @@
 ---
 ---
 
+@import 'variables/variables';
+@import 'variables/typography';
+
 @import 'normalize';
 @import 'h5bp';
 @import 'colorbox';
@@ -10,3 +13,4 @@
 @import 'media';
 @import 'print';
 @import 'pygment_solarized';
+
