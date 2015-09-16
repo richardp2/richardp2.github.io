@@ -14,8 +14,9 @@ permalink: /tags/
             <hr>
             {% for tag in site.tags %} 
             <h3 id="{{ tag[0] }}">{{ tag[0]}}</h3>
-            <ul class="post-list">{% assign pages_list = tag[1] %}{% for post in pages_list %}{% if post.title != null %}{% if group == null or group == post.group %}
-                <li>
-                    {% include partials/summary.html %}
-                </li>{% endif %}{% endif %}{% endfor %}{% assign pages_list = nil %}{% assign group = nil %}
-            </ul> {% endfor %}
+            {% assign pages_list = tag[1] %}{% for post in pages_list %}{% if post.title != null %}{% if group == null or group == post.group %}
+            <article itemscope itemtype='http://schema.org/BlogPosting' class='post summary{% if post.layout != 'post' %} format-{{ post.layout }}{% endif %}'>
+                {% include partials/summary.html %}
+            </article>
+            {% endif %}{% endif %}{% endfor %}{% assign pages_list = nil %}{% assign group = nil %}
+            {% endfor %}

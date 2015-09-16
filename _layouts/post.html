@@ -11,7 +11,8 @@
             </section><!-- .post-content -->
             
             <footer>
-              {% if page.tags %}{% include partials/tag_links.html %}{{ tags }}{% endif %}{% include partials/post-nav.html %}
+              {% if page.tags %}{% include partials/tag_links.html %}{{ tags }}{% endif %}
+              {% include partials/post-nav.html %}
               {% if page.comments %}<div id="disqus_thread"></div>
               <div class="fb-comments" data-href="http://richard.perry-online.me.uk{{ page.url }}" data-num-posts="{{ site.comments.facebook.num_posts }}" data-width="{{ site.comments.facebook.width }}" data-colorscheme="{{ site.comments.facebook.colorscheme }}"></div>{% endif %}
             </footer>
