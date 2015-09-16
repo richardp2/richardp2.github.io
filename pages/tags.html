@@ -16,6 +16,6 @@ permalink: /tags/
             <h3 id="{{ tag[0] }}">{{ tag[0]}}</h3>
             <ul class="post-list">{% assign pages_list = tag[1] %}{% for post in pages_list %}{% if post.title != null %}{% if group == null or group == post.group %}
                 <li>
-                    {% include summary.html %}
+                    {% include partials/summary.html %}
                 </li>{% endif %}{% endif %}{% endfor %}{% assign pages_list = nil %}{% assign group = nil %}
             </ul> {% endfor %}
