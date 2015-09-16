@@ -14,7 +14,7 @@ permalink: /tags/
             <hr>
             {% for tag in site.tags %} 
             <h3 id="{{ tag[0] }}">{{ tag[0]}}</h3>
-            <ul id="archive">{% assign pages_list = tag[1] %}{% for post in pages_list %}{% if post.title != null %}{% if group == null or group == post.group %}
+            <ul class="archive">{% assign pages_list = tag[1] %}{% for post in pages_list %}{% if post.title != null %}{% if group == null or group == post.group %}
                 <li>
                     {% include partials/summary.html %}
                 </li>{% endif %}{% endif %}{% endfor %}{% assign pages_list = nil %}{% assign group = nil %}

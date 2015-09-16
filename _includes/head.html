@@ -16,7 +16,7 @@
     <link rel='author' href="https://plus.google.com/{{auth.google}}">
     <link rel='canonical' href="{{site.url}}{{page.url}}">
     
-    <script src='/assets/scripts/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
+    <script defer src='/assets/scripts/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
     
     <!-- Facebook Open Graph Tags -->
     <meta property='fb:admins' content="{{site.comments.facebook.id}}">
@@ -26,7 +26,7 @@
     <meta property='og:description' content="{{description}}">
     <meta property='og:url' content="{{site.url}}{{page.url}}">
     <meta property='og:site_name' content="{{site.name}}">
-    <script src='http://connect.facebook.net/en_US/all.js#xfbml=1'></script>
+    <script defer src='http://connect.facebook.net/en_US/all.js#xfbml=1'></script>
     
     <!-- Twitter Card Tags -->
     <meta name='twitter:card' content="summary">
@@ -39,7 +39,7 @@
 
   <body>
     <div id="fb-root"></div>
-    <script>(function(d, s, id) {
+    <script defer>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
