@@ -4,8 +4,6 @@ date: 2014-10-16 16:04:30+00:00
 layout: post
 title: The Minimalists - Everything That Remains
 image: http://farm4.static.flickr.com/3941/15364092037_b791b49c35_q.jpg
-categories:
-- General
 ---
 
 [![The Minimalists & Us][thm]][img]{: .alignright }

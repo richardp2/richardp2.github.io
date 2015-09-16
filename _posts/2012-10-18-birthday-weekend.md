@@ -5,8 +5,12 @@ layout: post
 title: An Awesome Birthday Weekend
 wordpress_id: 335
 image: http://farm3.static.flickr.com/2571/13058255765_853c002a5a_q.jpg
-categories:
-- General
+tags:
+- Birthday
+- Paralympics
+- London
+- Gilwell
+- Harry Potter
 ---
 
 [![Entrance to the ExCeL Arena][thm1]][img1]{: .alignleft }

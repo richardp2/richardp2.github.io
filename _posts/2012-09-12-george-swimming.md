@@ -5,9 +5,11 @@ layout: image
 title: George Swimming
 wordpress_id: 339
 image: http://farm4.static.flickr.com/3087/13058257884_6f645a23e5_d.jpg
-categories:
+tags:
 - Photography
 - Instagram
+- George
+- Swimming
 ---
 
 [![George Swimming][thm]][img]

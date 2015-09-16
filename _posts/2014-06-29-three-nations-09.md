@@ -3,9 +3,13 @@ comments: true
 date: 2014-06-29 09:17:40+00:00
 layout: gallery
 title: "Memories: Three Nations 2009"
-categories:
-- General
+tags:
 - Memories
+- Beijing
+- "Xi'an"
+- Ulanbaatar
+- Scouts
+- Travel
 series: 
 - Travel Memories
 images: 68

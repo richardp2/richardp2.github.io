@@ -5,8 +5,9 @@ layout: post
 title: George's Second Year
 wordpress_id: 1164
 image: http://farm4.static.flickr.com/3827/13122752375_d91173fd97_q.jpg
-categories:
+tags:
 - George
+- Milestones
 ---
 
 [![George & Rosie's Birthday 2014][thm]][img]{: .alignleft }

@@ -3,9 +3,12 @@ comments: true
 date: 2014-05-25 08:40:35+00:00
 layout: gallery
 title: "Memories: 21st World Scout Jamboree 2007"
-categories:
-- General
+tags:
 - Memories
+- World Scout Jamboree
+- Buddhist
+- Scouts
+- Events
 series: 
 - Travel Memories
 images: 31

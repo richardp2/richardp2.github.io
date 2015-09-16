@@ -6,8 +6,10 @@ layout: post
 title: Life as a Games Maker
 wordpress_id: 188
 image: //farm8.static.flickr.com/7441/12971655604_8373488965_q.jpg
-categories:
-- General
+tags:
+- London
+- Olympics
+- Events
 ---
 
 Over the last two weeks or so, you may have been aware of a small sporting event taking place mainly

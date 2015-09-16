@@ -2,9 +2,10 @@
 comments: true
 layout: post
 title: New Challenges
-categories:
-- General
+tags:
 - Challenges
+- Running
+- Languages
 ---
 
 Happy New Year all! I really cannot be bothered with the whole year in review thing that I did last
@@ -54,5 +55,5 @@ have to be looked at later :wink:.
 [1]: //www.caerleonrunningclub.co.uk/ "Caerleon Running Club"
 [2]: //www.virginmoneylondonmarathon.com/ "Virgin Money London Marathon: Home"
 [3]: //www.greatermanchestermarathon.com/ "ASICS Greater Manchester Marathon :: Home"
-[4]: //richard.perry-online.me.uk/languages/mandarin/ "Mandarin"
-[5]: {% post_url 2013-03-10-my-epic-quest %} "My Epic Quest"
+[4]: //richard.perry-online.me.uk/series/mandarin/ "Mandarin"
+[5]: {% post_url 2013-03-10-epic-quest %} "My Epic Quest"

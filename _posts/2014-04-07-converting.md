@@ -4,7 +4,7 @@ date: 2014-04-07 19:32:31+00:00
 layout: post
 title: Converting the Posts
 image: /assets/images/jekyll.png
-categories:
+tags:
 - Technology
 - Jekyll
 series: 

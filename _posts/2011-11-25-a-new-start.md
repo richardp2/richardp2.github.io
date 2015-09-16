@@ -5,8 +5,8 @@ layout: post
 title: A New Start
 wordpress_id: 33
 image: /assets/images/thumbs/a-new-start/StapleHillFront.jpg
-categories:
-- General
+tags:
+- Milestones
 ---
 
 Today marks the end of a rather significant chapter in my life, and the start of a brand new one. 

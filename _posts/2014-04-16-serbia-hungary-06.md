@@ -3,9 +3,15 @@ comments: true
 date: 2014-04-16 20:14:04+00:00
 layout: gallery
 title: "Memories: Serbia & Hungary 2006"
-categories:
-- General
+tags:
 - Memories
+- Serbia
+- Hungary
+- Budapest
+- Belgrade
+- Niš
+- Scouts
+- Travel
 series: 
 - Travel Memories
 images: 26

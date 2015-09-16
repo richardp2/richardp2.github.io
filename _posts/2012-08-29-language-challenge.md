@@ -5,9 +5,10 @@ layout: post
 title: My Language Challenge
 wordpress_id: 69
 image: http://www.teasetc.com/blog/beth/uploaded_images/P1000497-757313.JPG
-categories:
+tags:
 - Languages
 - Mandarin
+- Challenges
 series:
 - Mandarin Language Challenge
 ---

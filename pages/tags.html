@@ -1,0 +1,21 @@
+---
+title: Tags
+layout: page
+permalink: /tags/
+---
+
+            <h3>All Tags (no. of posts)</h3>
+            
+            <ul id='tag-list'>
+              {% capture tags %}{% for tag in site.tags %}{{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}{% unless forloop.last %}|{% endunless %}{% endfor %}{% endcapture %}{% assign sortedtags = tags | split:'|' | sort %}{% for tag in sortedtags reversed %}{% assign tagitems = tag | split: '#' %}<li><a href="/tags/#{{ tagitems[1] }}">{{ tagitems[1] }} ({{ tagitems[2] }})</a></li>
+              {% endfor %}
+            </ul>
+
+            <hr>
+            {% for tag in site.tags %} 
+            <h3 id="{{ tag[0] }}">{{ tag[0]}}</h3>
+            <ul class="post-list">{% assign pages_list = tag[1] %}{% for post in pages_list %}{% if post.title != null %}{% if group == null or group == post.group %}
+                <li>
+                    {% include summary.html %}
+                </li>{% endif %}{% endif %}{% endfor %}{% assign pages_list = nil %}{% assign group = nil %}
+            </ul> {% endfor %}

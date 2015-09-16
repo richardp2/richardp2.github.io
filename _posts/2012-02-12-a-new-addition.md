@@ -5,8 +5,9 @@ layout: post
 title: A New Addition
 wordpress_id: 82
 image: /assets/images/thumbs/a-new-addition/ANewAddition.jpg
-categories:
+tags:
 - George
+- Milestones
 ---
 
 The day we have been waiting for for the last 9 months finally arrived on Monday night... the

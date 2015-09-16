@@ -5,9 +5,10 @@ layout: image
 title: Caterpillars having a field day on our broccoli!
 wordpress_id: 280
 image: http://farm8.static.flickr.com/7307/13058257404_bbfbc6a499_d.jpg
-categories:
+tags:
 - Photography
 - Instagram
+- Garden
 ---
 
 [![Caterpillars having a field day on our broccoli!][thm]][img]

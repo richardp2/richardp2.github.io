@@ -3,9 +3,13 @@ comments: true
 date: 2014-06-16 20:44:59+00:00
 layout: gallery
 title: "Memories: Switzerland 2008"
-categories:
-- General
+tags:
 - Memories
+- Kandersteg
+- Jungfrau
+- Glaciers
+- Mountains
+- Travel
 series: 
 - Travel Memories
 images: 39

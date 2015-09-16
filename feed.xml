@@ -1,5 +1,4 @@
 ---
-layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>{% assign author = site.data.authors[site.owner] %}
 <?xml-stylesheet type="text/xsl" href="/assets/xsl/feed.xsl" media="screen"?>
@@ -18,7 +17,7 @@ layout: null
           <title>{{ post.title | xml_escape }}</title>
           <link>{{ site.url }}{{ post.url }}</link>
           <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-          <author>{{ author.name | xml_escape }} &lt;{{author.email}}&gt;</author>
+          <author>{{ author.name | xml_escape }} ({{author.email}})</author>
           <guid>{{ site.url }}{{ post.url }}</guid>
           <description><![CDATA[{% include partials/feed_content.html %}]]></description>
         </item>{% endfor %}
