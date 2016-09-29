@@ -1,4 +1,7 @@
-{% include head.html %}
+---
+layout: default
+---
+            
           <article itemscope itemtype="http://schema.org/BlogPosting" class="post single format-gallery">
             <header>
               {% include partials/post-nav.html %}
@@ -14,5 +17,4 @@
               {% include partials/post-nav.html %}
               {% if page.comments %}<div id="disqus_thread"></div>{% endif %}
             </footer>
-          </article><!-- .post.single.format-gallery -->        
-{% include foot.html %}
+          </article><!-- .post.single.format-gallery -->

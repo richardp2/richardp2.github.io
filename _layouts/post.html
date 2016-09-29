@@ -1,4 +1,7 @@
-{% include head.html %}
+---
+layout: default
+---
+            
           <article itemscope itemtype="http://schema.org/BlogPosting" class="post single">
             <header>
               {% include partials/post-nav.html %}
@@ -7,7 +10,7 @@
             </header>
             
             <section class="post-content" itemProp="articleBody">
-              {% if page.series %}{% include series.html %}{% endif %}{{ content }}
+              {% if page.series %}{% include series.html %}{% endif %}<p>{{ content }}</p>
             </section><!-- .post-content -->
             
             <footer>
@@ -17,4 +20,3 @@
               <div class="fb-comments" data-href="http://richard.perry-online.me.uk{{ page.url }}" data-num-posts="{{ site.comments.facebook.num_posts }}" data-width="{{ site.comments.facebook.width }}" data-colorscheme="{{ site.comments.facebook.colorscheme }}"></div>{% endif %}
             </footer>
           </article><!-- .post.single -->
-{% include foot.html %}

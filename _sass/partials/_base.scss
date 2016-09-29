@@ -1,5 +1,10 @@
 @import 'modules/config';
 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -8,7 +13,8 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 body {
-  font: $base-font-size/1 $base-font-family;
+  font: $base-font-size $base-font-family;
+  line-height: $base-line-height;
   margin: 0;
   padding: 0;
 }
@@ -36,7 +42,6 @@ h2,
 h3,
 h4,
 h5,
-p,
 ul,
 ol,
 blockquote,
@@ -52,6 +57,13 @@ h4,
 h5,
 p {
   font-size: inherit;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: $header-font-family;
+  font-weight: $header-font-weight;
 }
 strong {
   font-weight: bold;
@@ -97,6 +109,9 @@ img {
   max-width: 100%;
   height: auto;
   border: 0;
+}
+p {
+  margin: 1em auto;
 }
 small {
   font-size: 80%;

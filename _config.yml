@@ -21,6 +21,8 @@ exclude:
 
 # Plugins
 gems:
+  - jekyll-paginate
+  - jekyll-gist
   - jekyll-mentions
   - jemoji
 
@@ -45,27 +47,26 @@ defaults:
       comments:      false
 
 # Markdown Processors
-kramdown:
-  use_coderay:       true
-
 sass:
-  style:             compressed
+  sass_dir:          _sass
+#  style:             compressed
+  style:             expanded
 
 # Tag Config
 tag_names:
   epic quest: 
     name:            Epic Quest
     link:            epic
-  
+
 # Comments
 comments:
   disqus:
-    shortname: richardperry
+    shortname:       richardperry
   facebook :
-    id: 286603693
-    appid : 181763705182339
-    num_posts: 10
-    width: 100%
-    colorscheme: light
+    id:              286603693
+    appid :          181763705182339
+    num_posts:       10
+    width:           100%
+    colorscheme:     light
 
 

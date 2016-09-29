@@ -5,8 +5,8 @@ $bold: 600;
 // Base Font
 $base-font-family: 'Open Sans', sans-serif;
 $base-font-weight: $regular;
-$base-font-size: 14px;
-$base-line-height: 1.8;
+$base-font-size: 15px/1;
+$base-line-height: 1.6;
 
 // Fixed Font
 $fixed-font-family: monospace;
@@ -14,7 +14,8 @@ $fixed-font-size: 85%;
 $fixed-line-height: $base-line-height;
 
 // Headings
-$header-font-weight: $bold;
+$header-font-family: 'Indie Flower', serif;
+$header-font-weight: $regular;
 
 // Colours
 $dark: #111111;
