@@ -5,8 +5,8 @@ layout: default
 title: "Series'"
 permalink: /series/
 ---
-
-{% for series in site.data.series sort_by:start %}
+{% assign serii = site.data.series | sort: 'start' %}
+{% for series in serii %}
       <article class="series post summary">
         <header>
           <h2><a href="{{ series.permalink }}" title="{{ series.name }}">{{ series.name }}</a></h2>

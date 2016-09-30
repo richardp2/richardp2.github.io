@@ -14,7 +14,7 @@
     <link rel='stylesheet' href='/assets/css/style2.css'>
     <link rel='alternate' href='{{site.url}}/feed.xml' type='application/rss+xml' title='{{ site.name }}'>
     <link rel='author' href="https://plus.google.com/{{auth.google}}">
-    <link rel='canonical' href="{{site.url}}{{page.url}}">
+    <link rel='canonical' href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     
     <script defer src='/assets/scripts/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
     <!-- Facebook Open Graph Tags -->
@@ -45,7 +45,10 @@
           <h1 class='site-title'>{{ site.name }}</h1>
           {% if site.description %}<p class='site-description'>{{ site.description }}</p>{% endif %}
         </div>
-        {% include nav.html %}
+        <nav id="primary-navigation" role="navigation" >
+          {% include nav.html links=site.data.links class='main-menu' %}
+          <hr />
+        </nav><!-- #primary-navigation -->
       </header><!-- #page-header -->
       
       <div id='content'>
@@ -57,14 +60,62 @@
         </section><!-- #main-content -->
                 
         <section id="secondary-content"  itemscope itemtype="http://schema.org/WPSidebar" role="sidebar">
-          {% include sidebar.html %}
+          {% for i in site.authors %}{% assign author = site.data.authors[i] %}<aside>
+            <h3><a href="/about/" title="About Me">About Me</a></h3>
+            <img src="https://secure.gravatar.com/avatar/{{author.gravatar}}?s=150" title="{{author.name}}" alt="{{author.name}}" />
+            <p>{{author.about}}</p>
+            <div class='social aligncentre'>{% for social in site.data.social %}
+              {% if author[social.name] %}<span class="fa-stack">
+                <a href='{{social.link}}{{author[social.name]}}' title='{{social.title}}'>
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa {{social.fa-icon}} fa-stack-1x fa-inverse"></i>
+                </a>
+              </span>{% cycle '','','','<br />' %}{% endif %}{% endfor %}
+            </div>
+          </aside>{% endfor %}
+
+          <aside>
+            <h3>My Tweets</h3>
+            <a class="twitter-timeline" href="https://twitter.com/richard_p2" data-widget-id="250856108174999552">Tweets by @richard_p2</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </aside>
         </section><!-- #secondary-content -->
       </div><!-- #content -->
             
       <footer id="page-footer" itemscope itemtype="http://schema.org/WPFooter">
-        <div>
-          <hr />
-          {% include partials/social.html %}
+        <div>{% assign author = site.data.authors[site.owner] %}
+          <div class='social'>
+            {% if author.facebook %}<span class="fa-stack fa-2x">
+              <a href='//www.facebook.com/{{author.facebook}}' title='Facebook'>
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>{% endif %}
+            {% if author.twitter %}<span class="fa-stack fa-2x">
+              <a href='//twitter.com/{{author.twitter}}' title='Twitter'>
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>{% endif %}
+            {% if author.github %}<span class="fa-stack fa-2x">
+              <a href='//github.com/{{author.github}}' title='GitHub'>
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>{% endif %}
+            {% if author.email %}<span class="fa-stack fa-2x">
+              <a href='mai&#108;to&#58;{{author.email}}' title='Email'>
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>{% endif %}
+            <span class="fa-stack fa-2x">
+              <a href='/feed.xml' title='RSS Feed'>
+                <i class="fa fa-circle fa-stack-2x feed"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+          </div>
           <small class='copyright'>{{ copyright }}</small> &nbsp; &nbsp; | &nbsp; &nbsp; 
           <small class='site-meta'>Powered by <a href='//jekyllrb.com/' title='Jekyll &bull; Simple, blog-aware, static sites'>Jekyll</a> &amp; Hosted at <a href='//github.com' title='GitHub'>GitHub</a></small>
         </div>
