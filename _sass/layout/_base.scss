@@ -1,4 +1,5 @@
-@import 'modules/config';
+@import 'modules/config',
+        'modules/mixins';
 
 * {
     -webkit-box-sizing: border-box;

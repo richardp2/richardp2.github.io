@@ -3,7 +3,7 @@ layout: default
 ---
             
           <article itemscope itemtype="http://schema.org/BlogPosting" class="post single">
-            <header>
+            <header class="post-header">
               {% include partials/post-nav.html %}
               <h2 itemProp="headline">{{ page.title }}</h2>
               {% assign post = page %}{% include partials/meta.html %}
@@ -13,7 +13,7 @@ layout: default
               {% if page.series %}{% include series.html %}{% endif %}<p>{{ content }}</p>
             </section><!-- .post-content -->
             
-            <footer>
+            <footer class="post-footer">
               {% if page.tags %}{% include partials/tag_links.html %}{{ tags }}{% endif %}
               {% include partials/post-nav.html %}
               {% if page.comments %}<div id="disqus_thread"></div>

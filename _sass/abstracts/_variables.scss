@@ -1,0 +1,23 @@
+// Font weights
+$regular: 400;
+$bold: 600;
+
+// Base Font
+$base-font-family: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$base-font-weight: $regular;
+$base-font-size: 15px/1;
+$base-line-height: 1.6;
+
+// Fixed Font
+$fixed-font-family: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+$fixed-font-size: 85%;
+$fixed-line-height: $base-line-height;
+
+// Headings
+$header-font-family: 'Indie Flower', serif !default;
+$header-font-weight: $regular;
+
+// Colours
+$text-colour: #111111 !default;
+$highlight-colour: #21759b !default;
+$bg-colour: #F7F6F4 !default;
