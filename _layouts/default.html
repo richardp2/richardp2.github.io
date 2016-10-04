@@ -44,10 +44,10 @@
         <div>
           <h1 class='site-title'>{{ site.name }}</h1>
           {% if site.description %}<p class='site-description'>{{ site.description }}</p>{% endif %}
+          <nav id="primary-navigation" role="navigation" >
+            {% include nav.html links=site.data.links class='main-menu' %}
+          </nav><!-- #primary-navigation -->
         </div>
-        <nav id="primary-navigation" role="navigation" >
-          {% include nav.html links=site.data.links class='main-menu' %}
-        </nav><!-- #primary-navigation -->
       </header><!-- #page-header -->
       
       <div id='content'>

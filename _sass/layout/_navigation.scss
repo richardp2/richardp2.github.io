@@ -1,14 +1,18 @@
 #primary-navigation {
   clear: both;
   display: block;
-  margin: 0.3125em auto;
+  margin: 0.5em auto;
   text-align: center;
   width: 100%;
 
   a {
     display: inline-block;
-    padding: 0 0.3125em;
+    padding: 0.5em;
     width: 5.3em;
+    &:hover {
+      background-color: $colour-highlight;
+      color: $colour-lightgrey;
+    }
   }
   li {
     display: inline;
@@ -33,11 +37,11 @@
       width: 100%;
       z-index: 99999;
       ul {
-        left: 100%;
-        top: -0.375em;
+        left: 75%;
+        top: -0.525em;
       }
       a {
-        background-color: white; 
+        background-color: $colour-lightgrey; 
         width: 11em;
       }
     }
@@ -47,6 +51,7 @@
           border: 0;
         }
       }
+
     }
   }
   ul li:hover > ul,
