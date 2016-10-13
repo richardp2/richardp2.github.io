@@ -3,10 +3,11 @@ $regular: 400;
 $bold: 600;
 
 // Base Font
-$base-font-family: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$base-font-family: 'Lato', sans-serif !default;
 $base-font-weight: $regular;
-$base-font-size: 15px/1;
-$base-line-height: 1.6;
+$base-font-size: 1em;
+$base-line-height: 1.25;
+$large-line-height: 1.375;
 
 // Fixed Font
 $fixed-font-family: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
@@ -14,13 +15,16 @@ $fixed-font-size: 85%;
 $fixed-line-height: $base-line-height;
 
 // Headings
-$header-font-family: 'Indie Flower', serif !default;
+$header-font-family: 'Indie Flower', cursive !default;
 $header-font-weight: $regular;
 
 // Colours
-// Colour pallette: http://paletton.com/#uid=33D0u0kv9hBmKpCr1lBEKcVPJ7I
-$colour-base: #0a2e5c !default;
-$colour-highlight: #8c3604 !default;
-$colour-darkgrey: #343b4e !default;
-$colour-lightgrey: #c8c9ce !default;
+// Colour pallette: http://paletton.com/#uid=33D130kv5rJFLtJ-hsOsAqwpUpa
+$colour-base: #104891 !default;
+$colour-highlight: #c60640 !default;
+$colour-darkgrey: #34446b !default;
+$colour-lightgrey: #e3e4ea !default;
 $colour-text: #111111 !default;
+
+$page-width: 1280px;
+$article-width: 960px;

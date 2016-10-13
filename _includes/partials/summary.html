@@ -1,56 +1,32 @@
 {% capture read_more %}<a class='read-more' href='{{ post.url }}' itemprop='url'>read more <i class='fa fa-chevron-right'></i></a>{% endcapture %}
-{% capture thumb %}{% if post.image %}<img src='{{ post.image }}' title='{{ post.title }}' alt='{{ post.title }}' class='alignleft' />{% endif %}{% endcapture %}
-{% case post.layout %}
-    {% when 'gallery' %} 
-            <header>             
-              <h2 itemprop='headline'><a href='{{ post.url }}' itemprop='url'><i class='fa fa-picture-o'></i> {{ post.title }}</a></h2>
-              {% include partials/meta.html %}
-            </header>
-    {% when 'image' %}
-            <header>
-              {% if post.image %}<img src='{{ post.image }}' title='{{ post.title }}' alt='{{ post.title }}' />{% endif %}
-              <h2 itemprop='headline'><a href='{{ post.url }}' itemprop='url'><i class='fa fa-picture-o'></i> {{ post.title }}</a></h2>
-              {% include partials/meta.html %}
-            </header>           
-    {% when 'video' %}
-            <header>
-              <iframe width="560" height="315" src="//www.youtube.com/embed/{{post.video}}?rel=0" frameborder="0" allowfullscreen></iframe>
-              <h2 itemprop='headline'><a href='{{ post.url }}' itemprop='url'><i class='fa fa-film'></i> {{ post.title }}</a></h2>
-              {% include partials/meta.html %}
-            </header>
-    {% when 'link' %}
-            <header>     
-              <h2><a href='{{ post.link }}' itemprop='url'><i class='fa fa-link'></i> {{ post.title }}</a></h2>
-            </header>
-    {% else %}
-            <header>     
-              <h2 itemprop='headline'><a href='{{ post.url }}' itemprop='url'>{{ post.title }}</a></h2>
-              {% include partials/meta.html %}
-            </header>
+{% capture thumb %}{% if post.image %}<img src="{{ post.image }}" title="{{ post.title }}" alt="{{ post.title }}" class='alignleft' />{% endif %}{% endcapture %}
+{% case post.format %}
+        {% when 'gallery' or 'image' %}
+            {% capture link %}<a href='{{ post.url }}' itemprop='url'><i class='fa fa-picture-o'></i> {% endcapture %}
+        {% when 'video' %}
+            {% capture link %}<a href='{{ post.url }}' itemprop='url'><i class='fa fa-film'></i> {% endcapture %}
+        {% when 'link' %}
+            {% capture link %}<a href='{{ post.link }}' itemprop='url'><i class='fa fa-link'></i> {% endcapture %}
+        {% else %}
+            {% capture link %}<a href='{{ post.url }}' itemprop='url'>{% endcapture %}
 {% endcase %}
-{% case post.layout %}
-    {% when 'gallery' %} 
-            <section class='post-summary' itemProp='articleBody'>
-                {{ post.excerpt }}
-                This Gallery contains {{ post.images }} photos.
-            </section>
-            
-            <footer>
-              {{ read_more }}
-            </footer>
-    {% when 'image' %}
+{% case post.format %}
+        {% when 'gallery' %}
+            {% capture excerpt %}<p itemProp='articleBody'>{{ post.excerpt }}</p>
+                <p>This Gallery contains {{ post.images }} photos.</p>{% endcapture %}
+        {% else %}
+            {% capture excerpt %}{{ thumb }}
+                <p itemProp='articleBody'>{% if post.summary %}{{ post.summary }}{% else %}{{ post.content | markdownify | strip_html | truncatewords: 125 }}{% endif %}</p>{% endcapture %}
+{% endcase %}
+                <header>
+                    <h2 itemprop='headline'>{{ link }}{{ post.title }}</a></h2>
+                    {{ head }}
+                    {% include partials/meta.html %}
+                </header>
 
-    {% when 'post' %}
-            <section class='post-summary' itemProp='articleBody'>
-              {{ thumb }}
-              {% if post.summary %}{{ post.summary }}{% else %}{{ post.content | markdownify | strip_html | truncatewords: 125 }}{% endif %}
-            </section>
-            
-            <footer>
-              {{ read_more }}
-            </footer>
-    {% else %}
-            <section class='post-summary' itemProp='articleBody'>
-              {% if post.summary %}{{ post.summary }}{% else %}{{ post.content }}{% endif %}
-            </section>
-{% endcase %}
+                {{ excerpt }}
+                        
+                <footer>
+                    {{ read_more }}
+                </footer>
+                    

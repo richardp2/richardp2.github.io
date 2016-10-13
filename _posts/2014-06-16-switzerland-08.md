@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2014-06-16 20:44:59+00:00
-layout: gallery
+format: gallery
 title: "Memories: Switzerland 2008"
 tags:
 - Memories

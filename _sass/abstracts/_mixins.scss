@@ -1,11 +1,41 @@
-@mixin box-shadow($top, $left, $blur, $spread, $color, $inset: false) {
-  -webkit-box-shadow: $top $left $blur $spread $color;
-  -moz-box-shadow: $top $left $blur $spread $color;
-  box-shadow: $top $left $blur $spread $color;
+@mixin box-shadow($top, $left, $blur, $spread, $color) {
+    -webkit-box-shadow: $top $left $blur $spread $color;
+    -moz-box-shadow: $top $left $blur $spread $color;
+    box-shadow: $top $left $blur $spread $color;
 }
 
 @mixin box-sizing($box-model) {
-  -webkit-box-sizing: $box-model;
-  -moz-box-sizing: $box-model;
-  box-sizing: $box-model;
+    -webkit-box-sizing: $box-model;
+    -moz-box-sizing: $box-model;
+    -o-box-sizing: $box-model;
+    box-sizing: $box-model;
+}
+
+@mixin linear-gradient($first, $second, $third) {
+    background: -moz-linear-gradient(left,  $first, $second, $third); /* FF3.6+ */
+    background: -webkit-gradient(linear, 0 0, 100% 0, from($first), to($third), color-stop(50%, $second)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, $first, $second, $third); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  $first, $second, $third); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  $first, $second, $third); /* IE10+ */
+    background: linear-gradient(left,  $first, $second, $third); /* W3C */
+}
+
+@mixin media-query($breakpoint) {
+    @if $breakpoint == "tablet" {
+        @media only screen and (min-width: 48em) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == "desktop" {
+        @media only screen and (min-width: 56em) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == "large-desktop" {
+        @media only screen and (min-width: 64em) {
+            @content;
+        }
+    }
 }

@@ -1,0 +1,41 @@
+html {
+  @include box-sizing(border-box);
+}
+
+*, 
+*::before, 
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+} 
+
+a {
+  color: $colour-base;
+  text-decoration: none;
+
+  &:hover,
+  &:active, {
+    border-bottom: 1px solid $colour-highlight;    
+  }
+}
+
+
+body {
+    background: url(/assets/images/header.jpg) repeat-x center top fixed;
+    min-height: 100%;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+main {
+    @extend %bg-white;
+    .pagination {
+        &::before {
+            @extend %divider-gradient-bottom;
+        }   
+    }
+}

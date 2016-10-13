@@ -1,0 +1,71 @@
+@media only screen and (min-width: 48em) {
+
+    body {
+        background: url(/assets/images/header.jpg) repeat-y left top fixed;
+    }
+    
+    header[role='banner'],
+    nav {
+        position: fixed;
+        width: 25%;
+    }
+    header[role='banner'] {
+        @include box-shadow( 0, 0, 0.75em, 0.4em, rgba( 17, 17, 17, 0.65 ) );
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        .site-title {
+            top: 5em;
+        }
+        .site-description {
+            top: 24em;
+        }
+    }
+
+    nav {
+        background: transparent;
+        top: 20em;
+        a {
+            width: 100%;
+        }
+        &:after {
+            background: none;
+        }
+        ul {
+            li { 
+                display: block;
+            }
+            ul,
+            ul ul {
+                left: 100%;
+                padding: 0;
+                top: 0;
+            }
+        }
+    }
+
+    main,
+    aside[role='complementary'],
+    footer[role='contentinfo'] {
+        margin-left: 25%;
+        padding: 0 2em 2em;
+    }
+
+    article {
+        margin-left: 0;
+        max-width: $article-width;
+    }
+
+    
+}
+
+@media only screen and (min-width: 56em) {
+
+       
+    
+}
+
+@media only screen and (min-width: 64em) {
+    
+    
+}

@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2014-04-16 20:14:04+00:00
-layout: gallery
+format: gallery
 title: "Memories: Serbia & Hungary 2006"
 tags:
 - Memories

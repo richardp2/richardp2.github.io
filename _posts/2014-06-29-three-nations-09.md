@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2014-06-29 09:17:40+00:00
-layout: gallery
+format: gallery
 title: "Memories: Three Nations 2009"
 tags:
 - Memories

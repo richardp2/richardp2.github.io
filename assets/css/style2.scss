@@ -11,8 +11,8 @@
 @import
     'vendor/normalize',
     'vendor/font-awesome',
-    'vendor/google-fonts',
-    'vendor/slicknav';
+    'vendor/slicknav',
+    'vendor/colorbox';
 
 // 3. Base styles
 @import 
@@ -20,10 +20,15 @@
     'base/typography',
     'base/helpers';
 
-// 4. Layout-related sections
+// 4. Theme files
 @import
-  'layout/default',
-  'layout/navigation';  
+  'theme/base',
+  'theme/header',
+  'theme/navigation',
+  'theme/article',
+  'theme/sidebar',
+  'theme/footer',
+  'theme/media-queries';  
 
 // 5. Components
 //@import
@@ -32,7 +37,3 @@
 // 6. Page-specific styles
 //@import
 //  'pages/home';
-
-// 7. Themes
-@import
-  'themes/default';

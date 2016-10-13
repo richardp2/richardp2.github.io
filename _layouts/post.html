@@ -1,22 +1,21 @@
 ---
 layout: default
 ---
+            <article itemscope itemtype="http://schema.org/BlogPosting" class="post single">
+                <header>
+                    {% include partials/post-nav.html %}
+                    <h2 itemProp="headline">{{ page.title }}</h2>
+                    {% assign post = page %}{% include partials/meta.html %}
+                </header>
+
+                {% if page.video %}<iframe width='560' height='315' src='//www.youtube.com/embed/{{page.video}}?rel=0' frameborder='0' allowfullscreen itemProp='video'></iframe>{% endif %}
+                {% if page.series %}{% include series.html %}{% endif %}
+                <p itemProp="articleBody">{{ content }}</p>
             
-          <article itemscope itemtype="http://schema.org/BlogPosting" class="post single">
-            <header class="post-header">
-              {% include partials/post-nav.html %}
-              <h2 itemProp="headline">{{ page.title }}</h2>
-              {% assign post = page %}{% include partials/meta.html %}
-            </header>
-            
-            <section class="post-content" itemProp="articleBody">
-              {% if page.series %}{% include series.html %}{% endif %}<p>{{ content }}</p>
-            </section><!-- .post-content -->
-            
-            <footer class="post-footer">
-              {% if page.tags %}{% include partials/tag_links.html %}{{ tags }}{% endif %}
-              {% include partials/post-nav.html %}
-              {% if page.comments %}<div id="disqus_thread"></div>
-              <div class="fb-comments" data-href="http://richard.perry-online.me.uk{{ page.url }}" data-num-posts="{{ site.comments.facebook.num_posts }}" data-width="{{ site.comments.facebook.width }}" data-colorscheme="{{ site.comments.facebook.colorscheme }}"></div>{% endif %}
-            </footer>
-          </article><!-- .post.single -->
+                <footer>
+                    {% if page.tags %}{% include partials/tag_links.html %}{{ tags }}{% endif %}
+                    {% include partials/post-nav.html %}
+                    {% if page.comments %}<div id="disqus_thread"></div>
+                    <div class="fb-comments" data-href="//richard.perry-online.me.uk{{ page.url }}" data-num-posts="{{ site.comments.facebook.num_posts }}" data-width="{{ site.comments.facebook.width }}" data-colorscheme="{{ site.comments.facebook.colorscheme }}"></div>{% endif %}
+                </footer>
+            </article><!-- .post.single -->

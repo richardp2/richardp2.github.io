@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2014-05-25 08:40:35+00:00
-layout: gallery
+format: gallery
 title: "Memories: 21st World Scout Jamboree 2007"
 tags:
 - Memories

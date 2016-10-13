@@ -1,0 +1,59 @@
+nav {
+    @extend %bg-white;
+    @extend %central;
+    clear: both;
+    display: block;
+    text-align: center;
+    width: 100%;
+
+    .current-page {
+        background-color: $colour-lightgrey;
+    }
+
+    a {
+        display: inline-block;
+        padding: 0.5em;
+        width: 5.3em;
+        &:hover {
+            background-color: $colour-highlight;
+            color: $colour-lightgrey;
+        }
+    }
+    li {
+        display: inline;
+        position: relative;
+        padding: 0;
+    }
+    ul.main-menu {
+        display: block;
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+    }
+    ul {
+        ul {
+            display: none;
+            float: left;
+            margin: 0;
+            padding-top: 0.5em;
+            position: absolute;
+            top: 100%;
+            left: -90%;
+            width: 100%;
+            z-index: 99999;
+            ul {
+                left: 75%;
+                top: -1.025em;
+            }
+            li { width: 12em; }
+            a { background-color: $colour-lightgrey; }
+        }
+        li {
+            a {
+                &:hover { border: 0; }
+            }
+        }
+    }
+    ul li:hover > ul { display: block; }
+    &::after { @extend %divider-gradient-top; }
+}

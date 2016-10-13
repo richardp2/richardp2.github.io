@@ -2,22 +2,3 @@
 // Basic styles.
 // -----------------------------------------------------------------------------
 
-html {
-  @include box-sizing(border-box);
-}
-
-*, 
-*::before, 
-*::after {
-  box-sizing: inherit;
-} 
-
-a {
-  color: $colour-base;
-  text-decoration: none;
-
-  &:hover,
-  &:active, {
-    border-bottom: 1px solid $colour-highlight;    
-  }
-}

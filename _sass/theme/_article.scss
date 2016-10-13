@@ -1,0 +1,28 @@
+
+article {
+    @extend %central;
+    @extend %clearfix;
+    
+    max-width: $page-width;
+
+    header {
+        &:not(h2) {
+            font-size: smaller;
+        }
+    }
+
+    .post-nav {
+        @extend %clearfix;
+        clear: both;
+    }
+
+    &::after {
+        @extend %divider-gradient-top;
+        margin-top: 40px;
+    }
+
+    &::before {
+        @extend %divider-gradient-bottom;
+        margin-bottom: 40px;
+    }
+}

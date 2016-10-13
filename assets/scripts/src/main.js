@@ -23,10 +23,10 @@
 
 
 jQuery(document).ready(function($) {
-  $('.main-menu').slicknav({
-    label: 'Menu',
-    allowParentLinks: true
-  });
+  //$('.main-menu').slicknav({
+  //  label: 'Menu',
+  //  allowParentLinks: true
+  //});
   
   $('.flickr').each(function(i){
     $(this).find('a.image').attr('rel','gallery'+i);

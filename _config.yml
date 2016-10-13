@@ -5,6 +5,7 @@ owner:               richard
 authors:             richard
 url:                 http://richard.perry-online.me.uk
 email:               richard@perry-online.me.uk
+logo:                true
 
 # Where things are
 images:              /assets/images
