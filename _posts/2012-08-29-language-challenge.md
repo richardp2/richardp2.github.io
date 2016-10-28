@@ -4,7 +4,7 @@ date: 2012-08-29 19:42:55+00:00
 layout: post
 title: My Language Challenge
 wordpress_id: 69
-image: http://www.teasetc.com/blog/beth/uploaded_images/P1000497-757313.JPG
+image: /assets/images/chinese-sign.jpg
 tags:
 - Languages
 - Mandarin

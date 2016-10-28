@@ -1,5 +1,6 @@
 changes
 Gemfile.lock
+.jekyll-metadata
 _site
 .sass-cache
 _site/

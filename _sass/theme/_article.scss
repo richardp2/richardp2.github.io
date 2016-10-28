@@ -16,6 +16,10 @@ article {
         clear: both;
     }
 
+    &.summary img {
+        max-
+    }
+
     &::after {
         @extend %divider-gradient-top;
         margin-top: 40px;
