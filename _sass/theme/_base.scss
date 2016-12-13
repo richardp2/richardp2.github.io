@@ -39,3 +39,9 @@ main {
         }   
     }
 }
+
+    main,
+    aside[role='complementary'],
+    footer[role='contentinfo'] {
+        padding: 0 2em 2em;
+    }

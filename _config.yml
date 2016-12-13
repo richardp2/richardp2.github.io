@@ -27,6 +27,14 @@ gems:
   - jekyll-mentions
   - jemoji
 
+flickr:
+  enabled:           yes
+  cache_dir:         ./_cache/flickr
+  api_key:           4389a0eb79c41ca17e149830c22fc7c2
+  shared_secret:     ef41108edae962b0
+  access_token:      72157641557984045-92a5dbebf3e01418
+  access_secret:     1625dbdd3cf26db6
+
 # Outputting
 permalink:           /:title/
 paginate:            10

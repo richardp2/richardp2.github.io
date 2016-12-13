@@ -16,17 +16,89 @@ article {
         clear: both;
     }
 
-    &.summary img {
-        max-
+    &.summary {
+        img {
+            max-width: 50%;
+        }
+        &::after {
+            @extend %divider-gradient-top;
+            margin-top: 1em;
+        }
+
+        &::before {
+            @extend %divider-gradient-bottom;
+            margin-bottom: 2em;
+        }
     }
 
-    &::after {
-        @extend %divider-gradient-top;
-        margin-top: 40px;
+    &.single {
+        padding: 1em;
     }
 
-    &::before {
-        @extend %divider-gradient-bottom;
-        margin-bottom: 40px;
+    .series_list {
+        float: right;
+        max-width: 350px;
+        padding: 0.75em;
+        width: 35%;
+    }
+
+    section[itemprop=articleBody] {
+        overflow: auto;
+        padding: 1em 0;
+    }
+
+    footer {
+        @extend section[itemprop=articleBody];
+        .read-more {
+            float: right;
+            padding: 0.25em;
+            &:hover {
+                background: #104891;
+                border: none;
+                color: white;
+            }
+        }
+    }
+}
+
+/* ==========================================================================
+   Flickr Gallery Styles
+   ========================================================================== */
+
+.flickr {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    a:hover {
+        border: none;
+    }
+    span {
+        display: inline-block;
+        position: relative;
+        .flickrlink {
+            display: none;
+            width: 32px;
+            height: 16px;
+            background: transparent url(/assets/images/flickr.png) no-repeat left top;
+            position: absolute;
+            right: 5px;
+            bottom: 8px;
+            opacity: .5;
+            -webkit-transition: opacity 0.2s ease-in-out;
+            -moz-transition: opacity 0.2s ease-in-out;
+            -o-transition: opacity 0.2s ease-in-out;
+            -ms-transition: opacity 0.2s ease-in-out;
+            transition: opacity 0.2s ease-in-out;
+            &:hover {
+                opacity:1;
+            }
+        }
+        &:hover .flickrlink {
+            display: block
+        }
+        img {
+            max-width: 100%;
+        }
     }
 }
