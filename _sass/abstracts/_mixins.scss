@@ -11,6 +11,12 @@
     box-sizing: $box-model;
 }
 
+@mixin rounded($radius: 0.5em) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+
 @mixin linear-gradient($first, $second, $third) {
     background: -moz-linear-gradient(left,  $first, $second, $third); /* FF3.6+ */
     background: -webkit-gradient(linear, 0 0, 100% 0, from($first), to($third), color-stop(50%, $second)); /* Chrome,Safari4+ */

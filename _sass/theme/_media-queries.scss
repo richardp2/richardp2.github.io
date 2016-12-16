@@ -50,11 +50,11 @@
     aside[role='complementary'],
     footer[role='contentinfo'] {
         margin-left: 30%;
+        max-width: $article-width + 4em;
     }
 
     article {
         margin-left: 0;
-        max-width: $article-width;
     }
 
     

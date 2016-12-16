@@ -13,6 +13,41 @@ series:
 - Travel Memories
 photoset: 72157644554257051
 images: 31
+excerpt: >
+  <div class="flickr summary">
+  <span>
+  <a title="The Arrival of Buddha" href="//farm6.staticflickr.com/5551/14129808652_f7744a68a6_b.jpg" class="image cboxElement" rel="gallery6"><img src="//farm6.staticflickr.com/5551/14129808652_f7744a68a6_q.jpg" alt="The Arrival of Buddha"></a>
+  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14129808652/" class="flickrlink"> </a>
+  </span>
+  <span>
+  <a title="Buddha Unveiled" href="//farm8.staticflickr.com/7428/13946118389_c24fa5b899_b.jpg" class="image cboxElement" rel="gallery6"><img src="//farm8.staticflickr.com/7428/13946118389_c24fa5b899_q.jpg" alt="Buddha Unveiled"></a>
+  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/13946118389/" class="flickrlink"> </a>
+  </span>
+  <span>
+  <a title="Michael Sporting a Particularly Fetching Umbrella" href="//farm8.staticflickr.com/7418/13946142460_ec6b41d509_b.jpg" class="image cboxElement" rel="gallery6"><img src="//farm8.staticflickr.com/7418/13946142460_ec6b41d509_q.jpg" alt="Michael Sporting a Particularly Fetching Umbrella"></a>
+  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/13946142460/" class="flickrlink"> </a>
+  </span>
+  <span>
+  <a title="The Buddhist Faith Tent" href="//farm8.staticflickr.com/7428/14133054664_52f0685e36_b.jpg" class="image cboxElement" rel="gallery6"><img src="//farm8.staticflickr.com/7428/14133054664_52f0685e36_q.jpg" alt="The Buddhist Faith Tent"></a>
+  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14133054664/" class="flickrlink"> </a>
+  </span>
+  <span>
+  <a title="Dawn &amp; Emma Making Prayer Flags" href="//farm8.staticflickr.com/7358/13946148170_3e153273ff_b.jpg" class="image cboxElement" rel="gallery6"><img src="//farm8.staticflickr.com/7358/13946148170_3e153273ff_q.jpg" alt="Dawn &amp; Emma Making Prayer Flags"></a>
+  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/13946148170/" class="flickrlink"> </a>
+  </span>
+  <span>
+  <a title="The Thai Buddhist Shrine" href="//farm3.staticflickr.com/2938/14109613226_cb9347d724_b.jpg" class="image cboxElement" rel="gallery6"><img src="//farm3.staticflickr.com/2938/14109613226_cb9347d724_q.jpg" alt="The Thai Buddhist Shrine"></a>
+  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14109613226/" class="flickrlink"> </a>
+  </span>
+  <span>
+  <a title="Troll &amp; Ganna with the Vajrayana Shrine" href="//farm6.staticflickr.com/5569/14132800945_6c560ecc44_b.jpg" class="image cboxElement" rel="gallery6"><img src="//farm6.staticflickr.com/5569/14132800945_6c560ecc44_q.jpg" alt="Troll &amp; Ganna with the Vajrayana Shrine"></a>
+  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14132800945/" class="flickrlink"> </a>
+  </span>
+  <span>
+  <a title="Marching to the Opening Ceremony" href="//farm3.staticflickr.com/2895/13946120427_bae69d5855_b.jpg" class="image cboxElement" rel="gallery6"><img src="//farm3.staticflickr.com/2895/13946120427_bae69d5855_q.jpg" alt="Marching to the Opening Ceremony"></a>
+  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/13946120427/" class="flickrlink"> </a>
+  </span>
+  </div>
 ---
 
 Ok so I'm only on the third post in this series and I'm already getting behind, but I will try to be

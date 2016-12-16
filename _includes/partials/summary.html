@@ -15,23 +15,19 @@
                             {{ icon }}{{ post.title }}
                         </a>
                     </h2>
-                    {{ head }}
                     {% include partials/meta.html %}
                 </header>
 
                 <section itemProp='articleBody'>
                 {% if post.format == "gallery" %}
-                    {% if post.photoset %}
-                        {% flickr_photoset post.photoset "summary" %}
-                        This Gallery contains {{ post.images }} photos.
-                    {% endif %}
+                    {{ post.excerpt }}
+                    This Gallery contains {{ post.images }} photos.
+                {% elsif post.format == "video" %}
+                    <iframe width='560' height='315' src='//www.youtube.com/embed/{{post.video}}?rel=0' frameborder='0' allowfullscreen itemProp='video'></iframe><br/>
+                    {{ post.content | markdownify | strip_html | truncatewords: 125 }}
                 {% else %}
                     {{ thumb }}
-                    {% if post.excerpt %}
-                        {{ post.excerpt }}
-                    {% else %}
-                        {{ post.content | markdownify | strip_html | truncatewords: 125 }}
-                    {% endif %}
+                    {{ post.content | markdownify | strip_html | truncatewords: 125 }}
                 {% endif %}
                 </section>
 
