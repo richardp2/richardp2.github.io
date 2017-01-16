@@ -35,20 +35,6 @@
   sub:
   - url: about/
     title: About Me
-  - url: general/
-    title: General
-  - url: george/
-    title: George
-  - url: languages/
-    title: Languages
-  - url: outdoors/
-    title: Active/Outdoors
-  - url: photography/
-    title: Photography
-  - url: reviews/
-    title: Reviews
-  - url: technology/
-    title: Technology
   - url: series/
     title: Post Series
   - url: archives/
