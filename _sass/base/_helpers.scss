@@ -71,6 +71,16 @@
     background-color: white;
 }
 
+%button {
+    padding: 0.25em;
+    &:hover {
+        @include rounded(0.25em);
+        background: $colour-base;
+        border: none;
+        color: white;
+    }
+}
+
 %central {
     margin: 0 auto;
 }

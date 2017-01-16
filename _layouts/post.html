@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-            <article itemscope itemtype="http://schema.org/BlogPosting" class="post single">
+            <article itemscope itemtype="//schema.org/BlogPosting" class="post single">
                 <header>
-                    {% include partials/post-nav.html %}
+                    {% include post-nav.html %}
                     <h2 itemProp="headline">{{ page.title }}</h2>
-                    {% assign post = page %}{% include partials/meta.html %}
+                    {% assign post = page %}{% include meta.html %}
                 </header>
 
                 {% if page.video %}<iframe width='560' height='315' src='//www.youtube.com/embed/{{page.video}}?rel=0' frameborder='0' allowfullscreen itemProp='video'></iframe>{% endif %}
@@ -15,8 +15,7 @@ layout: default
                 </section>
             
                 <footer>
-                    {% if page.tags %}{% include partials/tag_links.html %}{{ tags }}{% endif %}
-                    {% include partials/post-nav.html %}
+                    {% include post-nav.html %}
                     {% if page.comments %}<div id="disqus_thread"></div>
                     <div class="fb-comments" data-href="//richard.perry-online.me.uk{{ page.url }}" data-num-posts="{{ site.comments.facebook.num_posts }}" data-width="{{ site.comments.facebook.width }}" data-colorscheme="{{ site.comments.facebook.colorscheme }}"></div>{% endif %}
                 </footer>

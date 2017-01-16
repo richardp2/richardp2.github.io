@@ -33,11 +33,6 @@ img {
 
 main {
     @extend %bg-white;
-    .pagination {
-        &::before {
-            @extend %divider-gradient-bottom;
-        }   
-    }
 }
 
 main,
@@ -60,3 +55,4 @@ table {
         background: rgba($colour-base, 0.25);
     }
 }
+

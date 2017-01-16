@@ -20,6 +20,4 @@ permalink: /series/
           - {% if series.end %}<time content='{{ series.end | date_to_xmlschema }}' datetime='{{ series.end }}'>{{ series.end | date_to_long_string }}</time>{% else %}present{% endif %}
         </footer>
       </article>
-
-      <hr>
 {% endfor %}

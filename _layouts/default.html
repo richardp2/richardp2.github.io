@@ -24,7 +24,7 @@
         <meta property='og:description' content='{{description}}'>
         <meta property='og:url' content='{{site.url}}{{page.url}}'>
         <meta property='og:site_name' content='{{site.name}}'>
-        <script defer src='http://connect.facebook.net/en_US/all.js#xfbml=1'></script>
+        <script defer src='//connect.facebook.net/en_US/all.js#xfbml=1'></script>
 
         <!-- Twitter Card Tags -->
         <meta name='twitter:card' content='summary'>
@@ -38,24 +38,24 @@
     <body>
         <div id='fb-root'></div>
         <script>!function(e,t,n){var o,c=e.getElementsByTagName(t)[0];e.getElementById(n)||(o=e.createElement(t),o.id=n,o.src='//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId={{ site.comments.facebook.appid }}&version=v2.0',c.parentNode.insertBefore(o,c))}(document,'script','facebook-jssdk');</script>
-        <header role='banner' itemscope itemtype='http://schema.org/WPHeader'>
+        <header role='banner' itemscope itemtype='//schema.org/WPHeader'>
             <h1 class='site-title'>{% if site.logo == true %}<object type='image/svg+xml' data='/assets/images/logo.svg' title='{{ site.title }}' name='logo'>{{ site.name }}</h1></object>{% else %}{{ site.name }}{% endif %}</h1>
             {% if site.description %}<p class='site-description'>{{ site.description }}</p>{% endif %}
         </header>
 
-        <nav itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <nav itemscope itemtype='//schema.org/SiteNavigationElement'>
             {% include nav.html links=site.data.links class='main-menu' %}
         </nav><!-- #primary-navigation -->
 
-        <main itemscope itemtype='http://schema.org/Blog'>
+        <main itemscope itemtype='//schema.org/Blog'>
 
             {{ content }}
 
         </main><!-- #main-content -->
 
-        <aside role='complementary'>
+        <!--<aside role='complementary'>
             {% for i in site.authors %}{% assign author = site.data.authors[i] %}<h3><a href='/about/' title='About Me'>About Me</a></h3>
-            <img src='https://secure.gravatar.com/avatar/{{author.gravatar}}?s=150' title='{{author.name}}' alt='{{author.name}}' />
+            <img src='//secure.gravatar.com/avatar/{{author.gravatar}}?s=150' title='{{author.name}}' alt='{{author.name}}' />
             <p>{{author.about}}</p>
             <div class='social aligncentre'>{% for social in site.data.social %}
                 {% if author[social.name] %}<span class='fa-stack'>
@@ -69,11 +69,11 @@
 
         <aside role='complementary'>
             <h3>My Tweets</h3>
-            <a class='twitter-timeline' href='https://twitter.com/richard_p2' data-widget-id='250856108174999552'>Tweets by @richard_p2</a>
+            <a class='twitter-timeline' href='//twitter.com/richard_p2' data-widget-id='250856108174999552'>Tweets by @richard_p2</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>
-        </aside>
+        </aside> -->
                 
-        <footer role='contentinfo' itemscope itemtype='http://schema.org/WPFooter'>{% assign author = site.data.authors[site.owner] %}
+        <footer role='contentinfo' itemscope itemtype='//schema.org/WPFooter'>{% assign author = site.data.authors[site.owner] %}
             <div class='social'>
                 {% if author.facebook %}<span class='fa-stack fa-2x'>
                     <a href='//www.facebook.com/{{author.facebook}}' title='Facebook'>
@@ -107,9 +107,9 @@
                 </span>
             </div>
             <small class='copyright'>{{ copyright }}</small> &nbsp; &nbsp; | &nbsp; &nbsp; 
-            <small class='site-meta'>Powered by <a href='//jekyllrb.com/' title='Jekyll &bull; Simple, blog-aware, static sites'>Jekyll</a> &amp; Hosted at <a href='//gitlab.com' title='GitLab'>GitLab Pages</a></small>
+            <small class='site-meta'>Powered by <a href='//jekyllrb.com/' title='Jekyll &bull; Simple, blog-aware, static sites'>Jekyll</a> &amp; Hosted at <a href='{{ site.hosting.link }}' title='{{ site.hosting.name }}'>{{ site.hosting.name }}</a></small>
         </footer><!-- #page-footer -->
             
-        {% include partials/foot-scripts.html %}
+        {% include foot-scripts.html %}
     </body>
 </html>

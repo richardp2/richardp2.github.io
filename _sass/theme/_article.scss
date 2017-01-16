@@ -14,7 +14,7 @@ article {
         clear: both;
     }
 
-    &.summary {
+    &.summary, &.page {
         &::after {
             @extend %divider-gradient-top;
             margin-top: 1em;
@@ -62,60 +62,9 @@ article {
     footer {
         overflow: auto;
         .read-more {
+            @extend %button;
             float: right;
-            padding: 0.25em;
-            &:hover {
-                @include rounded(0.25em);
-                background: $colour-base;
-                border: none;
-                color: white;
-            }
         }
     }
 }
 
-/* ==========================================================================
-   Flickr Gallery Styles
-   ========================================================================== */
-
-.flickr {
-    list-style: none;
-    margin: 0 auto;
-    padding: 0;
-    text-align: left;
-    a:hover {
-        border: none;
-    }
-    span {
-        display: inline-block;
-        position: relative;
-        .flickrlink {
-            display: none;
-            width: 32px;
-            height: 16px;
-            background: transparent url(/assets/images/flickr.png) no-repeat left top;
-            position: absolute;
-            right: 10px;
-            bottom: 10px;
-            opacity: .5;
-            -webkit-transition: opacity 0.2s ease-in-out;
-            -moz-transition: opacity 0.2s ease-in-out;
-            -o-transition: opacity 0.2s ease-in-out;
-            -ms-transition: opacity 0.2s ease-in-out;
-            transition: opacity 0.2s ease-in-out;
-            &:hover {
-                opacity:1;
-            }
-        }
-        &:hover .flickrlink {
-            display: block
-        }
-        img {
-            max-width: 100%;
-            padding: 5px;
-        }
-    }
-    &.summary {
-        max-width: 650px;
-    }
-}

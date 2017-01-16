@@ -1,0 +1,25 @@
+%button-pagination {
+    @extend %button;
+    display: block;
+    text-align: center;
+    width: 6.5em;
+}
+
+.pagination {
+    &::before {
+        @extend %divider-gradient-bottom;
+        margin-bottom: 2em;
+    }   
+    .next {
+        @extend %button-pagination;
+        float: left;
+    }
+    .archives {
+        @extend %button-pagination;
+        margin: 0 auto;
+    }
+    .prev {
+        @extend %button-pagination;
+        float: right;
+    }
+}

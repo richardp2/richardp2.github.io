@@ -1,4 +1,8 @@
-{% capture thumb %}{% if post.image %}<img src="{{ post.image }}" title="{{ post.title }}" alt="{{ post.title }}" class='alignleft' />{% endif %}{% endcapture %}
+{% capture thumb %}
+    {% if post.image %}
+        <img src="{{ post.image }}" title="{{ post.title }}" alt="{{ post.title }}" class='alignleft' />
+    {% endif %}
+{% endcapture %}
 {% case post.format %}
     {% when 'gallery' or 'image' %}
         {% capture icon %}<i class='fa fa-picture-o'></i> {% endcapture %}
@@ -15,7 +19,7 @@
                             {{ icon }}{{ post.title }}
                         </a>
                     </h2>
-                    {% include partials/meta.html %}
+                    {% include meta.html %}
                 </header>
 
                 <section itemProp='articleBody'>

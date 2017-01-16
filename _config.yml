@@ -6,6 +6,9 @@ authors:             richard
 url:                 http://richard.perry-online.me.uk
 email:               richard@perry-online.me.uk
 logo:                true
+hosting:
+  name:              GitLab Pages
+  link:              //gitlab.com
 
 # Where things are
 images:              /assets/images
@@ -70,9 +73,15 @@ sass:
 
 # Tag Config
 tag_names:
-  epic quest: 
+  Epic Quest: 
     name:            Epic Quest
     link:            epic
+  "Xi'an":
+    name:            Xi'An
+    link:            xi-an
+  LOTR:
+    name:            Lord of the Rings
+    link:            lotr
 
 # Comments
 comments:
