@@ -1,10 +1,8 @@
 ---
-comments: true
 date: 2012-10-18 20:00:35+00:00
-layout: post
 title: An Awesome Birthday Weekend
 wordpress_id: 335
-image: http://farm3.static.flickr.com/2571/13058255765_853c002a5a_q.jpg
+image: //farm3.static.flickr.com/2571/13058255765_853c002a5a_q.jpg
 tags:
 - Birthday
 - Paralympics
@@ -88,7 +86,7 @@ really! We reprogrammed our sat nav and found our way to the other hotel with no
 
 [![Warner Bros. Studio Tour Entrance][thm8]][img8]{: .alignright }
 The last part of my birthday weekend was a visit to the 
-[Warner Bros. Studio Tour London - The Making of Harry Potter](http://www.wbstudiotour.co.uk/) so,
+[Warner Bros. Studio Tour London - The Making of Harry Potter](//www.wbstudiotour.co.uk/) so,
 after our usual leisurely breakfast, we checked out of the hotel and made our way to the studios
 ready for our preallocated entrance time of 10:30. Unfortunately we arrived at the same time as a
 bus full of school kids! This seemed like an ideal time to make sure George had a clean nappy and
@@ -183,43 +181,43 @@ Potter or has aspirations to get into film making/set building etc.
 Thank you Rosie for a fantastic weekend!
 
 
-[More Photos - 0907 - 0910 Richards Birthday Weekend](http://photos.perry-online.me.uk/events/2012/birthday-weekend/)
+[More Photos - 0907 - 0910 Richards Birthday Weekend](//photos.perry-online.me.uk/events/2012/09/richards-birthday-weekend/)
 
-[More Photos - Warner Bros. Studio Tour London - The Making of Harry Potter](http://photos.perry-online.me.uk/events/2012/birthday-weekend/making-of-harry-potter)
+[More Photos - Warner Bros. Studio Tour London - The Making of Harry Potter](//photos.perry-online.me.uk/events/2012/09/harry-potter/)
 
 
-[thm1]: http://farm3.static.flickr.com/2314/13058544674_cd296cc575_q.jpg
-[thm2]: http://farm8.static.flickr.com/7336/13058528134_6eb75749de_q.jpg
-[thm3]: http://farm4.static.flickr.com/3726/13058543074_bdd26a0687_q.jpg
-[thm4]: http://farm8.static.flickr.com/7347/13058353893_33c70ee3c0_q.jpg
-[thm5]: http://farm4.static.flickr.com/3771/13058539504_92cefd6b04_q.jpg
-[thm6]: http://farm8.static.flickr.com/7407/13058350893_fafba37d28_q.jpg
-[thm7]: http://farm8.static.flickr.com/7378/13058536064_f2b2a06104_q.jpg
-[thm8]: http://farm8.static.flickr.com/7310/13058534164_644158c254_q.jpg
-[thm9]: http://farm4.static.flickr.com/3250/13058218035_203698822e_q.jpg
-[thm10]: http://farm4.static.flickr.com/3193/13058216495_bf874fcd7c_q.jpg
-[thm11]: http://farm3.static.flickr.com/2761/13058342653_b8565a26a6_q.jpg
-[thm12]: http://farm4.static.flickr.com/3022/13058568794_6d034388d1_q.jpg
-[thm13]: http://farm4.static.flickr.com/3526/13058567234_4ef8bafd49_q.jpg
-[thm14]: http://farm3.static.flickr.com/2605/13058377913_c500f000f2_q.jpg
-[thm15]: http://farm8.static.flickr.com/7320/13058375393_5caf61fce3_q.jpg
-[thm16]: http://farm4.static.flickr.com/3484/13058246275_627ede716e_q.jpg
-[thm17]: http://farm8.static.flickr.com/7326/13058383143_da0ccdb5f6_q.jpg
+[thm1]: //farm3.static.flickr.com/2314/13058544674_cd296cc575_q.jpg
+[thm2]: //farm8.static.flickr.com/7336/13058528134_6eb75749de_q.jpg
+[thm3]: //farm4.static.flickr.com/3726/13058543074_bdd26a0687_q.jpg
+[thm4]: //farm8.static.flickr.com/7347/13058353893_33c70ee3c0_q.jpg
+[thm5]: //farm4.static.flickr.com/3771/13058539504_92cefd6b04_q.jpg
+[thm6]: //farm8.static.flickr.com/7407/13058350893_fafba37d28_q.jpg
+[thm7]: //farm8.static.flickr.com/7378/13058536064_f2b2a06104_q.jpg
+[thm8]: //farm8.static.flickr.com/7310/13058534164_644158c254_q.jpg
+[thm9]: //farm4.static.flickr.com/3250/13058218035_203698822e_q.jpg
+[thm10]: //farm4.static.flickr.com/3193/13058216495_bf874fcd7c_q.jpg
+[thm11]: //farm3.static.flickr.com/2761/13058342653_b8565a26a6_q.jpg
+[thm12]: //farm4.static.flickr.com/3022/13058568794_6d034388d1_q.jpg
+[thm13]: //farm4.static.flickr.com/3526/13058567234_4ef8bafd49_q.jpg
+[thm14]: //farm3.static.flickr.com/2605/13058377913_c500f000f2_q.jpg
+[thm15]: //farm8.static.flickr.com/7320/13058375393_5caf61fce3_q.jpg
+[thm16]: //farm4.static.flickr.com/3484/13058246275_627ede716e_q.jpg
+[thm17]: //farm8.static.flickr.com/7326/13058383143_da0ccdb5f6_q.jpg
 
-[img1]: https://www.flickr.com/photos/richard-perry/13058544674
-[img2]: https://www.flickr.com/photos/richard-perry/13058528134
-[img3]: https://www.flickr.com/photos/richard-perry/13058543074
-[img4]: https://www.flickr.com/photos/richard-perry/13058353893
-[img5]: https://www.flickr.com/photos/richard-perry/13058539504
-[img6]: https://www.flickr.com/photos/richard-perry/13058350893
-[img7]: https://www.flickr.com/photos/richard-perry/13058536064
-[img8]: https://www.flickr.com/photos/richard-perry/13058534164
-[img9]: https://www.flickr.com/photos/richard-perry/13058218035
-[img10]: https://www.flickr.com/photos/richard-perry/13058216495
-[img11]: https://www.flickr.com/photos/richard-perry/13058342653
-[img12]: https://www.flickr.com/photos/richard-perry/13058568794
-[img13]: https://www.flickr.com/photos/richard-perry/13058567234
-[img14]: https://www.flickr.com/photos/richard-perry/13058377913
-[img15]: https://www.flickr.com/photos/richard-perry/13058375393
-[img16]: https://www.flickr.com/photos/richard-perry/13058246275
-[img17]: https://www.flickr.com/photos/richard-perry/13058383143
+[img1]: //www.flickr.com/photos/richard-perry/13058544674
+[img2]: //www.flickr.com/photos/richard-perry/13058528134
+[img3]: //www.flickr.com/photos/richard-perry/13058543074
+[img4]: //www.flickr.com/photos/richard-perry/13058353893
+[img5]: //www.flickr.com/photos/richard-perry/13058539504
+[img6]: //www.flickr.com/photos/richard-perry/13058350893
+[img7]: //www.flickr.com/photos/richard-perry/13058536064
+[img8]: //www.flickr.com/photos/richard-perry/13058534164
+[img9]: //www.flickr.com/photos/richard-perry/13058218035
+[img10]: //www.flickr.com/photos/richard-perry/13058216495
+[img11]: //www.flickr.com/photos/richard-perry/13058342653
+[img12]: //www.flickr.com/photos/richard-perry/13058568794
+[img13]: //www.flickr.com/photos/richard-perry/13058567234
+[img14]: //www.flickr.com/photos/richard-perry/13058377913
+[img15]: //www.flickr.com/photos/richard-perry/13058375393
+[img16]: //www.flickr.com/photos/richard-perry/13058246275
+[img17]: //www.flickr.com/photos/richard-perry/13058383143

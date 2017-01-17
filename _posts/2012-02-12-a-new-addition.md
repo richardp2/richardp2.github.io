@@ -1,7 +1,5 @@
 ---
-comments: true
 date: 2012-02-12 10:44:24+00:00
-layout: post
 title: A New Addition
 wordpress_id: 82
 image: /assets/images/thumbs/a-new-addition/ANewAddition.jpg
@@ -41,5 +39,5 @@ would allow, in the morning, ready to take the two of them home.
 [thm1]: {{ site.thumbs }}/a-new-addition/MeAndMySon.jpg 
 [thm2]: {{ site.thumbs }}/a-new-addition/RosieAndGeorge.jpg 
 
-[img1]: https://www.flickr.com/photos/richard-perry/12969955615
-[img2]: https://www.flickr.com/photos/richard-perry/12970096333
+[img1]: //www.flickr.com/photos/richard-perry/12969955615
+[img2]: //www.flickr.com/photos/richard-perry/12970096333

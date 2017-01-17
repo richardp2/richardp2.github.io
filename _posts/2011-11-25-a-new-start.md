@@ -1,7 +1,5 @@
 ---
-comments: true
 date: 2011-11-25 18:00:16+00:00
-layout: post
 title: A New Start
 wordpress_id: 33
 image: /assets/images/thumbs/a-new-start/StapleHillFront.jpg
@@ -63,8 +61,8 @@ my life with [CP Construction][cpc]. I am looking forward to the new challenges 
 completely different market I will be working in and hope to enjoy my new job as much as I enjoyed
 my last job.
 
-[bam]: http://www.bam.co.uk "BAM Construction"
-[cpc]: http://www.cpconstruction.co.uk "CP Construction"
+[bam]: //www.bam.co.uk "BAM Construction"
+[cpc]: //www.cpconstruction.co.uk "CP Construction"
 
 *[RICS]: Royal Institute of Chartered Surveyors
 *[APC]: Assessment of Professional Competence

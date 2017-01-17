@@ -1,8 +1,5 @@
 ---
-blog: richard
-comments: true
 date: 2012-08-15 21:34:59+00:00
-layout: post
 title: Life as a Games Maker
 wordpress_id: 188
 image: //farm8.static.flickr.com/7441/12971655604_8373488965_q.jpg
@@ -17,20 +14,19 @@ in London known as the Olympic Games. Well I volunteered to work at the Games an
 to be accepted as one of the 70,000 Games Makers who would be a huge part of making the Games happen.
 
 [![Blackheath Rugby Club on a Misty Morning][thm1]][img1]{: .alignright }
-My Games began on Monday 30 July so I was able to watch the 
-opening ceremony from the comfort of my own sofa  :smiley:. I left for London on the afternoon of 29 July
-to make my new home at [Blackheath Rugby Club][brc] courtesy of [Camping Ninja][cn]. Check In was
-relatively simple so once my tent was up I was able to get an early night ready for my first day at
-the [ExCeL Centre][ec].
+My Games began on Monday 30 July so I was able to watch the opening ceremony from the comfort of my
+own sofa  :smiley:. I left for London on the afternoon of 29 July to make my new home at
+[Blackheath Rugby Club][brc] courtesy of [Camping Ninja][cn]. Check In was relatively simple so once
+my tent was up I was able to get an early night ready for my first day at the [ExCeL Centre][ec].
 
 [![ExCeL Last Mile Zone Hub 20][thm2]][img2]{: .alignleft }
-My first three days were morning shifts starting at the area known as
-the Hub (i.e. the main hive of activity between Custom House DLR Station and the main entrance to
-the ExCeL Centre). After meeting up with a number of other new Games Makers and being issued our pink
-hi-vis vests, we were ready to start. My role basically involved smiling a lot, assist the signage in
-directing spectators to the main entrance and answering any and all questions asked to the best of my
-ability. Now I'm not really too familiar with the Docklands area of London, but after endless
-questions along the lines of:
+My first three days were morning shifts starting at the area known as the Hub (i.e. the main hive of
+activity between Custom House DLR Station and the main entrance to the ExCeL Centre). After meeting
+up with a number of other new Games Makers and being issued our pink hi-vis vests, we were ready to
+start. My role basically involved smiling a lot, assist the signage in directing spectators to the
+main entrance and answering any and all questions asked to the best of my ability. Now I'm not
+really too familiar with the Docklands area of London, but after endless questions along the lines
+of:
 	
   * Where do I find ...;
   * How do I get to ...;
@@ -82,7 +78,7 @@ So who's up for Rio 2016? Only kidding (I think)
 
 <figure markdown="1">
   [![Last Mile Games Makers hard at work - Copyright &copy; Sterling Vann][thm7]][img7]{: .aligncentre }
-  <figcaption>Copyright &copy; Sterling Vann</figcaption>
+  <figcaption>Copyright &copy; Sterling Vann</figcaption>{: .aligncentre }
 </figure>
 
 [brc]: //www.pitchero.com/clubs/blackheath/ "Blackheath Rugby Club"

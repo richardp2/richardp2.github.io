@@ -1,7 +1,5 @@
 ---
-comments: true
 date: 2013-03-10 16:49:58+00:00
-layout: post
 title: My Epic Quest
 wordpress_id: 666
 tags:
@@ -11,9 +9,9 @@ series:
 - My Epic Quest
 ---
 
-(_This post has been inspired by Steve Kamb at [Nerd Fitness](http://www.nerdfitness.com/blog/epic-quest/)_)
+(_This post has been inspired by Steve Kamb at [Nerd Fitness][eq]_)
 
-I recently read an article on [Nerd Fitness](http://www.nerdfitness.com/blog/epic-quest/) where
+I recently read an article on [Nerd Fitness][eq] where
 Steve Kamb had set out his goals for "levelling up" his life. He used the metaphor of Role Playing
 Games to make the concept manageable and put together a list of challenges or quests that could be
 completed to advance from one level to the next. He then decided that each quest would be worth 20%
@@ -24,6 +22,9 @@ people have, but it just sounds cooler :wink:.
 
 I've been very lucky over the last few years so I've already done a lot of the things I would have
 added to this list. So here it is. Let me know what you think.
+
+## Level 2 <progress value="60" max="100"></progress> Level 3
+{: .aligncentre }
 
 ### Travel Quests
 	
@@ -40,7 +41,7 @@ added to this list. So here it is. Let me know what you think.
   * Visit St. Peter’s Basilisca, Italy
   * Visit the Leaning Tower of Pisa, Italy
   * Visit the Parthenon in Greece
-  * Visit the Blue Domed Church of Santorini, Greece
+  * <del>Visit the Blue Domed Church of Santorini, Greece</del> (30/03/2016)
   * Visit the Cathedral of Saint Sava, Serbia once it is finished (I saw it in 2006, but the interior was unfinished)
   * Visit St. Basil’s Cathedral in Moscow, Russia
   * Ride the Trans-Siberian Railroad across Russia
@@ -87,14 +88,14 @@ added to this list. So here it is. Let me know what you think.
       3. Disneyland, California
       4. Walt Disney World, Florida
       5. Tokyo Disney
-      6. Shanghai Disney (_not open yet_)
+      6. Shanghai Disney
       
 
 ### Active Quests
 
   * Bungee jump
   * Skydive
-  * Run a marathon
+  * <del>Run a marathon</del> ([19/04/2015][mar])
   * Swim in the Atlantic and Pacific in the same day
   * Dive with sharks
   * Climb Ben Nevis in Scotland
@@ -110,7 +111,7 @@ added to this list. So here it is. Let me know what you think.
   * Snowboard at Ski Dubai in Dubai
   * Study Kung Fu in Shaolin, China
   * Study Aikido in Japan
-  * Do 10 handstand push ups freestanding (I can now do three :-D)
+  * Do 10 handstand push ups freestanding (I can now do four :smiley:)
   * <del>Do 10 one-arm push ups with each arm</del> (May 2014)
   * Do 10 one-arm pull ups with each arm
   * Do a muscle up
@@ -125,13 +126,13 @@ added to this list. So here it is. Let me know what you think.
   * Become conversational in a third language
   * Learn to say basic phrases in 50 languages (4/50)
     * 1. Welsh, 2. French, 3. German, 4. Mandarin
-  * Create and keep a WTSHTF bag ready ([Google the phrase](https://www.google.co.uk/search?q=wtshtf+bag&aq=f&oq=wtshtf+bag&aqs=chrome.0.57j61j0l3j62.6779&sourceid=chrome&ie=UTF-8))
+  * Create and keep a WTSHTF bag ready ([Google the phrase][wtshtf])
   * Learn how to become a proficient locksmith
 
 ### Learning/Teaching Quests
 
   * Complete a Masters Degree
-  * Learn to juggle
+  * <del>Learn to juggle</del> (30/09/2016)
   * Teach my son to climb & kayak better than me
   * Teach my son a second language
 
@@ -145,7 +146,7 @@ added to this list. So here it is. Let me know what you think.
   * See the Aurora Borealis
   * See the Aurora Australis
   * Witness a full solar eclipse
-  * Get rid of all the crap I've accumulated over the years
+  * Get rid of all the unnecessary crap I've accumulated over the years
 
 ### Master Quests
 
@@ -157,6 +158,8 @@ These are all worth 100% experience or more due to their complexity or difficult
   * Live like James Bond in Monaco
   * Climb Mt. Everest
 
-
-[hk]: http://travel.perry-online.me.uk/china/hong-kong/china-2009/disneyland/ "Disneyland!!!! :-) :-)"
+[eq]: //www.nerdfitness.com/blog/epic-quest/
+[hk]: //travel.perry-online.me.uk/china/hong-kong/china-2009/disneyland/ "Disneyland!!!! :-) :-)"
 [bk]: {% post_url 2013-05-19-backflip %} "Active Quest: Backflip"
+[mar]: {% post_url 2015-04-24-gmm %} "Greater Manchester Marathon 2015"
+[wtshtf]: //www.google.co.uk/search?q=wtshtf+bag&aq=f&oq=wtshtf+bag&aqs=chrome.0.57j61j0l3j62.6779&sourceid=chrome&ie=UTF-8 

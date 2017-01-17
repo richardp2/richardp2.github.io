@@ -1,11 +1,8 @@
 ---
-blog: richard
-comments: true
 date: 2012-04-01 11:55:38+00:00
-layout: post
 title: George's First Hike
 wordpress_id: 137
-image: http://farm8.static.flickr.com/7313/12970614735_a49ee98762_q.jpg
+image: //farm8.static.flickr.com/7313/12970614735_a49ee98762_q.jpg
 tags:
 - George
 - Hike
@@ -41,15 +38,14 @@ for today. It was a bit disappointing having to turn around when we were so clos
 hand we got to the top of Corn Du with a 7½ week old baby in March!!! :smiley: I think George had a
 good day even if he was asleep for most of it.
 
-<iframe src="http://maps.google.co.uk/maps/ms?msid=215094904436363903208.0004bc9c9ff4aa5f54060&amp;msa=0&amp;ie=UTF8&amp;t=h&amp;ll=51.877445,-3.441124&amp;spn=0.037091,0.090122&amp;z=13&amp;output=embed" height="350" width="525" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="clear:left;"></iframe><br />
-<small>View <a style="color: #0000ff; text-align: left;" href="http://maps.google.co.uk/maps/ms?msid=215094904436363903208.0004bc9c9ff4aa5f54060&amp;msa=0&amp;ie=UTF8&amp;t=h&amp;ll=51.877445,-3.441124&amp;spn=0.037091,0.090122&amp;z=13&amp;source=embed">George&#8217;s First Hike</a> in a larger map</small>
+<iframe src="//maps.google.co.uk/maps/ms?msid=215094904436363903208.0004bc9c9ff4aa5f54060&amp;msa=0&amp;ie=UTF8&amp;t=h&amp;ll=51.877445,-3.441124&amp;spn=0.037091,0.090122&amp;z=13&amp;output=embed" height="350" width="525" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" class="aligncentre" style="clear:left;"></iframe><br /><small class='aligncentre'>View <a style="color: #0000ff; text-align: left;" href="//maps.google.co.uk/maps/ms?msid=215094904436363903208.0004bc9c9ff4aa5f54060&amp;msa=0&amp;ie=UTF8&amp;t=h&amp;ll=51.877445,-3.441124&amp;spn=0.037091,0.090122&amp;z=13&amp;source=embed">George&#8217;s First Hike</a> in a larger map</small>
 
-[Diary of a Scout Leader]: http://diaryofascoutleader.blogspot.co.uk/ "Diary of a Scout Leader"
+[Diary of a Scout Leader]: //diaryofascoutleader.blogspot.co.uk/ "Diary of a Scout Leader"
 
-[thm1]: http://farm3.static.flickr.com/2891/12970759323_f5ed418109_q.jpg
-[thm2]: http://farm8.static.flickr.com/7315/12971031044_650a2ec05b_q.jpg
-[thm3]: http://farm8.static.flickr.com/7310/12970618955_b201fc455e_q.jpg
+[thm1]: //farm3.static.flickr.com/2891/12970759323_f5ed418109_q.jpg
+[thm2]: //farm8.static.flickr.com/7315/12971031044_650a2ec05b_q.jpg
+[thm3]: //farm8.static.flickr.com/7310/12970618955_b201fc455e_q.jpg
 
-[img1]: https://www.flickr.com/photos/richard-perry/12970759323
-[img2]: https://www.flickr.com/photos/richard-perry/12971031044
-[img3]: https://www.flickr.com/photos/richard-perry/12970618955
+[img1]: //www.flickr.com/photos/richard-perry/12970759323
+[img2]: //www.flickr.com/photos/richard-perry/12971031044
+[img3]: //www.flickr.com/photos/richard-perry/12970618955

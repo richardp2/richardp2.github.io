@@ -1,4 +1,8 @@
-
+%media {
+    margin: 0 auto;
+    max-width: 650px;
+    text-align: center;
+}
 article {
     @extend %central;
     @extend %clearfix;
@@ -33,10 +37,21 @@ article {
         padding: 1em;
     }
 
-    &.format-gallery, &.format-image, &.format-video {
-        margin: 0 auto;
-        max-width: 650px;
-        text-align: center;
+    &.format-gallery {
+        @extend %media;
+    }
+
+    &.format-image {
+        @extend %media;
+        section[itemprop=articleBody] .alignleft {
+            display: block;
+            float: none;
+            margin: 0.5em auto;
+        }
+    }
+
+    &.format-video {
+        @extend %media;
     }
 
     .series_list {

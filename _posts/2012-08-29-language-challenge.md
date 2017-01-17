@@ -1,7 +1,5 @@
 ---
-comments: true
 date: 2012-08-29 19:42:55+00:00
-layout: post
 title: My Language Challenge
 wordpress_id: 69
 image: /assets/images/chinese-sign.jpg
@@ -63,14 +61,14 @@ semi-regular updates on this blog.
 
 Wish me luck :stuck_out_tongue:.
 
-[3n]: http://travel.perry-online.me.uk/trips/china-2009/ "Three Nations & China 2009"
-[fi3m]: http://www.fluentin3months.com/ "Fluent in 3 Months"
-[3m]: http://www.fluentin3months.com/fi3m-challenge/ "3 month challenge"
-[npcr]: http://www.chinabooks.com/home.php?cat=319 "New Practical Chinese Reader"
-[cc]: http://www.routledge.com/books/details/9780415434157/ "Colloquial Chinese"
-[mem]: http://memrise.com/ "Memrise"
-[cp]: http://chinesepod.com/ "ChinesePod"
-[pim]: http://www.pimsleur.com/Learn-Mandarin-Chinese "Learn Mandarin Chinese with The Pimsleur Method"
+[3n]: //travel.perry-online.me.uk/china-2009/ "Three Nations & China 2009"
+[fi3m]: //www.fluentin3months.com/ "Fluent in 3 Months"
+[3m]: //www.fluentin3months.com/fi3m-challenge/ "3 month challenge"
+[npcr]: //www.chinabooks.com/home.php?cat=319 "New Practical Chinese Reader"
+[cc]: //www.routledge.com/books/details/9780415434157/ "Colloquial Chinese"
+[mem]: //memrise.com/ "Memrise"
+[cp]: //chinesepod.com/ "ChinesePod"
+[pim]: //www.pimsleur.com/Learn-Mandarin-Chinese "Learn Mandarin Chinese with The Pimsleur Method"
 [cr]: mms://media.ccdntech.com/wmtencoder/rti/cbs2.wmv "Chinese Radio"
-[twi]: http://twitter.com/richard_p2_ZH "Richard Perry Chinese Language Twitter Account"
-[sky]: http://www.skype.com/ "Skype"
+[twi]: //twitter.com/richard_p2_ZH "Richard Perry Chinese Language Twitter Account"
+[sky]: //www.skype.com/ "Skype"

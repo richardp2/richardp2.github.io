@@ -1,7 +1,5 @@
 ---
-comments: true
 date: 2012-03-29 20:08:02+00:00
-layout: post
 title: Our First Family Day Out
 wordpress_id: 120
 image: /assets/images/thumbs/our-first-family-day-out/us-at-gloucester-cathedral.jpg
@@ -60,7 +58,7 @@ as George was completely unphased by the whole thing and continued to enjoy his 
 We finished up our first family day out with scones and cream at Gloucester Quays. It was a
 great day out, but hopefully George will stay awake for more of the next one :smiley:
 
-[Puzzlewood]: http://www.puzzlewood.net/ "Puzzlewood"
+[Puzzlewood]: //www.puzzlewood.net/ "Puzzlewood"
 
 [thm1]: {{ site.thumbs }}/our-first-family-day-out/puzzlewood.jpg 
 [thm2]: {{ site.thumbs }}/our-first-family-day-out/george-in-the-sling.jpg
@@ -68,8 +66,8 @@ great day out, but hopefully George will stay awake for more of the next one :sm
 [thm4]: {{ site.thumbs }}/our-first-family-day-out/gloucester-cathedral-cloisters.jpg
 [thm5]: {{ site.thumbs }}/our-first-family-day-out/gloucester-cathedral-outside.jpg
 
-[img1]: https://www.flickr.com/photos/richard-perry/13997229517
-[img2]: https://www.flickr.com/photos/richard-perry/13997197150
-[img3]: https://www.flickr.com/photos/richard-perry/13997196810
-[img4]: https://www.flickr.com/photos/richard-perry/14183828254
-[img5]: https://www.flickr.com/photos/richard-perry/14183825474
+[img1]: //www.flickr.com/photos/richard-perry/13997229517
+[img2]: //www.flickr.com/photos/richard-perry/13997197150
+[img3]: //www.flickr.com/photos/richard-perry/13997196810
+[img4]: //www.flickr.com/photos/richard-perry/14183828254
+[img5]: //www.flickr.com/photos/richard-perry/14183825474
