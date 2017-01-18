@@ -1,13 +1,10 @@
 ---
-blog: richard
-comments: false
-layout: default
 title: "Series'"
 permalink: /series/
 ---
 {% assign serii = site.data.series | sort: 'start' %}
 {% for series in serii %}
-      <article class="series post summary">
+      <article class="series post">
         <header>
           <h2><a href="{{ series.permalink }}" title="{{ series.name }}">{{ series.name }}</a></h2>
         </header>

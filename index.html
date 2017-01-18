@@ -6,7 +6,7 @@ comments: false
 
             {% for post in paginator.posts %}
             <article itemscope itemtype='//schema.org/BlogPosting' class='post summary{% if post.format %} format-{{ post.format }}{% endif %}'>
-                {% include partials/summary.html %}
+                {% include summary.html %}
             </article>
 
             {% endfor %}

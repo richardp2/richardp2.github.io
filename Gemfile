@@ -7,10 +7,9 @@ source 'https://rubygems.org'
 #gem 'github-pages', versions['github-pages']
 gem 'jekyll'
 
-group :jekyll_plugins do
-    gem 'flickraw'
-    gem 'jekyll-paginate'
-    gem 'jekyll-gist'
-    gem 'jekyll-mentions'
-    gem 'jemoji'
-end
+gem 'flickraw'
+gem 'jekyll-paginate'
+gem 'jekyll-gist'
+gem 'jekyll-mentions'
+gem 'jemoji'
+gem 'jekyll-redirect-from'

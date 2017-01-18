@@ -18,7 +18,7 @@ article {
         clear: both;
     }
 
-    &.summary, &.page {
+    &.summary, &.page, &.series {
         &::after {
             @extend %divider-gradient-top;
             margin-top: 1em;

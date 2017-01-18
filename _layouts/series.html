@@ -1,0 +1,15 @@
+---
+layout: default
+---
+            
+        <article itemscope itemtype="//schema.org/Article" class="page">
+            <header>
+                <h1 itemProp="headline">{{ page.title }}</h1>
+            </header>
+            
+        {% for post in site.posts reversed %}{% if post.series == page.series %}
+            <article itemscope itemtype='//schema.org/BlogPosting' class='post summary{% if post.format %} format-{{ post.format }}{% endif %}'>
+                {% include summary.html %}
+            </article>{% endif %}
+        {% endfor %}
+        </article><!-- .page -->

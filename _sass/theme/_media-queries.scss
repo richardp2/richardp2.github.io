@@ -53,6 +53,11 @@
 
     article {
         margin-left: 0;
+        &.summary, &.page, &.series {
+            &:first-of-type::before, &:last-of-type::after {
+                background: none !important;
+            }
+        }
     }
 
     
