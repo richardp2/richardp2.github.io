@@ -1,6 +1,7 @@
 header[role='banner'] {
     @extend %text-centre;
-    background-color: rgba( 255, 255, 255, 0.65 );
+    background: linear-gradient( rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65) ), 
+        url(/assets/images/header.jpg) repeat-x center top fixed;
     height: 216px;
 
     .site-title {

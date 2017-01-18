@@ -21,18 +21,12 @@ a {
 
 
 body {
-    background: url(/assets/images/header.jpg) repeat-x center top fixed;
     min-height: 100%;
     padding: 0;
 }
 
 img {
     max-width: 100%;
-}
-
-
-main {
-    @extend %bg-white;
 }
 
 main,

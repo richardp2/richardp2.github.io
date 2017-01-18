@@ -35,20 +35,6 @@
   sub:
   - url: //richard.perry-online.me.uk/about/
     title: About Me
-  - url: //richard.perry-online.me.uk/general/
-    title: General
-  - url: //richard.perry-online.me.uk/george/
-    title: George
-  - url: //richard.perry-online.me.uk/languages/
-    title: Languages
-  - url: //richard.perry-online.me.uk/outdoors/
-    title: Active/Outdoors
-  - url: //richard.perry-online.me.uk/photography/
-    title: Photography
-  - url: //richard.perry-online.me.uk/reviews/
-    title: Reviews
-  - url: //richard.perry-online.me.uk/technology/
-    title: Technology
   - url: //richard.perry-online.me.uk/series/
     title: Post Series
   - url: //richard.perry-online.me.uk/archives/

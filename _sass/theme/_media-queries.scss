@@ -1,9 +1,5 @@
 @media only screen and (min-width: 48em) {
 
-    body {
-        background: url(/assets/images/header.jpg) repeat-y left top fixed;
-    }
-    
     header[role='banner'],
     nav {
         position: fixed;
@@ -11,6 +7,8 @@
     }
     header[role='banner'] {
         @include box-shadow( 0, 0, 0.75em, 0.4em, rgba( 17, 17, 17, 0.65 ) );
+        background: linear-gradient( rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65) ), 
+            url(/assets/images/header.jpg) repeat-y left top fixed;
         height: 100%;
         top: 0;
         bottom: 0;
