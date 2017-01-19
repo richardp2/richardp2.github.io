@@ -1,18 +1,15 @@
-{% capture thumb %}
-    {% if post.image %}
-        <img src="{{ post.image }}" title="{{ post.title }}" alt="{{ post.title }}" class='alignleft' />
-    {% endif %}
+{% capture icon %}
+    {% case post.format %}
+        {% when 'gallery' or 'image' %}
+            <i class='fa fa-picture-o'></i> 
+        {% when 'video' %}
+            <i class='fa fa-film'></i> 
+        {% when 'link' %}
+            <i class='fa fa-link'></i> 
+        {% else %}
+            
+    {% endcase %}
 {% endcapture %}
-{% case post.format %}
-    {% when 'gallery' or 'image' %}
-        {% capture icon %}<i class='fa fa-picture-o'></i> {% endcapture %}
-    {% when 'video' %}
-        {% capture icon %}<i class='fa fa-film'></i> {% endcapture %}
-    {% when 'link' %}
-        {% capture icon %}<i class='fa fa-link'></i> {% endcapture %}
-    {% else %}
-        {% capture icon %}{% endcapture %}
-{% endcase %}
                 <header>
                     <h2 itemprop='headline'>
                         <a href='{{ post.url }}' itemprop='url'>
@@ -26,15 +23,12 @@
                 {% if post.format == "gallery" %}
                     {{ post.excerpt }}
                     This Gallery contains {{ post.images }} photos.
-                {% elsif post.format == "video" %}
-                    <iframe width='560' height='315' src='//www.youtube.com/embed/{{post.video}}?rel=0' frameborder='0' allowfullscreen itemProp='video'></iframe><br/>
-                    {{ post.content | markdownify | strip_html | truncatewords: 125 }}
                 {% else %}
-                    {{ thumb }}
+                    {% if post.video %}<iframe width='560' height='315' src='//www.youtube.com/embed/{{post.video}}?rel=0' frameborder='0' allowfullscreen itemProp='video'></iframe><br/>{% endif %}
+                    {% if post.image %}<img src="{{ post.image }}" title="{{ post.title }}" alt="{{ post.title }}" class='alignleft' />{% endif %}
                     {{ post.content | markdownify | strip_html | truncatewords: 125 }}
                 {% endif %}
                 </section>
-
                         
                 <footer>
                     <a class='read-more' href='{{ post.url }}' itemprop='url'>read more <i class='fa fa-chevron-right'></i></a>
