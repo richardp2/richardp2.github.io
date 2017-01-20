@@ -21,6 +21,8 @@ exclude:
 
 # Plugins
 gems:
+  - jekyll-paginate
+  - jekyll-gist
   - jekyll-mentions
   - jemoji
 
@@ -46,7 +48,7 @@ defaults:
 
 # Markdown Processors
 kramdown:
-  use_coderay:       true
+  enable_coderay:       true
 
 sass:
   style:             compressed
