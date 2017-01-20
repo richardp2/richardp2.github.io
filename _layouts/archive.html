@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% capture title %}
+    {% case page.type %}
+        {% when 'tag' or 'category' %}{{ page.type | capitalize }}: {{ page.title }}
+        {% when 'year' %}Archives: {{ page.date | date: "%Y" }}
+        {% when 'month' %}Archives: {{ page.date | date: "%B %Y" }}
+        {% when 'day' %}Archvies: {{ page.date | date: "%d %b %Y" }}
+    {% endcase %}
+{% endcapture %}
+            <article itemscope itemtype="//schema.org/Article" class="page">
+                <header>
+                    <h1 itemProp="headline">{{ title }}</h1>
+                </header>
+                
+                <section class="post-content" itemProp="articleBody">
+                    <ul id='archive'>
+                    {% for post in page.posts %}
+                        {% include archives.html %}  
+                    {% endfor %}
+                    </ul>
+                </section><!-- .post-content -->
+            </article><!-- .page -->
+

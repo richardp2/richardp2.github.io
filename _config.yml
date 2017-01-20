@@ -31,6 +31,7 @@ gems:
   - jemoji
   - jekyll-redirect-from
   - jekyll-seo-tag
+  - jekyll-archives
   #- jekyll-feed
   #- jekyll-sitemap
 
@@ -44,6 +45,17 @@ flickr:
   shared_secret:     ef41108edae962b0
   access_token:      72157641557984045-92a5dbebf3e01418
   access_secret:     1625dbdd3cf26db6
+
+jekyll-archives:
+  enabled:
+    - year
+    - tags
+    - categories
+  layouts: archive
+  permalinks:
+    year: '/archives/:year/'
+    tag: '/tags/:name/'
+    category: '/:name/'
 
 # Outputting
 permalink:           /:title/
