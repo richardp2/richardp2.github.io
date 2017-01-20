@@ -2,7 +2,7 @@
 date: 2012-02-12 10:44:24+00:00
 title: A New Addition
 wordpress_id: 82
-image: /assets/images/thumbs/a-new-addition/ANewAddition.jpg
+image: //c2.staticflickr.com/8/7428/12970108443_c2baf8fa6d_q.jpg
 tags:
 - George
 - Milestones
@@ -18,14 +18,14 @@ felt getting that news. Now don't get me wrong, I'm 100% positive I would have f
 had he been a girl instead, it was just amazing that this ever growing bump in Rosie's belly was now
 an actual little person that I could hold in my arms!
 
-[![Me & My Son][thm1]][img1]{: .alignleft }
+{% flickr_image 12969955615 %}
 The midwife passed me my son whilst Rosie was sorted out and settled back into the bed. We looked at
 each other (well I looked and George angled his head in my general direction) and that was it, I was
 as happy as I have ever been. Once Rosie was ready I passed George over to her and could tell that
 all that pain and effort was evaporating from her memory as the result was wriggling gently in her
 arms.
 
-[![Rosie & George][thm2]][img2]{: .alignright }
+{% flickr_image 12970096333 alignright %}
 The rest of the afternoon was a bit of a blur, George was fed, Rosie had a bath, family was phoned
 and suddenly it was 17:00 and we were being moved up to the ward. Rosie's parents arrived just in
 time to come up with us to meet their new Grandson. The visiting hours in Nevill Hall are only 2
@@ -35,9 +35,3 @@ and spent most of the extra hour cuddling George.
 
 I left just before I was kicked out with the promise that I would be back as early as the hospital
 would allow, in the morning, ready to take the two of them home.
-
-[thm1]: {{ site.thumbs }}/a-new-addition/MeAndMySon.jpg 
-[thm2]: {{ site.thumbs }}/a-new-addition/RosieAndGeorge.jpg 
-
-[img1]: //www.flickr.com/photos/richard-perry/12969955615
-[img2]: //www.flickr.com/photos/richard-perry/12970096333

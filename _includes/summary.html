@@ -25,11 +25,7 @@
                     This Gallery contains {{ post.images }} photos.
                 {% else %}
                     {% if post.video %}<iframe width='560' height='315' src='//www.youtube.com/embed/{{post.video}}?rel=0' frameborder='0' allowfullscreen itemProp='video'></iframe><br/>{% endif %}
-                    {% if post.flickr_image %}
-                        {% flickr_image post.flickr_image %}
-                    {% elsif post.image %}
-                        <img src="{{ post.image }}" title="{{ post.title }}" alt="{{ post.title }}" class='alignleft' />
-                    {% endif %}
+                    {% if post.image %}<img src="{{ post.image }}" title="{{ post.title }}" alt="{{ post.title }}" class='alignleft' />{% endif %}
                     {{ post.content | markdownify | strip_html | truncatewords: 125 }}
                 {% endif %}
                 </section>

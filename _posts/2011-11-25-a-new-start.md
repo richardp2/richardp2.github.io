@@ -2,7 +2,7 @@
 date: 2011-11-25 18:00:16+00:00
 title: A New Start
 wordpress_id: 33
-image: /assets/images/thumbs/a-new-start/StapleHillFront.jpg
+image: //c2.staticflickr.com/8/7350/12968076123_1e40108b3c_q.jpg
 tags:
 - Milestones
 ---
@@ -14,7 +14,7 @@ Over the last six and a half years, BAM have nurtured me and brought me from a 
 student to a calm and collected Chartered Quantity Surveyor. BAM have thrown me into various 
 scenarios that have enabled me to grow and progress well in my time with them.
 
-[![Bedminster Down School][thm1]][img1]{: .alignright }
+{% flickr_image 12968074903 alignright %}
 In the early days, I worked on a site that was running very smoothly and had very few problems. This
 was a great introduction to the industry, and where I realised that I really knew squat about the
 job I was actually training for. The real world is very different to the world portrayed by
@@ -29,15 +29,16 @@ scary. Everyone was friendly, and even the really senior staff would happily tal
 equal. It was at this point that I realised I had landed on my feet when BAM Construction offered 
 me a job.
 
-[![Bath Spa Bus Station][thm2]][img2]{: .alignleft }
+{% flickr_image 12968074783 %}
 After spending some time working on a hospital project in South Wales, I went to work on a new Bus
 Station in Bath. It was the first job I was going to work on from start to finish so I was looking
 forward to it. Having just moved back to South Wales, I was not looking forward to the commute. The
 job was an absolute nightmare commercially giving me endless experience with all sorts of different
 problems leading to me successfully completing my RICS APC and receiving my Chartership in 2009.
 
-[![Staple Hill front entrance - 4 days to handover][thm3]][img3]{: .alignright }
-[![Staple Hill rear terracing - 4 days to handover][thm4]][img4]{: .alignright style="clear:right" }
+{% flickr_image 12968076123 alignright %}
+{% flickr_image 12968074373 alignright %}
+{: style="clear:right" }
 I landed a job of my very own at the end of 2009. I was going to be the lead surveyor on Staple Hill
 Primary School in Bristol. At first I was a little nervous, maybe even scared, but then I became
 excited. This would be the first job where I would be able to prove myself. It was a great feeling,
@@ -66,13 +67,3 @@ my last job.
 
 *[RICS]: Royal Institute of Chartered Surveyors
 *[APC]: Assessment of Professional Competence
-
-[thm1]: {{ site.thumbs }}/a-new-start/BedminsterDownSchool.jpg 
-[thm2]: {{ site.thumbs }}/a-new-start/BathSpaBusStation.jpg 
-[thm3]: {{ site.thumbs }}/a-new-start/StapleHillFront.jpg
-[thm4]: {{ site.thumbs }}/a-new-start/StapleHillRear.jpg
-
-[img1]: {{ site.images }}/a-new-start/BedminsterDownSchool.jpg 
-[img2]: {{ site.images }}/a-new-start/BathSpaBusStation.jpg 
-[img3]: {{ site.images }}/a-new-start/StapleHillFront.jpg
-[img4]: {{ site.images }}/a-new-start/StapleHillRear.jpg
