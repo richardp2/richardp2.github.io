@@ -27,7 +27,7 @@ gems:
   - jemoji
 
 # Outputting
-permalink:           /:title/
+permalink:           /:categories/:title/
 paginate:            10
 paginate_path:       "page/:num"
 timezone:            Europe/London
