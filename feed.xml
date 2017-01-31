@@ -9,7 +9,7 @@
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
     <description>{{ site.description | xml_escape }}</description>
-    <copyright>Copyright (c) 2011-{{ site.time | date: '%Y' }} {{ author.name }}</copyright>
+    <copyright>Copyright (c) 2009-{{ site.time | date: '%Y' }} {{ author.name }}</copyright>
     <language>en-gb</language>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>{% for post in site.posts %}{% if post.author %}{% assign author = site.data.authors[post.author] %}{% else %}{% assign author = site.data.authors[site.author] %}{% endif %}

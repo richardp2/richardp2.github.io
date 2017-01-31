@@ -63,6 +63,24 @@ sass:
 disqus:
   shortname:      richardperry
 
+
+######################################
+#                                    #
+#        Theme Configuration         #
+#                                    #
+######################################
+
+# General Configuration
+
+# Markdown Processors
+sass:
+  sass_dir:       _sass
+  style:          compressed
+
+# Comments
+disqus:
+  shortname:      richardperry
+
 # Outputting
 permalink:        /:categories/:title/
 paginate:         10
