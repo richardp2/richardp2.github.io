@@ -1,10 +1,9 @@
 ---
-comments: true
 date: 2012-10-27 20:10:11+00:00
-layout: image
+format: image
 title: An Awesome Roast to End an Awesome Day!
 wordpress_id: 468
-image: http://farm4.static.flickr.com/3679/13058497505_20a16f5fc1_d.jpg
+image: https://farm4.static.flickr.com/3679/13058497505_20a16f5fc1_d.jpg
 tags:
 - Photography
 - Instagram

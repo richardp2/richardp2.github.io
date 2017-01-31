@@ -1,3 +1,0 @@
-            <ul{% if include.class %} class="{{ include.class }}"{% endif %}>{% for link in include.links %}
-                <li itemprop='name'><a href="{{ link.url }}" title="{{ link.title }}" {% if page.title == link.title %}class="current-page"{% endif %} itemprop='url'>{{ link.title }}</a>{% if link.sub %}{% include nav.html links=link.sub %}{% endif %}</li>
-            {% endfor %}</ul>

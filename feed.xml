@@ -2,7 +2,7 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>{% assign author = site.data.authors[site.author] %}
 <?xml-stylesheet type="text/xsl" href="/assets/xsl/feed.xsl" media="screen"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="//www.w3.org/2005/Atom">
 
   <channel>
     <title>{{ site.title | xml_escape }} | RSS Feed</title>
@@ -19,7 +19,7 @@
           <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
           <author>{{ author.name | xml_escape }} ({{author.email}})</author>
           <guid>{{ site.url }}{{ post.url }}</guid>
-          <description><![CDATA[{% include partials/feed_content.html %}]]></description>
+          <description><![CDATA[{% include feed_content.html %}]]></description>
         </item>{% endfor %}
   </channel>
 </rss>

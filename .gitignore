@@ -1,9 +1,14 @@
 changes
 Gemfile.lock
+.jekyll-metadata
 _site
 .sass-cache
 _site/
 .sass-cache/
+_cache
+_cache/
+.bundle
+.bundle/
 
 # Windows image file caches
 Thumbs.db

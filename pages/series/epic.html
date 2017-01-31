@@ -1,19 +1,9 @@
 ---
-blog: richard
-comments: false
-layout: default
-title: "My Epic Quest Series"
+title: "Series: My Epic Quest"
+layout: series
 permalink: /series/epic/
 series:
 - My Epic Quest 
 ---
 
-        {% for post in site.posts reversed %}
-          {% if post.series == page.series %}
-          <article itemscope itemtype='http://schema.org/BlogPosting' class='post summary{% if post.layout != 'post' %} format-{{ post.layout }}{% endif %}'>
-              {% include partials/summary.html %}
-          </article>
-
-          <hr />
-          {% endif %}
-        {% endfor %}
+        

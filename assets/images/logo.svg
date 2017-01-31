@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg xmlns:svg="http://www.w3.org/2000/svg" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	xmlns="http://www.w3.org/2000/svg" 
+	width="210px" height="210px">
+	<defs>
+	    <link xmlns="http://www.w3.org/1999/xhtml" href='//fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css' />
+	    <style type="text/css">
+	    	@import url(//fonts.googleapis.com/css?family=Indie+Flower);
+	        text {
+		      	font: 36px 'Indie Flower', cursive; 
+		      	text-anchor: middle; 
+		      	text-rendering: geometricPrecision; 
+	        }
+	    </style>
+	  </defs>
+
+	<g id="ProfilePic">
+		<circle r="77" cx="100" cy="77" stroke="#104891" fill='none'/>
+		<clipPath id="clipCircle">
+			<circle r="75" cx="100" cy="77"/>
+		</clipPath>
+		<a xlink:href="/" target="_parent" xlink:title="Richard Perry | Home">
+			<image x="25" y="2" width="150" height="150" xlink:href="/assets/images/richard.jpg" clip-path="url(#clipCircle)" />
+		</a>
+	</g>
+    <g id="title">
+    	<a xlink:href="/" target="_parent" xlink:title="Richard Perry | Just Another Blog About Nothing">
+	        <text x="105" y="185" font-family="'Indie Flower', cursive">
+	        	<tspan x="105" y="185" fill="#104891">Richard Perry</tspan>
+	        </text>
+    	</a>
+    </g>
+</svg>

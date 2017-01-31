@@ -30,9 +30,15 @@ added to this list. So here it is. Let me know what you think.
 ### Travel Quests
   
   * Visit the main Harry Potter filming locations (11/34)
+<<<<<<< HEAD
+  * Visit Loch Ness in Scotland	
+  * Visit Giants Causeway in Northern Ireland	
+  * ~~Climb the Eiffel Tower in Paris, France~~ (05/04/2013)	
+=======
   * Visit Loch Ness in Scotland 
   * Visit Giants Causeway in Northern Ireland 
   * ~~Climb the Eiffel Tower in Paris, France~~ (05/04/2013)  
+>>>>>>> master
   * Visit Mont St. Michel in France
   * ~~Visit the Louvre in France~~ (06/04/2013)
   * ~~Visit Notre Dame Cathedral in France~~ (05/04/2013)
@@ -43,7 +49,12 @@ added to this list. So here it is. Let me know what you think.
   * Visit the Leaning Tower of Pisa, Italy
   * Visit the Parthenon in Greece
   * ~~Visit the Blue Domed Church of Santorini, Greece~~ (30/03/2016)
+<<<<<<< HEAD
+  * Visit the Cathedral of Saint Sava, Serbia once it is finished (I saw it in 2006, but the
+    interior was unfinished)
+=======
   * Visit the Cathedral of Saint Sava, Serbia once it is finished (I saw it in 2006, but the interior was unfinished)
+>>>>>>> master
   * Visit St. Basil’s Cathedral in Moscow, Russia
   * Ride the Trans-Siberian Railroad across Russia
   * Visit Everest Base Camp
@@ -119,7 +130,12 @@ added to this list. So here it is. Let me know what you think.
   * Do 5 muscle ups
   * Hold a planche for 10 seconds
   * Hold a front lever for 20 seconds
+<<<<<<< HEAD
+  * ~~Learn how to do a frontflip &amp; a backflip~~ (Backflip [26/04/2013][bk], Frontflip
+    10/01/2014)
+=======
   * ~~Learn how to do a frontflip &amp; a backflip~~ (Backflip [26/04/2013][bk], Frontflip 10/01/2014)
+>>>>>>> master
 
 ### Jason Bourne/James Bond Quests
 

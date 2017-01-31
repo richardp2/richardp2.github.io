@@ -30,6 +30,38 @@ gems:
   - jekyll-gist
   #- jekyll-mentions
   - jemoji
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-archives
+  #- jekyll-feed
+  #- jekyll-sitemap
+
+
+######################################
+#                                    #
+#        Theme Configuration         #
+#                                    #
+######################################
+
+# General Configuration
+theme:            jekyll-theme-perry
+logo:             /assets/images/logo.svg
+meta:             
+  copyright:
+    year:           '2009'
+  powered-by:     true
+  hosting:          
+    name:         GitLab Pages
+    link:         //pages.gitlab.io
+
+# Markdown Processors
+sass:
+  sass_dir:       _sass
+  style:          compressed
+
+# Comments
+disqus:
+  shortname:      richardperry
 
 
 ######################################
@@ -67,13 +99,7 @@ defaults:
       path:       "pages"
     values:
       layout:     "page"
-      comments:   false 
-
-# Tag Config
-tag_names:
-  epic quest: 
-    name:         Epic Quest
-    link:         epic
+      comments:   false
 
 
 ######################################
@@ -103,12 +129,9 @@ jekyll-archives:
     category:     '/:name/'
 
 # Jekyll SEO Tag Gem
-facebook :
-  id: 286603693
-  appid : 181763705182339
-  num_posts: 10
-  width: 100%
-  colorscheme: light
+facebook:
+  app_id:         181763705182339
+  admins:         286603693
 
 twitter:
   username:       richard_p2
@@ -120,6 +143,4 @@ social:
     - https://www.linkedin.com/in/rpperry
     - https://plus.google.com/+RichardPerry1
     - https://github.com/richardp2
-
-
 

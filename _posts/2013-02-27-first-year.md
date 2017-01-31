@@ -1,23 +1,14 @@
 ---
-comments: true
 date: 2013-02-27 21:29:52+00:00
-layout: post
 title: George's First Year
 wordpress_id: 671
-image: http://farm3.static.flickr.com/2784/13062944643_8afbc3fa95_q.jpg
+image: https://farm3.static.flickr.com/2784/13062944643_8afbc3fa95_q.jpg
 tags:
 - George
 - Milestones
 ---
 
-<ul class="flickr image alignleft">
-  <li>
-    <a title="George's first birthday" href="http://farm3.static.flickr.com/2784/13062944643_8afbc3fa95_b.jpg">
-      <img src="http://farm3.static.flickr.com/2784/13062944643_8afbc3fa95_q.jpg" alt="George's first birthday">
-    </a>
-    <a title="View on Flickr" href="http://www.flickr.com/photos/richard-perry/13062944643/" class="flickrlink"> </a>
-  </li>
-</ul>
+{% flickr_image 13062944643 %}
 George is now a year old so I thought it might be time for a bit of reflection on how the first year
 has gone :smiley:. For Rosie & I, it has been a bit of a rollercoaster ride, but I think we've been
 very lucky. George has generally been good as gold since the day he was born. Don't get me wrong, he
@@ -32,7 +23,7 @@ a list of the milestones he has reached in his first 12 months.
 
 ### Milestones
 	
-  * 07 February 2012 - George was born :-D at 13:47 weighing 3.48kg (7lb 11oz)
+  * 07 February 2012 - George was born :grinning: at 13:47 weighing 3.48kg (7lb 11oz)
   * 09 - 12 April 2012 - First holiday (Cornwall)
   * 08 May 2012 - First laughed
   * 25 May 2012 - First night camping (Portcullis Camp)
@@ -46,7 +37,8 @@ a list of the milestones he has reached in his first 12 months.
   * 23 December 2012 - First walked alone
 
 We are still really enjoying being parents, even with the occasional sleepless night, public temper
-tantrum etc. I am extremely glad I made the decision to move to my [new job]({% post_url 2011-11-25-a-new-start %})
-because it has meant I have been able to spend a lot more time with George than I would have done
-otherwise. It's been a great year and I'm thoroughly looking forward to what this year will bring
-:grinning:.
+tantrum etc. I am extremely glad I made the decision to move to my [new job][job] because it has
+meant I have been able to spend a lot more time with George than I would have done otherwise. It's
+been a great year and I'm thoroughly looking forward to what this year will bring :grinning:.
+
+[job]: {% post_url 2011-11-25-a-new-start %}

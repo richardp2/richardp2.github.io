@@ -1,13 +1,10 @@
 ---
-blog: richard
-comments: false
-layout: default
 title: "Series'"
 permalink: /series/
 ---
-
-{% for series in site.data.series sort_by:start %}
-      <article class="series post summary">
+{% assign serii = site.data.series | sort: 'start' %}
+{% for series in serii %}
+      <article class="series post">
         <header>
           <h2><a href="{{ series.permalink }}" title="{{ series.name }}">{{ series.name }}</a></h2>
         </header>
@@ -20,6 +17,4 @@ permalink: /series/
           - {% if series.end %}<time content='{{ series.end | date_to_xmlschema }}' datetime='{{ series.end }}'>{{ series.end | date_to_long_string }}</time>{% else %}present{% endif %}
         </footer>
       </article>
-
-      <hr>
 {% endfor %}
