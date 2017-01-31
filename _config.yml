@@ -1,14 +1,20 @@
+######################################
+#                                    #
+#         Site Configuration         #
+#                                    #
+######################################
+
 # Site details
-name:                Richard Perry
-description:         Just another blog about nothing
-owner:               richard
-authors:             richard
-url:                 http://richard.perry-online.me.uk
-email:               richard@perry-online.me.uk
+title:            Richard Perry
+description:      Just another blog about nothing
+author:           richard
+authors:          richard
+url:              http://richard.perry-online.me.uk
+email:            richard@perry-online.me.uk
 
 # Where things are
-images:              /assets/images
-thumbs:              /assets/images/thumbs
+images:           /assets/images
+thumbs:           /assets/images/thumbs
 
 # Handling Reading
 exclude: 
@@ -19,55 +25,101 @@ exclude:
   - 'LICENSE.md'
   - 'README.md'
 
-# Plugins
 gems:
   - jekyll-paginate
   - jekyll-gist
-  - jekyll-mentions
+  #- jekyll-mentions
   - jemoji
 
+
+######################################
+#                                    #
+#        Theme Configuration         #
+#                                    #
+######################################
+
+# General Configuration
+
+# Markdown Processors
+sass:
+  sass_dir:       _sass
+  style:          compressed
+
+# Comments
+disqus:
+  shortname:      richardperry
+
 # Outputting
-permalink:           /:categories/:title/
-paginate:            10
-paginate_path:       "page/:num"
-timezone:            Europe/London
+permalink:        /:categories/:title/
+paginate:         10
+paginate_path:    "page/:num"
+timezone:         Europe/London
 defaults:
   -
     scope:
-      path:          ""
-      type:          "posts"
+      path:       ""
+      type:       "posts"
     values:
-      layout:        "post"
-      comments:      true
+      layout:     "post"
+      comments:   true
   -
     scope:
-      path:          "pages"
+      path:       "pages"
     values:
-      layout:        "page"
-      comments:      false
-
-# Markdown Processors
-kramdown:
-  enable_coderay:       true
-
-sass:
-  style:             compressed
+      layout:     "page"
+      comments:   false 
 
 # Tag Config
 tag_names:
   epic quest: 
-    name:            Epic Quest
-    link:            epic
-  
-# Comments
-comments:
-  disqus:
-    shortname: richardperry
-  facebook :
-    id: 286603693
-    appid : 181763705182339
-    num_posts: 10
-    width: 100%
-    colorscheme: light
+    name:         Epic Quest
+    link:         epic
+
+
+######################################
+#                                    #
+#        Plugin Configuration        #
+#                                    #
+######################################
+
+# Flickr Plugin
+flickr:
+  cache_dir:      ./_cache
+  api_key:        4389a0eb79c41ca17e149830c22fc7c2
+  shared_secret:  ef41108edae962b0
+  access_token:   72157641557984045-92a5dbebf3e01418
+  access_secret:  1625dbdd3cf26db6
+
+# Jekyll Archives Gem
+jekyll-archives:
+  enabled:
+    - year
+    - tags
+    - categories
+  layouts:        archive
+  permalinks:
+    year:         '/archives/:year/'
+    tag:          '/tags/:name/'
+    category:     '/:name/'
+
+# Jekyll SEO Tag Gem
+facebook :
+  id: 286603693
+  appid : 181763705182339
+  num_posts: 10
+  width: 100%
+  colorscheme: light
+
+twitter:
+  username:       richard_p2
+
+social:
+  links:
+    - https://twitter.com/richard_p2
+    - https://www.facebook.com/richardpperry
+    - https://www.linkedin.com/in/rpperry
+    - https://plus.google.com/+RichardPerry1
+    - https://github.com/richardp2
+
 
 

@@ -1,7 +1,5 @@
 ---
-comments: true
 date: 2013-03-10 16:49:58+00:00
-layout: post
 title: My Epic Quest
 wordpress_id: 666
 image: /assets/images/thumbs/bucket_list.png
@@ -14,14 +12,14 @@ series:
 
 (_This post has been inspired by Steve Kamb at [Nerd Fitness][eq]_)
 
-I recently read an article on [Nerd Fitness][eq] where
-Steve Kamb had set out his goals for "levelling up" his life. He used the metaphor of Role Playing
-Games to make the concept manageable and put together a list of challenges or quests that could be
-completed to advance from one level to the next. He then decided that each quest would be worth 20%
-experience towards the next level, there would also be Master Quests that equated to 100% experience,
-and this became his 'Epic Quest of Awesome'. I thought this was a pretty good idea, so using the
-same concept, I have come up with my own Epic Quest. It's no different to a bucket list that many
-people have, but it just sounds cooler :wink:.
+I recently read an article on [Nerd Fitness][eq] where Steve Kamb had set out his goals for
+"levelling up" his life. He used the metaphor of Role Playing Games to make the concept manageable
+and put together a list of challenges or quests that could be completed to advance from one level to
+the next. He then decided that each quest would be worth 20% experience towards the next level,
+there would also be Master Quests that equated to 100% experience, and this became his 'Epic Quest
+of Awesome'. I thought this was a pretty good idea, so using the same concept, I have come up with
+my own Epic Quest. It's no different to a bucket list that many people have, but it just sounds
+cooler :wink:.
 
 I've been very lucky over the last few years so I've already done a lot of the things I would have
 added to this list. So here it is. Let me know what you think.

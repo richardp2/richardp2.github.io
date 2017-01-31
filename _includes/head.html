@@ -1,4 +1,4 @@
-<!DOCTYPE html>{% capture title %}{% if page.title == "Home" %} {{ site.name }} | {{ site.description }}{% else %}{{ page.title }} | {{ site.name }}{% endif %}{% endcapture %}{% capture description %}{% if page.title == 'Home' %}{{ site.description }}{% else %}{{ page.content | markdownify | strip_html | truncatewords: 40 }}{% endif %}{% endcapture %}{% if page.author %}{% assign auth = site.data.authors[page.author] %}{% else %}{% assign auth = site.data.authors[site.owner] %}{% endif %}
+<!DOCTYPE html>{% capture title %}{% if page.title == "Home" %} {{ site.title }} | {{ site.description }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}{% endcapture %}{% capture description %}{% if page.title == 'Home' %}{{ site.description }}{% else %}{{ page.content | markdownify | strip_html | truncatewords: 40 }}{% endif %}{% endcapture %}{% if page.author %}{% assign auth = site.data.authors[page.author] %}{% else %}{% assign auth = site.data.authors[site.author] %}{% endif %}
 <html xmlns:fb='http://ogp.me/ns/fb#' xmlns:og='http://ogp.me/ns#' lang='en-GB'>
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
     <meta charset='utf-8'>
@@ -12,19 +12,19 @@
     <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'>
     <link rel='stylesheet' href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
     <!--<link rel='stylesheet' href='/assets/css/styles.css'>-->
-    <link rel='alternate' href='{{site.url}}/feed.xml' type='application/rss+xml' title='{{ site.name }}'>
+    <link rel='alternate' href='{{site.url}}/feed.xml' type='application/rss+xml' title='{{ site.title }}'>
     <link rel='author' href="https://plus.google.com/{{auth.google}}">
     <link rel='canonical' href="{{site.url}}{{page.url}}">
     
     <script defer src='/assets/scripts/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
     <!-- Facebook Open Graph Tags -->
-    <meta property='fb:admins' content="{{site.comments.facebook.id}}">
-    <meta property='fb:app_id' content="{{site.comments.facebook.appid}}">
+    <meta property='fb:admins' content="{{site.facebook.id}}">
+    <meta property='fb:app_id' content="{{site.facebook.appid}}">
     <meta property='og:type' content='article'>
     <meta property='og:title' content="{{title}}">
     <meta property='og:description' content="{{description}}">
     <meta property='og:url' content="{{site.url}}{{page.url}}">
-    <meta property='og:site_name' content="{{site.name}}">
+    <meta property='og:site_name' content="{{site.title}}">
     <script defer src='http://connect.facebook.net/en_US/all.js#xfbml=1'></script>
     
     <!-- Twitter Card Tags -->
@@ -33,19 +33,22 @@
     <meta name='twitter:description' content="{{description}}">
     <meta name='twitter:url' content="{{site.url}}{{page.url}}">
     <meta name='twitter:creator' content="@{{auth.twitter}}">
-    <meta name='twitter:site' content="@{{site.data.authors[site.owner].twitter}}">
+    <meta name='twitter:site' content="@{{site.data.authors[site.author].twitter}}">
   </head>
 
   <body>
     <div id="fb-root"></div>
-    <script defer>!function(e,t,n){var o,c=e.getElementsByTagName(t)[0];e.getElementById(n)||(o=e.createElement(t),o.id=n,o.src="//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId={{ site.comments.facebook.appid }}&version=v2.0",c.parentNode.insertBefore(o,c))}(document,"script","facebook-jssdk");</script>
+    <script defer>!function(e,t,n){var o,c=e.getElementsByTagName(t)[0];e.getElementById(n)||(o=e.createElement(t),o.id=n,o.src="//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId={{ site.facebook.appid }}&version=v2.0",c.parentNode.insertBefore(o,c))}(document,"script","facebook-jssdk");</script>
     <div id='container'>
       <header id='page-header' role='banner' itemscope itemtype='http://schema.org/WPHeader'>
         <hgroup>
-          <h1 class='site-title'>{{ site.name }}</h1>
+          <h1 class='site-title'>{{ site.title }}</h1>
           {% if site.description %}<h2 class='site-description'>{{ site.description }}</h2>{% endif %}
         </hgroup>
-        {% include nav.html %}
+        <nav id="primary-navigation" role="navigation" itemscope itemtype='//schema.org/SiteNavigationElement'>
+            {% include nav.html links=site.data.links class='main-menu' %}
+            <hr />
+        </nav><!-- #primary-navigation -->
       </header><!-- #page-header -->
       
       <div id='content'>

@@ -1,18 +1,18 @@
 ---
 ---
-<?xml version="1.0" encoding="utf-8"?>{% assign author = site.data.authors[site.owner] %}
+<?xml version="1.0" encoding="utf-8"?>{% assign author = site.data.authors[site.author] %}
 <?xml-stylesheet type="text/xsl" href="/assets/xsl/feed.xsl" media="screen"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
   <channel>
-    <title>{{ site.name | xml_escape }} | RSS Feed</title>
+    <title>{{ site.title | xml_escape }} | RSS Feed</title>
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
     <description>{{ site.description | xml_escape }}</description>
-    <copyright>Copyright (c) 2011-{{ site.time | date: '%Y' }} {{ author.name }}</copyright>
+    <copyright>Copyright (c) 2009-{{ site.time | date: '%Y' }} {{ author.name }}</copyright>
     <language>en-gb</language>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>{% for post in site.posts %}{% if post.author %}{% assign author = site.data.authors[post.author] %}{% else %}{% assign author = site.data.authors[site.owner] %}{% endif %}
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>{% for post in site.posts %}{% if post.author %}{% assign author = site.data.authors[post.author] %}{% else %}{% assign author = site.data.authors[site.author] %}{% endif %}
         <item>
           <title>{{ post.title | xml_escape }}</title>
           <link>{{ site.url }}{{ post.url }}</link>

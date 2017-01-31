@@ -1,60 +1,60 @@
-- url: http://www.perry-online.me.uk/
+- url: //www.perry-online.me.uk/
   title: Home
   sub:
-  - url: about/
+  - url: //www.perry-online.me.uk/about/
     title: About Us
-  - url: author/richard-perry/
+  - url: //www.perry-online.me.uk/author/richard-perry/
     title: Richard Perry
-  - url: author/rosie-perry/
+  - url: //www.perry-online.me.uk/author/rosie-perry/
     title: Rosie Perry
-  - url: author/rosie-jim/
+  - url: //www.perry-online.me.uk/author/rosie-jim/
     title: Rosie & Jim
-  - url: archives/
+  - url: //www.perry-online.me.uk/archives/
     title: Global Archives
 
-- url: http://travel.perry-online.me.uk/
+- url: //travel.perry-online.me.uk/
   title: Travel
   sub:
-  - url: cornwall-2012/
+  - url: //travel.perry-online.me.uk/cornwall-2012/
     title: Cornwall 2012
-  - url: vietnam-2011/
+  - url: //travel.perry-online.me.uk/vietnam-2011/
     title: Vietnam 2011
-  - url: new-year-2010-11/
+  - url: //travel.perry-online.me.uk/new-year-2010-11/
     title: New Year 2010-11
-  - url: honeymoon-2010/
+  - url: //travel.perry-online.me.uk/honeymoon-2010/
     title: Honeymoon 2010
-  - url: china-2009/
+  - url: //travel.perry-online.me.uk/china-2009/
     title: China 2009
-  - url: china-2009/three-nations/
+  - url: //travel.perry-online.me.uk/china-2009/three-nations/
     title: Three Nations 2009
-  - url: archives/
+  - url: //travel.perry-online.me.uk/archives/
     title: Travel Archives
     
-- url: http://richard.perry-online.me.uk/
+- url: //richard.perry-online.me.uk/
   title: Richard
   sub:
-  - url: about/
+  - url: //richard.perry-online.me.uk/about/
     title: About Me
-  - url: series/
+  - url: //richard.perry-online.me.uk/series/
     title: Post Series
-  - url: archives/
+  - url: //richard.perry-online.me.uk/archives/
     title: Blog Archives
     
-- url: http://photos.perry-online.me.uk/
+- url: //photos.perry-online.me.uk/
   title: Photos
   sub:
-  - url: george/
+  - url: //photos.perry-online.me.uk/george/
     title: George
-  - url: events/
+  - url: //photos.perry-online.me.uk/events/
     title: Events
-  - url: travel/
+  - url: //photos.perry-online.me.uk/travel/
     title: Travel
-  - url: other/
+  - url: //photos.perry-online.me.uk/other/
     title: Other
     sub:
-    - url: days-out/
+    - url: //photos.perry-online.me.uk/other/days-out/
       title: Days Out
-  - url: wedding/
+  - url: //photos.perry-online.me.uk/wedding/
     title: Our Wedding
-  - url: archives/
+  - url: //photos.perry-online.me.uk/archives/
     title: Photo Archives
