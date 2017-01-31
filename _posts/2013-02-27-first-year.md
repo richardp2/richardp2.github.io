@@ -2,13 +2,13 @@
 date: 2013-02-27 21:29:52+00:00
 title: George's First Year
 wordpress_id: 671
-image: //farm3.static.flickr.com/2784/13062944643_8afbc3fa95_q.jpg
+image: https://farm3.static.flickr.com/2784/13062944643_8afbc3fa95_q.jpg
 tags:
 - George
 - Milestones
 ---
 
-[![George's first birthday][thm1]][img1]{: .alignleft }
+{% flickr_image 13062944643 %}
 George is now a year old so I thought it might be time for a bit of reflection on how the first year
 has gone :smiley:. For Rosie & I, it has been a bit of a rollercoaster ride, but I think we've been
 very lucky. George has generally been good as gold since the day he was born. Don't get me wrong, he
@@ -41,7 +41,4 @@ tantrum etc. I am extremely glad I made the decision to move to my [new job][job
 meant I have been able to spend a lot more time with George than I would have done otherwise. It's
 been a great year and I'm thoroughly looking forward to what this year will bring :grinning:.
 
-[thm1]: //farm3.static.flickr.com/2784/13062944643_8afbc3fa95_q.jpg
-
-[img1]: //www.flickr.com/photos/richard-perry/13062944643/
 [job]: {% post_url 2011-11-25-a-new-start %}

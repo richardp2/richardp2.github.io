@@ -2,8 +2,7 @@
 date: 2012-10-18 20:00:35+00:00
 title: An Awesome Birthday Weekend
 wordpress_id: 335
-image: //farm3.static.flickr.com/2571/13058255765_853c002a5a_q.jpg
-flickr_image: 13058255765
+image: https://farm3.static.flickr.com/2571/13058255765_853c002a5a_q.jpg
 tags:
 - Birthday
 - Paralympics
@@ -24,7 +23,7 @@ watch some wheelchair fencing at the ExCeL Centre.
 We arrived late on the Friday night for various reasons, and headed out early on Saturday morning to
 get into London, so we didn't really take part in Friday night or Saturday at Reunion, but the
 Paralympic Games more than made up for this. Our session was due to start at 11:00 at the ExCeL
-Centre so we took a scenic route to get there. We got the tube through to the <del>O2</del> North
+Centre so we took a scenic route to get there. We got the tube through to the ~~O2~~ North
 Greenwich Arena so that we could take the Emirates Air Line across to ExCeL. Thankfully the weather
 was great so we could see for miles all the way across east London. The views were incredible, and
 if you haven't already had a chance to go on it, then you really should. It only lasts for a bit
@@ -182,9 +181,9 @@ Potter or has aspirations to get into film making/set building etc.
 Thank you Rosie for a fantastic weekend!
 
 
-[More Photos - 0907 - 0910 Richards Birthday Weekend][lnk2]
+[More Photos - 0907 - 0910 Richards Birthday Weekend][lnk2]{: .aligncentre }
 
-[More Photos - Warner Bros. Studio Tour London - The Making of Harry Potter][lnk3]
+[More Photos - Warner Bros. Studio Tour London - The Making of Harry Potter][lnk3]{: .aligncentre }
 
 
 [wbs]: //www.wbstudiotour.co.uk/

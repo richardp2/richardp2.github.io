@@ -2,7 +2,7 @@
 date: 2011-11-25 18:00:16+00:00
 title: A New Start
 wordpress_id: 33
-image: //c2.staticflickr.com/8/7350/12968076123_1e40108b3c_q.jpg
+image: https://c2.staticflickr.com/8/7350/12968076123_1e40108b3c_q.jpg
 tags:
 - Milestones
 ---

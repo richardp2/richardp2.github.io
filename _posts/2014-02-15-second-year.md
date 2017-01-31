@@ -4,7 +4,7 @@ date: 2014-02-15 18:00:16+00:00
 layout: post
 title: George's Second Year
 wordpress_id: 1164
-image: http://farm4.static.flickr.com/3827/13122752375_d91173fd97_q.jpg
+image: https://farm4.static.flickr.com/3827/13122752375_d91173fd97_q.jpg
 tags:
 - George
 - Milestones
