@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll-theme-perry', :git => '~/theme', :branch => 'master'
+gem 'jekyll-theme-perry'
 gem 'flickraw'
 gem 'jekyll-paginate'
-gem 'jekyll-gist'
 gem 'jemoji'

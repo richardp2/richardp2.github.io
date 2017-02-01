@@ -42,13 +42,13 @@ generated from a Flickr Photoset with the relevant links back to Flickr.
 
 This is my modified version of the Flickr Image Tag Plugin written by [Daniel Reszka][dr].
 
-{% gist 10020777 flickr_image.rb %}
+<script src="https://gist.github.com/richardp2/10020777.js"></script>
 
 ### Flickr Photoset Tag Plugin
 
 This is my modified version of the Flickr Photoset Tag Plugin written by [Jeremy Benoist][jb].
 
-{% gist 10020936 flickr_photoset.rb %}
+<script src="https://gist.github.com/richardp2/10020936.js"></script>
 
 
 [jk]: //jekyllrb.com/ "Jekyll &bull; Simple, blog-aware, static sites"
