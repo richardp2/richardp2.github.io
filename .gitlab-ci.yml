@@ -1,9 +1,19 @@
 image: ruby:2.3
 
+test:
+  stage: test
+  script:
+  - bundle install
+  - bundle exec jekyll build -d test
+  artifacts:
+    paths:
+    - test
+  only:
+  - pages 
+
 pages:
   stage: deploy
   script:
-  - mkdir -p ./_cache/flickr
   - bundle install
   - bundle exec jekyll build -d public
   artifacts:
