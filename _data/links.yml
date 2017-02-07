@@ -30,14 +30,14 @@
   - url: //travel.perry-online.me.uk/archives/
     title: Travel Archives
     
-- url: //richard.perry-online.me.uk/
+- url: /
   title: Richard
   sub:
-  - url: //richard.perry-online.me.uk/about/
+  - url: /about/
     title: About Me
-  - url: //richard.perry-online.me.uk/series/
+  - url: /series/
     title: Post Series
-  - url: //richard.perry-online.me.uk/archives/
+  - url: /archives/
     title: Blog Archives
     
 - url: //photos.perry-online.me.uk/
