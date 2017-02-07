@@ -19,18 +19,17 @@ thumbs: /assets/images/thumbs
 # Handling Reading
 exclude: 
   - 'changes'
-  - 'CNAME'
   - 'Gemfile'
   - 'Gemfile.lock'
   - 'LICENSE.md'
   - 'README.md'
 
 gems:
-  - jekyll-paginate
   - jemoji
-  - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-paginate
+  - jekyll-redirect-from
   #- jekyll-feed
   #- jekyll-sitemap
 
@@ -123,6 +122,12 @@ social:
     - https://www.linkedin.com/in/rpperry
     - https://plus.google.com/+RichardPerry1
     - https://github.com/richardp2
+
+google:
+  analytics: UA-26085183-3
+
+webmaster_verifications:
+  google: kShm7KvCbKtxnGKHhDpje_9bPdemRwk2OLXtfjEBWEQ
 
 
 ######################################

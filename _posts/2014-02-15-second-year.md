@@ -1,7 +1,5 @@
 ---
-comments: true
 date: 2014-02-15 18:00:16+00:00
-layout: post
 title: George's Second Year
 wordpress_id: 1164
 image: https://farm4.static.flickr.com/3827/13122752375_d91173fd97_q.jpg
@@ -10,19 +8,20 @@ tags:
 - Milestones
 ---
 
-[![George & Rosie's Birthday 2014][thm]][img]{: .alignleft }
-George is now another year older so how has the second year gone?
-Well, it’s been very different to the first year! Having recovered from his illness over the new year, George got back
-on his feet and hasn’t really stopped since. Rosie has had to open the eyes in the back of her head to try to keep up
-with him. Unfortunately, just before his first birthday, we discovered George has nut allergy so that has been
-interesting, considering we used to cook everything in groundnut oil and peanut butter was our favourite breakfast
-addition. Nevermind, we have adapted quite well I think and George hasn’t had any problems this year so it’s all good
-:smile:.
+{% flickr_image 13122752375 %}
+George is now another year older so how has the second year gone? Well, it’s been very different to
+the first year! Having recovered from his illness over the new year, George got back on his feet and
+hasn’t really stopped since. Rosie has had to open the eyes in the back of her head to try to keep
+up with him. Unfortunately, just before his first birthday, we discovered George has nut allergy so
+that has been interesting, considering we used to cook everything in groundnut oil and peanut butter
+was our favourite breakfast addition. Nevermind, we have adapted quite well I think and George
+hasn’t had any problems this year so it’s all good :smile:.
 
-Over the year he has definitely developed his own personality and he has grown up so much! He is yet to start speaking,
-but he does say a number of words now and can sign sentences (although he doesn’t bother very often). We have had a
-National Trust membership for the last year so we’ve visited lots of different old houses and gardens giving George
-plenty of opportunity to run and play outside, and he seems to have loved every minute of it.
+Over the year he has definitely developed his own personality and he has grown up so much! He is yet
+to start speaking, but he does say a number of words now and can sign sentences (although he doesn’t
+bother very often). We have had a National Trust membership for the last year so we’ve visited lots
+of different old houses and gardens giving George plenty of opportunity to run and play outside, and
+he seems to have loved every minute of it.
 
 Here is a list of the key events in his second year.
 
