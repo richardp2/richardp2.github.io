@@ -1,4 +1,5 @@
 ---
+date: 2017-02-23 21:23:00 +0000
 title: Time Management
 image: https://c1.staticflickr.com/3/2177/32631829580_8c88791a55_m.jpg
 tags:
@@ -41,7 +42,7 @@ from work once you leave, then the stresses you deal with during the work day bl
 time. This will more than likely affect how well you can relax and recover, potentially leading to
 anxiety and stress related illnesses because you cannot get away from it all.
 
-The trouble with modern 'Time Management' philosophies (_at least the one that I have been taught,
+The trouble with modern 'Time Management' philosophies (_at least the ones that I have been taught,
 or have researched myself_) is that when your time is managed completely, there is no time left for
 the dealing with the unforeseen issues and problems that arise all the time, especially in 
 Construction! So I have abandoned all the lessons I have learnt and found that I am perfectly
@@ -60,6 +61,7 @@ life is not all about work, the happier we will be.
 
 1. Burkeman, O. (2016). Why time management is ruining our lives. _The Guardian_ [online]. Available
   at: [https://www.theguardian.com/technology/2016/dec/22/why-time-management-is-ruining-our-lives][tm]
+
 </div>
 
 [tm]: https://www.theguardian.com/technology/2016/dec/22/why-time-management-is-ruining-our-lives "Why time management is ruining our lives"
