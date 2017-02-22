@@ -1,5 +1,5 @@
 ---
-date: 2017-02-23 21:23:00 +0000
+date: 2017-02-22 21:23:00 +0000
 title: Time Management
 image: https://c1.staticflickr.com/3/2177/32631829580_8c88791a55_m.jpg
 tags:
