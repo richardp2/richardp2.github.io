@@ -66,7 +66,7 @@ accurately measured :wink:.
 ### Strava Details
 
 <iframe height='405' width='100%' frameborder='0' allowtransparency='true' scrolling='no'
-  src='http://bit.ly/CoNHM17'></iframe>
+  src='https://www.strava.com/activities/888368735/embed/4817a916bdaf46c57827e506890f182dfe781fe5'> </iframe>
 
 ### Race Pictures
 
