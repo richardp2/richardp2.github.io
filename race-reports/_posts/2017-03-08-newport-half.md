@@ -1,5 +1,5 @@
 ---
-date: 2017-03-08 21:46:00 +0000
+date: 2017-03-08 19:50:00 +0000
 title: "Race Report: Admiral City of Newport Half Marathon"
 image: /assets/images/thumbs/newporthalf.jpg
 tags:
@@ -46,20 +46,19 @@ This year the race was started by Darren Campbell. We headed off towards the tra
 I settled into a good pace that I felt I could keep up for the duration, based on my running
 recently. The race was going well, the sun was out, the crowds were cheering and I felt good. Coming
 through Caerleon there was a lot of support from the [club][crc] and the locals so it was good. The
-wind was quite strong along the cycle path, but as I wasn't looking for a PB, I wasn't worried. The
+wind was quite strong along the cycle path, but it wasn't really an issue. The
 1:35 pace group dragged me along for a little while, but I managed to let them go in Caerleon so I
 had a bit more space. Unfortunately when I got to about 9 miles everything got a whole lot more
 difficult! For some reason, my legs just seemed to give up the ghost and it was like I was trying to
 run with lead boots. I really struggled with those last 4 miles and even walked for a fair bit. It
 was not a pleasant experience, but I finished :smiley:. I'm not entirely sure what happened given it
-all seemed to be going well up to 9 miles, but as I wasn't going for a PB I don't really mind. The
-only problem was that it took away from the enjoyment of the event. [St Davids Hospice Care][sdhc]
-have put together a good half marathon, the weather was great (_apart from some of the high winds we
-experienced_), the medal and t-shirt were really nice, but I didn't enjoy the last couple of miles
-:disappointed: which is a bit of a shame.
+all seemed to be going well up to 9 miles. The only problem was that it took away from the enjoyment
+of the event. [St Davids Hospice Care][sdhc] have put together a good half marathon, the weather was
+great (_apart from some of the high winds we experienced_), the medal and t-shirt were really nice,
+but I didn't enjoy the last couple of miles :disappointed: which is a bit of a shame.
 
-Ah well, I just need to put this one behind me and start preparing for my next race, which is the 
-[Gloucester City Marathon][gcm] on 06 August 2017 at 08:00. I'm really looking forward to this one
+Ah well, I just need to put this one behind me and start preparing for my next challenge, which is
+the [Gloucester City Marathon][gcm] on 06 August 2017 at 08:00. I'm really looking forward to this
 and to getting back into marathon training again. Hopefully this time, the course will have been 
 accurately measured :wink:.
 
