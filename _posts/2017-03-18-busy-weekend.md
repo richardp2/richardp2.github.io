@@ -1,5 +1,5 @@
 ---
-date: 2017-03-16 21:23:00 +0000
+date: 2017-03-18 19:49:00 +0000
 title: A Busy Weekend
 format: video 
 video: JKrHFQnDdG4
@@ -40,9 +40,9 @@ his logic, but we wanted something that was hardwearing and washable (_given all
 that gets spread everywhere_) so the colour choices were limited. Rose selected a fairly bright blue
 but we were both a little unsure about it after the first coat. Thankfully George loves it! He did
 tell us it's not the colour he wanted, but it is "nice and bright so it is ok" :relieved:. By the
-time I got home on Friday night, we were ready to get the last coat onto the walls so we would only
-have to build the bed and put up the new light on Saturday :smiley:. It certainly looked like we
-were going to manage it with time to spare. 
+time I got home on Friday night, Rosie had finished the first coat of blue and we were nearly ready
+to get the last coat onto the walls so we would only have to build the bed and put up the new light
+on Saturday :smiley:. It certainly looked like we were going to manage it with time to spare. 
 
 It took us a fair while to get ourselves motivated to start on Saturday morning, but we got going
 about 11 and started work measuring and cutting down the long timbers that make up the bed frame.
