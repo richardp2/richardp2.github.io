@@ -1,10 +1,15 @@
 image: ruby:2.3
 
+variables:
+  JEKYLL_ENV: production
+
+before_script:
+  - bundle install
+
 pages:
   stage: deploy
   script:
-  - bundle install
-  - JEKYLL_ENV=production bundle exec jekyll build -d public
+  - bundle exec jekyll build -d public
   artifacts:
     paths:
     - public
