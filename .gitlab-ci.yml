@@ -5,18 +5,17 @@ variables:
   JEKYLL_ENV: production
 
 # add bundle cache to 'vendor' for speeding up builds
-#cache:
-#  paths: 
-#    - vendor/
+cache:
+  paths: 
+    - vendor/
 
 # 'bundle' all the required gems for the project
 before_script:
-#  - bundle install --path vendor
-  - bundle install
+  - bundle install --path vendor
+#  - bundle install
 
 # build and deploy the site
 pages:
-  stage: deploy
   script:
   - bundle exec jekyll build -d public
   artifacts:
