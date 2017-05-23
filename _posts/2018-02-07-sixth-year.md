@@ -8,4 +8,5 @@ tags:
 ---
 
 
-* 
+  * 19 May 2017 - Been steroid free for 2 weeks and don't need to see
+    Dermatologist again for 4 months
