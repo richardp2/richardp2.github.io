@@ -1,0 +1,58 @@
+---
+date: 2017-07-08 19:50:00 +0100
+title: "Race Report: GLCL 2017 Road Race Series Race 4 of 5 - Pontypool"
+image: https://c1.staticflickr.com/5/4265/35731996975_c6c50ecc8d_n.jpg
+tags:
+- Running
+- Race
+description: >
+  The Pontypool Leisure League race is usually one of my favourites, simply because it's just over a mile from my house :smiley:. It's virtually the same route as the Pontypool Home Run, although given it doesn't need to be 10k, you don't need to run up the hill to finish. As usual, this year I jogged to the start and met up with the guys from club outside the leisure centre. After last years debacle with the start on fountain road, it was good to hear they had decided to revert to a start in the Park. 
+excerpt: >
+  The Pontypool Leisure League race is usually one of my favourites, simply because it's just over a mile from my house :smiley:. It's virtually the same route as the Pontypool Home Run, although given it doesn't need to be 10k, you don't need to run up the hill to finish. As usual, this year I jogged to the start and met up with the guys from club outside the leisure centre. After last years debacle with the start on fountain road, it was good to hear they had decided to revert to a start in the Park. 
+---
+
+| Race Details |                                                    |
+|--------------|----------------------------------------------------|
+| Event        | GLCL 2017 Road Race Series Race 4 of 5 - Pontypool |
+| Date & Time  | 04 July 2017 19:30:00                              |
+| Type         | Leisure League                                     |
+| Position     | [97 of 511][results]                               |
+{:style="width: auto"}
+
+<div class='flickr image alignright'>
+<span>
+  <a title='CRC Group Photo - Image by Jade Wakley via Facebook' href='https://c1.staticflickr.com/5/4265/35731996975_c6c50ecc8d_o.jpg' class='image'>
+    <img src='https://c1.staticflickr.com/5/4265/35731996975_c6c50ecc8d_n.jpg' alt='CRC Group Photo - Image by Jade Wakley via Facebook' />
+  </a>
+  <a title='View on Flickr' href='https://www.flickr.com/photos/richard-perry/35731996975/' class='flickrlink'> </a>
+</span>
+<small class='aligncentre' markdown='1'>Image by [Jade Wakley][jw] via [Facebook][fb]</small>
+</div>
+
+The Pontypool Leisure League race is usually one of my favourites, simply because it's just over a mile from my house :smiley:. It's virtually the same route as the [Pontypool Home Run][hr], although given it doesn't need to be 10k, you don't need to run up the hill to finish. As usual, this year I jogged to the start and met up with the guys from [club][CRC] outside the leisure centre. After last years debacle with the start on fountain road, it was good to hear they had decided to revert to a start in the Park. 
+
+So, we wandered aimlessly up the hill hoping to see a sign depicting the location of the start, but instead we just stopped wandering and turned around (_oh the benefits of a local league race with no official distance_). It felt like it was actually getting warmer whilst we waited for the start, but I'm guessing that was my imagination! It's easy to get carried away at the start of these races, but this one especially so given it's downhill. At the bottom of the hill I looked down at my watch to see I was running at 5:50/mile pace. Way too quick for me so I slowed, just a little to try to make sure I was able to keep going. Once out of the park we were throttled along the pavement, but for once I was in the right place in the pack as we were pushing hard up the hill, but not going too fast. This was looking like it could be another good race for me. 
+
+The second mile also felt good, although a few packs of Parc Bryn Bach runners had passed me and Kevin (from [CRC][]) passed me on the hill down to the dual carriageway. Unfortunately this was where things started to go South. As we were coming up to the roundabout to turn up to the Star Inn at Mamhilad, I felt the energy drain from my legs and I lost more speed than I should have done before we even got to the hill. Once we got there, the hill was pure torture! After the hill though, there is no chance for recovery. The route drops straight onto the canal where it's flat out for the next 2-2&frac12; miles. It's not unusual for me to struggle to get back up to pace on this section, but this time it was even more difficult. It was painful trying to push back and keep within sight of Kevin, but I perservered. Finally it paid off just before leaving the canal and I felt good again, but after the canal is the long drag up Usk Road. Again I slowed along this section, but it's not far to the finish so once we hit the hill to the Park Gates, I opened up again and pushed hard for the finish gaining a place before crossing the line :smiley:.
+
+This was definitely not the most enjoyable race I have ever run, and I really struggled in the middle, but despite all that, I finished in a very respectable place and I actually did much better than I thought I was going to at mile 3 :wink:. In hindsight, it was a good race and I ran well, but that is not how I felt on the day. The heat coupled with the difficulties in the middle added up to a tough race, but it was another great turnout for [Caerleon][CRC] and another well organised event in the [Gwent Leisure Centre League][glcl] :smiley:.
+
+The last event on 1st August 
+
+### Strava Details
+
+<iframe height='405' width='100%' frameborder='0' allowtransparency='true' scrolling='no' 
+  src='https://www.strava.com/activities/1067829529/embed/f54fe5c7a777ceee1816bbe1391aa10523e3508a'> </iframe>
+
+### Race Pictures
+
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fchristopher.hill.397%2Fposts%2F10155610939248944&width=500" width="100%" height="547" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flou.summers.3%2Fposts%2F1531340163595022&width=500" width="100%" height="656" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+[hr]: {% post_url race-reports/2017-03-01-home-run %}
+[results]: https://sites.google.com/site/glclrunning/home/results/2016-17-series-results
+[CRC]: http://www.caerleonrunningclub.co.uk/
+[glcl]: http://glclrunning.com/
+[jw]: https://www.facebook.com/jade.gittins?fref=nf
+[fb]: https://www.facebook.com/groups/311694278873397
