@@ -1,7 +1,5 @@
 ---
-comments: true
 date: 2014-08-08 21:00:00+00:00
-layout: gallery
 title: "Memories: Morocco 2010"
 categories:
 - General
