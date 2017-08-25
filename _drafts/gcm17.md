@@ -30,7 +30,7 @@ The next issue was the bag drop. I hadn't seen it when we were wandering around 
 
 It was 07:55 when I found the pacer and noticed one of the marshalls trying to tie a sign on the barrier designating which 'pen' we were in. I still had no idea where the actual start line was, but at least I was in the right place and ready to go. The gun went and I quickly found the start line as I tripped over the starting mat on the bend. My first thought was how terrible the organisation had been thus far, but I was feeling good and looking forward to the race so I put it all behind me and concentrated on what lay ahead instead.
 
-
+The pacer told us he was planning on sticking to a pace of 7:50-7:55 per mile to allow for the massive hill at mile 17...good to know! 
 
 {% flickr_image 36666100996 aligncentre z %}
 
