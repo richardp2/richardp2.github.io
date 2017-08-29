@@ -8,9 +8,9 @@ tags:
 series:
 - My Epic Quest
 description: >
-  On 06 August 2017 I managed to finish my second marathon. This time, hopefully, it will not be remeasured and declared short! Earlier this year, when I finally decided on which marathon I wanted to do, I set myself a lofty goal of beating my PB from Manchester. Given Manchester was declared short, equalling my PB would have been enough. Unfortunately, I overdid it early on in the training and injured myself losing a week of training and having to start back gently.
+  On 06 August 2017, I managed to finish my second marathon. This time, hopefully, it will not be remeasured and declared short! Earlier this year, when I finally decided on which marathon I wanted to do, I set myself a lofty goal of beating my PB from Manchester. Given Manchester was declared short, equalling my PB would have been enough. Unfortunately, I overdid it early on in the training and injured myself losing a week of training and having to start back gently.
 excerpt: >
-  On 06 August 2017 I managed to finish my second marathon. This time, hopefully, it will not be remeasured and declared short! Earlier this year, when I finally decided on which marathon I wanted to do, I set myself a lofty goal of beating my PB from Manchester. Given Manchester was declared short, equalling my PB would have been enough. Unfortunately, I overdid it early on in the training and injured myself losing a week of training and having to start back gently.
+  On 06 August 2017, I managed to finish my second marathon. This time, hopefully, it will not be remeasured and declared short! Earlier this year, when I finally decided on which marathon I wanted to do, I set myself a lofty goal of beating my PB from Manchester. Given Manchester was declared short, equalling my PB would have been enough. Unfortunately, I overdid it early on in the training and injured myself losing a week of training and having to start back gently.
 ---
 
 | Race Details |                               |
@@ -22,7 +22,10 @@ excerpt: >
 | Time (_PB_)  | [3:55:01][2] (_3:23:02_)      |
 {:style="width: auto"}
 
-On 06 August 2017 I managed to finish my second [marathon][1] :grinning:. This time, hopefully, it will not be remeasured and declared short! Earlier this year, when I finally decided on which marathon I wanted to do, I set myself a lofty goal of beating my PB from Manchester. Given Manchester was declared short, equalling my PB would have been enough. Unfortunately, I overdid it early on in the training and [injured myself][3] losing a week of training and having to start back gently. I decided that chasing my PB was probably not a good idea, but I would see how I felt on the day.
+On 06 August 2017, I managed to finish my second [marathon][1] :grinning:. This time, hopefully, it will not be remeasured and declared short! Earlier this year, when I finally decided on which marathon I wanted to do, I set myself a lofty goal of beating my PB from Manchester. Given Manchester was declared short, equalling my PB would have been enough. Unfortunately, I overdid it early on in the training and [injured myself][3] losing a week of training and having to start back gently. I decided that chasing my PB was probably not a good idea, but I would see how I felt on the day.
+
+> WARNING! This is another long post!   
+> Basically the event organisation wasn't great and I didn't finish the last 7 miles as well as I would have liked, but otherwise, I'm very pleased with myself :wink:. I completed the marathon in less than 4 hours, but I spent a lot of time on my own. I probably won't look at doing any more small marathons again.
 
 I managed to get a lift up to Gloucester with Jason and Vanessa (_thanks both!_) which made life easier for me and Rosie. We parked up at the College almost next to the finish line and, after having a few problems with the machine not accepting the new pound coins, we made our way to the race village. I feel that I have seen quite a variety of race villages over the last couple of years, but this one was very different. We wandered through to the registration desks so Vanessa could change her vest and then started looking for the start so we would be ready. However, there were no signs anywhere. The finish line was fairly obvious, a funnel, a gantry and some pedestrian barriers along the quay where we were expecting it. The map we had to show the start was not at all clear so we had a look around, asked a few people (_including some of the pacers_) and the best answer we got was "well, I think it's along here somewhere". Not a promising start. 
 
@@ -30,12 +33,26 @@ The next issue was the bag drop. I hadn't seen it when we were wandering around 
 
 It was 07:55 when I found the pacer and noticed one of the marshalls trying to tie a sign on the barrier designating which 'pen' we were in. I still had no idea where the actual start line was, but at least I was in the right place and ready to go. The gun went and I quickly found the start line as I tripped over the starting mat on the bend. My first thought was how terrible the organisation had been thus far, but I was feeling good and looking forward to the race so I put it all behind me and concentrated on what lay ahead instead.
 
-The pacer told us he was planning on sticking to a pace of 7:50-7:55 per mile to allow for the massive hill at mile 17...good to know! 
+The pacer told us he was planning on sticking to a pace of 7:50-7:55 per mile to allow for the massive hill at mile 17...good to know! This seemed fairly reasonable to me so I stuck with the group for a couple of miles before watching the half marathon runners disappear at the 4 mile marker. We started to notice a few discrepancies with the positions of the mile markers against the various GPS watches in the group. The pacer wasn't overly worried but said he would pick up the pace if necessary as a precaution.
+
+At about the 7 mile mark, I felt that the pace was a little slow for me so I picked it up slightly (_5-10 seconds per mile_), trying not to overdo it of course. This pace still felt very comfortable and I was confident it was a pace I would be able to hold for the bulk of the race. I passed the halfway point (_based on my watch as there was no marker on the course_) at about 1:42:00 and I still felt very comfortable. The next couple of miles were slightly slower due to some small hills, then I came to mile 17. They were not kidding about that hill! 100ft of elevation in 200m! As I approached the water station at the base of the hill, I made the (_rather sensible_) decision not to try to run up that hill. I figured there was no point in killing myself so after having some water and a gel, I started walking up the hill. 
+
+I think that may have been the end of my confidence really. Over the next two miles, I could feel myself slowing down and fatigue was starting to set in. I couldn't believe it. After the last long run I did, I thought I would at least have another couple of miles before slowing down! At about 19 miles, the 3:30 pacer group caught up with me and I stuck with them for about &frac14; mile before dropping off the back. It was at this point that things really started to go wrong.
+
+I actually stopped running and walked for a few minutes. When I got running again I was hovering around 9-10 minute mile pace and that was how I got through the next 5 miles or so. When my watch ticked over to 25 miles, I dug deep and told myself that I had to finish this race at a run, no matter how slow. The next 1.2 miles were a little bit of a blur, but I ran every step. As I came around the bend towards the college, I heard Vanessa cheering me on and shouting to Rosie and George that I was coming. Seeing them at the end really helped me to find my head again and I managed to pick up the pace to cross the finish line in 3:55:01 :grinning:.
+
+I must admit that I am a little disappointed with my time, but at the same time, I am extremely happy with it. At mile 22, I got to the point where I thought I wouldn't finish so the fact I actually crossed the line at all is amazing. Hopefully, this time, I can officially say that I have completed a marathon :grinning:. I'm also extremely pleased with the fact I still managed to complete a sub-4 hour marathon despite all the difficulties in the last 7 miles. 
+
+I wasn't overly impressed with the organisation of the event, and I didn't enjoy spending large portions of the race running completely on my own. There was a lot of support from the marshalls, and the few residents that live on the route, but it was nothing compared to the support at [Manchester][4]. I really struggled with the loneliness of this event so I don't think I will be looking at doing any more small marathons in the future. I think I should stick with the big city marathons instead.
+
+The team that organised the event took a fair bit of negative feedback following the event, but they responded promptly by email with apologies and the offer of half price entry in next years event. I get the impression that after a very successful first year in 2016, the team got carried away and aimed too high with this years event. I am sure they have learnt a great many lessons and I wish them luck in the future.
+
 
 {% flickr_image 36666100996 aligncentre z %}
 
 [1]: https://www.gloucestercitymarathon.com/ "Gloucester City Marathon 26.2, South England"
 [2]: https://docs.wixstatic.com/ugd/af779e_d4517717144e492d8adcac90431ad2d9.pdf "Results"
 [3]: {% post_url 2017-06-30-overtraining %}
+[4]: http://www.greatermanchestermarathon.com/home/ "ASICS Greater Manchester Marathon :: Home"
 
 [photos]: http://5681402.tifmember.com/?ppwd=29114xbg&Action=EGS&id=256659604&q=1486 "Official Race Photos"
