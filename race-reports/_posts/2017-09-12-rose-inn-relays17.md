@@ -1,5 +1,5 @@
 ---
-date: 2017-09-12 17:50:00 +0100
+date: 2017-09-12 20:21:00 +0100
 title: "Race Report: Rose Inn Relays 2017"
 image: https://c1.staticflickr.com/5/4365/37073965245_2f3b329630.jpg
 tags:
@@ -42,7 +42,7 @@ By the time I crossed the line I had nothing left at all, I'm not entirely sure 
 
 The first team to finish crossed the line in just 29:01! The first CRC team home was 'The Old Spice Boys' who finished in 10th place in a time of 33:35, and all 19 teams finished in very respectable times. Unfortunately we didn't win any of the awards, but we were definitely the most highly represented Club at the event :grinning:.
 
-The relays always have a really great atmosphere, highly competitive but very friendly, and this year was no exception. I think everyone had great time, despite the serious suffering caused by the running :wink: and there is talk of running it twice next year! That would be great :grinning:. In the meantime, I recommend you check out the [photos from Johnny Lam of San Domenico Running Club][3] to see how much fun the event is for yourselves.
+The relays always have a really great atmosphere, highly competitive but very friendly, and this year was no exception. I think everyone had a great time, despite the serious suffering caused by the running :wink: and there is talk of running it twice next year! That would be great :grinning:. In the meantime, I recommend you check out the [photos from Johnny Lam of San Domenico Running Club][3] to see how much fun the event is for yourselves.
 
 ### Strava Details
 
