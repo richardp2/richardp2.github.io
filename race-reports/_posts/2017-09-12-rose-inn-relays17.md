@@ -23,7 +23,7 @@ excerpt: >
 <div class='flickr image alignright'>
 <span>
   <a title='CRC Group Photo - Image by Johnny Lam via Flickr' href='https://c1.staticflickr.com/5/4365/37073965245_b8feb31027_o.jpg' class='image'>
-    <img src='https://c1.staticflickr.com/5/4365/37073965245_2f3b329630_m.jpg' alt='CRC Group Photo - Image by Johnny Lam via Flickr' />
+    <img src='https://c1.staticflickr.com/5/4365/37073965245_2f3b329630_n.jpg' alt='CRC Group Photo - Image by Johnny Lam via Flickr' />
   </a>
   <a title='View on Flickr' href='https://www.flickr.com/photos/sandomenicorrc/37073965245/in/album-72157688688908545/' class='flickrlink'> </a>
 </span>
@@ -50,14 +50,14 @@ The relays always have a really great atmosphere, highly competitive but very fr
 
 ### Race Pictures 
 
-{% flickr_image 36657330990 alignleft b %}
+{% flickr_image 36657330990 alignleft m %}
 <small markdown='1'>Image by Andrew Taylor via [Flickr][5]</small>
 {:style="clear: both"}
 
-{% flickr_image 36259446433 alignleft b %}
-{% flickr_image 36259415753 alignleft b %}
-{% flickr_image 36900812512 alignleft b %}
-{% flickr_image 36667923160 alignleft b %}
+{% flickr_image 36259446433 alignleft m %}
+{% flickr_image 36259415753 alignleft m %}
+{% flickr_image 36900812512 alignleft m %}
+{% flickr_image 36667923160 alignleft m %}
 <small markdown='1'>Images by Johnny Lam via [Flickr][3]</small>
 {:style="clear: both"}
 
