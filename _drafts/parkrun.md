@@ -18,16 +18,16 @@ excerpt: >
 
 Last weekend (_09/09/2017_) it was my birthday and George decided that he wanted to take me running for my birthday. I thought it was a really nice idea, but I wasn't sure he would get all the way around parkrun without getting bored. George, on the other hand, had other ideas. So Saturday morning, we all got up and headed to the [Riverfront parkrun][1] in Newport with the idea of running together. I think both Rose and I thought George would get bored and give up half way through so we tried bribery for encouragement :wink:. Whilst we got ourselves lined up at the start, we gave him a sweet to put in his pocket that he could eat at the halfway point. 
 
-<div class='alignleft' style='clear: both;'>
+<div class='alignleft'>
 {% flickr_image 37007045181 aligncentre %}
 <small class='aligncentre' markdown='1'>Image by Caerleon RC via [Flickr][2]</small>
 </div>
 After the briefing, the whistle went and we were off, running along the riverside. I set my watch up for a run-walk strategy, 5 minutes running and 90 seconds walking, to try to make sure George didn't burn out too soon and give up. The first couple of sets we had to make sure he walked even though he wasn't keen on it, but as we were approaching the halfway point he wanted to walk before the 5 minutes were up. I'm not sure whether he actually needed to walk, but he definitely wanted to, so we tried to encourage him by telling him we were nearly at halfway and that seemed to work :grinning:.
 
-{% flickr_image 36488869603 alignright %}{:style="clear: both;"}
+{% flickr_image 36488869603 alignright %}
 Up to this point, he had not stopped talking (_not really unusual for George, I guess_), but as soon as we rounded the last bend before the halfway point, George got very shy and quiet and wouldn't say hello to the marshall :disappointed:. Instead, he turned on his heel and started back whilst retrieving his sweet from his pocket. Once we were going again, George resumed his chatter exactly where he left off!
 
-{% flickr_image 36488865613 %}{:style="clear: both;"}
+{% flickr_image 36488865613 %}
 The second half was a little more difficult for him and he had to walk a little bit more, but he seemed to be having a great time so it didn't really matter. Also, he seemed to be going a lot quicker than he ever did when he did junior parkrun. Everyone around us was giving George encouragement and cheering him on and he was having a great time, but he was definitely starting to struggle a little as we approached the University building. He was starting to talk less and walk more, but he was still going, so we told him we were nearly there and kept encouraging him until he crossed the line to cheers from everyone watching. It was really nice!
 
 {% flickr_image 36904918830 aligncentre n %}
