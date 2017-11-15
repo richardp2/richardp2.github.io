@@ -23,7 +23,7 @@ exclude:
   - 'LICENSE.md'
   - 'README.md'
 
-gems:
+plugins:
   - jemoji
   - jekyll-seo-tag
   - jekyll-archives
