@@ -22,7 +22,9 @@ exclude:
   - 'Gemfile.lock'
   - 'LICENSE.md'
   - 'README.md'
+  - 'vendor'
 
+# Gems/Plugins for site functionality
 plugins:
   - jemoji
   - jekyll-seo-tag
@@ -60,6 +62,7 @@ disqus:
   shortname: richardperry
 
 # Outputting
+incremental: true
 permalink: /:categories/:title/
 paginate: 10
 paginate_path: "page/:num"
