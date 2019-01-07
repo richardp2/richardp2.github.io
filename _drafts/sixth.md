@@ -15,3 +15,4 @@ tags:
 * 08 March - The dermatologist confirmed we no longer need to use steroid cream on George's eczema, except for major flare ups 
 * 19 May - Been steroid free for 2 weeks and don't need to see Dermatologist again for 4 months
 
+George has successfully completed another rotation of the sun
