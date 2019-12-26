@@ -1,11 +1,11 @@
 ---
-date: 2013-02-27 21:29:52+00:00
 title: George's First Year
-wordpress_id: 671
-image: https://farm3.static.flickr.com/2784/13062944643_8afbc3fa95_q.jpg
+date: 2013-02-27 21:29:52 +00:00
 tags:
 - George
 - Milestones
+wordpress_id: 671
+image: https://farm3.static.flickr.com/2784/13062944643_8afbc3fa95_q.jpg
 ---
 
 {% flickr_image 13062944643 %}

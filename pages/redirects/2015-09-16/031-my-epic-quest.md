@@ -1,7 +1,8 @@
 ---
-permalink: /epic/my-epic-quest/
-layout: null
+permalink: "/epic/my-epic-quest/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

@@ -1,7 +1,8 @@
 ---
-permalink: /photography/instagram/george-granny/
-layout: null
+permalink: "/photography/instagram/george-granny/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

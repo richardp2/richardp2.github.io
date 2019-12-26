@@ -1,7 +1,8 @@
 ---
-permalink: /general/running/
-layout: null
+permalink: "/general/running/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

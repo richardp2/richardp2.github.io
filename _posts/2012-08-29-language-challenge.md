@@ -1,12 +1,12 @@
 ---
-date: 2012-08-29 19:42:55+00:00
 title: My Language Challenge
-wordpress_id: 69
-image: /assets/images/chinese-sign.jpg
+date: 2012-08-29 20:42:55 +01:00
 tags:
 - Languages
 - Mandarin
 - Challenges
+wordpress_id: 69
+image: "/assets/images/chinese-sign.jpg"
 series:
 - Mandarin Language Challenge
 ---

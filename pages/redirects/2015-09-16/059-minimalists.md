@@ -1,7 +1,8 @@
 ---
-permalink: /general/minimalists/
-layout: null
+permalink: "/general/minimalists/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

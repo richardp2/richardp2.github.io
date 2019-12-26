@@ -1,7 +1,8 @@
 ---
-permalink: /languages/mandarin/language-challenge/
-layout: null
+permalink: "/languages/mandarin/language-challenge/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

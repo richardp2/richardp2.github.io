@@ -1,7 +1,8 @@
 ---
-permalink: /general/memories/three-nations-09/
-layout: null
+permalink: "/general/memories/three-nations-09/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

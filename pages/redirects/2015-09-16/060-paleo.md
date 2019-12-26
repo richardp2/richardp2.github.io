@@ -1,7 +1,8 @@
 ---
-permalink: /general/challenges/paleo/
-layout: null
+permalink: "/general/challenges/paleo/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

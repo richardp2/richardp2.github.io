@@ -1,7 +1,8 @@
 ---
-permalink: /general/memories/serbia-hungary-06/
-layout: null
+permalink: "/general/memories/serbia-hungary-06/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

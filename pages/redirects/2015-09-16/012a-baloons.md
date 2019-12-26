@@ -1,7 +1,8 @@
 ---
-permalink: /photography/instagram/george-balloons/
-layout: null
+permalink: "/photography/instagram/george-balloons/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

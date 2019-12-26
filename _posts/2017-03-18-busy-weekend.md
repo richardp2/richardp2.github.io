@@ -1,11 +1,11 @@
 ---
-date: 2017-03-18 19:49:00 +0000
 title: A Busy Weekend
-format: video 
-video: JKrHFQnDdG4
+date: 2017-03-18 19:49:00 +00:00
 tags:
 - George
 - House
+format: video
+video: JKrHFQnDdG4
 ---
 
 A couple of weeks ago, on the last weekend of half term, George went to stay with his Grandparents

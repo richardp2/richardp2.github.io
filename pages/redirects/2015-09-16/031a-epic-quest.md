@@ -1,7 +1,8 @@
 ---
-permalink: /general/challenges/epic/my-epic-quest/
-layout: null
+permalink: "/general/challenges/epic/my-epic-quest/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

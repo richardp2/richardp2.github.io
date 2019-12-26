@@ -1,14 +1,36 @@
 ---
-date: 2017-10-30 18:09:00 +0000
-title: "Race Report: Cardiff Half Marathon 2017"
-image: https://c1.staticflickr.com/5/4500/37403659626_5527566956_n.jpg
+title: 'Race Report: Cardiff Half Marathon 2017'
+date: 2017-10-30 18:09:00 +00:00
+categories:
+- race-reports
 tags:
 - Running
 - Race
-description: >
-  At the start of this year, Cardiff Half Marathon was going to be a big race for me. I was going to give it everything to try to break 90 minutes. Then I ran Gloucester City Marathon and my motivation seemed to drop off the end of a cliff! I had planned on a bit of a break after the marathon to recover, but then I never seemed to get going again. I only did a couple of long runs and I managed to average 21.35mi per week in the build-up. There is no way that is sufficient to get a sub 90min PB. So I resigned myself to taking it steady and enjoying the event without pushing myself to my limits. Then, along comes the Mic Morris 10k to change my mind. After the performance I was able to put in at that race, I thought it was stupid not to give Cardiff a damn good try!
-excerpt: >
-  At the start of this year, Cardiff Half Marathon was going to be a big race for me. I was going to give it everything to try to break 90 minutes. Then I ran Gloucester City Marathon and my motivation seemed to drop off the end of a cliff! I had planned on a bit of a break after the marathon to recover, but then I never seemed to get going again. I only did a couple of long runs and I managed to average 21.35mi per week in the build-up. There is no way that is sufficient to get a sub 90min PB. So I resigned myself to taking it steady and enjoying the event without pushing myself to my limits. Then, along comes the Mic Morris 10k to change my mind. After the performance I was able to put in at that race, I thought it was stupid not to give Cardiff a damn good try!
+image: https://c1.staticflickr.com/5/4500/37403659626_5527566956_n.jpg
+description: 'At the start of this year, Cardiff Half Marathon was going to be a big
+  race for me. I was going to give it everything to try to break 90 minutes. Then
+  I ran Gloucester City Marathon and my motivation seemed to drop off the end of a
+  cliff! I had planned on a bit of a break after the marathon to recover, but then
+  I never seemed to get going again. I only did a couple of long runs and I managed
+  to average 21.35mi per week in the build-up. There is no way that is sufficient
+  to get a sub 90min PB. So I resigned myself to taking it steady and enjoying the
+  event without pushing myself to my limits. Then, along comes the Mic Morris 10k
+  to change my mind. After the performance I was able to put in at that race, I thought
+  it was stupid not to give Cardiff a damn good try!
+
+'
+excerpt: 'At the start of this year, Cardiff Half Marathon was going to be a big race
+  for me. I was going to give it everything to try to break 90 minutes. Then I ran
+  Gloucester City Marathon and my motivation seemed to drop off the end of a cliff!
+  I had planned on a bit of a break after the marathon to recover, but then I never
+  seemed to get going again. I only did a couple of long runs and I managed to average
+  21.35mi per week in the build-up. There is no way that is sufficient to get a sub
+  90min PB. So I resigned myself to taking it steady and enjoying the event without
+  pushing myself to my limits. Then, along comes the Mic Morris 10k to change my mind.
+  After the performance I was able to put in at that race, I thought it was stupid
+  not to give Cardiff a damn good try!
+
+'
 ---
 
 | Race Details |                                               |

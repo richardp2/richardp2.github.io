@@ -1,14 +1,28 @@
 ---
-date: 2017-07-24 22:24:48 +0100
-title: "End of Reception"
-image: https://c1.staticflickr.com/5/4304/36140386075_3429216618.jpg
+title: End of Reception
+date: 2017-07-24 22:24:48 +01:00
 tags:
 - George
 - Milestones
-description: >
-  Friday was George's last day in school meaning he has now finished his first year. I'm not entirely sure I will ever get used to the how fast he is growing up, but I am trying to enjoy every minute of it. Over the course of the year, after each holiday, he has gradually got more tired throughout the terms. Now he is desperately in need of some down time, but given he is 5 years old, he has little to no inclination to stop. He is now a bundle of extremely tired energy, bouncing around until he crashes. I think Rosie has her work cut out over the summer!
-excerpt: >
-  Friday was George's last day in school meaning he has now finished his first year. I'm not entirely sure I will ever get used to the how fast he is growing up, but I am trying to enjoy every minute of it. Over the course of the year, after each holiday, he has gradually got more tired throughout the terms. Now he is desperately in need of some down time, but given he is 5 years old, he has little to no inclination to stop. He is now a bundle of extremely tired energy, bouncing around until he crashes. I think Rosie has her work cut out over the summer!
+image: https://c1.staticflickr.com/5/4304/36140386075_3429216618.jpg
+description: 'Friday was George''s last day in school meaning he has now finished
+  his first year. I''m not entirely sure I will ever get used to the how fast he is
+  growing up, but I am trying to enjoy every minute of it. Over the course of the
+  year, after each holiday, he has gradually got more tired throughout the terms.
+  Now he is desperately in need of some down time, but given he is 5 years old, he
+  has little to no inclination to stop. He is now a bundle of extremely tired energy,
+  bouncing around until he crashes. I think Rosie has her work cut out over the summer!
+
+'
+excerpt: 'Friday was George''s last day in school meaning he has now finished his
+  first year. I''m not entirely sure I will ever get used to the how fast he is growing
+  up, but I am trying to enjoy every minute of it. Over the course of the year, after
+  each holiday, he has gradually got more tired throughout the terms. Now he is desperately
+  in need of some down time, but given he is 5 years old, he has little to no inclination
+  to stop. He is now a bundle of extremely tired energy, bouncing around until he
+  crashes. I think Rosie has her work cut out over the summer!
+
+'
 ---
 
 {% flickr_image 36140386075 %}

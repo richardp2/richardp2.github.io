@@ -1,7 +1,8 @@
 ---
-permalink: /general/a-new-start/
-layout: null
+permalink: "/general/a-new-start/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

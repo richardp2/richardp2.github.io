@@ -1,7 +1,8 @@
 ---
-permalink: /photography/caterpillars/
-layout: null
+permalink: "/photography/caterpillars/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

@@ -1,16 +1,18 @@
 ---
-comments: true
-date: 2014-10-16 16:04:30+00:00
-layout: post
 title: The Minimalists - Everything That Remains
+date: 2014-10-16 17:04:30 +01:00
+comments: true
+layout: post
 image: https://farm4.static.flickr.com/3941/15364092037_b791b49c35_q.jpg
-excerpt: >
-  Last night, Rosie and I went out, just the two of us, for an evening in Cardiff. It is the first
-  time we have been out for a while, and we went to a book tour in a lovely, cosy little place called
-  the Juno Lounge (can highly recommend the place for a nice evening by the way). This particular book
-  tour was being carried out by a couple of American guys who call themselves [The Minimalists][mnml].
-  Rosie & I have been reading the essays they publish on their [website][mnml] for a couple of years
-  now and thought it would be cool to meet them.
+excerpt: 'Last night, Rosie and I went out, just the two of us, for an evening in
+  Cardiff. It is the first time we have been out for a while, and we went to a book
+  tour in a lovely, cosy little place called the Juno Lounge (can highly recommend
+  the place for a nice evening by the way). This particular book tour was being carried
+  out by a couple of American guys who call themselves [The Minimalists][mnml]. Rosie
+  & I have been reading the essays they publish on their [website][mnml] for a couple
+  of years now and thought it would be cool to meet them.
+
+'
 ---
 
 [![The Minimalists & Us][thm]][img]{: .alignright }

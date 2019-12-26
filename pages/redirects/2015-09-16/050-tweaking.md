@@ -1,7 +1,8 @@
 ---
-permalink: /technology/jekyll/tweaking/
-layout: null
+permalink: "/technology/jekyll/tweaking/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

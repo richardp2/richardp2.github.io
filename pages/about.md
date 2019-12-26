@@ -1,10 +1,10 @@
 ---
-author: Richard Perry
-date: 2011-10-28 12:31:29+00:00
-layout: page
 title: About Me
+date: 2011-10-28 13:31:29 +01:00
+permalink: "/about/"
+author: Richard Perry
+layout: page
 wordpress_id: 19
-permalink: /about/
 ---
 
 My name is Richard Perry. I have lived in Wales my whole life, excluding the 18 months following

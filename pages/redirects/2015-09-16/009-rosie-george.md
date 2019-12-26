@@ -1,7 +1,8 @@
 ---
-permalink: /photography/instagram/rosie-george/
-layout: null
+permalink: "/photography/instagram/rosie-george/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

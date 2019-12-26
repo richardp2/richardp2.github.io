@@ -1,7 +1,8 @@
 ---
-permalink: /photography/the-last-of-this-years-scotch-bonnets/
-layout: null
+permalink: "/photography/the-last-of-this-years-scotch-bonnets/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

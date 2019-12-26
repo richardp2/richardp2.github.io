@@ -1,54 +1,51 @@
 ---
-comments: true
-date: 2014-06-29 09:17:40+00:00
-format: gallery
-title: "Memories: Three Nations 2009"
+title: 'Memories: Three Nations 2009'
+date: 2014-06-29 10:17:40 +01:00
 tags:
 - Memories
 - Beijing
-- "Xi'an"
+- Xi'an
 - Ulanbaatar
 - Scouts
 - Travel
-series: 
+comments: true
+format: gallery
+series:
 - Travel Memories
 photoset: 72157645412721682
 images: 68
-excerpt: >
-  <div class="flickr summary">
-  <span>
-  <a title="First class meal on the plane to China :-)" href="//farm4.staticflickr.com/3906/14345390860_983023d663_b.jpg" class="image cboxElement" rel="gallery4"><img src="//farm4.staticflickr.com/3906/14345390860_983023d663_q.jpg" alt="First class meal on the plane to China :-)"></a>
-  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14345390860/" class="flickrlink"> </a>
-  </span>
-  <span>
-  <a title="Our first meal in Beijing" href="//farm6.staticflickr.com/5314/14345459298_04dff86f27_b.jpg" class="image cboxElement" rel="gallery4"><img src="//farm6.staticflickr.com/5314/14345459298_04dff86f27_q.jpg" alt="Our first meal in Beijing"></a>
-  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14345459298/" class="flickrlink"> </a>
-  </span>
-  <span>
-  <a title="Chickens Feet" href="//farm4.staticflickr.com/3878/14508920386_67925875e1_b.jpg" class="image cboxElement" rel="gallery4"><img src="//farm4.staticflickr.com/3878/14508920386_67925875e1_q.jpg" alt="Chickens Feet"></a>
-  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14508920386/" class="flickrlink"> </a>
-  </span>
-  <span>
-  <a title="Our Hotel in Beijing" href="//farm3.staticflickr.com/2924/14530575834_4aa7b454dd_b.jpg" class="image cboxElement" rel="gallery4"><img src="//farm3.staticflickr.com/2924/14530575834_4aa7b454dd_q.jpg" alt="Our Hotel in Beijing"></a>
-  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14530575834/" class="flickrlink"> </a>
-  </span>
-  <span>
-  <a title="First Glimpse of the Forbidden City" href="//farm4.staticflickr.com/3840/14528650171_61a0886433_b.jpg" class="image cboxElement" rel="gallery4"><img src="//farm4.staticflickr.com/3840/14528650171_61a0886433_q.jpg" alt="First Glimpse of the Forbidden City"></a>
-  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14528650171/" class="flickrlink"> </a>
-  </span>
-  <span>
-  <a title="Shaking Hands with an Imitation Terracotta Warrior in the Silk Market" href="//farm3.staticflickr.com/2900/14345580837_e8604a24f3_b.jpg" class="image cboxElement" rel="gallery4"><img src="//farm3.staticflickr.com/2900/14345580837_e8604a24f3_q.jpg" alt="Shaking Hands with an Imitation Terracotta Warrior in the Silk Market"></a>
-  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14345580837/" class="flickrlink"> </a>
-  </span>
-  <span>
-  <a title="Jew's Ear Juice?!?!?!" href="//farm3.staticflickr.com/2896/14345433759_1976dd6d12_b.jpg" class="image cboxElement" rel="gallery4"><img src="//farm3.staticflickr.com/2896/14345433759_1976dd6d12_q.jpg" alt="Jew's Ear Juice?!?!?!"></a>
-  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14345433759/" class="flickrlink"> </a>
-  </span>
-  <span>
-  <a title="Beijing Hot Pot" href="//farm4.staticflickr.com/3902/14345470488_8cf63357e9_b.jpg" class="image cboxElement" rel="gallery4"><img src="//farm4.staticflickr.com/3902/14345470488_8cf63357e9_q.jpg" alt="Beijing Hot Pot"></a>
-  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14345470488/" class="flickrlink"> </a>
-  </span>
-  </div>
+excerpt: '<div class="flickr summary"> <span> <a title="First class meal on the plane
+  to China :-)" href="//farm4.staticflickr.com/3906/14345390860_983023d663_b.jpg"
+  class="image cboxElement" rel="gallery4"><img src="//farm4.staticflickr.com/3906/14345390860_983023d663_q.jpg"
+  alt="First class meal on the plane to China :-)"></a> <a title="View on Flickr"
+  href="//www.flickr.com/photos/richard-perry/14345390860/" class="flickrlink"> </a>
+  </span> <span> <a title="Our first meal in Beijing" href="//farm6.staticflickr.com/5314/14345459298_04dff86f27_b.jpg"
+  class="image cboxElement" rel="gallery4"><img src="//farm6.staticflickr.com/5314/14345459298_04dff86f27_q.jpg"
+  alt="Our first meal in Beijing"></a> <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14345459298/"
+  class="flickrlink"> </a> </span> <span> <a title="Chickens Feet" href="//farm4.staticflickr.com/3878/14508920386_67925875e1_b.jpg"
+  class="image cboxElement" rel="gallery4"><img src="//farm4.staticflickr.com/3878/14508920386_67925875e1_q.jpg"
+  alt="Chickens Feet"></a> <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14508920386/"
+  class="flickrlink"> </a> </span> <span> <a title="Our Hotel in Beijing" href="//farm3.staticflickr.com/2924/14530575834_4aa7b454dd_b.jpg"
+  class="image cboxElement" rel="gallery4"><img src="//farm3.staticflickr.com/2924/14530575834_4aa7b454dd_q.jpg"
+  alt="Our Hotel in Beijing"></a> <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14530575834/"
+  class="flickrlink"> </a> </span> <span> <a title="First Glimpse of the Forbidden
+  City" href="//farm4.staticflickr.com/3840/14528650171_61a0886433_b.jpg" class="image
+  cboxElement" rel="gallery4"><img src="//farm4.staticflickr.com/3840/14528650171_61a0886433_q.jpg"
+  alt="First Glimpse of the Forbidden City"></a> <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14528650171/"
+  class="flickrlink"> </a> </span> <span> <a title="Shaking Hands with an Imitation
+  Terracotta Warrior in the Silk Market" href="//farm3.staticflickr.com/2900/14345580837_e8604a24f3_b.jpg"
+  class="image cboxElement" rel="gallery4"><img src="//farm3.staticflickr.com/2900/14345580837_e8604a24f3_q.jpg"
+  alt="Shaking Hands with an Imitation Terracotta Warrior in the Silk Market"></a>
+  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14345580837/"
+  class="flickrlink"> </a> </span> <span> <a title="Jew''s Ear Juice?!?!?!" href="//farm3.staticflickr.com/2896/14345433759_1976dd6d12_b.jpg"
+  class="image cboxElement" rel="gallery4"><img src="//farm3.staticflickr.com/2896/14345433759_1976dd6d12_q.jpg"
+  alt="Jew''s Ear Juice?!?!?!"></a> <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14345433759/"
+  class="flickrlink"> </a> </span> <span> <a title="Beijing Hot Pot" href="//farm4.staticflickr.com/3902/14345470488_8cf63357e9_b.jpg"
+  class="image cboxElement" rel="gallery4"><img src="//farm4.staticflickr.com/3902/14345470488_8cf63357e9_q.jpg"
+  alt="Beijing Hot Pot"></a> <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14345470488/"
+  class="flickrlink"> </a> </span> </div>
+
+'
 ---
 
 2009 was a fantastic year for many reasons. Both Rosie and I completed our professional training, 

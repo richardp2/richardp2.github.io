@@ -1,7 +1,8 @@
 ---
-permalink: /reviews/windows-8-consumer-preview/
-layout: null
+permalink: "/reviews/windows-8-consumer-preview/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

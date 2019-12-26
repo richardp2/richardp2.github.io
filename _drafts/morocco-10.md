@@ -1,10 +1,10 @@
 ---
-date: 2014-08-08 21:00:00+00:00
-title: "Memories: Morocco 2010"
+title: 'Memories: Morocco 2010'
+date: 2014-08-08 22:00:00 +01:00
 categories:
 - General
 - Memories
-series: 
+series:
 - Travel Memories
 photoset: 
 images: 

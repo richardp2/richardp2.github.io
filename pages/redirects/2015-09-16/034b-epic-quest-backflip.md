@@ -1,7 +1,8 @@
 ---
-permalink: /epic-quest/backflip/
-layout: null
+permalink: "/epic-quest/backflip/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

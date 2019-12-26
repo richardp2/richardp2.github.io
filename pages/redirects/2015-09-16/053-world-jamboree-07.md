@@ -1,7 +1,8 @@
 ---
-permalink: /general/memories/world-jamboree-07/
-layout: null
+permalink: "/general/memories/world-jamboree-07/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

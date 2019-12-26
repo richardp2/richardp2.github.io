@@ -1,7 +1,8 @@
 ---
-permalink: /general/games-maker/
-layout: null
+permalink: "/general/games-maker/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

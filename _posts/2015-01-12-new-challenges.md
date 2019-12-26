@@ -1,11 +1,12 @@
 ---
-comments: true
-layout: post
 title: New Challenges
+date: 2015-01-12 00:00:00 +00:00
 tags:
 - Challenges
 - Running
 - Languages
+comments: true
+layout: post
 ---
 
 Happy New Year all! I really cannot be bothered with the whole year in review thing that I did last

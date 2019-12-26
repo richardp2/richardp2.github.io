@@ -1,7 +1,8 @@
 ---
-permalink: /general/jekyll/
-layout: null
+permalink: "/general/jekyll/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

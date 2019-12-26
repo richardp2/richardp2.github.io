@@ -1,14 +1,30 @@
 ---
-date: 2017-09-12 20:21:00 +0100
-title: "Race Report: Rose Inn Relays 2017"
-image: https://c1.staticflickr.com/5/4365/37073965245_2f3b329630.jpg
+title: 'Race Report: Rose Inn Relays 2017'
+date: 2017-09-12 20:21:00 +01:00
+categories:
+- race-reports
 tags:
 - Running
 - Race
-description: >
-  It's September again, and that can mean only one thing... it's time for the Rose Inn Relays again :grinning:. I first took part in the Rose Inn Relays in 2014 and absolutely loved it. It's a great team event and it is absolutely brutal. The race is centred at the Rose Inn (_oddly enough_) in Redwick and consists of three laps of 1.91 miles around the village. Over 100 teams take part each year and it is highly competitive. What makes it so brutal is that it is pancake flat and it is near impossible to keep to a sensible pace off the start.
-excerpt: >
-  It's September again, and that can mean only one thing... it's time for the Rose Inn Relays again :grinning:. I first took part in the Rose Inn Relays in 2014 and absolutely loved it. It's a great team event and it is absolutely brutal. The race is centred at the Rose Inn (_oddly enough_) in Redwick and consists of three laps of 1.91 miles around the village. Over 100 teams take part each year and it is highly competitive. What makes it so brutal is that it is pancake flat and it is near impossible to keep to a sensible pace off the start.
+image: https://c1.staticflickr.com/5/4365/37073965245_2f3b329630.jpg
+description: 'It''s September again, and that can mean only one thing... it''s time
+  for the Rose Inn Relays again :grinning:. I first took part in the Rose Inn Relays
+  in 2014 and absolutely loved it. It''s a great team event and it is absolutely brutal.
+  The race is centred at the Rose Inn (_oddly enough_) in Redwick and consists of
+  three laps of 1.91 miles around the village. Over 100 teams take part each year
+  and it is highly competitive. What makes it so brutal is that it is pancake flat
+  and it is near impossible to keep to a sensible pace off the start.
+
+'
+excerpt: 'It''s September again, and that can mean only one thing... it''s time for
+  the Rose Inn Relays again :grinning:. I first took part in the Rose Inn Relays in
+  2014 and absolutely loved it. It''s a great team event and it is absolutely brutal.
+  The race is centred at the Rose Inn (_oddly enough_) in Redwick and consists of
+  three laps of 1.91 miles around the village. Over 100 teams take part each year
+  and it is highly competitive. What makes it so brutal is that it is pancake flat
+  and it is near impossible to keep to a sensible pace off the start.
+
+'
 ---
 
 | Race Details  |                            |

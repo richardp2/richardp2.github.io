@@ -1,12 +1,12 @@
 ---
-date: 2012-08-15 21:34:59+00:00
 title: Life as a Games Maker
-wordpress_id: 188
-image: https://farm8.static.flickr.com/7441/12971655604_8373488965_q.jpg
+date: 2012-08-15 22:34:59 +01:00
 tags:
 - London
 - Olympics
 - Events
+wordpress_id: 188
+image: https://farm8.static.flickr.com/7441/12971655604_8373488965_q.jpg
 ---
 
 Over the last two weeks or so, you may have been aware of a small sporting event taking place mainly

@@ -1,7 +1,8 @@
 ---
-permalink: /photography/rosie-george/
-layout: null
+permalink: "/photography/rosie-george/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

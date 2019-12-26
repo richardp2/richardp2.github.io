@@ -1,14 +1,15 @@
 ---
-title: "Back at Disney :-)"
-image: /assets/thumbs/disney/DisneyCastle.jpg
+title: Back at Disney :-)
+date: 2013-04-05 00:00:00 +01:00
+permalink: "/general/challenges/epic/travel/disneyland-paris/"
 categories:
 - General
 - Challenges
 - Epic Quest
 - Travel
-series: 
+image: "/assets/thumbs/disney/DisneyCastle.jpg"
+series:
 - My Epic Quest
-permalink: /general/challenges/epic/travel/disneyland-paris/
 ---
 
 This Easter we decided it was finally time to visit Paris. I've been promising to take Rosie there

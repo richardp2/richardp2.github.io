@@ -1,11 +1,11 @@
---- 
-date: 2018-02-07 21:00:00+00:00 
-title: George’s Sixth Year 
+---
+title: George’s Sixth Year
+date: 2018-02-07 21:00:00 +00:00
+tags:
+- George
+- Milestones
 image: 
-tags: 
-- George 
-- Milestones 
---- 
+---
 
 * 23-26 February - George stayed at his Nana and Grandads for 3 nights (_longest stay away from us so far_) 
 * 26 February - George was welcomed back to a nearly redecorated and refurnished bedroom 

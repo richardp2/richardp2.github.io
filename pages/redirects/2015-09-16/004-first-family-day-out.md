@@ -1,7 +1,8 @@
 ---
-permalink: /george/our-first-family-day-out/
-layout: null
+permalink: "/george/our-first-family-day-out/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

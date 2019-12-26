@@ -1,7 +1,8 @@
 ---
-permalink: /general/challenges/new-challenges/
-layout: null
+permalink: "/general/challenges/new-challenges/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

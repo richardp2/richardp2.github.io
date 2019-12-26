@@ -1,7 +1,8 @@
 ---
-permalink: /outdoors/running/
-layout: null
+permalink: "/outdoors/running/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

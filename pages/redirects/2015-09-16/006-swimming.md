@@ -1,7 +1,8 @@
 ---
-permalink: /george/george-goes-swimming/
-layout: null
+permalink: "/george/george-goes-swimming/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

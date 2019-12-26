@@ -1,7 +1,8 @@
 ---
-permalink: /languages/mandarin-month-4/
-layout: null
+permalink: "/languages/mandarin-month-4/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>

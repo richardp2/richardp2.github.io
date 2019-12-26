@@ -1,8 +1,6 @@
 ---
-comments: true
-date: 2014-06-16 20:44:59+00:00
-format: gallery
-title: "Memories: Switzerland 2008"
+title: 'Memories: Switzerland 2008'
+date: 2014-06-16 21:44:59 +01:00
 tags:
 - Memories
 - Kandersteg
@@ -10,45 +8,40 @@ tags:
 - Glaciers
 - Mountains
 - Travel
-series: 
+comments: true
+format: gallery
+series:
 - Travel Memories
 photoset: 72157644849290176
 images: 39
-excerpt: >
-  <div class="flickr summary">
-  <span>
-  <a title="A Week off in Switzerland" href="//farm6.staticflickr.com/5039/14109077599_45bee252dc_b.jpg" class="image cboxElement" rel="gallery5"><img src="//farm6.staticflickr.com/5039/14109077599_45bee252dc_q.jpg" alt="A Week off in Switzerland"></a>
-  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14109077599/" class="flickrlink"> </a>
-  </span>
-  <span>
-  <a title="A Week off in Switzerland" href="//farm4.staticflickr.com/3720/14109081849_8c05776ef0_b.jpg" class="image cboxElement" rel="gallery5"><img src="//farm4.staticflickr.com/3720/14109081849_8c05776ef0_q.jpg" alt="A Week off in Switzerland"></a>
-  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14109081849/" class="flickrlink"> </a>
-  </span>
-  <span>
-  <a title="A Week off in Switzerland" href="//farm4.staticflickr.com/3776/14292423541_0109fc02e7_b.jpg" class="image cboxElement" rel="gallery5"><img src="//farm4.staticflickr.com/3776/14292423541_0109fc02e7_q.jpg" alt="A Week off in Switzerland"></a>
-  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14292423541/" class="flickrlink"> </a>
-  </span>
-  <span>
-  <a title="A Week off in Switzerland" href="//farm4.staticflickr.com/3754/14292426471_5531f8f75d_b.jpg" class="image cboxElement" rel="gallery5"><img src="//farm4.staticflickr.com/3754/14292426471_5531f8f75d_q.jpg" alt="A Week off in Switzerland"></a>
-  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14292426471/" class="flickrlink"> </a>
-  </span>
-  <span>
-  <a title="A Week off in Switzerland" href="//farm3.staticflickr.com/2926/14109129828_e4a08c6191_b.jpg" class="image cboxElement" rel="gallery5"><img src="//farm3.staticflickr.com/2926/14109129828_e4a08c6191_q.jpg" alt="A Week off in Switzerland"></a>
-  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14109129828/" class="flickrlink"> </a>
-  </span>
-  <span>
-  <a title="A Week off in Switzerland" href="//farm4.staticflickr.com/3717/14272647906_f2dc7e44fd_b.jpg" class="image cboxElement" rel="gallery5"><img src="//farm4.staticflickr.com/3717/14272647906_f2dc7e44fd_q.jpg" alt="A Week off in Switzerland"></a>
-  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14272647906/" class="flickrlink"> </a>
-  </span>
-  <span>
-  <a title="A Week off in Switzerland" href="//farm4.staticflickr.com/3816/14295235614_88cee6a8a6_b.jpg" class="image cboxElement" rel="gallery5"><img src="//farm4.staticflickr.com/3816/14295235614_88cee6a8a6_q.jpg" alt="A Week off in Switzerland"></a>
-  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14295235614/" class="flickrlink"> </a>
-  </span>
-  <span>
-  <a title="A Week off in Switzerland" href="//farm4.staticflickr.com/3688/14109150030_469fbef0a6_b.jpg" class="image cboxElement" rel="gallery5"><img src="//farm4.staticflickr.com/3688/14109150030_469fbef0a6_q.jpg" alt="A Week off in Switzerland"></a>
-  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14109150030/" class="flickrlink"> </a>
-  </span>
-  </div>
+excerpt: '<div class="flickr summary"> <span> <a title="A Week off in Switzerland"
+  href="//farm6.staticflickr.com/5039/14109077599_45bee252dc_b.jpg" class="image cboxElement"
+  rel="gallery5"><img src="//farm6.staticflickr.com/5039/14109077599_45bee252dc_q.jpg"
+  alt="A Week off in Switzerland"></a> <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14109077599/"
+  class="flickrlink"> </a> </span> <span> <a title="A Week off in Switzerland" href="//farm4.staticflickr.com/3720/14109081849_8c05776ef0_b.jpg"
+  class="image cboxElement" rel="gallery5"><img src="//farm4.staticflickr.com/3720/14109081849_8c05776ef0_q.jpg"
+  alt="A Week off in Switzerland"></a> <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14109081849/"
+  class="flickrlink"> </a> </span> <span> <a title="A Week off in Switzerland" href="//farm4.staticflickr.com/3776/14292423541_0109fc02e7_b.jpg"
+  class="image cboxElement" rel="gallery5"><img src="//farm4.staticflickr.com/3776/14292423541_0109fc02e7_q.jpg"
+  alt="A Week off in Switzerland"></a> <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14292423541/"
+  class="flickrlink"> </a> </span> <span> <a title="A Week off in Switzerland" href="//farm4.staticflickr.com/3754/14292426471_5531f8f75d_b.jpg"
+  class="image cboxElement" rel="gallery5"><img src="//farm4.staticflickr.com/3754/14292426471_5531f8f75d_q.jpg"
+  alt="A Week off in Switzerland"></a> <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14292426471/"
+  class="flickrlink"> </a> </span> <span> <a title="A Week off in Switzerland" href="//farm3.staticflickr.com/2926/14109129828_e4a08c6191_b.jpg"
+  class="image cboxElement" rel="gallery5"><img src="//farm3.staticflickr.com/2926/14109129828_e4a08c6191_q.jpg"
+  alt="A Week off in Switzerland"></a> <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14109129828/"
+  class="flickrlink"> </a> </span> <span> <a title="A Week off in Switzerland" href="//farm4.staticflickr.com/3717/14272647906_f2dc7e44fd_b.jpg"
+  class="image cboxElement" rel="gallery5"><img src="//farm4.staticflickr.com/3717/14272647906_f2dc7e44fd_q.jpg"
+  alt="A Week off in Switzerland"></a> <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14272647906/"
+  class="flickrlink"> </a> </span> <span> <a title="A Week off in Switzerland" href="//farm4.staticflickr.com/3816/14295235614_88cee6a8a6_b.jpg"
+  class="image cboxElement" rel="gallery5"><img src="//farm4.staticflickr.com/3816/14295235614_88cee6a8a6_q.jpg"
+  alt="A Week off in Switzerland"></a> <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14295235614/"
+  class="flickrlink"> </a> </span> <span> <a title="A Week off in Switzerland" href="//farm4.staticflickr.com/3688/14109150030_469fbef0a6_b.jpg"
+  class="image cboxElement" rel="gallery5"><img src="//farm4.staticflickr.com/3688/14109150030_469fbef0a6_q.jpg"
+  alt="A Week off in Switzerland"></a> <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/14109150030/"
+  class="flickrlink"> </a> </span> </div>
+
+'
 ---
 
 In 2008 we decided that we should try to have a non-scouting holiday for just the two of us. Well,

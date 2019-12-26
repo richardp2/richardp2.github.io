@@ -1,7 +1,8 @@
 ---
-permalink: /general/challenges/epic/active/backflip/
-layout: null
+permalink: "/general/challenges/epic/active/backflip/"
+layout: 
 ---
+
 <!DOCTYPE html>
 <html>
   <head>
