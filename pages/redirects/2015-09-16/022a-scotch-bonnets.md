@@ -1,8 +1,7 @@
 ---
-permalink: "/photography/instagram/the-last-of-this-years-scotch-bonnets/"
-layout: 
+permalink: /photography/instagram/the-last-of-this-years-scotch-bonnets/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

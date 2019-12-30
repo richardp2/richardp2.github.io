@@ -1,10 +1,10 @@
 ---
-title: 'Memories: Iceland 2010-11'
-date: 2014-06-06 22:00:00 +01:00
+date: 2014-06-06 21:00:00+00:00
+title: "Memories: Iceland 2010-11"
 categories:
 - General
 - Memories
-series:
+series: 
 - Travel Memories
 photoset: 
 images: 

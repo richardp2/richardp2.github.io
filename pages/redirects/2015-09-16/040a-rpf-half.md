@@ -1,8 +1,7 @@
 ---
-permalink: "/general/challenges/running/rpf-half/"
-layout: 
+permalink: /general/challenges/running/rpf-half/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

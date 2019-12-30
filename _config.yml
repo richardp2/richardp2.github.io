@@ -1,95 +1,143 @@
----
+######################################
+#                                    #
+#         Site Configuration         #
+#                                    #
+######################################
+
+# Site details
 title: Richard Perry
-timezone: Europe/London
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    comments: true
-- scope:
-    path: pages
-  values:
-    layout: page
-    comments: false
 description: Just another blog about nothing
 author: richard
 url: https://richard.perry-online.me.uk
 email: richard@perry-online.me.uk
-images: "/assets/images"
-thumbs: "/assets/images/thumbs"
-exclude:
-- changes
-- Gemfile
-- Gemfile.lock
-- LICENSE.md
-- README.md
-- vendor
+
+# Where things are
+images: /assets/images
+thumbs: /assets/images/thumbs
+
+# Handling Reading
+exclude: 
+  - 'changes'
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'LICENSE.md'
+  - 'README.md'
+  - 'vendor'
+
+# Gems/Plugins for site functionality
 plugins:
-- jemoji
-- jekyll-seo-tag
-- jekyll-archives
-- jekyll-paginate
-- jekyll-redirect-from
-- jekyll-feed
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-feed
+  #- jekyll-sitemap
+
+
+######################################
+#                                    #
+#        Theme Configuration         #
+#                                    #
+######################################
+
+# General Configuration
 theme: jekyll-theme-perry
-logo: "/assets/images/logo.svg"
-meta:
+logo: /assets/images/logo.svg
+meta:             
   copyright:
     year: '2011'
   powered-by: true
-  hosting:
+  hosting:          
     name: GitLab Pages
-    link: "//pages.gitlab.io"
+    link: //pages.gitlab.io
+
+# Markdown Processors
 sass:
   sass_dir: _sass
   style: compressed
+
+# Comments
 disqus:
   shortname: richardperry
+
+# Outputting
 incremental: true
-permalink: "/:categories/:title/"
+permalink: /:categories/:title/
 paginate: 10
-paginate_path: page/:num
+paginate_path: "page/:num"
+timezone: Europe/London
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+  -
+    scope:
+      path: "pages"
+    values:
+      layout: "page"
+      comments: false
+
+
+######################################
+#                                    #
+#        Plugin Configuration        #
+#                                    #
+######################################
+
+# Flickr Plugin
 flickr:
-  cache_dir: "./_cache"
+  cache_dir: ./_cache
   api_key: 4389a0eb79c41ca17e149830c22fc7c2
   shared_secret: ef41108edae962b0
   access_token: 72157641557984045-92a5dbebf3e01418
   access_secret: 1625dbdd3cf26db6
+
+# Jekyll Archives Gem
 jekyll-archives:
   enabled:
-  - year
-  - tags
-  - categories
+    - year
+    - tags
+    - categories
   layouts: archive
   permalinks:
-    year: "/archives/:year/"
-    tag: "/tags/:name/"
-    category: "/:name/"
+    year: '/archives/:year/'
+    tag: '/tags/:name/'
+    category: '/:name/'
+
+# Jekyll SEO Tag Gem
 facebook:
   app_id: 181763705182339
   admins: 286603693
+
 twitter:
   username: richard_p2
+
 social:
   links:
-  - https://twitter.com/richard_p2
-  - https://www.facebook.com/richardpperry
-  - https://www.linkedin.com/in/rpperry
-  - https://plus.google.com/+RichardPerry1
-  - https://github.com/richardp2
+    - https://twitter.com/richard_p2
+    - https://www.facebook.com/richardpperry
+    - https://www.linkedin.com/in/rpperry
+    - https://plus.google.com/+RichardPerry1
+    - https://github.com/richardp2
+
 google:
   analytics: UA-26085183-3
+
 webmaster_verifications:
   google: kShm7KvCbKtxnGKHhDpje_9bPdemRwk2OLXtfjEBWEQ
+
+
+######################################
+#                                    #
+#      Additional Configuration      #
+#                                    #
+######################################
+
 post_categories:
   race-reports:
     name: Race Reports

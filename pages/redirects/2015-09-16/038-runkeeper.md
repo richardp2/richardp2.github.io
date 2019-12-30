@@ -1,8 +1,7 @@
 ---
-permalink: "/general/runkeepers-5th-birthday/"
-layout: 
+permalink: /general/runkeepers-5th-birthday/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

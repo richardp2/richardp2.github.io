@@ -1,10 +1,10 @@
 ---
+date: 2017-02-07 21:14:00+00:00
 title: George’s Fifth Year
-date: 2017-02-07 21:14:00 +00:00
+image: /assets/images/thumbs/5today.jpg
 tags:
 - George
-- Milestones
-image: "/assets/images/thumbs/5today.jpg"
+- Milestones 
 ---
 
 <div class="flickr image alignright">

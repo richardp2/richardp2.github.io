@@ -1,8 +1,7 @@
 ---
-permalink: "/general/olympics/"
-layout: 
+permalink: /general/olympics/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

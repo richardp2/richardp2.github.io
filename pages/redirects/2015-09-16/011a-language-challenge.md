@@ -1,8 +1,7 @@
 ---
-permalink: "/languages/language-challenge/"
-layout: 
+permalink: /languages/language-challenge/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

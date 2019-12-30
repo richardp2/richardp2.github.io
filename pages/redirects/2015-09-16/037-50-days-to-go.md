@@ -1,8 +1,7 @@
 ---
-permalink: "/general/50-days-to-go/"
-layout: 
+permalink: /general/50-days-to-go/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

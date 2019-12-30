@@ -1,12 +1,14 @@
 ---
-title: Tae Kwon-Do
 date: 2017-12-20 19:55:38 +00:00
+title: Tae Kwon-Do
+image: 
 tags:
 - George
 - Tae Kwon-do
-image: 
-description: ''
-excerpt: ''
+description: >
+  
+excerpt: >
+  
 ---
 
 Earlier this year, George decided that he would like to do [Tae Kwon-do][1] because his friend was doing it. It turns out that she was part of a local club that has family classes, so we decided that George and I would have a go for a couple of weeks and see how it went. 

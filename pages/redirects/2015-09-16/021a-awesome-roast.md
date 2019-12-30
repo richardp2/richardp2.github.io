@@ -1,8 +1,7 @@
 ---
-permalink: "/photography/instagram/an-awesome-roast-to-end-an-awesome-day/"
-layout: 
+permalink: /photography/instagram/an-awesome-roast-to-end-an-awesome-day/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

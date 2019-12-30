@@ -1,11 +1,11 @@
 ---
+date: 2013-03-10 16:49:58+00:00
 title: My Epic Quest
-date: 2013-03-10 16:49:58 +00:00
+wordpress_id: 666
+image: /assets/images/thumbs/bucket_list.png
 tags:
 - Challenges
 - Epic Quest
-wordpress_id: 666
-image: "/assets/images/thumbs/bucket_list.png"
 series:
 - My Epic Quest
 ---

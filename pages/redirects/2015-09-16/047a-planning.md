@@ -1,8 +1,7 @@
 ---
-permalink: "/technology/jekyll/planning/"
-layout: 
+permalink: /technology/jekyll/planning/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

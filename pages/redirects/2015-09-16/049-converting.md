@@ -1,8 +1,7 @@
 ---
-permalink: "/general/jekyll/converting/"
-layout: 
+permalink: /general/jekyll/converting/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

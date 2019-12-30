@@ -1,8 +1,7 @@
 ---
-permalink: "/george/second-year/"
-layout: 
+permalink: /george/second-year/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

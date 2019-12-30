@@ -1,8 +1,7 @@
 ---
-permalink: "/photography/instagram-nov-dec-13/"
-layout: 
+permalink: /photography/instagram-nov-dec-13/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

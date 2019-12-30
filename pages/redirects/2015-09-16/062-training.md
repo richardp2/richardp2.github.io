@@ -1,8 +1,7 @@
 ---
-permalink: "/general/challenges/running/training/"
-layout: 
+permalink: /general/challenges/running/training/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

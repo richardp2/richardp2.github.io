@@ -1,13 +1,13 @@
 ---
+comments: true
+date: 2014-04-07 19:32:31+00:00
+layout: post
 title: Converting the Posts
-date: 2014-04-07 20:32:31 +01:00
+image: /assets/images/jekyll.png
 tags:
 - Technology
 - Jekyll
-comments: true
-layout: post
-image: "/assets/images/jekyll.png"
-series:
+series: 
 - Migrating to Jekyll
 ---
 

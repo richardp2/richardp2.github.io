@@ -1,8 +1,7 @@
 ---
-permalink: "/george/a-new-addition/"
-layout: 
+permalink: /george/a-new-addition/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

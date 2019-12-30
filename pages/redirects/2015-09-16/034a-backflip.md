@@ -1,8 +1,7 @@
 ---
-permalink: "/epic/backflip/"
-layout: 
+permalink: /epic/backflip/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

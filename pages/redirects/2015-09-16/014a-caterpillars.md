@@ -1,8 +1,7 @@
 ---
-permalink: "/photography/instagram/caterpillars/"
-layout: 
+permalink: /photography/instagram/caterpillars/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

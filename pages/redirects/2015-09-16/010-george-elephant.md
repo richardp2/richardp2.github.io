@@ -1,8 +1,7 @@
 ---
-permalink: "/photography/george-elephant/"
-layout: 
+permalink: /photography/george-elephant/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

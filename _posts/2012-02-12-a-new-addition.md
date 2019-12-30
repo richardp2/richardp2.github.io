@@ -1,11 +1,11 @@
 ---
+date: 2012-02-12 10:44:24+00:00
 title: A New Addition
-date: 2012-02-12 10:44:24 +00:00
+wordpress_id: 82
+image: https://c2.staticflickr.com/8/7428/12970108443_c2baf8fa6d_q.jpg
 tags:
 - George
 - Milestones
-wordpress_id: 82
-image: https://c2.staticflickr.com/8/7428/12970108443_c2baf8fa6d_q.jpg
 ---
 
 The day we have been waiting for for the last 9 months finally arrived on Monday night... the

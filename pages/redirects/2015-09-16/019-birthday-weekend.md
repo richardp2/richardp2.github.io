@@ -1,8 +1,7 @@
 ---
-permalink: "/general/birthday-weekend/"
-layout: 
+permalink: /general/birthday-weekend/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

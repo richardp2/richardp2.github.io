@@ -1,8 +1,7 @@
 ---
-permalink: "/photography/another-awesome-cupcake-from-rosie/"
-layout: 
+permalink: /photography/another-awesome-cupcake-from-rosie/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

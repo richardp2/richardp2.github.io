@@ -1,8 +1,7 @@
 ---
-permalink: "/photography/bat-hunting-in-puzzlewood/"
-layout: 
+permalink: /photography/bat-hunting-in-puzzlewood/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

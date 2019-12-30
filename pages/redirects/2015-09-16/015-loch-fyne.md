@@ -1,8 +1,7 @@
 ---
-permalink: "/photography/loch-fyne/"
-layout: 
+permalink: /photography/loch-fyne/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

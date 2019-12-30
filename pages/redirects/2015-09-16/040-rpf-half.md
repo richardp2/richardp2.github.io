@@ -1,8 +1,7 @@
 ---
-permalink: "/general/rpf-half/"
-layout: 
+permalink: /general/rpf-half/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

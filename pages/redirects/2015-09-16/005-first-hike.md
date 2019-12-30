@@ -1,8 +1,7 @@
 ---
-permalink: "/george/georges-first-hike/"
-layout: 
+permalink: /george/georges-first-hike/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

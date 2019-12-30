@@ -1,8 +1,7 @@
 ---
-permalink: "/general/memories/switzerland-08/"
-layout: 
+permalink: /general/memories/switzerland-08/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

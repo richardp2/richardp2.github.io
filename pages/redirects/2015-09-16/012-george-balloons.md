@@ -1,8 +1,7 @@
 ---
-permalink: "/photography/george-balloons/"
-layout: 
+permalink: /photography/george-balloons/
+layout: null
 ---
-
 <!DOCTYPE html>
 <html>
   <head>

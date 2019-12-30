@@ -1,32 +1,26 @@
 ---
-title: 'Race Report: Admiral City of Newport Half Marathon'
-date: 2017-03-08 19:50:00 +00:00
-categories:
-- race-reports
+date: 2017-03-08 19:50:00 +0000
+title: "Race Report: Admiral City of Newport Half Marathon"
+image: /assets/images/thumbs/newporthalf.jpg
 tags:
 - Running
 - Race
-image: "/assets/images/thumbs/newporthalf.jpg"
-description: 'This weekend it was the Admiral City of Newport Half Marathon. Another
-  popular local race organised by St Davids Hospice Care. This year I was well aware
-  that I was not in shape to run a PB so, I made the decision to use this as a long
-  tempo run instead. This meant taking it steady(ish) right from the start. I parked
-  up at Newport Stadium again this year with a view to walking over to the start as
-  a bit of a warm up but, as usual, I was running a little late so I ended up jogging
-  the 2 miles to the bag drop to make sure I got there in time. With my bag dropped
+description: >
+  This weekend it was the Admiral City of Newport Half Marathon. Another popular local race
+  organised by St Davids Hospice Care. This year I was well aware that I was not in shape to
+  run a PB so, I made the decision to use this as a long tempo run instead. This meant taking it
+  steady(ish) right from the start. I parked up at Newport Stadium again this year with a view to
+  walking over to the start as a bit of a warm up but, as usual, I was running a little late so I
+  ended up jogging the 2 miles to the bag drop to make sure I got there in time. With my bag dropped
   off, I headed to the start line...
-
-'
-excerpt: 'This weekend it was the Admiral City of Newport Half Marathon. Another popular
-  local race organised by St Davids Hospice Care. This year I was well aware that
-  I was not in shape to run a PB so, I made the decision to use this as a long tempo
-  run instead. This meant taking it steady(ish) right from the start. I parked up
-  at Newport Stadium again this year with a view to walking over to the start as a
-  bit of a warm up but, as usual, I was running a little late so I ended up jogging
-  the 2 miles to the bag drop to make sure I got there in time. With my bag dropped
+excerpt: >
+  This weekend it was the Admiral City of Newport Half Marathon. Another popular local race
+  organised by St Davids Hospice Care. This year I was well aware that I was not in shape to
+  run a PB so, I made the decision to use this as a long tempo run instead. This meant taking it
+  steady(ish) right from the start. I parked up at Newport Stadium again this year with a view to
+  walking over to the start as a bit of a warm up but, as usual, I was running a little late so I
+  ended up jogging the 2 miles to the bag drop to make sure I got there in time. With my bag dropped
   off, I headed to the start line...
-
-'
 ---
 
 <div class='flickr image alignright'><span><a title='Newport Half 2017 done!' href='https://farm1.static.flickr.com/721/32478024624_e8a8c3b9a3_b.jpg' class='image'><img src='{{site.thumbs}}/newporthalf.jpg' alt='Newport Half 2017 done!' /></a><a title='View on Flickr' href='https://www.flickr.com/photos/richard-perry/32478024624/' class='flickrlink'> </a></span></div>

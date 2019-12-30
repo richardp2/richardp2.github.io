@@ -1,6 +1,8 @@
 ---
-title: 'Memories: Serbia & Hungary 2006'
-date: 2014-04-16 21:14:04 +01:00
+comments: true
+date: 2014-04-16 20:14:04+00:00
+format: gallery
+title: "Memories: Serbia & Hungary 2006"
 tags:
 - Memories
 - Serbia
@@ -10,45 +12,45 @@ tags:
 - Niš
 - Scouts
 - Travel
-comments: true
-format: gallery
-series:
+series: 
 - Travel Memories
 photoset: 72157643856705773
 images: 26
-excerpt: '<div class="flickr summary"> <span> <a title="Train Station in Budapest"
-  href="//farm3.staticflickr.com/2932/13805433943_28848300f1_b.jpg" class="image cboxElement"
-  rel="gallery0"><img src="//farm3.staticflickr.com/2932/13805433943_28848300f1_q.jpg"
-  alt="Train Station in Budapest"></a> <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/13805433943/"
-  class="flickrlink"> </a> </span> <span> <a title="Eagle in Belgrade Zoo" href="//farm4.staticflickr.com/3803/13805441393_100d0959d4_b.jpg"
-  class="image cboxElement" rel="gallery0"><img src="//farm4.staticflickr.com/3803/13805441393_100d0959d4_q.jpg"
-  alt="Eagle in Belgrade Zoo"></a> <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/13805441393/"
-  class="flickrlink"> </a> </span> <span> <a title="Looking out from Belgrade Zoo"
-  href="//farm4.staticflickr.com/3725/13805425175_c6b08c44b2_b.jpg" class="image cboxElement"
-  rel="gallery0"><img src="//farm4.staticflickr.com/3725/13805425175_c6b08c44b2_q.jpg"
-  alt="Looking out from Belgrade Zoo"></a> <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/13805425175/"
-  class="flickrlink"> </a> </span> <span> <a title="Friends we met in our hostel in
-  Belgrade" href="//farm3.staticflickr.com/2810/13805777864_88f8c36723_b.jpg" class="image
-  cboxElement" rel="gallery0"><img src="//farm3.staticflickr.com/2810/13805777864_88f8c36723_q.jpg"
-  alt="Friends we met in our hostel in Belgrade"></a> <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/13805777864/"
-  class="flickrlink"> </a> </span> <span> <a title="Church of Saint Sava, Belgrade"
-  href="//farm8.staticflickr.com/7389/13805440025_66e0f8043d_b.jpg" class="image cboxElement"
-  rel="gallery0"><img src="//farm8.staticflickr.com/7389/13805440025_66e0f8043d_q.jpg"
-  alt="Church of Saint Sava, Belgrade"></a> <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/13805440025/"
-  class="flickrlink"> </a> </span> <span> <a title="Night out in Belgrade" href="//farm4.staticflickr.com/3818/13805468613_457d0aa307_b.jpg"
-  class="image cboxElement" rel="gallery0"><img src="//farm4.staticflickr.com/3818/13805468613_457d0aa307_q.jpg"
-  alt="Night out in Belgrade"></a> <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/13805468613/"
-  class="flickrlink"> </a> </span> <span> <a title="Serbia &amp; Hungary 2006 - Serbia"
-  href="//farm4.staticflickr.com/3698/13805800144_12029af158_b.jpg" class="image cboxElement"
-  rel="gallery0"><img src="//farm4.staticflickr.com/3698/13805800144_12029af158_q.jpg"
-  alt="Serbia &amp; Hungary 2006 - Serbia"></a> <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/13805800144/"
-  class="flickrlink"> </a> </span> <span> <a title="Serbia &amp; Hungary 2006 - Serbia"
-  href="//farm3.staticflickr.com/2936/13805487013_22888bbd1c_b.jpg" class="image cboxElement"
-  rel="gallery0"><img src="//farm3.staticflickr.com/2936/13805487013_22888bbd1c_q.jpg"
-  alt="Serbia &amp; Hungary 2006 - Serbia"></a> <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/13805487013/"
-  class="flickrlink"> </a> </span> </div>
-
-'
+excerpt: >
+  <div class="flickr summary">
+  <span>
+  <a title="Train Station in Budapest" href="//farm3.staticflickr.com/2932/13805433943_28848300f1_b.jpg" class="image cboxElement" rel="gallery0"><img src="//farm3.staticflickr.com/2932/13805433943_28848300f1_q.jpg" alt="Train Station in Budapest"></a>
+  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/13805433943/" class="flickrlink"> </a>
+  </span>
+  <span>
+  <a title="Eagle in Belgrade Zoo" href="//farm4.staticflickr.com/3803/13805441393_100d0959d4_b.jpg" class="image cboxElement" rel="gallery0"><img src="//farm4.staticflickr.com/3803/13805441393_100d0959d4_q.jpg" alt="Eagle in Belgrade Zoo"></a>
+  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/13805441393/" class="flickrlink"> </a>
+  </span>
+  <span>
+  <a title="Looking out from Belgrade Zoo" href="//farm4.staticflickr.com/3725/13805425175_c6b08c44b2_b.jpg" class="image cboxElement" rel="gallery0"><img src="//farm4.staticflickr.com/3725/13805425175_c6b08c44b2_q.jpg" alt="Looking out from Belgrade Zoo"></a>
+  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/13805425175/" class="flickrlink"> </a>
+  </span>
+  <span>
+  <a title="Friends we met in our hostel in Belgrade" href="//farm3.staticflickr.com/2810/13805777864_88f8c36723_b.jpg" class="image cboxElement" rel="gallery0"><img src="//farm3.staticflickr.com/2810/13805777864_88f8c36723_q.jpg" alt="Friends we met in our hostel in Belgrade"></a>
+  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/13805777864/" class="flickrlink"> </a>
+  </span>
+  <span>
+  <a title="Church of Saint Sava, Belgrade" href="//farm8.staticflickr.com/7389/13805440025_66e0f8043d_b.jpg" class="image cboxElement" rel="gallery0"><img src="//farm8.staticflickr.com/7389/13805440025_66e0f8043d_q.jpg" alt="Church of Saint Sava, Belgrade"></a>
+  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/13805440025/" class="flickrlink"> </a>
+  </span>
+  <span>
+  <a title="Night out in Belgrade" href="//farm4.staticflickr.com/3818/13805468613_457d0aa307_b.jpg" class="image cboxElement" rel="gallery0"><img src="//farm4.staticflickr.com/3818/13805468613_457d0aa307_q.jpg" alt="Night out in Belgrade"></a>
+  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/13805468613/" class="flickrlink"> </a>
+  </span>
+  <span>
+  <a title="Serbia &amp; Hungary 2006 - Serbia" href="//farm4.staticflickr.com/3698/13805800144_12029af158_b.jpg" class="image cboxElement" rel="gallery0"><img src="//farm4.staticflickr.com/3698/13805800144_12029af158_q.jpg" alt="Serbia &amp; Hungary 2006 - Serbia"></a>
+  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/13805800144/" class="flickrlink"> </a>
+  </span>
+  <span>
+  <a title="Serbia &amp; Hungary 2006 - Serbia" href="//farm3.staticflickr.com/2936/13805487013_22888bbd1c_b.jpg" class="image cboxElement" rel="gallery0"><img src="//farm3.staticflickr.com/2936/13805487013_22888bbd1c_q.jpg" alt="Serbia &amp; Hungary 2006 - Serbia"></a>
+  <a title="View on Flickr" href="//www.flickr.com/photos/richard-perry/13805487013/" class="flickrlink"> </a>
+  </span>
+  </div>
 ---
 
 Over the next few months I'm going to do a series of posts looking back on the holidays and

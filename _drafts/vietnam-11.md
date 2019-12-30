@@ -1,10 +1,10 @@
 ---
-title: 'Memories: Vietnam 2011'
-date: 2014-06-13 22:00:00 +01:00
+date: 2014-06-13 21:00:00+00:00
+title: "Memories: Vietnam 2011"
 categories:
 - General
 - Memories
-series:
+series: 
 - Travel Memories
 photoset: 
 images: 
