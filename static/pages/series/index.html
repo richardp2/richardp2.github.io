@@ -1,0 +1,20 @@
+---
+title: "Series'"
+permalink: /series/
+---
+{% assign serii = site.data.series | sort: 'start' %}
+{% for series in serii %}
+      <article class="series post">
+        <header>
+          <h2><a href="{{ series.permalink }}" title="{{ series.name }}">{{ series.name }}</a></h2>
+        </header>
+        <section class='series_details'>
+          {% if series.image %}<img src="{{ series.image }}" alt="{{series.name}}" class="alignleft">{% endif %}
+          {% if series.description %}<p>{{ series.description | markdownify }}</p>{% endif %}
+        </section>
+        <footer>
+          <i class='fa fa-clock-o'></i> <time content='{{ series.start | date_to_xmlschema }}' datetime='{{ series.start }}'>{{ series.start | date_to_long_string }}</time> 
+          - {% if series.end %}<time content='{{ series.end | date_to_xmlschema }}' datetime='{{ series.end }}'>{{ series.end | date_to_long_string }}</time>{% else %}present{% endif %}
+        </footer>
+      </article>
+{% endfor %}
