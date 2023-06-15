@@ -164,5 +164,5 @@ These are all worth 100% experience or more due to their complexity or difficult
 [eq]: //www.nerdfitness.com/blog/epic-quest/
 [hk]: //travel.perry-online.me.uk/china/hong-kong/china-2009/disneyland/ "Disneyland!!!! :-) :-)"
 [bk]: {% post_url 2013-05-19-backflip %} "Active Quest: Backflip"
-[mar]: {% post_url 2015-04-24-gmm %} "Greater Manchester Marathon 2015"
+[mar]: {% post_url race-reports/2015-04-24-gmm %} "Greater Manchester Marathon 2015"
 [wtshtf]: //www.google.co.uk/search?q=wtshtf+bag&aq=f&oq=wtshtf+bag&aqs=chrome.0.57j61j0l3j62.6779&sourceid=chrome&ie=UTF-8 
