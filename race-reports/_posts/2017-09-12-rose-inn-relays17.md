@@ -21,10 +21,8 @@ excerpt: >
 {:style="width: auto"}
 
 <div class='flickr image alignright'>
-<span>
-  <a title='CRC Group Photo - Image by Johnny Lam via Flickr' href='https://c1.staticflickr.com/5/4365/37073965245_b8feb31027_o.jpg' class='image'>
-    <img src='https://c1.staticflickr.com/5/4365/37073965245_2f3b329630_n.jpg' alt='CRC Group Photo - Image by Johnny Lam via Flickr' />
-  </a>
+<span markdown ='1'>
+  [![CRC Group Photo - Image by Johnny Lam via Flickr][thm1][img1]
   <a title='View on Flickr' href='https://www.flickr.com/photos/sandomenicorrc/37073965245/in/album-72157688688908545/' class='flickrlink'> </a>
 </span>
 <small class='aligncentre' markdown='1'>Image by Johnny Lam via [Flickr][3]</small>
@@ -50,19 +48,31 @@ The relays always have a really great atmosphere, highly competitive but very fr
 
 ### Race Pictures 
 
-{% flickr_image 36657330990 alignleft m %}
-<small markdown='1'>Image by Andrew Taylor via [Flickr][5]</small>
-{:style="clear: both"}
+<div class='flickr image alignleft' markdown='1'>
+[![My Team][thm2][img2] [View on Flickr][flk2]{:class="flickrlink"}
+<small style='clear: both' markdown='1'>Image by Andrew Taylor via [Flickr][5]</small>
+</div>
 
-{% flickr_image 36259446433 alignleft m %}
-{% flickr_image 36259415753 alignleft m %}
-{% flickr_image 36900812512 alignleft m %}
-{% flickr_image 36667923160 alignleft m %}
+<div class="flickr image alignleft"><span><a title="IMG_0989.JPG" href="http://farm5.static.flickr.com/4393/36259446433_6752bfe90d_b.jpg" class="image"><img src="http://farm5.static.flickr.com/4393/36259446433_6752bfe90d_m.jpg" alt="IMG_0989.JPG"></a><a title="View on Flickr" href="https://www.flickr.com/photos/sandomenicorrc/36259446433/" class="flickrlink"> </a></span></div>
+<div class="flickr image alignleft"><span><a title="IMG_1001.JPG" href="http://farm5.static.flickr.com/4338/36259415753_240dc96be1_b.jpg" class="image"><img src="http://farm5.static.flickr.com/4338/36259415753_240dc96be1_m.jpg" alt="IMG_1001.JPG"></a><a title="View on Flickr" href="https://www.flickr.com/photos/sandomenicorrc/36259415753/" class="flickrlink"> </a></span></div>
+<div class="flickr image alignleft"><span><a title="IMG_1785.JPG" href="http://farm5.static.flickr.com/4358/36900812512_e392ffaec2_b.jpg" class="image"><img src="http://farm5.static.flickr.com/4358/36900812512_e392ffaec2_m.jpg" alt="IMG_1785.JPG"></a><a title="View on Flickr" href="https://www.flickr.com/photos/sandomenicorrc/36900812512/" class="flickrlink"> </a></span></div>
+<div class="flickr image alignleft"><span><a title="IMG_3631.JPG" href="http://farm5.static.flickr.com/4368/36667923160_b31d2c8e66_b.jpg" class="image"><img src="http://farm5.static.flickr.com/4368/36667923160_b31d2c8e66_m.jpg" alt="IMG_3631.JPG"></a><a title="View on Flickr" href="https://www.flickr.com/photos/sandomenicorrc/36667923160/" class="flickrlink"> </a></span></div>
 <small markdown='1'>Images by Johnny Lam via [Flickr][3]</small>
 {:style="clear: both"}
+
+
+
 
 [1]: http://my4.raceresult.com/79442/info?lang=en "my.race|result : : 2017 Rose Inn Relays, 05/09/2017"
 [2]: http://my4.raceresult.com/79442/results?lang=en#1_602979 "my.race|result : : 2017 Rose Inn Relays, 05/09/2017"
 [3]: https://flic.kr/s/aHsm8c3swM "2017 Rose Inn Relays | Flickr"
 [4]: https://www.caerleonrunningclub.co.uk/ "caerleonrc"
 [5]: https://www.flickr.com/photos/149739988@N02/ "Caerleon Running Club | Flickr"
+
+[thm1]: https://c1.staticflickr.com/5/4365/37073965245_2f3b329630_n.jpg "CRC Group Photo - Image by Johnny Lam via Flickr"
+[thm2]: http://farm5.static.flickr.com/4427/36657330990_19d17afd1e_m.jpg
+
+[img1]: https://c1.staticflickr.com/5/4365/37073965245_b8feb31027_o.jpg 
+[img2]: http://farm5.static.flickr.com/4427/36657330990_19d17afd1e_b.jpg
+
+[flk2]: https://www.flickr.com/photos/149739988@N02/36657330990/
