@@ -1,7 +1,7 @@
 ---
 date: 2017-10-30 18:09:00 +0000
 title: "Race Report: Cardiff Half Marathon 2017"
-image: /assets/thumbs/cardiff_half_2017.jpg
+image: /assets/images/thumbs/cardiff_half_2017.jpg
 tags:
 - Running
 - Race
