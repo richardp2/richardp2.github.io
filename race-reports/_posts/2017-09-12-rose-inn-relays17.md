@@ -1,7 +1,7 @@
 ---
 date: 2017-09-12 20:21:00 +0100
 title: "Race Report: Rose Inn Relays 2017"
-image: /assets/thumbs/crc_group.jpg
+image: /assets/images/thumbs/crc_group.jpg
 tags:
 - Running
 - Race
