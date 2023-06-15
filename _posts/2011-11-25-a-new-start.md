@@ -14,7 +14,7 @@ Over the last six and a half years, BAM have nurtured me and brought me from a 
 student to a calm and collected Chartered Quantity Surveyor. BAM have thrown me into various 
 scenarios that have enabled me to grow and progress well in my time with them.
 
-{% flickr_image 12968074903 alignright %}
+<div class="flickr image alignright"><span><a title="Bedminster Down School" href="http://farm3.static.flickr.com/2268/12968074903_265639868d_b.jpg" class="image"><img src="http://farm3.static.flickr.com/2268/12968074903_265639868d_q.jpg" alt="Bedminster Down School" /></a><a title="View on Flickr" href="https://www.flickr.com/photos/richard-perry/12968074903/" class="flickrlink"> </a></span></div>
 In the early days, I worked on a site that was running very smoothly and had very few problems. This
 was a great introduction to the industry, and where I realised that I really knew squat about the
 job I was actually training for. The real world is very different to the world portrayed by
@@ -29,16 +29,15 @@ scary. Everyone was friendly, and even the really senior staff would happily tal
 equal. It was at this point that I realised I had landed on my feet when BAM Construction offered 
 me a job.
 
-{% flickr_image 12968074783 %}
+<div class="flickr image alignleft"><span><a title="Bath Spa Bus Station" href="http://farm8.static.flickr.com/7441/12968074783_179ef85225_b.jpg" class="image"><img src="http://farm8.static.flickr.com/7441/12968074783_179ef85225_q.jpg" alt="Bath Spa Bus Station" /></a><a title="View on Flickr" href="https://www.flickr.com/photos/richard-perry/12968074783/" class="flickrlink"> </a></span></div>
 After spending some time working on a hospital project in South Wales, I went to work on a new Bus
 Station in Bath. It was the first job I was going to work on from start to finish so I was looking
 forward to it. Having just moved back to South Wales, I was not looking forward to the commute. The
 job was an absolute nightmare commercially giving me endless experience with all sorts of different
 problems leading to me successfully completing my RICS APC and receiving my Chartership in 2009.
 
-{% flickr_image 12968076123 alignright %}
-{% flickr_image 12968074373 alignright %}
-{: style="clear:right" }
+<div class="flickr image alignright"><span><a title="Staple Hill front entrance - 4 days to handover" href="http://farm8.static.flickr.com/7350/12968076123_1e40108b3c_b.jpg" class="image"><img src="http://farm8.static.flickr.com/7350/12968076123_1e40108b3c_q.jpg" alt="Staple Hill front entrance - 4 days to handover" /></a><a title="View on Flickr" href="https://www.flickr.com/photos/richard-perry/12968076123/" class="flickrlink"> </a></span></div>
+<div class="flickr image alignright" style="clear:right"><span><a title="Staple Hill rear terracing - 4 days to handover" href="http://farm8.static.flickr.com/7437/12968074373_f92fe4a108_b.jpg" class="image"><img src="http://farm8.static.flickr.com/7437/12968074373_f92fe4a108_q.jpg" alt="Staple Hill rear terracing - 4 days to handover" /></a><a title="View on Flickr" href="https://www.flickr.com/photos/richard-perry/12968074373/" class="flickrlink"> </a></span></div>
 I landed a job of my very own at the end of 2009. I was going to be the lead surveyor on Staple Hill
 Primary School in Bristol. At first I was a little nervous, maybe even scared, but then I became
 excited. This would be the first job where I would be able to prove myself. It was a great feeling,

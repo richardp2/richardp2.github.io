@@ -7,7 +7,7 @@ tags:
 - Thoughts
 ---
 
-{% flickr_image 32631829580 %}
+<div class="flickr image alignleft"><span><a title="New Watch" href="http://farm3.static.flickr.com/2177/32631829580_8c88791a55_b.jpg" class="image"><img src="http://farm3.static.flickr.com/2177/32631829580_8c88791a55_q.jpg" alt="New Watch"></a><a title="View on Flickr" href="https://www.flickr.com/photos/richard-perry/32631829580/" class="flickrlink"> </a></span></div>
 I recently read an [article][tm] on the Guardian website (_thanks Graham :smile:_) about
 time management that really got me thinking. In a nutshell, I feel that the [Guardian article][tm]
 has got the right idea, time management, at least the way it is pushed today, is flawed and not

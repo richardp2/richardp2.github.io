@@ -24,7 +24,7 @@ cooler :wink:.
 I've been very lucky over the last few years so I've already done a lot of the things I would have
 added to this list. So here it is. Let me know what you think.
 
-## Level 2 <progress value="60" max="100"></progress> Level 3
+## Level 3 <progress value="40" max="100"></progress> Level 4
 {: .aligncentre }
 
 ### Travel Quests
@@ -56,14 +56,14 @@ added to this list. So here it is. Let me know what you think.
   * Visit Varanasi in India during a holy festival & stand in the Ganges
   * Visit Angkor Wat in Cambodia
   * See the cherry blossoms in Japan
-  * Swim in the infinity pool, Singapore
+  * ~~Swim in the infinity pool, Singapore~~ (27/08/2018)
   * Visit the Pyramids at Giza
   * Visit the Blue Mosque in Istanbul, Turkey
   * Visit Madagascar
   * Ride a camel through the Sahara Desert
   * Visit Petra, Jordan
   * Visit Mount Rushmore, South Dakota
-  * Climb the Statue of Liberty in New York
+  * ~~Climb the Statue of Liberty in New York~~ (26/07/2019)
   * Visit the statues on Easter Island
   * Visit the Galapagos Islands
   * Hike up to Christ the Redeemer in Rio De Janeiro, Brazil
@@ -84,11 +84,11 @@ added to this list. So here it is. Let me know what you think.
       5. South America
       6. Australasia/Oceania
       7. Antarctica
-  * Visit all the Disney Parks across the world (2/6)
+  * Visit all the Disney Parks across the world (3/6)
       1. ~~Hong Kong Disneyland~~ ([09/09/2009][hk])
       2. ~~Disneyland Paris~~ (01/04/2013)
       3. Disneyland, California
-      4. Walt Disney World, Florida
+      4. ~~Walt Disney World, Florida~~ (13/02/2023)
       5. Tokyo Disney
       6. Shanghai Disney
       

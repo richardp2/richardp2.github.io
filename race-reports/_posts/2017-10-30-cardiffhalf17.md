@@ -1,7 +1,7 @@
 ---
 date: 2017-10-30 18:09:00 +0000
 title: "Race Report: Cardiff Half Marathon 2017"
-image: https://c1.staticflickr.com/5/4500/37403659626_5527566956_n.jpg
+image: /assets/thumbs/cardiff_half_2017.jpg
 tags:
 - Running
 - Race
@@ -42,8 +42,8 @@ This was probably the best decision I could have made. I was still pushing mysel
 
 As always, the atmosphere and support were fantastic throughout. There wasn't a single section of the route where there wasn't somebody to cheer you on. The weather held off, despite the horrendous forecast of a few days previous, and the day was amazing. I do love the Cardiff Half Marathon :grinning:.
 
-{% flickr_image 37420250322 aligncentre z %}
-{% flickr_image 36781293243 aligncentre z %}
+<div class="flickr image aligncentre"><span><a title="" href="http://farm5.static.flickr.com/4423/37420250322_3b91785f96_b.jpg" class="image"><img src="http://farm5.static.flickr.com/4423/37420250322_3b91785f96_z.jpg" alt=""></a><a title="View on Flickr" href="https://www.flickr.com/photos/149739988@N02/37420250322/" class="flickrlink"> </a></span></div>
+<div class="flickr image aligncentre"><span><a title="" href="http://farm5.static.flickr.com/4499/36781293243_00850b7af1_b.jpg" class="image"><img src="http://farm5.static.flickr.com/4499/36781293243_00850b7af1_z.jpg" alt=""></a><a title="View on Flickr" href="https://www.flickr.com/photos/149739988@N02/36781293243/" class="flickrlink"> </a></span></div>
 
 ### Strava Details
 

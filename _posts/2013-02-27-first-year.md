@@ -8,7 +8,7 @@ tags:
 - Milestones
 ---
 
-{% flickr_image 13062944643 %}
+<div class="flickr image alignleft"><span><a title="George's First Birthday" href="http://farm3.static.flickr.com/2784/13062944643_8afbc3fa95_b.jpg" class="image"><img src="http://farm3.static.flickr.com/2784/13062944643_8afbc3fa95_q.jpg" alt="George's First Birthday"></a><a title="View on Flickr" href="https://www.flickr.com/photos/richard-perry/13062944643/" class="flickrlink"> </a></span></div>
 George is now a year old so I thought it might be time for a bit of reflection on how the first year
 has gone :smiley:. For Rosie & I, it has been a bit of a rollercoaster ride, but I think we've been
 very lucky. George has generally been good as gold since the day he was born. Don't get me wrong, he

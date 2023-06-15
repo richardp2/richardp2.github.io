@@ -18,14 +18,14 @@ felt getting that news. Now don't get me wrong, I'm 100% positive I would have f
 had he been a girl instead, it was just amazing that this ever growing bump in Rosie's belly was now
 an actual little person that I could hold in my arms!
 
-{% flickr_image 12969955615 %}
+<div class="flickr image alignleft"><span><a title="Me &amp; My Son" href="http://farm3.static.flickr.com/2018/12969955615_8aa0b535f8_b.jpg" class="image"><img src="http://farm3.static.flickr.com/2018/12969955615_8aa0b535f8_q.jpg" alt="Me &amp; My Son" /></a><a title="View on Flickr" href="https://www.flickr.com/photos/richard-perry/12969955615/" class="flickrlink"> </a></span></div>
 The midwife passed me my son whilst Rosie was sorted out and settled back into the bed. We looked at
 each other (well I looked and George angled his head in my general direction) and that was it, I was
 as happy as I have ever been. Once Rosie was ready I passed George over to her and could tell that
 all that pain and effort was evaporating from her memory as the result was wriggling gently in her
 arms.
 
-{% flickr_image 12970096333 alignright %}
+<div class="flickr image alignright"><span><a title="Rosie &amp; George" href="http://farm3.static.flickr.com/2516/12970096333_7feaf40eb0_b.jpg" class="image"><img src="http://farm3.static.flickr.com/2516/12970096333_7feaf40eb0_q.jpg" alt="Rosie &amp; George" /></a><a title="View on Flickr" href="https://www.flickr.com/photos/richard-perry/12970096333/" class="flickrlink"> </a></span></div>
 The rest of the afternoon was a bit of a blur, George was fed, Rosie had a bath, family was phoned
 and suddenly it was 17:00 and we were being moved up to the ward. Rosie's parents arrived just in
 time to come up with us to meet their new Grandson. The visiting hours in Nevill Hall are only 2

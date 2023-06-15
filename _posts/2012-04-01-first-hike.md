@@ -9,7 +9,7 @@ tags:
 - Mountains
 ---
 
-{% flickr_image 12970759323 %}
+<div class="flickr image alignleft"><span><a title="George &amp; I at the Bottom" href="http://farm3.static.flickr.com/2891/12970759323_f5ed418109_b.jpg" class="image"><img src="http://farm3.static.flickr.com/2891/12970759323_f5ed418109_q.jpg" alt="George &amp; I at the Bottom"></a><a title="View on Flickr" href="https://www.flickr.com/photos/richard-perry/12970759323/" class="flickrlink"> </a></span></div>
 Yesteday we decided it was about time George got to see a real mountain so instead of taking the
 easy option and going up to Mynydd Maen, we went up to Storey Arms with a view to taking a walk up
 to Pen-y-Fan. Obviously we were well aware of the potential difficulties of taking a 7½ week old
@@ -18,7 +18,7 @@ baby up a mountain, so we dragged along a good friend of ours, Stewart Cunningha
 George to my chest and off we went. It was a much cooler day than it has been so thankfully we
 didn't have to fight with the heat or the sun, just the walking :smiley:.
 
-{% flickr_image 12971031044 alignright %}
+<div class="flickr image alignright"><span><a title="Family Photo on the Mountain" href="http://farm8.static.flickr.com/7315/12971031044_650a2ec05b_b.jpg" class="image"><img src="http://farm8.static.flickr.com/7315/12971031044_650a2ec05b_q.jpg" alt="Family Photo on the Mountain"></a><a title="View on Flickr" href="https://www.flickr.com/photos/richard-perry/12971031044/" class="flickrlink"> </a></span></div>
 About half way up the route to Corn Du we noticed that the cloud level was starting to drop and it
 wasn't looking too hopeful, but we soldiered on while George slept happily in his sling with the
 proviso that if the weather started to turn we would call it a day. It was a fairly slow walk, but
@@ -29,7 +29,7 @@ especially due to the fact George had decided it was time to wake up. By the tim
 George was hungry, and the altitude was starting to bother him so Rosie fed him at 873m above sea
 level just as the clouds fully closed in around us making visibility severely limited.
 
-{% flickr_image 12970618955 %}
+<div class="flickr image alignleft"><span><a title="George &amp; I Half Way Up" href="http://farm8.static.flickr.com/7310/12970618955_b201fc455e_b.jpg" class="image"><img src="http://farm8.static.flickr.com/7310/12970618955_b201fc455e_q.jpg" alt="George &amp; I Half Way Up"></a><a title="View on Flickr" href="https://www.flickr.com/photos/richard-perry/12970618955/" class="flickrlink"> </a></span></div>
 By the time George was ready to go on, the weather had definitely taken a turn for the worse so
 unfortunately we took the decision to turn back and skip Pen-y-Fan for today. It was a bit
 disappointing having to turn around when we were so close, but on the other hand we got to the top

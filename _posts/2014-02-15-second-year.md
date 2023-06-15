@@ -8,7 +8,7 @@ tags:
 - Milestones
 ---
 
-{% flickr_image 13122752375 %}
+<div class="flickr image alignleft"><span><a title="George &amp; Rosie's Birthday 2014" href="http://farm4.static.flickr.com/3827/13122752375_d91173fd97_b.jpg" class="image"><img src="http://farm4.static.flickr.com/3827/13122752375_d91173fd97_q.jpg" alt="George &amp; Rosie's Birthday 2014"></a><a title="View on Flickr" href="https://www.flickr.com/photos/richard-perry/13122752375/" class="flickrlink"> </a></span></div>
 George is now another year older so how has the second year gone? Well, it’s been very different to
 the first year! Having recovered from his illness over the new year, George got back on his feet and
 hasn’t really stopped since. Rosie has had to open the eyes in the back of her head to try to keep

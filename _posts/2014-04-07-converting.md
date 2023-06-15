@@ -11,6 +11,11 @@ series:
 - Migrating to Jekyll
 ---
 
+> #### Update 15 June 2023
+  _The Flickr Image and Flickr Photoset tags now seem to result in build errors so I have removed
+  them from all posts and replaced with the previously generated HTML. I may try to make this cleaner
+  at some point in the future, but no plans at the moment!_
+
 The next step in the migration to [Jekyll][jk] was to export my existing blog posts from [WordPress][wp]
 and then convert them into [Markdown][md] format so they can be used in the new blog. There are a
 number of different options for doing this, including Jekyll's own migration option [Jekyll Import][ji]
