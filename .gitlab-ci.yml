@@ -1,6 +1,6 @@
 # Template project: https://gitlab.com/pages/jekyll
 # Docs: https://docs.gitlab.com/ce/pages/
-image: ruby:2.3
+image: ruby:latest
 
 # define the environment variables
 variables:
@@ -14,6 +14,7 @@ cache:
 
 # 'Bundle' all the required gems for the project
 before_script:
+  - gem install bundler
   - bundle install --path vendor
 
 # Build and deploy the site
