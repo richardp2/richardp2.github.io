@@ -64,8 +64,8 @@ trademark permissions), so long as you note the license and give credit, such as
 
 When you contribute to this repository you are doing so under the above licenses.
 
-[bbl]: https://gitlab.com/richardp2/richardp2.github.io/commits/pages "Build Status"
-[bb]: https://gitlab.com/richardp2/richardp2.github.io/badges/pages/build.svg
+[bbl]: https://gitlab.com/richardp2/richardp2.github.io/-/commits/pages "Pipeline Status"
+[bb]: https://gitlab.com/richardp2/richardp2.github.io/badges/pages/pipeline.svg
 [WordPress]: https://wordpress.org/ "WordPress &#8250; Blog Tool, Publishing Platform, and CMS"
 [Jekyll]: https://jekyllrb.com/ "Jekyll &bull; Simple, blog-aware, static sites"
 [gh]: https://github.com/ "GitHub"

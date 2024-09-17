@@ -24,7 +24,7 @@ cooler :wink:.
 I've been very lucky over the last few years so I've already done a lot of the things I would have
 added to this list. So here it is. Let me know what you think.
 
-## Level 3 <progress value="40" max="100"></progress> Level 4
+## Level 3 <progress value="60" max="100"></progress> Level 4
 {: .aligncentre }
 
 ### Travel Quests
@@ -134,8 +134,8 @@ added to this list. So here it is. Let me know what you think.
 
 ### Learning/Teaching Quests
 
-  * Complete a Masters Degree
-  * ~~Learn to juggle~~ (30/09/2016)
+  * ~~Complete a Masters Degree~~ (LLM Construction Law 06/11/23)
+  * ~~Learn to juggle~~ ([30/09/2016][juggle])
   * Teach my son to climb & kayak better than me
   * Teach my son a second language
 
@@ -165,4 +165,5 @@ These are all worth 100% experience or more due to their complexity or difficult
 [hk]: //travel.perry-online.me.uk/china/hong-kong/china-2009/disneyland/ "Disneyland!!!! :-) :-)"
 [bk]: {% post_url 2013-05-19-backflip %} "Active Quest: Backflip"
 [mar]: {% post_url race-reports/2015-04-24-gmm %} "Greater Manchester Marathon 2015"
+[juggle]: {% post_url 2017-03-26-juggling %} "Learning to Juggle"
 [wtshtf]: //www.google.co.uk/search?q=wtshtf+bag&aq=f&oq=wtshtf+bag&aqs=chrome.0.57j61j0l3j62.6779&sourceid=chrome&ie=UTF-8 
